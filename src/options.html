@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="optionsTitle">Postulo settings</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="options">
+    <!-- No heading of its own: Thunderbird shows this page under the add-on's name and icon. -->
+    <form id="settings">
+      <label for="instance" data-i18n="instanceLabel">Your Postulo</label>
+      <input id="instance" name="instance" type="url" placeholder="https://postulo.example.org" autocomplete="off" required />
+      <p class="hint" data-i18n="instanceHint">The address you open it at. https, unless it runs on this machine.</p>
+
+      <label for="token" data-i18n="tokenLabel">API token</label>
+      <input id="token" name="token" type="password" autocomplete="off" required />
+      <p id="token-hint" class="hint">
+        Made under <em>Settings → API tokens</em> in Postulo, with the <code>captures</code> scope
+        and nothing more. It is kept in this Thunderbird profile only.
+      </p>
+
+      <div class="actions">
+        <button type="submit" class="primary" data-i18n="save">Save</button>
+        <button id="test" type="button" data-i18n="test">Test</button>
+      </div>
+    </form>
+
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    container:
+      image: node:22-bookworm
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - name: Test the pure parts, the catalogues, the manifest and the shared files
+        run: npm test
+      # web-ext's linter is Firefox's: it warns about `messagesRead`, which is Thunderbird's
+      # own permission, and fails only on an error.
+      - name: Lint with web-ext
+        run: npm run lint
+      - name: Package
+        run: npm run build
+      - uses: actions/upload-artifact@v3
+        continue-on-error: true
+        with:
+          name: extension-package
+          path: dist

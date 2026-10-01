@@ -1,0 +1,193 @@
+{
+  "languageTag": {
+    "message": "en",
+    "description": "This translation's language tag, as the page's lang attribute: en, pt-PT, fr, nb."
+  },
+  "direction": {
+    "message": "ltr",
+    "description": "ltr, or rtl for a language written right to left."
+  },
+  "extensionDescription": {
+    "message": "Postulo for Thunderbird: job postings from your mail, sent to your own Postulo. A skeleton for now: it connects and shows the message on screen, and does not capture yet.",
+    "description": "The extension's description, in Thunderbird's list of add-ons."
+  },
+  "actionTitle": {
+    "message": "Postulo",
+    "description": "The toolbar buttons' tooltip."
+  },
+  "tokenHint": {
+    "message": "Made under $PATH$ in Postulo, with the $SCOPE$ scope and nothing more. It is kept in this Thunderbird profile only.",
+    "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; SCOPE is the scope's name, captures.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "scope": {
+        "content": "$2"
+      }
+    }
+  },
+  "saved": {
+    "message": "Saved. This Thunderbird is connected to $HOST$.",
+    "description": "HOST is the host name of the person's Postulo.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Not connected to a Postulo yet.",
+    "description": "At the top of the popup while no address and token are set; followed by a Set it up button."
+  },
+  "messageHeading": {
+    "message": "The message on screen",
+    "description": "Heading over the subject and sender of the message Thunderbird is showing."
+  },
+  "noMessage": {
+    "message": "No message is on screen. Open one, then open this again.",
+    "description": "In place of the subject, when Thunderbird shows no message."
+  },
+  "messageFrom": {
+    "message": "From $SENDER$",
+    "description": "SENDER is the name or the address the message came from.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(no subject)",
+    "description": "Shown for a message that has no subject."
+  },
+  "notBuiltYet": {
+    "message": "Capturing is not built yet. This is the skeleton of the extension: it connects to your Postulo and reads the message on screen.",
+    "description": "Under the capture button, which does nothing yet."
+  },
+  "optionsTitle": {
+    "message": "Postulo settings",
+    "description": "The settings page's title."
+  },
+  "instanceLabel": {
+    "message": "Your Postulo",
+    "description": "Label of the field for the address of the person's Postulo."
+  },
+  "instanceHint": {
+    "message": "The address you open it at. https, unless it runs on this machine.",
+    "description": "Under that field."
+  },
+  "tokenLabel": {
+    "message": "API token",
+    "description": "Label of the field for the token."
+  },
+  "tokenPath": {
+    "message": "Settings → API tokens",
+    "description": "Where tokens are made in Postulo, in Postulo's own words for both."
+  },
+  "save": {
+    "message": "Save",
+    "description": "Button."
+  },
+  "test": {
+    "message": "Test",
+    "description": "Button that checks the address and the token."
+  },
+  "asking": {
+    "message": "Asking Postulo who this token is…",
+    "description": "Status while the token is checked."
+  },
+  "addressRefused": {
+    "message": "Permission to reach that address was refused.",
+    "description": "The permission was refused."
+  },
+  "tokenMissing": {
+    "message": "Paste the token Postulo showed you.",
+    "description": "Saving with no token."
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” for $OWNER$.",
+    "description": "NAME is the token's name; OWNER the account's email address.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” for $OWNER$ ($SCOPES$).",
+    "description": "As tokenIs; SCOPES lists what the token may do, such as captures, read.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "lacksCaptures": {
+    "message": "It lacks the captures scope, so it cannot capture.",
+    "description": "captures is the scope's name in Postulo: keep it as it is."
+  },
+  "savedNoPermission": {
+    "message": "Saved, but the browser refused permission to reach it; allow it in the extension's permissions.",
+    "description": "Saved without the permission to reach the address."
+  },
+  "enterAddress": {
+    "message": "Enter the address of your Postulo.",
+    "description": "The address field is empty."
+  },
+  "notAnAddress": {
+    "message": "That does not look like a web address.",
+    "description": "What was typed is not an address."
+  },
+  "httpsOnly": {
+    "message": "Use https for anything that is not on your own machine: the token travels with every request.",
+    "description": "An http address somewhere other than this machine."
+  },
+  "tokenRefused": {
+    "message": "Postulo does not accept this token. Check it under $PATH$.",
+    "description": "PATH is tokenPath.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "This token is not allowed to capture.",
+    "description": "The token lacks the permission."
+  },
+  "tooMany": {
+    "message": "Too many captures in a short time. Wait a minute and try again.",
+    "description": "Rate limit."
+  },
+  "answered": {
+    "message": "Postulo answered $STATUS$.",
+    "description": "STATUS is an HTTP status code, such as 500.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Set it up",
+    "description": "Button that opens the settings."
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "The gear that opens the extension's settings. Postulo's own word for its Settings."
+  },
+  "capture": {
+    "message": "Capture this posting",
+    "description": "The popup's main button."
+  }
+}

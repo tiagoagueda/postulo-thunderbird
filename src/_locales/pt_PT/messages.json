@@ -1,0 +1,157 @@
+{
+  "languageTag": {
+    "message": "pt-PT"
+  },
+  "direction": {
+    "message": "ltr"
+  },
+  "extensionDescription": {
+    "message": "Postulo para o Thunderbird: as ofertas de emprego do seu correio, enviadas para o seu próprio Postulo. Por agora é um esqueleto: liga-se e mostra a mensagem no ecrã, e ainda não captura."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHint": {
+    "message": "Criado em $PATH$ no Postulo, com o âmbito $SCOPE$ e nada mais. Fica guardado apenas neste perfil do Thunderbird.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "scope": {
+        "content": "$2"
+      }
+    }
+  },
+  "saved": {
+    "message": "Guardado. Este Thunderbird está ligado a $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Ainda não está ligado a um Postulo."
+  },
+  "messageHeading": {
+    "message": "A mensagem no ecrã"
+  },
+  "noMessage": {
+    "message": "Não há nenhuma mensagem no ecrã. Abra uma e volte a abrir isto."
+  },
+  "messageFrom": {
+    "message": "De $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(sem assunto)"
+  },
+  "notBuiltYet": {
+    "message": "A captura ainda não está feita. Isto é o esqueleto da extensão: liga-se ao seu Postulo e lê a mensagem no ecrã."
+  },
+  "optionsTitle": {
+    "message": "Definições do Postulo"
+  },
+  "instanceLabel": {
+    "message": "O seu Postulo"
+  },
+  "instanceHint": {
+    "message": "O endereço onde o abre. https, a menos que corra neste computador."
+  },
+  "tokenLabel": {
+    "message": "Token de API"
+  },
+  "tokenPath": {
+    "message": "Definições → Tokens de API"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "test": {
+    "message": "Testar"
+  },
+  "asking": {
+    "message": "A perguntar ao Postulo de quem é este token…"
+  },
+  "addressRefused": {
+    "message": "A permissão para chegar a esse endereço foi recusada."
+  },
+  "tokenMissing": {
+    "message": "Cole o token que o Postulo lhe mostrou."
+  },
+  "tokenIs": {
+    "message": "Token «$NAME$» de $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Token «$NAME$» de $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "lacksCaptures": {
+    "message": "Falta-lhe o âmbito captures, pelo que não pode capturar."
+  },
+  "savedNoPermission": {
+    "message": "Guardado, mas o navegador recusou a permissão para lá chegar; permita-a nas permissões da extensão."
+  },
+  "enterAddress": {
+    "message": "Introduza o endereço do seu Postulo."
+  },
+  "notAnAddress": {
+    "message": "Isso não parece um endereço web."
+  },
+  "httpsOnly": {
+    "message": "Use https para tudo o que não esteja no seu próprio computador: o token segue com cada pedido."
+  },
+  "tokenRefused": {
+    "message": "O Postulo não aceita este token. Verifique-o em $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Este token não tem permissão para capturar."
+  },
+  "tooMany": {
+    "message": "Demasiadas capturas em pouco tempo. Aguarde um minuto e tente novamente."
+  },
+  "answered": {
+    "message": "O Postulo respondeu $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Configurar"
+  },
+  "settings": {
+    "message": "Definições"
+  },
+  "capture": {
+    "message": "Capturar este anúncio"
+  }
+}

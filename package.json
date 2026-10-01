@@ -1,0 +1,19 @@
+{
+  "name": "postulo-thunderbird",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Thunderbird extension for Postulo: job postings from your mail to your own Postulo. A skeleton for now.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint": "web-ext lint --source-dir src",
+    "build": "web-ext build --source-dir src --artifacts-dir dist --overwrite-dest --filename postulo-thunderbird-{version}.xpi",
+    "start": "web-ext run --source-dir src --firefox thunderbird",
+    "shared:check": "node scripts/shared.mjs check",
+    "shared:sync": "node scripts/shared.mjs sync"
+  },
+  "devDependencies": {
+    "web-ext": "^8.0.0"
+  },
+  "license": "AGPL-3.0-or-later"
+}

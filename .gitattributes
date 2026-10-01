@@ -1,0 +1,3 @@
+# One line ending everywhere, so a file is the same bytes on every machine that checks it out.
+* text=auto eol=lf
+*.png binary

@@ -1,0 +1,157 @@
+{
+  "languageTag": {
+    "message": "fr"
+  },
+  "direction": {
+    "message": "ltr"
+  },
+  "extensionDescription": {
+    "message": "Postulo pour Thunderbird : les offres d'emploi de votre courrier, envoyées à votre propre Postulo. Un squelette pour l'instant : il se connecte et montre le message affiché, et ne capture pas encore."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHint": {
+    "message": "Créé dans $PATH$ dans Postulo, avec la portée $SCOPE$ et rien de plus. Il est conservé dans ce profil Thunderbird uniquement.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "scope": {
+        "content": "$2"
+      }
+    }
+  },
+  "saved": {
+    "message": "Enregistré. Ce Thunderbird est connecté à $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Aucun Postulo n'est encore connecté."
+  },
+  "messageHeading": {
+    "message": "Le message affiché"
+  },
+  "noMessage": {
+    "message": "Aucun message n'est affiché. Ouvrez-en un, puis rouvrez ceci."
+  },
+  "messageFrom": {
+    "message": "De $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(sans objet)"
+  },
+  "notBuiltYet": {
+    "message": "La capture n'est pas encore faite. Ceci est le squelette de l'extension : il se connecte à votre Postulo et lit le message affiché."
+  },
+  "optionsTitle": {
+    "message": "Paramètres de Postulo"
+  },
+  "instanceLabel": {
+    "message": "Votre Postulo"
+  },
+  "instanceHint": {
+    "message": "L'adresse à laquelle vous l'ouvrez. En https, sauf s'il tourne sur cette machine."
+  },
+  "tokenLabel": {
+    "message": "Jeton d'API"
+  },
+  "tokenPath": {
+    "message": "Paramètres → Jetons d'API"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "test": {
+    "message": "Tester"
+  },
+  "asking": {
+    "message": "Postulo est interrogé sur le propriétaire de ce jeton…"
+  },
+  "addressRefused": {
+    "message": "L'autorisation de joindre cette adresse a été refusée."
+  },
+  "tokenMissing": {
+    "message": "Collez le jeton que Postulo vous a montré."
+  },
+  "tokenIs": {
+    "message": "Jeton « $NAME$ » de $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Jeton « $NAME$ » de $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "lacksCaptures": {
+    "message": "Il lui manque la portée captures, il ne peut donc pas capturer."
+  },
+  "savedNoPermission": {
+    "message": "Enregistré, mais le navigateur a refusé l'autorisation de le joindre ; autorisez-la dans les permissions de l'extension."
+  },
+  "enterAddress": {
+    "message": "Saisissez l'adresse de votre Postulo."
+  },
+  "notAnAddress": {
+    "message": "Cela ne ressemble pas à une adresse web."
+  },
+  "httpsOnly": {
+    "message": "Utilisez https pour tout ce qui n'est pas sur votre propre machine : le jeton voyage avec chaque requête."
+  },
+  "tokenRefused": {
+    "message": "Postulo n'accepte pas ce jeton. Vérifiez-le dans $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Ce jeton n'est pas autorisé à capturer."
+  },
+  "tooMany": {
+    "message": "Trop de captures en peu de temps. Attendez une minute et réessayez."
+  },
+  "answered": {
+    "message": "Postulo a répondu $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "La configurer"
+  },
+  "settings": {
+    "message": "Paramètres"
+  },
+  "capture": {
+    "message": "Capturer cette annonce"
+  }
+}

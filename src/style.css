@@ -1,0 +1,484 @@
+:root {
+  color-scheme: light dark;
+  --ink: #1f2430;
+  --muted: #6b7280;
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+  --error: #b91c1c;
+  --paper: #ffffff;
+  --line: #e5e7eb;
+  --ok: #15803d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e5e7eb;
+    --muted: #9ca3af;
+    --brand: #60a5fa;
+    --brand-dark: #3b82f6;
+    --error: #fca5a5;
+    --paper: #111827;
+    --line: #374151;
+    --ok: #4ade80;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hidden means hidden, whatever display a class gives an element. */
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 14px 16px 12px;
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+body.popup {
+  width: 320px;
+}
+
+/* Showing what was read: a form, two fields to a row where they pair. */
+body.popup.wide {
+  width: 440px;
+  padding-top: 10px;
+}
+
+body.popup.wide header {
+  margin-bottom: 8px;
+}
+
+/* Chromium sizes its settings dialog to the page, from 400 pixels up, and cuts off whatever a
+   page wider than its own measure lays out. A set width is one it can measure. */
+body.options {
+  width: 400px;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 15px;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+
+form > label:first-child {
+  margin-top: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: inherit;
+  font: inherit;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+button,
+.button {
+  display: inline-block;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button.primary,
+.button.primary {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+button.primary:hover,
+.button.primary:hover {
+  background: var(--brand-dark);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+#status {
+  min-height: 1.4em;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+/* Empty, it takes no room but stays where it is, so a screen reader still hears what
+   it says next. */
+#status:empty {
+  min-height: 0;
+  margin: 0;
+}
+
+#status.error {
+  color: var(--error);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+/* The instance a capture goes to, on the start side. A long address ends in an ellipsis
+   rather than pushing the gear out; the whole of it is in the tooltip. */
+.server {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.server:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+/* The settings gear, on the end side whether or not there is an address beside it. 28 pixels
+   square: comfortably over the 24 a pointer target needs. */
+button.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  margin-inline-start: auto;
+  padding: 0;
+  border: none;
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+button.icon:hover {
+  color: var(--ink);
+  background: var(--line);
+}
+
+/* The posting's form, in the popup and in the list of captures: labels closer than the
+   settings' so the popup's longest state fits the 600 pixels a popup gets. */
+.posting label {
+  margin: 5px 0 2px;
+  font-size: 12px;
+}
+
+.posting > div:first-child label {
+  margin-top: 4px;
+}
+
+.posting input,
+.posting select {
+  padding: 4px 8px;
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  align-items: end;
+}
+
+textarea {
+  resize: vertical;
+  font-size: 12px;
+}
+
+details {
+  margin: 8px 0 0;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+details textarea {
+  margin-top: 4px;
+}
+
+/* Send and Keep, side by side. */
+.send {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.small {
+  margin: 6px 0 0;
+  font-size: 12px;
+}
+
+/* A line about the connection, above everything else: not connected, or the testing switch. */
+.note {
+  margin: 0 0 10px;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.note.folded {
+  display: none;
+}
+
+button.link {
+  padding: 0;
+  border: none;
+  color: var(--brand);
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+.captures-link {
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+
+.captures-link a {
+  color: var(--brand);
+}
+
+/* A page listing several postings: one line each, to tick (#177). */
+.pick {
+  max-height: 260px;
+  margin: 8px 0;
+  padding: 0;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.pick li + li {
+  border-top: 1px solid var(--line);
+}
+
+.pick label {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 6px 9px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.pick input {
+  margin-top: 3px;
+}
+
+/* Beside a listed posting Postulo already holds (#178). */
+.tag {
+  margin-inline-start: 6px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--line);
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.pick-all {
+  margin: 0;
+  font-size: 12px;
+}
+
+.count {
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Settings: the switch and the log, apart from the address and the token. */
+h2 {
+  margin: 18px 0 6px;
+  font-size: 13px;
+}
+
+.testing {
+  margin-top: 8px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+}
+
+label.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 4px;
+}
+
+label.check input {
+  width: auto;
+  margin: 0;
+}
+
+/* The list of captures kept in this browser: a page of its own, in a tab. */
+body.captures {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 20px 40px;
+}
+
+.capture-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.capture {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.capture .line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.capture .title {
+  min-width: 0;
+  font-weight: 600;
+  color: inherit;
+  overflow-wrap: anywhere;
+}
+
+.capture .meta {
+  margin: 2px 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.capture .problem {
+  margin: 0 0 8px;
+  color: var(--error);
+  font-size: 12px;
+}
+
+.capture .actions {
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.capture .editor {
+  margin-top: 10px;
+  padding-top: 6px;
+  border-top: 1px solid var(--line);
+}
+
+.capture .editor .actions {
+  margin-top: 10px;
+}
+
+/* The state of a capture, in words and in colour: never the colour alone. */
+.chip {
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.state-waiting .chip {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.state-sent .chip {
+  border-color: var(--ok);
+  color: var(--ok);
+}
+
+.state-refused .chip {
+  border-color: var(--error);
+  color: var(--error);
+}
+
+kbd {
+  padding: 1px 4px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+code {
+  font-size: 12px;
+}
