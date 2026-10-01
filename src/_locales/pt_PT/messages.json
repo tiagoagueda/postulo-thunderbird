@@ -112,7 +112,7 @@
     "message": "Falta-lhe o âmbito captures, pelo que não pode capturar."
   },
   "savedNoPermission": {
-    "message": "Guardado, mas o navegador recusou a permissão para lá chegar; permita-a nas permissões da extensão."
+    "message": "Guardado, mas o Thunderbird recusou a permissão para lá chegar; permita-a nas permissões do extra."
   },
   "enterAddress": {
     "message": "Introduza o endereço do seu Postulo."

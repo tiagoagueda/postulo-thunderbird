@@ -112,7 +112,7 @@
     "message": "Il lui manque la portée captures, il ne peut donc pas capturer."
   },
   "savedNoPermission": {
-    "message": "Enregistré, mais le navigateur a refusé l'autorisation de le joindre ; autorisez-la dans les permissions de l'extension."
+    "message": "Enregistré, mais Thunderbird a refusé l'autorisation de le joindre ; autorisez-la dans les permissions du module complémentaire."
   },
   "enterAddress": {
     "message": "Saisissez l'adresse de votre Postulo."

@@ -67,6 +67,14 @@ test("the scope keeps its name in every language: it is what Postulo calls it", 
   }
 });
 
+test("no sentence speaks of a browser: the ones copied from the browser extension were reworded", () => {
+  for (const [folder, catalogue] of Object.entries(messages)) {
+    for (const [key, entry] of Object.entries(catalogue)) {
+      assert.doesNotMatch(entry.message, /\bbrowser\b|\bnavigateur\b|\bnavegador\b/i, `${folder}.${key}`);
+    }
+  }
+});
+
 test("every key the code asks for exists, and every sentence is asked for", () => {
   const patterns = [
     /\bt\("([A-Za-z]+)"/g,

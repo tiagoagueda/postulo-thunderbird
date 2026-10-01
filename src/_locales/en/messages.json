@@ -137,8 +137,8 @@
     "description": "captures is the scope's name in Postulo: keep it as it is."
   },
   "savedNoPermission": {
-    "message": "Saved, but the browser refused permission to reach it; allow it in the extension's permissions.",
-    "description": "Saved without the permission to reach the address."
+    "message": "Saved, but Thunderbird refused permission to reach it; allow it in the add-on's permissions.",
+    "description": "After Save, when Thunderbird did not grant permission to reach the address."
   },
   "enterAddress": {
     "message": "Enter the address of your Postulo.",
