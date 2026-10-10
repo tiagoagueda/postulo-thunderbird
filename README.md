@@ -77,9 +77,19 @@ reviewed. A language code here is a BCP 47 tag in its canonical form (`pt-PT`), 
 postulo/postulo#337 decided for the whole project. The folders under `src/_locales/` are
 named the way Thunderbird demands, with an underscore (`pt_PT`).
 
-To add or change a sentence, change `en` first, then every other language: `npm test` fails
-while a language lacks a key or has different placeholders, and while the code asks for a
-key that `en` does not have.
+**Translations are made in Weblate, never in a commit** (postulo/postulo#706): in the `postulo`
+project at <https://translate.tiagoagueda.com/projects/postulo/>, in this extension's
+component, which drafts a new sentence by machine and brings what speakers save back as a
+pull request from its `weblate` branch. To add or change a sentence, change `en` and nothing
+else. `node scripts/guard.mjs`, in CI, refuses a commit that writes or changes a sentence in
+another language unless Weblate made it; `npm test` refuses a sentence English lacks, an
+empty one and different placeholders, and a key the code asks for that `en` does not have.
+A language Weblate has only part of is left out of the package by the build.
+
+Each shipped catalogue's `languageTag` and `direction` are written by `scripts/build.mjs`
+from the folder's name, not kept in the catalogues: they are not sentences, and a machine
+would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the extension in
+`dist/src` first.
 
 ## Layout
 
@@ -94,6 +104,8 @@ key that `en` does not have.
 | `src/lib/api.js`, `src/lib/i18n.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |
 | `scripts/shared.mjs` | Checks the shared files, and copies them again |
+| `scripts/build.mjs` | Stages the extension in `dist/src`, with each catalogue's language and direction |
+| `scripts/guard.mjs` | Refuses translations written outside Weblate (a copy of postulo-chromium's) |
 
 ```sh
 npm run lint     # web-ext lint: it warns about `messagesRead`, Thunderbird's own permission

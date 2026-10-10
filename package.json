@@ -6,11 +6,12 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "lint": "web-ext lint --source-dir src",
-    "build": "web-ext build --source-dir src --artifacts-dir dist --overwrite-dest --filename postulo-thunderbird-{version}.xpi",
-    "start": "web-ext run --source-dir src --firefox thunderbird",
+    "lint": "npm run stage && web-ext lint --source-dir dist/src",
+    "build": "npm run stage && web-ext build --source-dir dist/src --artifacts-dir dist --overwrite-dest --filename postulo-thunderbird-{version}.xpi",
+    "start": "npm run stage && web-ext run --source-dir dist/src --firefox thunderbird",
     "shared:check": "node scripts/shared.mjs check",
-    "shared:sync": "node scripts/shared.mjs sync"
+    "shared:sync": "node scripts/shared.mjs sync",
+    "stage": "node scripts/build.mjs"
   },
   "devDependencies": {
     "web-ext": "^8.0.0"

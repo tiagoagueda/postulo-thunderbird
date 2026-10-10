@@ -22,6 +22,11 @@ const folders = readdirSync(LOCALES).sort();
 const messages = Object.fromEntries(folders.map((folder) => [folder, read(join(LOCALES, folder, "messages.json"))]));
 const english = messages.en;
 
+// The keys the build writes into every catalogue that ships (scripts/build.mjs), never a
+// translator: they are the catalogue's language and direction, not sentences (postulo/postulo#706).
+const BUILT = new Set(["languageTag", "direction"]);
+const { shipped } = await import("../scripts/build.mjs");
+
 const placeholdersIn = (message) => [...message.matchAll(/\$([A-Za-z_]+)\$/g)].map((match) => match[1].toLowerCase()).sort();
 
 test("the extension ships the languages it says it does, English by default", () => {
@@ -32,13 +37,17 @@ test("the extension ships the languages it says it does, English by default", ()
 test("every language code is a BCP 47 tag in its canonical form", () => {
   for (const tag of OFFERED) {
     assert.deepEqual(Intl.getCanonicalLocales(tag), [tag], tag);
-    assert.equal(messages[folderOf(tag)].languageTag.message, tag, `${tag} names itself`);
+    const folder = folderOf(tag);
+    assert.equal(shipped(messages[folder], folder).languageTag.message, tag, `${tag} names itself`);
   }
 });
 
-test("every language has every sentence, and nothing else", () => {
+test("no language has a sentence English lacks, and none is empty", () => {
+  // A sentence English has and a language lacks is Weblate's to fill, not the commit's
+  // (postulo/postulo#706); the build leaves such a language out of the package.
   for (const [folder, catalogue] of Object.entries(messages)) {
-    assert.deepEqual(Object.keys(catalogue).sort(), Object.keys(english).sort(), folder);
+    const extra = Object.keys(catalogue).filter((key) => !(key in english));
+    assert.deepEqual(extra, [], `${folder} has sentences English does not`);
     for (const [key, entry] of Object.entries(catalogue)) {
       assert.equal(typeof entry.message, "string", `${folder}.${key}`);
       assert.ok(entry.message.trim(), `${folder}.${key} is empty`);
@@ -55,9 +64,10 @@ test("placeholders are the same in every language", () => {
   }
 });
 
-test("each translation says which way it is written", () => {
+test("each shipped translation says which way it is written, and the build says it", () => {
   for (const [folder, catalogue] of Object.entries(messages)) {
-    assert.ok(["ltr", "rtl"].includes(catalogue.direction.message), folder);
+    assert.ok(!("languageTag" in catalogue) && !("direction" in catalogue), `${folder} holds what the build writes`);
+    assert.ok(["ltr", "rtl"].includes(shipped(catalogue, folder).direction.message), folder);
   }
 });
 
@@ -89,7 +99,7 @@ test("every key the code asks for exists, and every sentence is asked for", () =
     .map((name) => readFileSync(join(SOURCE, name), "utf8"));
   const used = new Set(files.flatMap((text) => patterns.flatMap((pattern) => [...text.matchAll(pattern)].map((match) => match[1]))));
   for (const key of used) {
-    assert.ok(key in english, `the code asks for ${key}, which en does not have`);
+    assert.ok(key in english || BUILT.has(key), `the code asks for ${key}, which en does not have`);
   }
   for (const key of Object.keys(english)) {
     assert.ok(used.has(key), `en has ${key}, which nothing asks for`);

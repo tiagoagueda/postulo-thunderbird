@@ -1,12 +1,4 @@
 {
-  "languageTag": {
-    "message": "en",
-    "description": "This translation's language tag, as the page's lang attribute: en, pt-PT, fr, nb."
-  },
-  "direction": {
-    "message": "ltr",
-    "description": "ltr, or rtl for a language written right to left."
-  },
   "extensionDescription": {
     "message": "Postulo for Thunderbird: job postings from your mail, sent to your own Postulo. A skeleton for now: it connects and shows the message on screen, and does not capture yet.",
     "description": "The extension's description, in Thunderbird's list of add-ons."

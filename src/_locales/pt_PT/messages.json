@@ -1,10 +1,4 @@
 {
-  "languageTag": {
-    "message": "pt-PT"
-  },
-  "direction": {
-    "message": "ltr"
-  },
   "extensionDescription": {
     "message": "Postulo para o Thunderbird: as ofertas de emprego do seu correio, enviadas para o seu próprio Postulo. Por agora é um esqueleto: liga-se e mostra a mensagem no ecrã, e ainda não captura."
   },

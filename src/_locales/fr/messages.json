@@ -1,10 +1,4 @@
 {
-  "languageTag": {
-    "message": "fr"
-  },
-  "direction": {
-    "message": "ltr"
-  },
   "extensionDescription": {
     "message": "Postulo pour Thunderbird : les offres d'emploi de votre courrier, envoyées à votre propre Postulo. Un squelette pour l'instant : il se connecte et montre le message affiché, et ne capture pas encore."
   },
