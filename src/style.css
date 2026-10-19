@@ -4,10 +4,13 @@
   --muted: #6b7280;
   --brand: #2563eb;
   --brand-dark: #1d4ed8;
+  --on-brand: #ffffff;
   --error: #b91c1c;
   --paper: #ffffff;
   --line: #e5e7eb;
+  --field-line: #6b7280;
   --ok: #15803d;
+  --warn: #b45309;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,10 +19,13 @@
     --muted: #9ca3af;
     --brand: #60a5fa;
     --brand-dark: #3b82f6;
+    --on-brand: #111827;
     --error: #fca5a5;
     --paper: #111827;
     --line: #374151;
+    --field-line: #6b7280;
     --ok: #4ade80;
+    --warn: #fbbf24;
   }
 }
 
@@ -101,7 +107,7 @@ select,
 textarea {
   width: 100%;
   padding: 7px 9px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--field-line);
   border-radius: 6px;
   background: var(--paper);
   color: inherit;
@@ -141,7 +147,7 @@ button.primary,
 .button.primary {
   background: var(--brand);
   border-color: var(--brand);
-  color: #fff;
+  color: var(--on-brand);
 }
 
 button.primary:hover,
@@ -192,6 +198,34 @@ footer {
   text-decoration: none;
 }
 
+/* Whether Postulo answers, before the address: a shape for each state as well as a colour. */
+.state {
+  display: inline-flex;
+  flex: none;
+}
+
+.state svg[hidden] {
+  display: none;
+}
+
+.state[data-state="online"] {
+  color: var(--ok);
+}
+
+.state[data-state="slow"] {
+  color: var(--warn);
+}
+
+.state[data-state="unreachable"],
+.state[data-state="noPermission"],
+.state[data-state="tokenRefused"] {
+  color: var(--error);
+}
+
+.state[data-state="testing"] {
+  color: var(--muted);
+}
+
 .server:hover {
   color: var(--ink);
   text-decoration: underline;
@@ -213,13 +247,32 @@ button.icon {
   color: var(--muted);
 }
 
+button.icon[hidden] {
+  display: none;
+}
+
+/* The two buttons at the header's end, whichever side that is: the wrapper takes the auto margin. */
+.header-actions {
+  display: flex;
+  gap: 4px;
+  margin-inline-start: auto;
+}
+
+.header-actions button.icon {
+  margin-inline-start: 0;
+}
+
+button.icon:disabled {
+  opacity: 0.5;
+}
+
 button.icon:hover {
   color: var(--ink);
   background: var(--line);
 }
 
-/* The posting's form, in the popup and in the list of captures: labels closer than the
-   settings' so the popup's longest state fits the 600 pixels a popup gets. */
+/* The posting's form, in the review window: labels closer than the
+   settings'. */
 .posting label {
   margin: 5px 0 2px;
   font-size: 12px;
@@ -304,6 +357,47 @@ button.link {
   color: var(--brand);
 }
 
+/* The captures that need review: each row one link, its state said in words. */
+.review-rows {
+  margin: 6px 0 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.review-rows li + li {
+  border-top: 1px solid var(--line);
+}
+
+.review-rows a {
+  display: block;
+  padding: 6px 9px;
+  color: var(--ink);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.review-rows a:hover,
+.review-rows a:focus-visible {
+  background: var(--line);
+}
+
+.review-rows .title,
+.review-rows .meta {
+  display: block;
+}
+
+.review-rows .title {
+  color: var(--brand);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.review-rows .meta {
+  font-size: 12px;
+}
+
 /* A page listing several postings: one line each, to tick (#177). */
 .pick {
   max-height: 260px;
@@ -339,7 +433,7 @@ button.link {
   padding: 0 6px;
   border-radius: 999px;
   background: var(--line);
-  color: var(--muted);
+  color: var(--ink);
   font-size: 11px;
   white-space: nowrap;
 }
@@ -349,24 +443,13 @@ button.link {
   font-size: 12px;
 }
 
-.count {
-  display: inline-block;
-  min-width: 1.5em;
-  padding: 0 5px;
-  border-radius: 999px;
-  background: var(--brand);
-  color: #fff;
-  font-size: 11px;
-  font-weight: 600;
-  text-align: center;
-}
-
 /* Settings: the switch and the log, apart from the address and the token. */
 h2 {
   margin: 18px 0 6px;
   font-size: 13px;
 }
 
+.language,
 .testing {
   margin-top: 8px;
   padding-top: 4px;
@@ -390,6 +473,13 @@ body.captures {
   max-width: 760px;
   margin: 0 auto;
   padding: 24px 20px 40px;
+}
+
+/* The review window: one capture's form, in a window of its own that keeps its content. */
+body.review {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 18px 20px 28px;
 }
 
 .capture-list {
@@ -435,16 +525,6 @@ body.captures {
 .capture .actions {
   margin-top: 0;
   flex-wrap: wrap;
-}
-
-.capture .editor {
-  margin-top: 10px;
-  padding-top: 6px;
-  border-top: 1px solid var(--line);
-}
-
-.capture .editor .actions {
-  margin-top: 10px;
 }
 
 /* The state of a capture, in words and in colour: never the colour alone. */

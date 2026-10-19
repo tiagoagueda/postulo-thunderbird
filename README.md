@@ -40,6 +40,21 @@ popup, and shows them to you. It sends them nowhere. The only request it makes i
 It has no analytics and contacts nobody else. The address and the token stay in this
 Thunderbird profile (`storage.local`).
 
+**The token is stored unencrypted.** No WebExtension API offers encrypted storage, and
+Thunderbird's primary password protects the passwords of your mail accounts, not an
+extension's storage. Anyone or anything that can read your profile folder (another program of
+yours, a backup, a synced folder) can read the token and use it until you revoke it under
+*Settings → API tokens* in Postulo. The settings page says so, and has a **Forget token**
+button that removes the token from the profile (the address stays); that does not revoke it,
+so revoke it in Postulo too.
+
+**Which scopes.** The extension can use two: `captures` (hand a posting to your review queue)
+and `listings:bind` (file a message into a listing's history). Make the token with only the
+ones you want it to use. *Test* lists what the token may do and warns when it holds anything
+else, or neither of the two, because a token that can do more than the extension needs is
+worth more to whoever reads it out of the profile. Neither scope is used yet: capturing and
+filing are still to be built (#1, #9).
+
 ## Try it
 
 ```sh
@@ -53,13 +68,13 @@ Temporary Add-on*, and pick `src/manifest.json`. Or `npm start`, which runs a Th
 with a profile of its own (give `web-ext` the path with `--firefox` if `thunderbird` is not
 on your `PATH`).
 
-Then, in Postulo, **Settings → API tokens → New token**, tick only `captures`, and paste
+Then, in Postulo, **Settings → API tokens → New token**, tick only `captures` and/or `listings:bind`, and paste
 the address and the token into the extension's settings.
 
 ## Shared with the browser extension
 
 Talking to Postulo (`src/lib/api.js`), filling a page from the catalogues
-(`src/lib/i18n.js`), the stylesheet and the icons are postulo-chromium's, copied here.
+(`src/lib/i18n.js`, with `languages.js` and `messages.js`, which it imports), the stylesheet and the icons are postulo-chromium's, copied here.
 `shared.json` names the commit they were copied from and each file's SHA-256, and
 `npm test` fails when a copy no longer matches. To change one, change it there, then:
 
@@ -100,9 +115,11 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | `src/options.*` | Address, token, *Test*, *Save* |
 | `src/background.js` | Nothing yet; where the number on the button and retries will live |
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
+| `src/lib/scopes.js` | The two scopes the extension can use, and when a token holds more |
 | `src/lib/mail.js` | Reading a message's header: pure functions, tested with `node --test` |
-| `src/lib/api.js`, `src/lib/i18n.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
+| `src/lib/api.js`, `src/lib/i18n.js`, `languages.js`, `messages.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |
+| `scripts/audit.mjs` | Fails CI on a new high or critical advisory in the development chain |
 | `scripts/shared.mjs` | Checks the shared files, and copies them again |
 | `scripts/build.mjs` | Stages the extension in `dist/src`, with each catalogue's language and direction |
 | `scripts/guard.mjs` | Refuses translations written outside Weblate (a copy of postulo-chromium's) |

@@ -5,17 +5,6 @@
   "actionTitle": {
     "message": "Postulo"
   },
-  "tokenHint": {
-    "message": "Criado em $PATH$ no Postulo, com o âmbito $SCOPE$ e nada mais. Fica guardado apenas neste perfil do Thunderbird.",
-    "placeholders": {
-      "path": {
-        "content": "$1"
-      },
-      "scope": {
-        "content": "$2"
-      }
-    }
-  },
   "saved": {
     "message": "Guardado. Este Thunderbird está ligado a $HOST$.",
     "placeholders": {
@@ -101,9 +90,6 @@
         "content": "$3"
       }
     }
-  },
-  "lacksCaptures": {
-    "message": "Falta-lhe o âmbito captures, pelo que não pode capturar."
   },
   "savedNoPermission": {
     "message": "Guardado, mas o Thunderbird recusou a permissão para lá chegar; permita-a nas permissões do extra."

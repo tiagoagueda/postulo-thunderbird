@@ -71,10 +71,23 @@ test("each shipped translation says which way it is written, and the build says 
   }
 });
 
-test("the scope keeps its name in every language: it is what Postulo calls it", () => {
+test("the scopes keep their names in every language: they are what Postulo calls them", () => {
+  // The names are placeholders the code fills (src/lib/scopes.js), so what a catalogue has to
+  // keep is the placeholder itself: a translation that drops it would hide a scope from the person.
+  const named = {
+    tokenHintScopes: ["captures", "bind"],
+    tokenNeither: ["captures", "bind"],
+  };
   for (const [folder, catalogue] of Object.entries(messages)) {
-    assert.match(catalogue.lacksCaptures.message, /\bcaptures\b/, folder);
+    for (const [key, names] of Object.entries(named)) {
+      if (!(key in catalogue)) continue; // Weblate's to fill
+      for (const name of names) {
+        assert.ok(placeholdersIn(catalogue[key].message).includes(name), `${folder}.${key} lost $${name.toUpperCase()}$`);
+      }
+    }
   }
+  // English fills them with the scope's own names, and no other scope is named in a sentence.
+  assert.match(readFileSync("src/lib/scopes.js", "utf8"), /CAPTURES = "captures"[\s\S]*BIND = "listings:bind"/);
 });
 
 test("no sentence speaks of a browser: the ones copied from the browser extension were reworded", () => {

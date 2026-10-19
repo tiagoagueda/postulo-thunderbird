@@ -5,17 +5,6 @@
   "actionTitle": {
     "message": "Postulo"
   },
-  "tokenHint": {
-    "message": "Créé dans $PATH$ dans Postulo, avec la portée $SCOPE$ et rien de plus. Il est conservé dans ce profil Thunderbird uniquement.",
-    "placeholders": {
-      "path": {
-        "content": "$1"
-      },
-      "scope": {
-        "content": "$2"
-      }
-    }
-  },
   "saved": {
     "message": "Enregistré. Ce Thunderbird est connecté à $HOST$.",
     "placeholders": {
@@ -101,9 +90,6 @@
         "content": "$3"
       }
     }
-  },
-  "lacksCaptures": {
-    "message": "Il lui manque la portée captures, il ne peut donc pas capturer."
   },
   "savedNoPermission": {
     "message": "Enregistré, mais Thunderbird a refusé l'autorisation de le joindre ; autorisez-la dans les permissions du module complémentaire."

@@ -14,6 +14,13 @@ export async function saveSettings({ instance, token }) {
   await ext.storage.local.set({ instance, token });
 }
 
+/** Remove the token from this profile and leave the address. `storage.local` is the only place
+ *  an extension can keep it and it is not encrypted (README, "Privacy"), so the person can
+ *  take it out; it keeps working in Postulo until it is revoked there. */
+export async function forgetToken() {
+  await ext.storage.local.remove("token");
+}
+
 /** Open the settings: where Thunderbird keeps an add-on's own, or in a tab if it will not. */
 export async function openSettings() {
   try {
