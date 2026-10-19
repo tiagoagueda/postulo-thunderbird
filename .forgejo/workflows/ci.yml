@@ -17,6 +17,10 @@ jobs:
           # The whole history: the translation guard reads every commit it is given.
           fetch-depth: 0
       - run: npm ci
+      - name: Refuse a high advisory in the dev chain
+        # web-ext runs on a contributor's machine and in CI, not in the extension; scripts/audit.mjs
+        # fails on a new high or critical advisory and names the one allowed (no fixed release).
+        run: npm run audit
       - name: Refuse translations written outside Weblate
         # Every translation is made at translate.tiagoagueda.com and comes back as Weblate's
         # pull request (postulo/postulo#706); a commit that writes one anywhere else fails.
