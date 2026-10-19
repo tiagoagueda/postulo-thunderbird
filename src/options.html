@@ -15,13 +15,20 @@
       <label for="token" data-i18n="tokenLabel">API token</label>
       <input id="token" name="token" type="password" autocomplete="off" required />
       <p id="token-hint" class="hint">
-        Made under <em>Settings → API tokens</em> in Postulo, with the <code>captures</code> scope
-        and nothing more. It is kept in this Thunderbird profile only.
+        Made under <em>Settings → API tokens</em> in Postulo. This extension can use two scopes:
+        <code>captures</code>, to capture a posting, and <code>listings:bind</code>, to file a
+        message into a listing's history. Tick only the ones you want it to use, and nothing else.
+      </p>
+      <p id="token-stored" class="hint">
+        The token is kept unencrypted in this Thunderbird profile. Thunderbird's primary password
+        does not protect it, and anyone who can read the profile folder can use it until you
+        revoke it under <em>Settings → API tokens</em> in Postulo.
       </p>
 
       <div class="actions">
         <button type="submit" class="primary" data-i18n="save">Save</button>
         <button id="test" type="button" data-i18n="test">Test</button>
+        <button id="forget" type="button" data-i18n="forgetToken">Forget token</button>
       </div>
     </form>
 

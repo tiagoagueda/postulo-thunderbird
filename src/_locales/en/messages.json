@@ -7,15 +7,27 @@
     "message": "Postulo",
     "description": "The toolbar buttons' tooltip."
   },
-  "tokenHint": {
-    "message": "Made under $PATH$ in Postulo, with the $SCOPE$ scope and nothing more. It is kept in this Thunderbird profile only.",
-    "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; SCOPE is the scope's name, captures.",
+  "tokenHintScopes": {
+    "message": "Made under $PATH$ in Postulo. This extension can use two scopes: $CAPTURES$, to capture a posting, and $BIND$, to file a message into a listing's history. Tick only the ones you want it to use, and nothing else.",
+    "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; CAPTURES and BIND are the names of two scopes, captures and listings:bind, in code type: keep them as they are.",
     "placeholders": {
       "path": {
         "content": "$1"
       },
-      "scope": {
+      "captures": {
         "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "The token is kept unencrypted in this Thunderbird profile. Thunderbird's primary password does not protect it, and anyone who can read the profile folder can use it until you revoke it under $PATH$ in Postulo.",
+    "description": "PATH is where tokens are made in Postulo (tokenPath), in italics.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
       }
     }
   },
@@ -124,9 +136,26 @@
       }
     }
   },
-  "lacksCaptures": {
-    "message": "It lacks the captures scope, so it cannot capture.",
-    "description": "captures is the scope's name in Postulo: keep it as it is."
+  "tokenNeither": {
+    "message": "It holds neither the $CAPTURES$ scope nor the $BIND$ scope, so this extension can do nothing with it.",
+    "description": "CAPTURES and BIND are the names of two scopes, captures and listings:bind: keep them as they are.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "This token can do more than this extension needs ($EXTRA$). It is kept unencrypted in this profile: make one with only the scopes named above, and revoke this one.",
+    "description": "EXTRA lists the scopes the token holds besides the two the extension uses, such as read, write.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
   },
   "savedNoPermission": {
     "message": "Saved, but Thunderbird refused permission to reach it; allow it in the add-on's permissions.",
@@ -181,5 +210,30 @@
   "capture": {
     "message": "Capture this posting",
     "description": "The popup's main button."
+  },
+  "forgetToken": {
+    "message": "Forget token",
+    "description": "A button in the settings: removes the token from this Thunderbird profile."
+  },
+  "tokenForgotten": {
+    "message": "The token is forgotten: it is no longer kept in this Thunderbird profile. It still works until you revoke it under $PATH$ in Postulo.",
+    "description": "PATH is where tokens are made in Postulo (tokenPath).",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Leave the user name and password out of the address: it would never connect, and the password would be shown in the popup.",
+    "description": "The typed address holds a user name or password, as in https://user:secret@host."
+  },
+  "notPostulo": {
+    "message": "That address answered, but not as Postulo. Check the address, and any sign-in page in front of it.",
+    "description": "The instance answered successfully with something that is not Postulo's JSON."
+  },
+  "storageFull": {
+    "message": "Thunderbird's storage for Postulo is full. Try again after removing some data, or restart Thunderbird.",
+    "description": "Shown when saving is refused because the storage quota is used up."
   }
 }

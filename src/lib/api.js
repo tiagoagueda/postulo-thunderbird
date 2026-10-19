@@ -4,6 +4,8 @@
 // The token is sent as a bearer token to the instance the person configured, and to
 // nothing else. There is no analytics, no third-party request, no cache of pages.
 
+import { languageTag } from "./i18n.js";
+
 const API = "/api/v1";
 
 /** An error with a sentence to show, named by its key in _locales rather than written out.
@@ -34,7 +36,14 @@ export function normaliseInstance(raw) {
   } catch {
     throw new Refusal("notAnAddress");
   }
-  const local = ["localhost", "127.0.0.1", "[::1]"].includes(url.hostname) || url.hostname.endsWith(".local");
+  // A user name or password in the address would never connect (fetch refuses such a URL),
+  // would stand in the popup and would head the downloadable log (SEC2-076).
+  if (url.username || url.password) {
+    throw new Refusal("noCredentialsInAddress");
+  }
+  // Plain http only to this machine. A `.local` name is another machine on the network, and
+  // the token and the pages would cross it in clear (SEC2-077).
+  const local = ["localhost", "127.0.0.1", "[::1]"].includes(url.hostname);
   if (url.protocol !== "https:" && !local) {
     throw new Refusal("httpsOnly");
   }
@@ -50,13 +59,22 @@ export function originPattern(instance) {
   return `${url.protocol}//${url.host}/*`;
 }
 
+/** Postulo's own page for adding a listing by hand. Only opened in a tab: no request is made. */
+export function newListingUrl(instance) {
+  return `${instance}/listings/new/`;
+}
+
 export function endpoint(instance, path) {
   return `${instance}${API}${path}`;
 }
 
 function headers(token) {
+  // The language the extension is speaking, so that the sentences Postulo writes for a
+  // refusal come in it too; the browser's own header may name another.
+  const language = languageTag();
   return {
     Authorization: `Bearer ${token}`,
+    ...(language ? { "Accept-Language": language } : {}),
     // Postulo answers a refusal as `application/problem+json` (RFC 9457) and everything
     // else as `application/json`. Both are named so that neither is a surprise.
     Accept: "application/json, application/problem+json",
@@ -76,6 +94,11 @@ export async function readResponse(response) {
     body = null;
   }
   if (response.ok) {
+    // A sign-in page, a captive portal or another site answers 2xx with something that is
+    // not Postulo's JSON. No status, so a capture waits rather than being refused.
+    if (!body || typeof body !== "object") {
+      throw new Refusal("notPostulo");
+    }
     return body;
   }
   throw withStatus(refusalFor(response.status, body), response.status);
@@ -151,10 +174,19 @@ async function request(fetchImpl, url, init) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
-    return await fetchImpl(url, { ...init, signal: controller.signal });
+    // A redirect is an error, not something to follow with the token: the token goes to the
+    // address that was configured and to nothing else (SEC2-078).
+    return await fetchImpl(url, { ...init, redirect: "error", signal: controller.signal });
   } finally {
     clearTimeout(timer);
   }
+}
+
+/** The scopes a token holds besides `captures` (SEC2-081). The extension keeps its token
+ *  unencrypted in the browser's storage, and Postulo's threat model assumes it can capture
+ *  and do nothing else. */
+export function extraScopes(me) {
+  return ((me && me.scopes) || []).filter((scope) => scope !== "captures");
 }
 
 /** GET /me: who this token is, and what it may do. */
@@ -163,12 +195,24 @@ export async function whoAmI(instance, token, fetchImpl = fetch) {
   return readResponse(response);
 }
 
+/** GET /healthz: the status Postulo answers with, to a request that carries no token and
+ *  no cookies. It proves the host and its database answer, and nothing about who asks. A
+ *  host that does not answer throws, as with every request here. */
+export async function health(instance, fetchImpl = fetch) {
+  const response = await request(fetchImpl, `${instance}/healthz`, {
+    credentials: "omit",
+    cache: "no-store",
+    headers: { Accept: "application/json" },
+  });
+  return response.status;
+}
+
 /** POST /captures: the page, and the posting as the person reviewed it.
  *
  *  Every field goes, not only the ones changed: what Postulo keeps is then exactly what the
  *  person looked at, whichever of its sources reads the page on its side. The page still
  *  goes too, because Postulo reads it to know which source did. */
-export async function capture(instance, token, { url, html, data, batch }, fetchImpl = fetch) {
+export async function capture(instance, token, { url, html, data, batch, key }, fetchImpl = fetch) {
   const payload = { url, html };
   if (data && Object.keys(data).length) {
     payload.data = data;
@@ -180,11 +224,50 @@ export async function capture(instance, token, { url, html, data, batch }, fetch
   }
   const response = await request(fetchImpl, endpoint(instance, "/captures"), {
     method: "POST",
-    headers: headers(token),
+    // The same key for the same capture: a request repeated after a lost answer gets the
+    // first answer back from Postulo instead of a second capture and notification.
+    headers: key ? { ...headers(token), "Idempotency-Key": key } : headers(token),
     body: JSON.stringify(payload),
   });
   return readResponse(response);
 }
+
+/** PUT the picture of the whole page to the address a capture's answer gave for it: the raw
+ *  bytes, their type and length, and not JSON. `blob` is a Blob, whose size the browser sends
+ *  as Content-Length. Resolves when Postulo has it (201), or already had these bytes (200);
+ *  anything else is thrown with its status, and 409, 413, 415 and 422 are final. */
+export async function sendRendering(token, url, blob, fetchImpl = fetch) {
+  const response = await request(fetchImpl, url, {
+    method: "PUT",
+    headers: { ...headers(token), "Content-Type": blob.type },
+    body: blob,
+  });
+  if (response.status === 200 || response.status === 201) {
+    return { kept: response.status === 201 };
+  }
+  return readResponse(response);
+}
+
+/** Whether Postulo refused a picture for good, so that sending it again would not help. */
+export function pictureRefused(error) {
+  return [409, 413, 415, 422].includes(error && error.status);
+}
+
+/** GET /captures: one page of the captures waiting for review, newest first, as `{items, count}`. */
+export async function listCaptures(instance, token, { limit = 100, offset = 0 } = {}, fetchImpl = fetch) {
+  const response = await request(fetchImpl, endpoint(instance, `/captures?limit=${limit}&offset=${offset}`), {
+    headers: headers(token),
+  });
+  return readResponse(response);
+}
+
+/** The longest address Postulo takes, for a capture and for /captures/known alike. */
+export const ADDRESS_LIMIT = 500;
+
+/** What Postulo's /captures/known takes: this many characters of a title or company, this many postings. */
+const KNOWN_TEXT = 250;
+const KNOWN_COMPANY = 250;
+const KNOWN_POSTINGS = 100;
 
 /** POST /captures/known: what Postulo already holds for these postings -- a listing at the
  *  address however it was spelled, a capture of it still waiting, or a listing with the
@@ -192,22 +275,27 @@ export async function capture(instance, token, { url, html, data, batch }, fetch
  *  request for one posting or forty. Postulo stores nothing and refuses nothing on it. */
 export async function known(instance, token, postings, fetchImpl = fetch) {
   const asked = postings.map((posting) => ({
-    url: posting.url,
-    title: posting.title || "",
-    company: posting.company_name || "",
+    url: knownAddress(posting.url),
+    title: (posting.title || "").slice(0, KNOWN_TEXT),
+    company: (posting.company_name || "").slice(0, KNOWN_COMPANY),
   }));
-  const response = await request(fetchImpl, endpoint(instance, "/captures/known"), {
-    method: "POST",
-    headers: headers(token),
-    body: JSON.stringify({ postings: asked }),
-  });
-  return readResponse(response);
+  // Postulo takes at most KNOWN_POSTINGS in one question, so a longer page is asked in chunks.
+  const answers = [];
+  for (let from = 0; from < asked.length || from === 0; from += KNOWN_POSTINGS) {
+    const response = await request(fetchImpl, endpoint(instance, "/captures/known"), {
+      method: "POST",
+      headers: headers(token),
+      body: JSON.stringify({ postings: asked.slice(from, from + KNOWN_POSTINGS) }),
+    });
+    answers.push(...(await readResponse(response)));
+  }
+  return answers;
 }
 
 /** Whether a failure means "try again later" rather than "this will not do".
  *
- *  No answer at all, a Postulo that is busy (429) or failing (5xx) is later. A token that
- *  is refused (401, 403) is the account's problem, not the capture's: later too, once it is
+ *  No answer at all, a Postulo that is busy (429), still answering an earlier try (409) or
+ *  failing (5xx) is later. A token that is refused (401, 403) is the account's problem, not the capture's: later too, once it is
  *  fixed. Anything else Postulo said about this one capture is final until it is changed. */
 export function kindOfFailure(error) {
   const status = error && error.status;
@@ -217,7 +305,8 @@ export function kindOfFailure(error) {
   if (status === 401 || status === 403) {
     return "account";
   }
-  if (status === 429 || status >= 500) {
+  // 409: the first attempt under this key is still being answered.
+  if (status === 409 || status === 429 || status >= 500) {
     return "later";
   }
   return "refused";
@@ -240,4 +329,10 @@ export function describe(result, untitled = "Untitled posting") {
     parts.push(where);
   }
   return parts.join(" — ");
+}
+
+/** An address as /captures/known takes it: without its fragment, and left out when still too long. */
+function knownAddress(url) {
+  const text = typeof url === "string" ? url.split("#")[0] : "";
+  return text.length > ADDRESS_LIMIT ? "" : text;
 }

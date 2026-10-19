@@ -9,12 +9,13 @@
     "lint": "npm run stage && web-ext lint --source-dir dist/src",
     "build": "npm run stage && web-ext build --source-dir dist/src --artifacts-dir dist --overwrite-dest --filename postulo-thunderbird-{version}.xpi",
     "start": "npm run stage && web-ext run --source-dir dist/src --firefox thunderbird",
+    "audit": "node scripts/audit.mjs",
     "shared:check": "node scripts/shared.mjs check",
     "shared:sync": "node scripts/shared.mjs sync",
     "stage": "node scripts/build.mjs"
   },
   "devDependencies": {
-    "web-ext": "^8.0.0"
+    "web-ext": "^10.8.0"
   },
   "license": "AGPL-3.0-or-later"
 }

@@ -1,6 +1,7 @@
 import { normaliseInstance, originPattern, whoAmI } from "./lib/api.js";
 import { explain, localise, localiseWith, t } from "./lib/i18n.js";
-import { loadSettings, requestHostPermission, saveSettings } from "./lib/thunderbird.js";
+import { BIND, CAPTURES, judgeScopes } from "./lib/scopes.js";
+import { forgetToken, loadSettings, requestHostPermission, saveSettings } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -25,9 +26,10 @@ function element(tag, text) {
 
 async function main() {
   localise();
-  // The one sentence that carries markup: a menu path and a scope's name.
-  // `captures` is the scope's name in Postulo, the same in every language.
-  localiseWith($("token-hint"), "tokenHint", [element("em", t("tokenPath")), element("code", "captures")]);
+  // The sentences that carry markup: a menu path and the scopes' names, which are Postulo's
+  // own words and the same in every language.
+  localiseWith($("token-hint"), "tokenHintScopes", [element("em", t("tokenPath")), element("code", CAPTURES), element("code", BIND)]);
+  localiseWith($("token-stored"), "tokenStored", [element("em", t("tokenPath"))]);
   const settings = await loadSettings();
   $("instance").value = settings.instance;
   $("token").value = settings.token;
@@ -49,6 +51,16 @@ async function main() {
     }
   });
 
+  $("forget").addEventListener("click", async () => {
+    try {
+      await forgetToken();
+      $("token").value = "";
+      say(t("tokenForgotten", [t("tokenPath")]));
+    } catch (error) {
+      say(explain(error), true);
+    }
+  });
+
   $("test").addEventListener("click", async () => {
     try {
       const next = values();
@@ -58,10 +70,16 @@ async function main() {
         throw new Error(t("addressRefused"));
       }
       const me = await whoAmI(next.instance, next.token);
-      const scopes = (me.scopes || []).join(", ");
-      const canCapture = (me.scopes || []).includes("captures");
+      const judged = judgeScopes(me);
+      const scopes = judged.held.join(", ");
       const who = scopes ? t("tokenIsScoped", [me.name, me.owner, scopes]) : t("tokenIs", [me.name, me.owner]);
-      say(canCapture ? who : `${who} ${t("lacksCaptures")}`, !canCapture);
+      // Wider than the extension's job, or useless to it: both are said, in the error style.
+      const warning = judged.neither
+        ? t("tokenNeither", [CAPTURES, BIND])
+        : judged.extra.length
+          ? t("tokenTooWide", [judged.extra.join(", ")])
+          : "";
+      say(warning ? `${who} ${warning}` : who, Boolean(warning));
     } catch (error) {
       say(explain(error), true);
     }
