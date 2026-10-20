@@ -7,10 +7,11 @@ import { test } from "node:test";
 const SOURCE = "src";
 const LOCALES = join(SOURCE, "_locales");
 
-// The languages the skeleton ships, as BCP 47 tags in their canonical form. A folder's name
-// is the tag with an underscore for the hyphen, which is the form Thunderbird demands.
-const OFFERED = ["en", "fr", "pt-PT"];
-const folderOf = (tag) => tag.replace("-", "_");
+// English, plus every language the core has started: src/lib/languages.js, which
+// scripts/languages.py writes from the core's roll-out. Each is a BCP 47 tag in its canonical
+// form, the way Postulo writes one. A folder's name is the tag with an underscore for the
+// hyphen, which is the form Thunderbird demands, and never a script.
+const { LANGUAGES } = await import("../src/lib/languages.js");
 
 function read(path) {
   const text = readFileSync(path, "utf8");
@@ -29,15 +30,18 @@ const { shipped } = await import("../scripts/build.mjs");
 
 const placeholdersIn = (message) => [...message.matchAll(/\$([A-Za-z_]+)\$/g)].map((match) => match[1].toLowerCase()).sort();
 
-test("the extension ships the languages it says it does, English by default", () => {
-  assert.deepEqual(folders, OFFERED.map(folderOf).sort());
+test("the extension speaks the languages Postulo does, English by default", () => {
+  // Every folder is a language the list names; a language Weblate has not handed over yet is
+  // simply not here, and the build leaves out one that is not complete.
+  const listed = LANGUAGES.map((language) => language.folder);
+  assert.deepEqual(folders.filter((folder) => !listed.includes(folder)), []);
+  assert.ok(folders.includes("en"));
   assert.equal(read(join(SOURCE, "manifest.json")).default_locale, "en");
 });
 
 test("every language code is a BCP 47 tag in its canonical form", () => {
-  for (const tag of OFFERED) {
+  for (const { tag, folder } of LANGUAGES) {
     assert.deepEqual(Intl.getCanonicalLocales(tag), [tag], tag);
-    const folder = folderOf(tag);
     assert.equal(shipped(messages[folder], folder).languageTag.message, tag, `${tag} names itself`);
   }
 });
@@ -67,7 +71,9 @@ test("placeholders are the same in every language", () => {
 test("each shipped translation says which way it is written, and the build says it", () => {
   for (const [folder, catalogue] of Object.entries(messages)) {
     assert.ok(!("languageTag" in catalogue) && !("direction" in catalogue), `${folder} holds what the build writes`);
-    assert.ok(["ltr", "rtl"].includes(shipped(catalogue, folder).direction.message), folder);
+    const language = LANGUAGES.find((one) => one.folder === folder);
+    assert.ok(["ltr", "rtl"].includes(language.direction), folder);
+    assert.equal(shipped(catalogue, folder).direction.message, language.direction, folder);
   }
 });
 

@@ -74,7 +74,7 @@ the address and the token into the extension's settings.
 ## Shared with the browser extension
 
 Talking to Postulo (`src/lib/api.js`), filling a page from the catalogues
-(`src/lib/i18n.js`, with `languages.js` and `messages.js`, which it imports), the stylesheet and the icons are postulo-chromium's, copied here.
+(`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), the stylesheet and the icons are postulo-chromium's, copied here.
 `shared.json` names the commit they were copied from and each file's SHA-256, and
 `npm test` fails when a copy no longer matches. To change one, change it there, then:
 
@@ -117,7 +117,7 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
 | `src/lib/scopes.js` | The two scopes the extension can use, and when a token holds more |
 | `src/lib/mail.js` | Reading a message's header: pure functions, tested with `node --test` |
-| `src/lib/api.js`, `src/lib/i18n.js`, `languages.js`, `messages.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
+| `src/lib/api.js`, `src/lib/i18n.js`, `messages.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |
 | `scripts/audit.mjs` | Fails CI on a new high or critical advisory in the development chain |
 | `scripts/shared.mjs` | Checks the shared files, and copies them again |

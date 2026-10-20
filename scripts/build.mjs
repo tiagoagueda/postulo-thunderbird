@@ -9,25 +9,21 @@
 
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { LANGUAGES } from "../src/lib/languages.js";
 
 const SOURCE = "src";
 const OUT = join("dist", "src");
-// Languages written right to left, by their primary subtag.
-const RTL = new Set(["ar", "fa", "he", "ur", "ps", "yi", "dv", "sd", "ug", "ckb"]);
 
-/** A folder's BCP 47 tag: the underscore Thunderbird demands is the tag's hyphen. */
-export const tagOf = (folder) => folder.replace("_", "-");
-
-/** A catalogue as it ships: the translation, and what the code asks of it about itself. */
+/** A catalogue as it ships: the translation, and what the code asks of it about itself.
+ *  The tag and direction come from src/lib/languages.js, which a folder's name cannot give:
+ *  Serbian's folder is `sr` whichever script its catalogue is written in. */
 export function shipped(catalogue, folder) {
-  const tag = tagOf(folder);
+  const language = LANGUAGES.find((one) => one.folder === folder);
+  if (!language) throw new Error(`${folder} is not a language src/lib/languages.js lists.`);
   return {
-    languageTag: { message: tag, description: "This catalogue's language: set by the build." },
-    direction: {
-      message: RTL.has(tag.split("-")[0]) ? "rtl" : "ltr",
-      description: "ltr or rtl: set by the build.",
-    },
     ...catalogue,
+    languageTag: { message: language.tag, description: "This catalogue's language: set by the build." },
+    direction: { message: language.direction, description: "ltr or rtl: set by the build." },
   };
 }
 
