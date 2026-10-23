@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Captura acest post"
+  },
+  "save": {
+    "message": "Salvează"
+  },
+  "savedNoPermission": {
+    "message": "Salvat, dar Thunderbird a refuzat permisiunea de a ajunge la ea; permiteți-l în permisiunile add-on lui."
+  },
+  "tokenTooWide": {
+    "message": "Acest jeton poate face mai mult decât necesităţile de extensie ($EXTRA$). Acesta este păstrat necriptat în acest profil: face unul cu doar domeniile de aplicare menționate mai sus, și revocă aceasta.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Configurări → jetoane API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(nici un subiect)"
+  },
+  "saved": {
+    "message": "Salvat. Acest Thunderbird este conectat la $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Uită de semn"
+  },
+  "setUp": {
+    "message": "Aranjează totul"
+  },
+  "messageFrom": {
+    "message": "Din $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Utilizați https pentru orice lucru care nu este pe propria mașină: jetonul călătorește cu fiecare cerere."
+  },
+  "notPostulo": {
+    "message": "Această adresă a răspuns, dar nu ca Postulo. Verifică adresa şi orice pagină din faţa ei."
+  },
+  "enterAddress": {
+    "message": "Introduceţi adresa Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Lăsați numele de utilizator și parola din adresa: nu s-ar conecta niciodată, iar parola ar fi afișată în popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo pentru Thunderbird: postări de locuri de muncă din e-mail, trimis la propriul Postulo. Un schelet pentru moment: se conectează și arată mesajul pe ecran, și nu surprinde încă."
+  },
+  "tokenForgotten": {
+    "message": "Semnul este uitat: nu mai este păstrat în profilul Thunderbird. Încă funcţionează până când îl revoci la $PATH$ în Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Mesajul de pe ecran"
+  },
+  "test": {
+    "message": "Test"
+  },
+  "asking": {
+    "message": "Întreabă Postulo cine este acest jeton.."
+  },
+  "notConnected": {
+    "message": "Nu este conectat la un Postulo încă."
+  },
+  "instanceHint": {
+    "message": "Adresa la care o deschizi. https, dacă nu rulează pe această mașină."
+  },
+  "tokenLabel": {
+    "message": "Token API"
+  },
+  "addressRefused": {
+    "message": "Permisiunea de a ajunge la acea adresă a fost refuzată."
+  },
+  "tokenRefused": {
+    "message": "Postulo nu acceptă acest semn. Verificați sub $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Ea nu deține nici domeniul de aplicare $CAPTURES$, nici domeniul de aplicare $BIND$, astfel încât această extensie să nu poată face nimic cu el.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Asta nu arata ca o adresă de web."
+  },
+  "notAllowed": {
+    "message": "Acest jeton nu este permis pentru a captura."
+  },
+  "tokenHintScopes": {
+    "message": "Fabricat sub $PATH$ în Postulo. Această extensie poate utiliza două domenii de aplicare: $CAPTURES$, pentru a captura o postare, și $BIND$, pentru a depune un mesaj într-o listă de istorie. Tick numai cele pe care doriți să-l folosească, și nimic altceva.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo a răspuns $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Nici un mesaj nu este pe ecran. Deschide una, apoi deschide asta din nou."
+  },
+  "notBuiltYet": {
+    "message": "Capturarea nu este construită încă. Acesta este scheletul de extensie: se conectează la Postulo și citește mesajul de pe ecran."
+  },
+  "settings": {
+    "message": "Configurări"
+  },
+  "tokenMissing": {
+    "message": "Lipeşte semnul Postulo."
+  },
+  "optionsTitle": {
+    "message": "Configurări Postulo"
+  },
+  "tokenStored": {
+    "message": "Semnul este păstrat necriptat în acest profil Thunderbird. Parola principală a lui Thunderbird nu o protejează, iar oricine poate citi dosarul de profil îl poate folosi până când îl revoci sub $PATH$ în Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Prea multe capturi într-un timp scurt. Stai puţin şi încearcă din nou."
+  },
+  "storageFull": {
+    "message": "Depozitul lui Thunderbird pentru Postulo e plin. Încercați din nou după eliminarea unor date, sau reporniți Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Postul tău"
+  },
+  "tokenIs": {
+    "message": "Tokenul „$NAME$” pentru $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Tokenul „$NAME$” pentru $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  }
+}

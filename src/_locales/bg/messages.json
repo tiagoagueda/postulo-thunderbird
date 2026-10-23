@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Хванете този пост"
+  },
+  "save": {
+    "message": "Запис"
+  },
+  "savedNoPermission": {
+    "message": "Спасен, но Thunderbird отказа разрешение да го достигне; да го позволи в добавка на разрешения."
+  },
+  "tokenTooWide": {
+    "message": "Този символ може да направи повече, отколкото това разширение се нуждае ($EXTRA$). Тя се поддържа некриптирана в този профил: направи такава само с посочените по-горе обхвати и отмени този.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Настройки → API символи"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(без предмет)"
+  },
+  "saved": {
+    "message": "Спасен. Този Тъндърбърд е свързан с $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Забравете жетона"
+  },
+  "setUp": {
+    "message": "Нагласи го"
+  },
+  "messageFrom": {
+    "message": "От $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Използвайте https за всичко, което не е на собствената си машина: знакът пътува с всяка заявка."
+  },
+  "notPostulo": {
+    "message": "На този адрес отговори, но не като Postulo. Проверете адреса и всяка страница пред него."
+  },
+  "enterAddress": {
+    "message": "Въведете адреса на вашия Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Оставете потребителското име и паролата извън адреса: той никога няма да се свърже и паролата ще бъде показана в изскачащия прозорец."
+  },
+  "extensionDescription": {
+    "message": "Postulo за Thunderbird: обяви за работа от пощата си, изпратени до собствения си Postulo. Засега скелет: свързва и показва съобщението на екрана и все още не го улавя."
+  },
+  "tokenForgotten": {
+    "message": "Знакът е забравен: вече не се съхранява в този профил на Тъндърбърд. Той все още действа, докато не го отмените под $PATH$ в Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Съобщението на екрана"
+  },
+  "test": {
+    "message": "Изпитване"
+  },
+  "asking": {
+    "message": "Питайки Postulo кой е този символ.."
+  },
+  "notConnected": {
+    "message": "Все още не е свързан с Postulo."
+  },
+  "instanceHint": {
+    "message": "Адресът, на който го отваряш. Освен ако не работи на тази машина."
+  },
+  "tokenLabel": {
+    "message": "API символ"
+  },
+  "addressRefused": {
+    "message": "Отказано е разрешение за достъп до този адрес."
+  },
+  "tokenRefused": {
+    "message": "Постуло не приема този знак. Проверете под $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Тя не съдържа нито $CAPTURES$ обхват, нито $BIND$ обхват, така че това разширение не може да направи нищо с него.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Това не прилича на уеб адрес."
+  },
+  "notAllowed": {
+    "message": "Този символ не може да бъде заловен."
+  },
+  "tokenHintScopes": {
+    "message": "Произведено под $PATH$ в Postulo. Това разширение може да използва два обхвата: $CAPTURES$, за да улови постинг, и $BIND$, за да подаде съобщение в историята на списъка. Отбележете само тези, които искате да използвате, и нищо друго.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Постуло отговори $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Няма съобщение на екрана. Отвори една и отвори отново."
+  },
+  "notBuiltYet": {
+    "message": "Залавянето още не е построено. Това е скелетът на разширението: свързва се с Вашия Postulo и чете съобщението на екрана."
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "tokenMissing": {
+    "message": "Поставете символичната Postulo ви показа."
+  },
+  "optionsTitle": {
+    "message": "Настройки на Postulo"
+  },
+  "tokenStored": {
+    "message": "Знакът е некриптиран в профила на Тъндърбърд. Основната парола на Thunderbird не я защитава и всеки, който може да чете папката с профили, може да я използва, докато я отмените под $PATH$ в Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Твърде много уловки за кратко време. Чакай малко и опитай пак."
+  },
+  "storageFull": {
+    "message": "Складът на Тъндърбърд за Postulo е пълен. Опитайте отново след премахване на някои данни, или рестартирайте Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Вашият Postulo"
+  },
+  "tokenIsScoped": {
+    "message": "Токен „$NAME$“ за $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenIs": {
+    "message": "Токен „$NAME$“ за $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  }
+}

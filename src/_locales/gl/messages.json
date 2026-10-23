@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Capturar esta oferta"
+  },
+  "save": {
+    "message": "Gardar"
+  },
+  "savedNoPermission": {
+    "message": "Gardouse, pero Thunderbird rexeitou o permiso para acceder a el; permíteo nos permisos do complemento."
+  },
+  "tokenPath": {
+    "message": "Configuración → Tokens da API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(sen asunto)"
+  },
+  "saved": {
+    "message": "Gardado. Este Thunderbird está conectado a $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Configuralo"
+  },
+  "messageFrom": {
+    "message": "De $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Usa https para todo o que non estea na túa propia máquina: o token viaxa con cada solicitude."
+  },
+  "enterAddress": {
+    "message": "Introduce o enderezo do teu Postulo."
+  },
+  "extensionDescription": {
+    "message": "Postulo para Thunderbird: ofertas de emprego do teu correo, enviadas ao teu propio Postulo. Por agora é un esqueleto: conecta e amosa a mensaxe en pantalla, pero aínda non captura."
+  },
+  "messageHeading": {
+    "message": "A mensaxe en pantalla"
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” de $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Probar"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” de $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Preguntándolle a Postulo de quen é este token…"
+  },
+  "notConnected": {
+    "message": "Aínda non está conectado a un Postulo."
+  },
+  "instanceHint": {
+    "message": "O enderezo no que o abres. https, a menos que funcione nesta máquina."
+  },
+  "tokenLabel": {
+    "message": "Token da API"
+  },
+  "addressRefused": {
+    "message": "Rexeitouse o permiso para acceder a ese enderezo."
+  },
+  "tokenRefused": {
+    "message": "Postulo non acepta este token. Comproba en $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Iso non parece un enderezo web."
+  },
+  "notAllowed": {
+    "message": "Este token non ten permiso para capturar."
+  },
+  "answered": {
+    "message": "Postulo respondeu $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Non hai ningunha mensaxe en pantalla. Abre unha e logo volve abrir isto."
+  },
+  "notBuiltYet": {
+    "message": "A captura aínda non está construída. Este é o esqueleto da extensión: conecta co teu Postulo e le a mensaxe en pantalla."
+  },
+  "settings": {
+    "message": "Configuración"
+  },
+  "tokenMissing": {
+    "message": "Pega o token que che amosou Postulo."
+  },
+  "optionsTitle": {
+    "message": "Configuración de Postulo"
+  },
+  "tooMany": {
+    "message": "Demasiadas capturas nun curto período. Agarda un minuto e téntao de novo."
+  },
+  "instanceLabel": {
+    "message": "O teu Postulo"
+  },
+  "tokenTooWide": {
+    "message": "Este token pode facer máis do que precisa esta extensión ($EXTRA$). Gárdase sen cifrar neste perfil: crea un só cos ámbitos indicados arriba e revoga este.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Esquecer o token"
+  },
+  "notPostulo": {
+    "message": "Ese enderezo respondeu, pero non como Postulo. Comproba o enderezo e calquera páxina de inicio de sesión que haxa diante."
+  },
+  "noCredentialsInAddress": {
+    "message": "Deixa o nome de usuario e o contrasinal fóra do enderezo: nunca conectaría e o contrasinal mostraríase na xanela emerxente."
+  },
+  "tokenForgotten": {
+    "message": "O token esqueceuse: xa non se garda neste perfil de Thunderbird. Segue funcionando ata que o revogues en $PATH$ no Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Non ten nin o ámbito $CAPTURES$ nin o ámbito $BIND$, así que esta extensión non pode facer nada con el.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Créase en $PATH$ no Postulo. Esta extensión pode usar dous ámbitos: $CAPTURES$, para capturar unha oferta, e $BIND$, para arquivar unha mensaxe no historial dunha oferta. Marca só os que queiras que use, e nada máis.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "O token gárdase sen cifrar neste perfil de Thunderbird. O contrasinal principal de Thunderbird non o protexe, e calquera que poida ler o cartafol do perfil pode usalo ata que o revogues en $PATH$ no Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "O almacenamento de Thunderbird para o Postulo está cheo. Téntao de novo despois de eliminar algúns datos ou reinicia Thunderbird."
+  }
+}

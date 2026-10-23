@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Fang dette innlegget"
+  },
+  "save": {
+    "message": "Lagre"
+  },
+  "savedNoPermission": {
+    "message": "Spart, men Thunderbird nektet tillatelse til å nå det; la det i tilleggets tillatelser."
+  },
+  "tokenTooWide": {
+    "message": "Dette symbolet kan gjøre mer enn dette utvidelsesbehovet ($EXTRA$). Den holdes ukryptert i denne profilen: lage en med bare omfangene nevnt ovenfor, og trekke denne tilbake.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Innstillinger → API-tokens"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(ingen emne)"
+  },
+  "saved": {
+    "message": "Reddet. Denne Thunderbird er koblet til $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Glem token"
+  },
+  "setUp": {
+    "message": "Sett det opp"
+  },
+  "messageFrom": {
+    "message": "Fra $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Bruk https for alt som ikke er på egen maskin: token reiser med alle forespørsler."
+  },
+  "notPostulo": {
+    "message": "Denne adressen svarte, men ikke som Postulo. Sjekk adressen og alle innloggingssider foran den."
+  },
+  "enterAddress": {
+    "message": "Skriv inn adressen til din Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "La brukernavnet og passordet være ute av adressen: det ville aldri koble til, og passordet vil bli vist i popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo for Thunderbird: jobbinnlegg fra din e-post, sendt til din egen Postulo. Et skjelett for nå: det kobler til og viser meldingen på skjermen, og fanger ikke enda."
+  },
+  "tokenForgotten": {
+    "message": "Tone er glemt: det er ikke lenger holdt i denne Thunderbird-profilen. Det fungerer til du trekker det tilbake under $PATH$ i Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Meldingen på skjermen"
+  },
+  "tokenIs": {
+    "message": "Token \\\"$NAME$\\\" for $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Test"
+  },
+  "tokenIsScoped": {
+    "message": "Token \\\"$NAME$\\\" for $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Spør Postulo hvem dette symbolet er.."
+  },
+  "notConnected": {
+    "message": "Ikke koblet til en Postulo ennå."
+  },
+  "instanceHint": {
+    "message": "Adressen du åpner den på. https, med mindre det kjører på denne maskinen."
+  },
+  "tokenLabel": {
+    "message": "API-token"
+  },
+  "addressRefused": {
+    "message": "Tillatelse til å nå denne adressen ble nektet."
+  },
+  "tokenRefused": {
+    "message": "Postulo godtar ikke dette symbolet. Sjekk det under $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Det holder verken $CAPTURES$ omfang eller $BIND$ omfang, så denne utvidelsen kan ikke gjøre noe med det.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Det ser ikke ut som en webadresse."
+  },
+  "notAllowed": {
+    "message": "Dette symbolet er ikke tillatt å fange."
+  },
+  "tokenHintScopes": {
+    "message": "Laget under $PATH$ i Postulo. Denne utvidelsen kan bruke to rekkevidder: $CAPTURES$, til å fange innlegg, og $BIND$, til å sende en melding til en oppførings historie. Tick bare de du vil bruke, og ingenting annet.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Ingen melding er på skjermen. Åpne en, så åpne denne igjen."
+  },
+  "notBuiltYet": {
+    "message": "Capturing er ikke bygget ennå. Dette er skjelettet i forlengelsen: den kobler til Postulo og leser meldingen på skjermen."
+  },
+  "settings": {
+    "message": "Innstillinger"
+  },
+  "tokenMissing": {
+    "message": "Lim inn den token Postulo viste deg."
+  },
+  "optionsTitle": {
+    "message": "Postulo-innstillinger"
+  },
+  "tokenStored": {
+    "message": "Token holdes ukryptert i denne Thunderbird-profilen. Thunderbirds primære passord beskytter det ikke, og alle som kan lese profilmappen kan bruke det til du trekker det tilbake under $PATH$ i Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "For mange fanger på kort tid. Vent litt og prøv igjen."
+  },
+  "storageFull": {
+    "message": "Thunderbirds lager for Postulo er fullt. Prøv igjen etter å ha fjernet noen data, eller start Thunderbird på nytt."
+  },
+  "instanceLabel": {
+    "message": "Din Postulo"
+  },
+  "answered": {
+    "message": "Postulo svarte $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  }
+}

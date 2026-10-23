@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Zachyťte to vysílání"
+  },
+  "save": {
+    "message": "Uložit"
+  },
+  "savedNoPermission": {
+    "message": "Zachráněn, ale Thunderbird odmítl povolení k jeho dosažení; povolit to v add- on oprávnění."
+  },
+  "tokenTooWide": {
+    "message": "Tento symbol může udělat více, než toto rozšíření potřebuje ($EXTRA$). V tomto profilu je udržován nešifrovaný: vytvořte jeden pouze s výše uvedenými mikroskopy a tento smažte.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Nastavení → API tokeny"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(bez předmětu)"
+  },
+  "saved": {
+    "message": "Zachráněn. Tento Thunderbird je spojen s $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Zapomeň na symbol"
+  },
+  "setUp": {
+    "message": "Připravte to"
+  },
+  "messageFrom": {
+    "message": "Od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Použijte https pro vše, co není na vašem počítači: token cestuje s každou žádost."
+  },
+  "notPostulo": {
+    "message": "Ta adresa odpověděla, ale ne jako Postulo. Zkontroluj adresu a každou stránku před ní."
+  },
+  "enterAddress": {
+    "message": "Zadejte adresu svého Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Uživatelské jméno a heslo vynechte z adresy: nikdy se nespojí a heslo bude zobrazeno v popu."
+  },
+  "extensionDescription": {
+    "message": "Postulo pro Thunderbird: pracovní příspěvky z vaší pošty, zaslané do vašeho vlastního Postulo. Kostra pro tuto chvíli: spojuje a zobrazuje zprávu na obrazovce, a zatím nezachycuje."
+  },
+  "tokenForgotten": {
+    "message": "Ukázka je zapomenuta: už není v profilu Thunderbird. Pořád to funguje, dokud to nestáhnete pod $PATH$ v Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Zpráva na obrazovce"
+  },
+  "tokenIs": {
+    "message": "Token \"$NAME$\" pro $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Zkouška"
+  },
+  "tokenIsScoped": {
+    "message": "Token \"$NAME$\" pro $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Zeptat se Postula, kdo je ten symbol.."
+  },
+  "notConnected": {
+    "message": "Ještě není spojen s Postulem."
+  },
+  "instanceHint": {
+    "message": "Adresa, na které ji otevíráš. https, pokud to neběží na tomto stroji."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "Povolení k dosažení této adresy bylo zamítnuto."
+  },
+  "tokenRefused": {
+    "message": "Postulo toto znamení nepřijímá. Zkontrolujte to pod $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Nemá ani rozsah $CAPTURES$, ani rozsah $BIND$, takže toto rozšíření s ním nemůže nic dělat.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "To nevypadá jako webová adresa."
+  },
+  "notAllowed": {
+    "message": "Tento symbol nesmí být zachycen."
+  },
+  "tokenHintScopes": {
+    "message": "Vyrobeno pod $PATH$ v Postulu. Toto rozšíření může použít dva skoky: $CAPTURES$, zachytit vyslání, a $BIND$, k podání zprávy do historie seznamu. Zaškrtněte pouze ty, které chcete použít, a nic jiného.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo odpověděl $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Žádná zpráva není na obrazovce. Otevři jeden a pak znovu otevři tohle."
+  },
+  "notBuiltYet": {
+    "message": "Zachycení ještě není postaveno. Toto je kostra rozšíření: připojí se k Vašemu Postulo a přečte zprávu na obrazovce."
+  },
+  "settings": {
+    "message": "Nastavení"
+  },
+  "tokenMissing": {
+    "message": "Vložit symbol Postulo vám ukázal."
+  },
+  "optionsTitle": {
+    "message": "Nastavení Postulo"
+  },
+  "tokenStored": {
+    "message": "Token je v tomhle profilu Thunderbird nešifrovaný. Primární heslo Thunderbirdu ho nechrání a každý, kdo si může přečíst složku profilu, ho může použít, dokud jej nestáhnete pod $PATH$ v Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Příliš mnoho zachycení v krátké době. Počkej chvíli a zkus to znovu."
+  },
+  "storageFull": {
+    "message": "Thunderbird 's Storage for Postulo je plný. Zkuste to znovu po odstranění některých dat, nebo restart Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Vaše Postulo"
+  }
+}

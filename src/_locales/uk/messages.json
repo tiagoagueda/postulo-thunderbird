@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Захоплення цього повідомлення"
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "savedNoPermission": {
+    "message": "Збережено, але Thunderbird відмовилася від дозволу, щоб дістатися до неї; дозволяти йому в дозволу на додачу."
+  },
+  "tokenTooWide": {
+    "message": "Цей токен може зробити більше, ніж ці потреби розширення ($EXTRA$). Він зберіг нешифрований в цьому профілі: зробити один з одним тільки обсягами, названими вище, і відкликати це.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Налаштування → API токени"
+  },
+  "actionTitle": {
+    "message": "Плакати"
+  },
+  "noSubject": {
+    "message": "(без предмета)"
+  },
+  "saved": {
+    "message": "Збережено. Цей Thunderbird підключений до $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Забудьте токен"
+  },
+  "setUp": {
+    "message": "Встановити його"
+  },
+  "messageFrom": {
+    "message": "$SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Використовуйте HTTPS для будь-якого, що не на вашому власному машині: токен подорожі з кожним запитом."
+  },
+  "notPostulo": {
+    "message": "Ця адреса відповів, але не як Postulo. Перевірити адресу і будь-яку сторінку входу в неї."
+  },
+  "enterAddress": {
+    "message": "Введіть адресу електронної пошти."
+  },
+  "extensionDescription": {
+    "message": "Postulo для Thunderbird: вакансії з вашої пошти, відправлені на власний поштовий лист. Ракель тепер: він з'єднує і показує повідомлення на екрані, і ще не захоплює."
+  },
+  "tokenForgotten": {
+    "message": "Токен забутий: він більше не зберігається в цьому профілі Thunderbird. До тих пір, поки ви відродите його під $PATH$ в Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Повідомлення на екран"
+  },
+  "tokenIs": {
+    "message": "Token \"$NAME$\" для $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Тестування"
+  },
+  "tokenIsScoped": {
+    "message": "Token \"$NAME$\" для $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Запитати Postulo, хто це токени є .."
+  },
+  "notConnected": {
+    "message": "Не підключено до Postulo."
+  },
+  "instanceHint": {
+    "message": "Адреса, яку ви відкриваєте. HTTPS, якщо він працює на цій машині."
+  },
+  "tokenLabel": {
+    "message": "API токени"
+  },
+  "addressRefused": {
+    "message": "Запобігання досягнутню цієї адреси відмовлено."
+  },
+  "tokenRefused": {
+    "message": "Postulo не приймає цього токена. Перевірити його під $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Не має значення $CAPTURES$, ані $BIND$, тому це розширення не може зробити нічого з ним.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Що не схожий на веб-адресу."
+  },
+  "notAllowed": {
+    "message": "Цей токен не допускається для захоплення."
+  },
+  "tokenHintScopes": {
+    "message": "$PATH$ в Postulo. Це розширення може використовувати дві сфери: $CAPTURES$, щоб захопити постінг, і $BIND$, щоб подати повідомлення в історію списку. Вибачте тільки ті, які ви хочете використовувати, і нічого іншого.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "$STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Немає повідомлення на екрані. Відкрийте, потім знову відкрийте."
+  },
+  "notBuiltYet": {
+    "message": "Захоплення ще не побудовано. Це скелет розширення: він підключений до вашого Postulo і читає повідомлення на екрані."
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "tokenMissing": {
+    "message": "Продемонстрували вас токени Postulo."
+  },
+  "optionsTitle": {
+    "message": "Налаштування Postulo"
+  },
+  "tokenStored": {
+    "message": "Токен зберіг нешифрований в цьому профілі Thunderbird. Первинний пароль Thunderbird не захищає його, і кожен, хто може читати папку профілю, може використовувати його, поки ви відкликаєте його під $PATH$ в Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Занадто багато захоплень в короткий час. Зачекайте хвилину і спробуйте знову."
+  },
+  "storageFull": {
+    "message": "Зберігання Thunderbird для Postulo. Спробуйте знову після видалення деяких даних або перезавантажити Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Ваше повідомлення"
+  },
+  "noCredentialsInAddress": {
+    "message": "Не вказуйте ім'я користувача й пароль в адресі: з'єднання ніколи не встановиться, а пароль буде показано у спливному вікні."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Прикупи овај оглас"
+  },
+  "save": {
+    "message": "Сачувај"
+  },
+  "savedNoPermission": {
+    "message": "Сачувано, али је Thunderbird одбио дозволу за приступ; дозволите то у дозволама додатка."
+  },
+  "tokenPath": {
+    "message": "Подешавања → API токени"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(без теме)"
+  },
+  "saved": {
+    "message": "Сачувано. Овај Thunderbird је повезан са $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Подесите га"
+  },
+  "messageFrom": {
+    "message": "Од $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Користите https за све што није на вашем рачунару: токен путује са сваким захтевом."
+  },
+  "enterAddress": {
+    "message": "Унесите адресу вашег Postulo-а."
+  },
+  "extensionDescription": {
+    "message": "Postulo за Thunderbird: огласи за посао из ваше поште, послати вашем Postulo-у. За сада само скелет: повезује се и приказује поруку на екрану, а још не прикупља огласе."
+  },
+  "messageHeading": {
+    "message": "Порука на екрану"
+  },
+  "tokenIs": {
+    "message": "Токен “$NAME$” за $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Тестирај"
+  },
+  "tokenIsScoped": {
+    "message": "Токен “$NAME$” за $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Питам Postulo чији је овај токен…"
+  },
+  "notConnected": {
+    "message": "Још није повезано са Postulo-ом."
+  },
+  "instanceHint": {
+    "message": "Адреса на којој га отварате. https, осим ако ради на овом рачунару."
+  },
+  "tokenLabel": {
+    "message": "API токен"
+  },
+  "addressRefused": {
+    "message": "Дозвола за приступ тој адреси је одбијена."
+  },
+  "tokenRefused": {
+    "message": "Postulo не прихвата овај токен. Проверите га под $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Ово не личи на веб адресу."
+  },
+  "notAllowed": {
+    "message": "Овом токену није дозвољено да прикупља."
+  },
+  "answered": {
+    "message": "Postulo је одговорио $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "На екрану нема поруке. Отворите једну, па поново отворите ово."
+  },
+  "notBuiltYet": {
+    "message": "Прикупљање још није направљено. Ово је скелет проширења: повезује се са вашим Postulo-ом и чита поруку на екрану."
+  },
+  "settings": {
+    "message": "Подешавања"
+  },
+  "tokenMissing": {
+    "message": "Налепите токен који вам је Postulo приказао."
+  },
+  "optionsTitle": {
+    "message": "Postulo подешавања"
+  },
+  "tooMany": {
+    "message": "Превише прикупљања за кратко време. Сачекајте минут и покушајте поново."
+  },
+  "instanceLabel": {
+    "message": "Ваш Postulo"
+  },
+  "tokenTooWide": {
+    "message": "Овај токен може више него што је овом додатку потребно ($EXTRA$). Чува се нешифрован у овом профилу: направите токен само са горе наведеним опсезима и опозовите овај.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Заборави токен"
+  },
+  "notPostulo": {
+    "message": "Та адреса је одговорила, али не као Postulo. Проверите адресу и било коју страницу за пријављивање испред ње."
+  },
+  "noCredentialsInAddress": {
+    "message": "Изоставите корисничко име и лозинку из адресе: веза се никада не би успоставила, а лозинка би била приказана у искачућем прозору."
+  },
+  "tokenForgotten": {
+    "message": "Токен је заборављен: више се не чува у овом Thunderbird профилу. И даље ради док га не опозовете под $PATH$ у Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Нема ни опсег $CAPTURES$ ни опсег $BIND$, па овај додатак не може ништа да уради с њим.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Прави се под $PATH$ у Postulo. Овај додатак може да користи два опсега: $CAPTURES$, за прикупљање огласа, и $BIND$, за додавање поруке у историју огласа. Означите само оне које желите да користи, и ништа више.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Токен се чува нешифрован у овом Thunderbird профилу. Главна лозинка Thunderbird га не штити, и свако ко може да чита фасциклу профила може да га користи док га не опозовете под $PATH$ у Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Складиште Thunderbird за Postulo је пуно. Покушајте поново након што уклоните део података или поново покрените Thunderbird."
+  }
+}

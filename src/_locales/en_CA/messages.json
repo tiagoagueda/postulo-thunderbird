@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Capture this posting"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "savedNoPermission": {
+    "message": "Saved, but Thunderbird refused permission to reach it; allow it in the add-on's permissions."
+  },
+  "tokenPath": {
+    "message": "Settings → API tokens"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(no subject)"
+  },
+  "saved": {
+    "message": "Saved. This Thunderbird is connected to $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Set it up"
+  },
+  "messageFrom": {
+    "message": "From $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Use https for anything that is not on your own machine: the token travels with every request."
+  },
+  "enterAddress": {
+    "message": "Enter the address of your Postulo."
+  },
+  "extensionDescription": {
+    "message": "Postulo for Thunderbird: job postings from your mail, sent to your own Postulo. A skeleton for now: it connects and shows the message on screen, and does not capture yet."
+  },
+  "messageHeading": {
+    "message": "The message on screen"
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” for $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Test"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” for $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Asking Postulo who this token is…"
+  },
+  "notConnected": {
+    "message": "Not connected to a Postulo yet."
+  },
+  "instanceHint": {
+    "message": "The address you open it at. https, unless it runs on this machine."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "Permission to reach that address was refused."
+  },
+  "tokenRefused": {
+    "message": "Postulo does not accept this token. Check it under $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "That does not look like a web address."
+  },
+  "notAllowed": {
+    "message": "This token is not allowed to capture."
+  },
+  "answered": {
+    "message": "Postulo answered $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "No message is on screen. Open one, then open this again."
+  },
+  "notBuiltYet": {
+    "message": "Capturing is not built yet. This is the skeleton of the extension: it connects to your Postulo and reads the message on screen."
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "tokenMissing": {
+    "message": "Paste the token Postulo showed you."
+  },
+  "optionsTitle": {
+    "message": "Postulo settings"
+  },
+  "tooMany": {
+    "message": "Too many captures in a short time. Wait a minute and try again."
+  },
+  "instanceLabel": {
+    "message": "Your Postulo"
+  },
+  "tokenTooWide": {
+    "message": "This token can do more than this extension needs ($EXTRA$). It is kept unencrypted in this profile: make one with only the scopes named above, and revoke this one.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Forget token"
+  },
+  "notPostulo": {
+    "message": "That address answered, but not as Postulo. Check the address, and any sign-in page in front of it."
+  },
+  "noCredentialsInAddress": {
+    "message": "Leave the user name and password out of the address: it would never connect, and the password would be shown in the popup."
+  },
+  "tokenForgotten": {
+    "message": "The token is forgotten: it is no longer kept in this Thunderbird profile. It still works until you revoke it under $PATH$ in Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "It holds neither the $CAPTURES$ scope nor the $BIND$ scope, so this extension can do nothing with it.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Made under $PATH$ in Postulo. This extension can use two scopes: $CAPTURES$, to capture a posting, and $BIND$, to file a message into a listing's history. Tick only the ones you want it to use, and nothing else.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "The token is kept unencrypted in this Thunderbird profile. Thunderbird's primary password does not protect it, and anyone who can read the profile folder can use it until you revoke it under $PATH$ in Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Thunderbird's storage for Postulo is full. Try again after removing some data, or restart Thunderbird."
+  }
+}

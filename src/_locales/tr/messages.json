@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Bu postayı yakalayın"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "savedNoPermission": {
+    "message": "Kaydeten, ancak Thunderbird buna ulaşma izni reddetti; ek-on'un iznine izin verin."
+  },
+  "tokenPath": {
+    "message": "Ayarlar"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(hayır konusu)"
+  },
+  "saved": {
+    "message": "Kurtarın. Bu Thunderbird $HOST$ ile bağlantılıdır.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Unutma token"
+  },
+  "setUp": {
+    "message": "Set it up up"
+  },
+  "messageFrom": {
+    "message": "$SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Kendi makinenizde olmayan bir şey için https kullanın: token her istekle seyahat eder."
+  },
+  "notPostulo": {
+    "message": "Bu adres cevap verdi, ancak Postulo olarak değil. Adresi kontrol edin ve bunun önünde herhangi bir işaret sayfası."
+  },
+  "enterAddress": {
+    "message": "Postulo'nun adresini girin."
+  },
+  "noCredentialsInAddress": {
+    "message": "Kullanıcı adını ve şifreyi adres dışında bırakın: asla bağlantı kurmayacak ve şifre popup'da gösterilecekti."
+  },
+  "extensionDescription": {
+    "message": "Thunderbird için Postulo: postanızdan iş yayınları, kendi Postulo'nuza gönderilir. Şimdilik bir iskelet: ekrandaki mesajı bağlar ve gösterir ve henüz yakalamaz."
+  },
+  "tokenForgotten": {
+    "message": "Token unutuluyor: artık bu Thunderbird profilinde tutulmadı. Yine de Postulo'da $PATH$ altında geri dönene kadar çalışır.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Ekrandaki mesaj"
+  },
+  "test": {
+    "message": "Test Testi"
+  },
+  "asking": {
+    "message": "Bu token'in kim olduğunu sormak .."
+  },
+  "notConnected": {
+    "message": "Henüz bir Postulo ile bağlantılı değil."
+  },
+  "instanceHint": {
+    "message": "Bunu açıkladığınız adres. https, bu makinede çalışmadığı sürece."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "Bu adrese ulaşma izni reddedildi."
+  },
+  "tokenRefused": {
+    "message": "Postulo bunu token kabul etmiyor. $PATH$ altında kontrol edin.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "$CAPTURES$ kapsamı ne de $BIND$ kapsamı tutar, bu nedenle bu uzatma bununla hiçbir şey yapamaz.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Bu bir web adresi gibi görünmüyor."
+  },
+  "notAllowed": {
+    "message": "Bu token yakalamaya izin verilmez."
+  },
+  "tokenHintScopes": {
+    "message": "Postulo'da $PATH$ altında yapılır. Bu uzatma iki kapsamı kullanabilir: $CAPTURES$, bir yayın yakalamak ve $BIND$, bir liste tarihine mesaj vermek için. Sadece kullanmak istediğiniz kişiler ve başka hiçbir şey.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo cevap verdi $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Hiçbir mesaj ekranda değildir. Bir tane açın, sonra tekrar açın."
+  },
+  "notBuiltYet": {
+    "message": "Capturing henüz inşa edilmedi. Bu uzatmanın iskeletidir: Postulo'ya bağlanır ve ekranda mesajı okur."
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "tokenMissing": {
+    "message": "Token Postulo sizi gösterdi."
+  },
+  "optionsTitle": {
+    "message": "Postulo ayarları"
+  },
+  "tokenStored": {
+    "message": "Token bu Thunderbird profilinde şifrelenmez. Thunderbird'in birincil şifresi onu korumaz ve profil klasörünü okuyabilen herkes bunu Postulo'da $PATH$ altında geri döndürene kadar kullanabilir.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Çok fazla kişi kısa sürede yakalar. Bir dakika bekleyin ve tekrar deneyin."
+  },
+  "storageFull": {
+    "message": "Thunderbird Postulo için depolama tam. Bazı verileri kaldırarak tekrar deneyin veya Thunderbird'i yeniden başlatın."
+  },
+  "instanceLabel": {
+    "message": "Your Postulo"
+  },
+  "tokenIs": {
+    "message": "$OWNER$ için “$NAME$” belirteci.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Bu belirteç, bu eklentinin ihtiyacından fazlasını yapabilir ($EXTRA$). Bu profilde şifrelenmeden saklanır: yalnızca yukarıda adı geçen kapsamlarla yeni bir belirteç oluşturun ve bunu iptal edin.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "$OWNER$ için “$NAME$” belirteci ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  }
+}

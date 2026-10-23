@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Užfiksuoti šį skelbimą"
+  },
+  "save": {
+    "message": "Įrašyti"
+  },
+  "savedNoPermission": {
+    "message": "Išsaugota, bet Thunderbird atsisakė suteikti leidimą jį pasiekti; leiskite tai priedo leidimuose."
+  },
+  "tokenPath": {
+    "message": "Nustatymai → API prieigos raktai"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(be temos)"
+  },
+  "saved": {
+    "message": "Išsaugota. Šis Thunderbird prijungtas prie $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Nustatyti"
+  },
+  "messageFrom": {
+    "message": "Nuo $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Naudokite https visur, kas nėra jūsų kompiuteryje: raktas siunčiamas su kiekviena užklausa."
+  },
+  "enterAddress": {
+    "message": "Įveskite savo Postulo adresą."
+  },
+  "extensionDescription": {
+    "message": "Postulo, skirtas Thunderbird: darbo skelbimai iš jūsų pašto, siunčiami į jūsų pačių Postulo. Kol kas tik pagrindas: jungiasi ir rodo ekrane esantį laišką, bet dar nefiksuoja."
+  },
+  "messageHeading": {
+    "message": "Ekrane esantis laiškas"
+  },
+  "tokenIs": {
+    "message": "Raktas „$NAME$“, skirtas $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Išbandyti"
+  },
+  "tokenIsScoped": {
+    "message": "Raktas „$NAME$“, skirtas $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Klausiama Postulo, kam skirtas šis raktas…"
+  },
+  "notConnected": {
+    "message": "Dar neprijungta prie Postulo."
+  },
+  "instanceHint": {
+    "message": "Adresas, kuriuo jį atidarote. https, nebent veikia šiame kompiuteryje."
+  },
+  "tokenLabel": {
+    "message": "API prieigos raktas"
+  },
+  "addressRefused": {
+    "message": "Leidimas pasiekti šį adresą buvo atmestas."
+  },
+  "tokenRefused": {
+    "message": "Postulo šio rakto nepriima. Patikrinkite jį skiltyje $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Tai neatrodo kaip interneto adresas."
+  },
+  "notAllowed": {
+    "message": "Šiam raktui fiksuoti neleidžiama."
+  },
+  "answered": {
+    "message": "Postulo atsakė $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Ekrane nėra laiško. Atidarykite laišką ir tada vėl atidarykite šį langą."
+  },
+  "notBuiltYet": {
+    "message": "Fiksavimas dar neįdiegtas. Tai tik plėtinio pagrindas: jis jungiasi prie jūsų Postulo ir skaito ekrane esantį laišką."
+  },
+  "settings": {
+    "message": "Nustatymai"
+  },
+  "tokenMissing": {
+    "message": "Įklijuokite raktą, kurį parodė Postulo."
+  },
+  "optionsTitle": {
+    "message": "Postulo nustatymai"
+  },
+  "tooMany": {
+    "message": "Per daug fiksavimų per trumpą laiką. Palaukite minutę ir bandykite dar kartą."
+  },
+  "instanceLabel": {
+    "message": "Jūsų Postulo"
+  },
+  "tokenTooWide": {
+    "message": "Šis raktas gali daugiau, nei reikia šiam plėtiniui ($EXTRA$). Jis šiame profilyje saugomas nešifruotas: sukurkite raktą tik su aukščiau nurodytomis aprėptimis ir atšaukite šį.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Pamiršti raktą"
+  },
+  "notPostulo": {
+    "message": "Šiuo adresu gautas atsakymas, bet ne Postulo. Patikrinkite adresą ir bet kokį prisijungimo puslapį prieš jį."
+  },
+  "noCredentialsInAddress": {
+    "message": "Neįrašykite naudotojo vardo ir slaptažodžio į adresą: ryšys niekada nebūtų užmegztas, o slaptažodis būtų rodomas iškylančiajame lange."
+  },
+  "tokenForgotten": {
+    "message": "Raktas pamirštas: jis nebelaikomas šiame Thunderbird profilyje. Jis vis dar veikia, kol jo neatšauksite Postulo skiltyje $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Jame nėra nei $CAPTURES$, nei $BIND$ aprėpties, todėl šis plėtinys su juo nieko negali padaryti.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Sukuriamas Postulo skiltyje $PATH$. Šis plėtinys gali naudoti dvi aprėptis: $CAPTURES$ – skelbimui fiksuoti ir $BIND$ – laiškui įtraukti į skelbimo istoriją. Pažymėkite tik tas, kurias norite leisti naudoti, ir nieko daugiau.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Šiame Thunderbird profilyje raktas saugomas nešifruotas. Pagrindinis Thunderbird slaptažodis jo neapsaugo, ir kiekvienas, galintis skaityti profilio aplanką, gali jį naudoti, kol jo neatšauksite Postulo skiltyje $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Thunderbird saugykla, skirta Postulo, pilna. Pašalinkite dalį duomenų ir bandykite dar kartą arba iš naujo paleiskite Thunderbird."
+  }
+}

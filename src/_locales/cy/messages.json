@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Dal yr hysbyseb hon"
+  },
+  "save": {
+    "message": "Cadw"
+  },
+  "savedNoPermission": {
+    "message": "Wedi'i gadw, ond gwrthododd Thunderbird ganiatâd i'w gyrraedd; caniatewch hynny yng nghaniatâd yr ychwanegyn."
+  },
+  "tokenTooWide": {
+    "message": "Gall y tocyn hwn wneud mwy nag sydd ei angen ar yr estyniad hwn ($EXTRA$). Mae'n cael ei gadw heb ei amgryptio yn y proffil hwn: gwnewch un gyda'r cwmpasau a enwir uchod yn unig, a dirymwch yr un hwn.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Gosodiadau → Tocynnau API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(dim pwnc)"
+  },
+  "saved": {
+    "message": "Wedi'i gadw. Mae'r Thunderbird hwn wedi'i gysylltu â $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Anghofio'r tocyn"
+  },
+  "setUp": {
+    "message": "Ei osod"
+  },
+  "messageFrom": {
+    "message": "Oddi wrth $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Defnyddiwch https ar gyfer unrhyw beth nad yw ar eich peiriant eich hun: mae'r tocyn yn teithio gyda phob cais."
+  },
+  "notPostulo": {
+    "message": "Atebodd y cyfeiriad hwnnw, ond nid fel Postulo. Gwiriwch y cyfeiriad, ac unrhyw dudalen mewngofnodi o'i flaen."
+  },
+  "enterAddress": {
+    "message": "Rhowch gyfeiriad eich Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Gadewch yr enw defnyddiwr a'r cyfrinair allan o'r cyfeiriad: fyddai e byth yn cysylltu, a byddai'r cyfrinair yn cael ei ddangos yn y ffenestr naid."
+  },
+  "extensionDescription": {
+    "message": "Postulo ar gyfer Thunderbird: hysbysebion swyddi o'ch post, wedi'u hanfon i'ch Postulo eich hun. Sgerbwd am y tro: mae'n cysylltu ac yn dangos y neges ar y sgrin, a dyw e ddim yn dal eto."
+  },
+  "tokenForgotten": {
+    "message": "Mae'r tocyn wedi'i anghofio: dyw e ddim yn cael ei gadw yn y proffil Thunderbird hwn mwyach. Mae'n dal i weithio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Y neges ar y sgrin"
+  },
+  "tokenIs": {
+    "message": "Tocyn “$NAME$” ar gyfer $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Profi"
+  },
+  "tokenIsScoped": {
+    "message": "Tocyn “$NAME$” ar gyfer $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Yn gofyn i Postulo pwy biau'r tocyn hwn…"
+  },
+  "notConnected": {
+    "message": "Heb gysylltu â Postulo eto."
+  },
+  "instanceHint": {
+    "message": "Y cyfeiriad rydych chi'n ei agor arno. https, oni bai ei fod yn rhedeg ar y peiriant hwn."
+  },
+  "tokenLabel": {
+    "message": "Tocyn API"
+  },
+  "addressRefused": {
+    "message": "Gwrthodwyd caniatâd i gyrraedd y cyfeiriad hwnnw."
+  },
+  "tokenRefused": {
+    "message": "Dydy Postulo ddim yn derbyn y tocyn hwn. Gwiriwch ef o dan $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Does ganddo ddim y cwmpas $CAPTURES$ na'r cwmpas $BIND$, felly all yr estyniad hwn wneud dim ag ef.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Dydy hwnna ddim yn edrych fel cyfeiriad gwe."
+  },
+  "notAllowed": {
+    "message": "Does gan y tocyn hwn ddim caniatâd i ddal."
+  },
+  "tokenHintScopes": {
+    "message": "Caiff ei wneud o dan $PATH$ yn Postulo. Gall yr estyniad hwn ddefnyddio dau gwmpas: $CAPTURES$, i ddal hysbyseb, a $BIND$, i ffeilio neges yn hanes hysbyseb. Ticiwch dim ond y rhai rydych chi am iddo eu defnyddio, a dim byd arall.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Atebodd Postulo $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Does dim neges ar y sgrin. Agorwch un, yna agorwch hwn eto."
+  },
+  "notBuiltYet": {
+    "message": "Dyw dal ddim wedi'i adeiladu eto. Dyma sgerbwd yr estyniad: mae'n cysylltu â'ch Postulo ac yn darllen y neges ar y sgrin."
+  },
+  "settings": {
+    "message": "Gosodiadau"
+  },
+  "tokenMissing": {
+    "message": "Gludwch y tocyn a ddangosodd Postulo i chi."
+  },
+  "optionsTitle": {
+    "message": "Gosodiadau Postulo"
+  },
+  "tokenStored": {
+    "message": "Mae'r tocyn yn cael ei gadw heb ei amgryptio yn y proffil Thunderbird hwn. Dyw prif gyfrinair Thunderbird ddim yn ei warchod, a gall unrhyw un sy'n gallu darllen ffolder y proffil ei ddefnyddio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Gormod o ddalfeydd mewn amser byr. Arhoswch funud a rhowch gynnig arall arni."
+  },
+  "storageFull": {
+    "message": "Mae storfa Thunderbird ar gyfer Postulo yn llawn. Rhowch gynnig arall arni ar ôl tynnu rhywfaint o ddata, neu ailgychwynnwch Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Eich Postulo"
+  }
+}

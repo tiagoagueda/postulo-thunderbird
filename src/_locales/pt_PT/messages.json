@@ -1,6 +1,6 @@
 {
   "extensionDescription": {
-    "message": "Postulo para o Thunderbird: as ofertas de emprego do seu correio, enviadas para o seu próprio Postulo. Por agora é um esqueleto: liga-se e mostra a mensagem no ecrã, e ainda não captura."
+    "message": "Postulo para o Thunderbird: os anúncios de emprego do seu correio, enviados para o seu próprio Postulo. Por agora é um esqueleto: liga-se e mostra a mensagem no ecrã, e ainda não captura."
   },
   "actionTitle": {
     "message": "Postulo"
@@ -133,5 +133,66 @@
   },
   "capture": {
     "message": "Capturar este anúncio"
+  },
+  "tokenTooWide": {
+    "message": "Este token pode fazer mais do que esta extensão precisa ($EXTRA$). Fica guardado sem cifragem neste perfil: crie um apenas com os âmbitos indicados acima e revogue este.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Esquecer o token"
+  },
+  "notPostulo": {
+    "message": "Esse endereço respondeu, mas não como o Postulo. Verifique o endereço e qualquer página de início de sessão à frente dele."
+  },
+  "noCredentialsInAddress": {
+    "message": "Não inclua o nome de utilizador nem a palavra-passe no endereço: a ligação nunca seria estabelecida, e a palavra-passe seria mostrada na janela pop-up."
+  },
+  "tokenForgotten": {
+    "message": "O token foi esquecido: já não está guardado neste perfil do Thunderbird. Continua a funcionar até o revogar em $PATH$ no Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Não detém nem o âmbito $CAPTURES$ nem o âmbito $BIND$, pelo que esta extensão não pode fazer nada com ele.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Criado em $PATH$ no Postulo. Esta extensão pode usar dois âmbitos: $CAPTURES$, para capturar um anúncio, e $BIND$, para arquivar uma mensagem no histórico de um anúncio. Assinale apenas os que quer que ela use, e nada mais.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "O token fica guardado sem cifragem neste perfil do Thunderbird. A palavra-passe principal do Thunderbird não o protege, e qualquer pessoa que consiga ler a pasta do perfil pode usá-lo até o revogar em $PATH$ no Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "O armazenamento do Thunderbird para o Postulo está cheio. Tente novamente depois de remover alguns dados, ou reinicie o Thunderbird."
   }
 }

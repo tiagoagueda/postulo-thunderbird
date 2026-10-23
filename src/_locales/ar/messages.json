@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "التقط هذا الموقع"
+  },
+  "save": {
+    "message": "أنقذ"
+  },
+  "savedNoPermission": {
+    "message": "وفّر، لكنّ (ثندربيرد) رفض الإذن للوصول إليه، السماح بذلك في تصريحات الإضافات."
+  },
+  "tokenTooWide": {
+    "message": "This token can do more than this extension needs ($EXTRA$). It is kept unencrypted in this profile: make one with only the scopes named above, and revoke this one.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Settings s API tokens"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(لا موضوع)"
+  },
+  "saved": {
+    "message": "منقذ هذا الطائر الرعد مرتبط بـ $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "انسي أمرك"
+  },
+  "setUp": {
+    "message": "أعدها"
+  },
+  "messageFrom": {
+    "message": "من $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "استعملوا مواقعكم لأي شيء ليس على جهازكم الخاص.."
+  },
+  "notPostulo": {
+    "message": "ذلك العنوان أجاب، لكن ليس كـ (سولو). تحقق من العنوان، وأي صفحة أمامه."
+  },
+  "enterAddress": {
+    "message": "أدخل عنوان البريد."
+  },
+  "noCredentialsInAddress": {
+    "message": "دع اسم المستخدم وكلمة السر خارج العنوان: لن يتواصل أبداً، وستظهر كلمة السر في البابا."
+  },
+  "extensionDescription": {
+    "message": "بريدولو لثندربيرد الوظائف من بريدك أرسل إلى بريدك الخاص هيكل عظمي للآن إنه يربط ويظهر الرسالة على الشاشة ولا يلتقطها بعد."
+  },
+  "tokenForgotten": {
+    "message": "لقد نسي (توكن) لم يعد محتفظاً به في ملف (ثاندر بيرد) هذا لا يزال يعمل حتى تلغيه تحت $PATH$ في بوستولو.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "الرسالة على الشاشة"
+  },
+  "test": {
+    "message": "الاختبار"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” for $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "أسأل (سولو) من هو هذا المُلكي.."
+  },
+  "notConnected": {
+    "message": "ليس متصلاً بـ \" بوستولو \" بعد."
+  },
+  "instanceHint": {
+    "message": "العنوان الذي تفتحه ما لم يتم تشغيل هذه الآلة."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "ورُفض الإذن بالوصول إلى هذا العنوان."
+  },
+  "tokenRefused": {
+    "message": "البريد لا يقبل هذا تحقق من ذلك تحت $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "وهي لا تملك نطاق $CAPTURES$ ولا نطاق $BIND$، لذا لا يمكن لهذا التمديد أن يفعل أي شيء به.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "هذا لا يبدو كعنوان على الشبكة."
+  },
+  "notAllowed": {
+    "message": "ليس مسموحاً للقبض عليه."
+  },
+  "tokenHintScopes": {
+    "message": "صنع تحت $PATH$ في Postulo. هذا التمديد يمكن أن يستخدم مجالين: $CAPTURES$، لالتقاط البريد، و $BIND$، لتقديم رسالة في تاريخ الإدراج. فقط من تريد استخدامها، ولا شيء آخر.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "لا توجد رسالة على الشاشة افتحي واحدة ثم افتحي هذا مجدداً."
+  },
+  "notBuiltYet": {
+    "message": "لم يتم بناء القدرات بعد هذا هو الهيكل الأساسي للتمديد إنه يتواصل مع رئيسك ويقرأ الرسالة على الشاشة."
+  },
+  "settings": {
+    "message": "الترتيبات"
+  },
+  "tokenMissing": {
+    "message": "(أظهر لك (توكين بوستولو."
+  },
+  "optionsTitle": {
+    "message": "Postulo settings"
+  },
+  "tokenStored": {
+    "message": "المُخدّر يُبقي غير مُشفّر في هذا ملف (ثندربيرد). كلمة السر الرئيسية لـ (ثندربيرد) لا تحميها، وأي شخص يمكنه قراءة ملف الملف يمكن أن يستخدمه حتى تلغيه تحت $PATH$ في بوستولو.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "الكثير من الأسر في وقت قصير انتظر لحظة وحاول مرة أخرى."
+  },
+  "storageFull": {
+    "message": "مخزن (ثندربيرد) لـ (سولو) ممتلئ حاول مرة أخرى بعد إزالة بعض البيانات، أو إعادة ثندربيرد."
+  },
+  "instanceLabel": {
+    "message": "سول"
+  },
+  "tokenIs": {
+    "message": "الرمز «$NAME$» لـ $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "answered": {
+    "message": "ردّ Postulo بـ $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  }
+}

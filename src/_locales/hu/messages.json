@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Hirdetés rögzítése"
+  },
+  "save": {
+    "message": "Mentés"
+  },
+  "savedNoPermission": {
+    "message": "Mentve, de a Thunderbird megtagadta az engedélyt az eléréséhez; engedélyezze a bővítmény engedélyeinél."
+  },
+  "tokenPath": {
+    "message": "Beállítások → API-tokenek"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(nincs tárgy)"
+  },
+  "saved": {
+    "message": "Mentve. Ez a Thunderbird csatlakozik ide: $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Beállítás"
+  },
+  "messageFrom": {
+    "message": "Feladó: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Használjon https-t minden olyan címhez, amely nem az Ön gépén van: a token minden kéréssel együtt utazik."
+  },
+  "enterAddress": {
+    "message": "Adja meg a Postulo címét."
+  },
+  "extensionDescription": {
+    "message": "Postulo Thunderbirdhöz: álláshirdetések a leveleiből, a saját Postulójába küldve. Egyelőre csak vázlat: csatlakozik és megjeleníti a képernyőn lévő levelet, de még nem rögzít."
+  },
+  "messageHeading": {
+    "message": "A képernyőn lévő levél"
+  },
+  "tokenIs": {
+    "message": "„$NAME$” token – $OWNER$ részére.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Tesztelés"
+  },
+  "tokenIsScoped": {
+    "message": "„$NAME$” token – $OWNER$ részére ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "A Postulo megkérdezése, kié ez a token…"
+  },
+  "notConnected": {
+    "message": "Még nincs Postulóhoz csatlakoztatva."
+  },
+  "instanceHint": {
+    "message": "A cím, amelyen megnyitja. https, kivéve ha ezen a gépen fut."
+  },
+  "tokenLabel": {
+    "message": "API-token"
+  },
+  "addressRefused": {
+    "message": "A cím elérésére vonatkozó engedélyt megtagadták."
+  },
+  "tokenRefused": {
+    "message": "A Postulo nem fogadja el ezt a tokent. Ellenőrizze itt: $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Ez nem tűnik webcímnek."
+  },
+  "notAllowed": {
+    "message": "Ez a token nem rögzíthet."
+  },
+  "answered": {
+    "message": "A Postulo ezt válaszolta: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Nincs levél a képernyőn. Nyisson meg egyet, majd nyissa meg ezt újra."
+  },
+  "notBuiltYet": {
+    "message": "A rögzítés még nincs elkészítve. Ez a bővítmény váza: csatlakozik a Postulójához, és beolvassa a képernyőn lévő levelet."
+  },
+  "settings": {
+    "message": "Beállítások"
+  },
+  "tokenMissing": {
+    "message": "Illessze be a tokent, amelyet a Postulo mutatott."
+  },
+  "optionsTitle": {
+    "message": "Postulo-beállítások"
+  },
+  "tooMany": {
+    "message": "Túl sok rögzítés rövid idő alatt. Várjon egy percet, és próbálja újra."
+  },
+  "instanceLabel": {
+    "message": "Az Ön Postuloja"
+  },
+  "tokenTooWide": {
+    "message": "Ez a token többre képes, mint amire ennek a bővítménynek szüksége van ($EXTRA$). Titkosítatlanul tárolódik ebben a profilban: hozzon létre egyet csak a fent megnevezett hatókörökkel, és vonja vissza ezt.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Token elfelejtése"
+  },
+  "notPostulo": {
+    "message": "Ez a cím válaszolt, de nem Postulóként. Ellenőrizze a címet és az előtte lévő bejelentkezési oldalt, ha van ilyen."
+  },
+  "noCredentialsInAddress": {
+    "message": "Hagyja ki a felhasználónevet és a jelszót a címből: így soha nem csatlakozna, és a jelszó megjelenne a felugró ablakban."
+  },
+  "tokenForgotten": {
+    "message": "A token el lett felejtve: már nem tárolódik ebben a Thunderbird-profilban. Továbbra is működik, amíg vissza nem vonja a Postulóban, a(z) $PATH$ menüpontban.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Nem rendelkezik sem a(z) $CAPTURES$, sem a(z) $BIND$ hatókörrel, ezért ez a bővítmény semmit sem tud kezdeni vele.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "A Postulóban, a(z) $PATH$ menüpontban hozható létre. Ez a bővítmény két hatókört használhat: $CAPTURES$ – hirdetés rögzítéséhez, és $BIND$ – üzenet hirdetés előzményeihez csatolásához. Csak azokat jelölje be, amelyeket használni szeretne vele, semmi mást.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "A token titkosítatlanul tárolódik ebben a Thunderbird-profilban. A Thunderbird elsődleges jelszava nem védi, és bárki, aki el tudja olvasni a profilmappát, használhatja, amíg vissza nem vonja a Postulóban, a(z) $PATH$ menüpontban.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "A Thunderbird Postulo számára fenntartott tárhelye megtelt. Próbálja újra néhány adat eltávolítása után, vagy indítsa újra a Thunderbirdöt."
+  }
+}

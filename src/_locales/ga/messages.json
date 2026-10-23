@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Gabháil phost seo"
+  },
+  "save": {
+    "message": "Sábháil"
+  },
+  "savedNoPermission": {
+    "message": "Sábháil, ach dhiúltaigh Thunderbird cead chun é a bhaint amach; lig sé sna ceadanna a chur ar."
+  },
+  "tokenTooWide": {
+    "message": "Is féidir leis an dearbhán a dhéanamh níos mó ná an riachtanais síneadh ($EXTRA$). Coinnítear é gan chriptiú sa phróifíl seo: ceann a dhéanamh leis na raonta atá ainmnithe thuas, agus an ceann seo a chúlghairm.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Socruithe → comharthaí API"
+  },
+  "actionTitle": {
+    "message": "Taiseachas aeir: fliuch"
+  },
+  "noSubject": {
+    "message": "(gan ábhar)"
+  },
+  "saved": {
+    "message": "Sábháil. Tá an Thunderbird ceangailte le $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Déan teagmháil linn"
+  },
+  "setUp": {
+    "message": "Socraigh sé suas"
+  },
+  "messageFrom": {
+    "message": "Ó $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Bain úsáid as https le haghaidh aon rud nach bhfuil ar do mheaisín féin: taistealann an dearbhán le gach iarratas."
+  },
+  "notPostulo": {
+    "message": "D'fhreagair an seoladh sin, ach ní mar Postulo. Seiceáil an seoladh, agus aon leathanach sínithe os a chomhair."
+  },
+  "enterAddress": {
+    "message": "Cuir isteach seoladh do Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Fág an t-ainm úsáideora agus focal faire as an seoladh: ní bheadh sé ceangal, agus bheadh an focal faire a thaispeáint sa popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo do Thunderbird: postálacha poist ó do phost, a sheoladh chuig do Postulo féin. A creatlach do anois: nascann sé agus léiríonn sé an teachtaireacht ar an scáileán, agus ní ghabháil go fóill."
+  },
+  "tokenForgotten": {
+    "message": "Is é an dearbhán dearmad: tá sé a thuilleadh a choinneáil sa phróifíl Thunderbird. Oibríonn sé fós go dtí go ndéanann tú é a chúlghairm faoi $PATH$ in Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "An teachtaireacht ar an scáileán"
+  },
+  "tokenIs": {
+    "message": "Token \"$NAME$\" le haghaidh $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Tástáil"
+  },
+  "tokenIsScoped": {
+    "message": "Token \"$NAME$\" le haghaidh $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Asking Postulo a bhfuil an chomhartha seo.."
+  },
+  "notConnected": {
+    "message": "Gan a bheith ceangailte le Postulo go fóill."
+  },
+  "instanceHint": {
+    "message": "An seoladh a osclaíonn tú é ag. https, mura ritheann sé ar an meaisín seo."
+  },
+  "tokenLabel": {
+    "message": "Token API"
+  },
+  "addressRefused": {
+    "message": "Diúltaíodh cead chun an seoladh sin a bhaint amach."
+  },
+  "tokenRefused": {
+    "message": "Ní ghlacann Postulo leis an dearbhán seo. Seiceáil é faoi $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Tá sé nach bhfuil an $CAPTURES$ raon feidhme ná an $BIND$ raon feidhme, mar sin is féidir an síneadh a dhéanamh rud ar bith leis.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Ní cuma mhaith seoladh gréasáin."
+  },
+  "notAllowed": {
+    "message": "Ní cheadaítear an dearbhán seo a ghabháil."
+  },
+  "tokenHintScopes": {
+    "message": "Déanta faoi $PATH$ i Postulo. Is féidir leis an síneadh seo dhá raon feidhme a úsáid: $CAPTURES$, postáil a ghabháil, agus $BIND$, teachtaireacht a chomhdú i stair liostála. Tioc ach na cinn is mian leat é a úsáid, agus aon rud eile.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "D'fhreagair Postulo $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Níl aon teachtaireacht ar an scáileán. Oscailte amháin, ansin oscailte seo arís."
+  },
+  "notBuiltYet": {
+    "message": "Níl sé tógtha go fóill. Is é seo an creatlach an síneadh: nascann sé le do Postulo agus léann sé an teachtaireacht ar an scáileán."
+  },
+  "settings": {
+    "message": "An tSraith Shinsearach"
+  },
+  "tokenMissing": {
+    "message": "Léirigh an chomhartha Postulo duit."
+  },
+  "optionsTitle": {
+    "message": "Seirbhís do Chustaiméirí"
+  },
+  "tokenStored": {
+    "message": "Coinnítear an dearbhán gan chriptiú sa phróifíl Thunderbird seo. Ní dhéanann Focal faire bunscoile Thunderbird é a chosaint, agus is féidir le duine ar bith ar féidir leo an fillteán próifíl a léamh é a úsáid go dtí go bhfuil tú a chúlghairm faoi $PATH$ i Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Too gabhálacha go leor i ghearr ama. Fan nóiméad agus déan iarracht arís."
+  },
+  "storageFull": {
+    "message": "Tá stóráil Thunderbird do Postulo iomlán. Bain triail as arís tar éis roinnt sonraí a bhaint, nó Thunderbird atosú."
+  },
+  "instanceLabel": {
+    "message": "Do Postas"
+  }
+}
