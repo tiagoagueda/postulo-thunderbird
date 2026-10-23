@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "抓取此文章"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "savedNoPermission": {
+    "message": "有被拯救了 但是雷鳥拒絕了取回它; 在附加的取回權限中取回它."
+  },
+  "tokenTooWide": {
+    "message": "此符號能做多於此延伸需要 ($EXTRA$). 它被不加密地保存在這個檔案中: 做一個只有上方所命名的範圍的,并取消它 .",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "設定 ~ API 令牌"
+  },
+  "actionTitle": {
+    "message": "波斯杜洛"
+  },
+  "noSubject": {
+    "message": "(無主題)"
+  },
+  "saved": {
+    "message": "有被取出. 這只雷鳥接通了 $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "忘了指使牌"
+  },
+  "setUp": {
+    "message": "就地取出"
+  },
+  "messageFrom": {
+    "message": "从 $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "使用 https 在您自有相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相關相相相關相相關相相相相關相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+  },
+  "notPostulo": {
+    "message": "他的住址被接通了 但是不是波斯圖洛所接通的 查下地址和前面的任何登入頁面."
+  },
+  "enterAddress": {
+    "message": "輸入您的 Postulo 地址 ."
+  },
+  "noCredentialsInAddress": {
+    "message": "在通訊錄中放出使用者名和口令: 它永遠不會接通 ."
+  },
+  "extensionDescription": {
+    "message": "有工作被寄去自已的Postulo. 有一具骨架: 它能連接并顯示相關訊息到螢幕上, 但尚未被取出 ."
+  },
+  "messageHeading": {
+    "message": "屏幕上的消息"
+  },
+  "tokenIs": {
+    "message": "“$NAME$”指$OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "測試"
+  },
+  "tokenIsScoped": {
+    "message": "2. “$NAME$”指$OWNER$($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "在問波斯圖克到底是誰"
+  },
+  "notConnected": {
+    "message": "尚未接通一輛波斯圖."
+  },
+  "instanceHint": {
+    "message": "有你打開的地址 有相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相相相相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+  },
+  "tokenLabel": {
+    "message": "API 令牌"
+  },
+  "addressRefused": {
+    "message": "有被拒絕去取取地址."
+  },
+  "tokenRefused": {
+    "message": "Postulo 不接受此符號 。 在 $PATH$下取取.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "它既不能有 $CAPTURES$ 範圍,又能有 $BIND$ 範圍, 因此這個延伸可以無所事事.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "它看起來不像是網址."
+  },
+  "notAllowed": {
+    "message": "它不能被取出."
+  },
+  "tokenHintScopes": {
+    "message": "在波斯圖洛由$PATH$出品. 此延伸可以使用兩個範圍: $CAPTURES$,取出一通通訊; $BIND$,取出一通訊息入列的歷史. 就去想取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "波斯都洛接了 $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "屏幕上沒有訊息 。 打開一通再打開一通."
+  },
+  "notBuiltYet": {
+    "message": "抓取尚未建立 。 這是延伸檔的骨架: 它能連接到您的 Postulo 在屏幕上讀取信件 ."
+  },
+  "settings": {
+    "message": "設定值"
+  },
+  "tokenMissing": {
+    "message": "貼上所展示的花花公子."
+  },
+  "optionsTitle": {
+    "message": "Postulo 設定值"
+  },
+  "tokenStored": {
+    "message": "在 Sunderbird 描述檔中未加密此符號 。 有能讀取相關資料夾的人可以用到, 直到您在 Postulo $PATH$ 下取出相關資料夾.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "有太多的捕捉 在很短的时间内。 等一下再想一想."
+  },
+  "storageFull": {
+    "message": "有雷鳥去接波斯圖洛了 在移除一些相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相相關相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+  },
+  "instanceLabel": {
+    "message": "您的 Pposulo"
+  },
+  "tokenForgotten": {
+    "message": "已忘記此權杖：它不再保存在這個 Thunderbird 設定檔中。在您於 Postulo 的 $PATH$ 下撤銷它之前，它仍然有效。",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "اِس سوال کا جواب دیں"
+  },
+  "save": {
+    "message": "محفوظ کریں"
+  },
+  "savedNoPermission": {
+    "message": "محفوظ لیکن تھنڈر نے اس تک پہنچنے کی اجازت دینے سے انکار کر دیا؛ اسے اضافی-ون کے اجازوں میں اجازت دے دیں۔."
+  },
+  "tokenPath": {
+    "message": "ترتیبات کی علامات"
+  },
+  "actionTitle": {
+    "message": "پوسٹلو"
+  },
+  "noSubject": {
+    "message": "کوئی موضوع نہیں"
+  },
+  "saved": {
+    "message": "محفوظ. یہ تھنڈربراڈ $HOST$ سے منسلک ہے۔.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "نشان بھول جاؤ"
+  },
+  "setUp": {
+    "message": "اسے نیچے رکھو"
+  },
+  "messageFrom": {
+    "message": "$SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "کسی بھی ایسی چیز کے لیے استعمال کریں جو آپ کی مشین پر نہیں ہے: علامہ اقبال ہر درخواست کے ساتھ سفر کرتے ہیں۔."
+  },
+  "notPostulo": {
+    "message": "اِس سوال کا جواب لیکن پوسٹلو کے طور پر نہیں ۔ پتہ چیک کریں، اور اس کے سامنے کسی بھی علامت کا صفحہ۔."
+  },
+  "enterAddress": {
+    "message": "اپنے پوسٹلؤ کے پتہ میں داخل."
+  },
+  "noCredentialsInAddress": {
+    "message": "صارف کا نام اور پاس ورڈ چھوڑنے کو: یہ کبھی بھی متصل نہیں ہوگا اور پاپ اپ میں پاس ورڈ دکھائی دے گا۔."
+  },
+  "extensionDescription": {
+    "message": "Thunderbred کے لئے پوسٹلو: آپ کی ڈاک سے ملازمت، اپنے پوسٹل میں بھیج. اب کے لئے ایک آلہ: یہ رابطہ کرتا ہے اور پردے پر پیغام دکھاتا ہے اور ابھی تک قبضہ نہیں کرتا۔."
+  },
+  "tokenForgotten": {
+    "message": "علامت کو فراموش کر دیا گیا ہے: اب اس تھنڈر کردہ پروڈیوس میں نہیں رکھا گیا ہے۔ یہ اب بھی کام کرتا ہے جب تک آپ اسے پوسٹولو میں $PATH$ کے تحت منسوخ کر دیں.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "سکرین پر پیغام"
+  },
+  "test": {
+    "message": "جانچ"
+  },
+  "asking": {
+    "message": "یہ نشان کون ہے .."
+  },
+  "notConnected": {
+    "message": "ابھی تک ایک پوسٹلو سے وابستہ نہیں۔."
+  },
+  "instanceHint": {
+    "message": "آپ اسے کھلا. ایس ."
+  },
+  "tokenLabel": {
+    "message": "علامات"
+  },
+  "addressRefused": {
+    "message": "اس پتہ تک پہنچنے کی اجازت نہیں دی گئی تھی ۔."
+  },
+  "notAnAddress": {
+    "message": "یہ ویب سائٹ کی طرح نہیں لگتا."
+  },
+  "notAllowed": {
+    "message": "اس نشان کو پکڑنے کی اجازت نہیں ہے۔."
+  },
+  "answered": {
+    "message": "پوسٹلؤ نے $STATUS$ جواب دیا۔.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "کوئی پیام پردے پر نہیں ہے۔ ایک کھولو، پھر یہ دوبارہ کھولیں."
+  },
+  "notBuiltYet": {
+    "message": "ابھی کپتانی نہیں کی گئی ہے۔ یہ توسیعی فضاء ہے: یہ آپ کے پوسٹل سے متصل ہے اور اسکرین پر پیغام پڑھتی ہے۔."
+  },
+  "settings": {
+    "message": "ترتیبات"
+  },
+  "tokenMissing": {
+    "message": "علامہ اقبال نے آپ کو دکھا دیا۔."
+  },
+  "optionsTitle": {
+    "message": "فوری ترتیبات"
+  },
+  "tokenStored": {
+    "message": "اس تھنڈر کردہ پروڈیوس میں علامت کو بے ترتیب رکھا جاتا ہے۔ تھنڈرڈ کا پرائمری پاس ورڈ اس کی حفاظت نہیں کرتا اور جو بھی پروڈیوس کرتا ہے وہ اسے اس وقت تک استعمال کر سکتا ہے جب تک کہ آپ اسے پوسٹولو میں $PATH$ کے تحت منسوخ کر دیں۔.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "بہت سے لوگ مختصر عرصے میں قبضہ کر لیتے ہیں۔ ایک منٹ رکو اور پھر کوشش کریں۔."
+  },
+  "storageFull": {
+    "message": "Thunderbird کا ذخیرہ Populo کے لیے مکمل ہے۔ کچھ اعداد و شمار کو حذف کرنے کے بعد دوبارہ کوشش کریں یا پھر دوبارہ تھنڈربارڈ۔."
+  },
+  "instanceLabel": {
+    "message": "آپکا پوسٹ"
+  },
+  "tokenIsScoped": {
+    "message": "$OWNER$ کے لیے ٹوکن “$NAME$” ($SCOPES$)۔",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenRefused": {
+    "message": "Postulo یہ ٹوکن قبول نہیں کرتا۔ اسے $PATH$ کے تحت چیک کریں۔",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenIs": {
+    "message": "$OWNER$ کے لیے ٹوکن “$NAME$”۔",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "اس میں نہ $CAPTURES$ اسکوپ ہے اور نہ $BIND$ اسکوپ، اس لیے یہ ایکسٹینشن اس کے ساتھ کچھ نہیں کر سکتی۔",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Postulo میں $PATH$ کے تحت بنایا گیا۔ یہ ایکسٹینشن دو اسکوپ استعمال کر سکتی ہے: $CAPTURES$، کسی اشتہار کو محفوظ کرنے کے لیے، اور $BIND$، کسی پیغام کو اشتہار کی تاریخ میں درج کرنے کے لیے۔ صرف وہی منتخب کریں جو آپ اس سے استعمال کروانا چاہتے ہیں، اور کچھ نہیں۔",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "یہ ٹوکن اس ایکسٹینشن کی ضرورت سے زیادہ کام کر سکتا ہے ($EXTRA$)۔ یہ اس پروفائل میں بغیر انکرپشن کے رکھا جاتا ہے: اوپر بتائے گئے اسکوپس کے ساتھ ہی ایک نیا ٹوکن بنائیں، اور اسے منسوخ کر دیں۔",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Erfassen Sie dieses Posting"
+  },
+  "save": {
+    "message": "Sparen"
+  },
+  "savedNoPermission": {
+    "message": "Gespeichert, aber Thunderbird verweigerte die Erlaubnis, es zu erreichen; erlauben Sie es in den Berechtigungen des Add-ons."
+  },
+  "tokenTooWide": {
+    "message": "Dieses Token kann mehr als diese Erweiterung benötigt ($EXTRA$). Es wird in diesem Profil unverschlüsselt gehalten: Machen Sie eins mit nur den oben genannten Bereichen und widerrufen Sie dieses.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Einstellungen → API-Token"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(kein thema)"
+  },
+  "saved": {
+    "message": "Gerettet. Dieser Thunderbird ist mit $HOST$ verbunden.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Vergessen Sie den Token"
+  },
+  "setUp": {
+    "message": "Setzen Sie es auf"
+  },
+  "messageFrom": {
+    "message": "Aus $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Verwenden Sie https für alles, was sich nicht auf Ihrem eigenen Computer befindet: Der Token reist mit jeder Anforderung."
+  },
+  "notPostulo": {
+    "message": "Diese adresse antwortete, aber nicht als postulo. Überprüfen Sie die Adresse und jede Anmeldeseite davor."
+  },
+  "enterAddress": {
+    "message": "Geben Sie die Adresse Ihres Postulo ein."
+  },
+  "noCredentialsInAddress": {
+    "message": "Lassen Sie den Benutzernamen und das Passwort aus der Adresse: Es würde sich niemals verbinden, und das Passwort würde im Popup angezeigt."
+  },
+  "extensionDescription": {
+    "message": "Postulo für Thunderbird: Stellenausschreibungen aus Ihrer Post, die an Ihre eigene Postulo gesendet werden. Ein Skelett für jetzt: Es verbindet sich und zeigt die Nachricht auf dem Bildschirm und erfasst noch nicht."
+  },
+  "tokenForgotten": {
+    "message": "Das Token wird vergessen: Es wird nicht mehr in diesem Thunderbird-Profil gehalten. Es funktioniert immer noch, bis Sie es unter $PATH$ in Postulo widerrufen haben.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Die Nachricht auf dem Bildschirm"
+  },
+  "tokenIs": {
+    "message": "Zeichen \"$NAME$\" für $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Test"
+  },
+  "tokenIsScoped": {
+    "message": "Zeichen „$NAME$ für $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Postulo fragen, wer dieses Token ist .."
+  },
+  "notConnected": {
+    "message": "Noch nicht mit einem Postulo verbunden."
+  },
+  "instanceHint": {
+    "message": "Die Adresse, unter der Sie es öffnen. https, es sei denn, es läuft auf dieser Maschine."
+  },
+  "tokenLabel": {
+    "message": "API-Token"
+  },
+  "addressRefused": {
+    "message": "Die Erlaubnis, diese Adresse zu erreichen, wurde abgelehnt."
+  },
+  "tokenRefused": {
+    "message": "Postulo akzeptiert dieses Token nicht. Überprüfen Sie es unter $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Es hält weder den $CAPTURES$ Bereich noch den $BIND$ Bereich, so dass diese Erweiterung nichts damit anfangen kann.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Das sieht nicht aus wie eine Webadresse."
+  },
+  "notAllowed": {
+    "message": "Dieses Token darf nicht erfasst werden."
+  },
+  "tokenHintScopes": {
+    "message": "Hergestellt unter $PATH$ in Postulo. Diese Erweiterung kann zwei Bereiche verwenden: $CAPTURES$, um ein Posting zu erfassen, und $BIND$, um eine Nachricht in den Verlauf eines Eintrags einzugeben. Klicken Sie nur auf die, die Sie verwenden möchten, und sonst nichts.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo antwortete $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Keine Nachricht ist auf dem Bildschirm. Öffnen Sie eine, dann öffnen Sie diese wieder."
+  },
+  "notBuiltYet": {
+    "message": "Capturing ist noch nicht gebaut. Dies ist das Skelett der Erweiterung: Es verbindet sich mit Ihrem Postulo und liest die Nachricht auf dem Bildschirm."
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "tokenMissing": {
+    "message": "Fügen Sie das Token Postulo zeigte Ihnen."
+  },
+  "optionsTitle": {
+    "message": "Postulo-Einstellungen"
+  },
+  "tokenStored": {
+    "message": "Der Token wird in diesem Thunderbird-Profil unverschlüsselt aufbewahrt. Das primäre Passwort von Thunderbird schützt es nicht, und jeder, der den Profilordner lesen kann, kann es verwenden, bis Sie es unter $PATH$ in Postulo widerrufen haben.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Zu viele Captures in kurzer Zeit. Warten Sie eine Minute und versuchen Sie es erneut."
+  },
+  "storageFull": {
+    "message": "Thunderbirds Speicher für Postulo ist voll. Versuchen Sie es erneut, nachdem Sie einige Daten entfernt haben, oder starten Sie Thunderbird neu."
+  },
+  "instanceLabel": {
+    "message": "Dein Postulo"
+  }
+}

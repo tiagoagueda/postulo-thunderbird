@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Uhvati ovaj oglas"
+  },
+  "save": {
+    "message": "Sačuvaj"
+  },
+  "savedNoPermission": {
+    "message": "Sačuvano, ali Thunderbird je odbio dozvolu da dođe do njega; dozvolite to u dozvolama dodatka."
+  },
+  "tokenTooWide": {
+    "message": "Ovaj token može više nego što ovom proširenju treba ($EXTRA$). Čuva se nešifrovan u ovom profilu: napravite token samo s gore navedenim opsezima i opozovite ovaj.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Postavke → API tokeni"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(bez predmeta)"
+  },
+  "saved": {
+    "message": "Sačuvano. Ovaj Thunderbird je povezan s $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Zaboravi token"
+  },
+  "setUp": {
+    "message": "Postavi"
+  },
+  "messageFrom": {
+    "message": "Od: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Koristite https za sve što nije na vašem vlastitom računaru: token putuje sa svakim zahtjevom."
+  },
+  "notPostulo": {
+    "message": "Ta adresa je odgovorila, ali ne kao Postulo. Provjerite adresu i eventualnu stranicu za prijavu ispred nje."
+  },
+  "enterAddress": {
+    "message": "Unesite adresu svog Postula."
+  },
+  "noCredentialsInAddress": {
+    "message": "Izostavite korisničko ime i lozinku iz adrese: veza se nikad ne bi uspostavila, a lozinka bi se prikazala u skočnom prozoru."
+  },
+  "extensionDescription": {
+    "message": "Postulo za Thunderbird: oglasi za posao iz vaše pošte, poslani u vaš vlastiti Postulo. Zasad samo kostur: povezuje se i prikazuje poruku na ekranu, ali još ne hvata."
+  },
+  "tokenForgotten": {
+    "message": "Token je zaboravljen: više se ne čuva u ovom Thunderbird profilu. I dalje radi dok ga ne opozovete u $PATH$ u Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Poruka na ekranu"
+  },
+  "tokenIs": {
+    "message": "Token „$NAME$“ za $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Testiraj"
+  },
+  "tokenIsScoped": {
+    "message": "Token „$NAME$“ za $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Pitamo Postulo čiji je ovaj token…"
+  },
+  "notConnected": {
+    "message": "Još niste povezani ni s jednim Postulom."
+  },
+  "instanceHint": {
+    "message": "Adresa na kojoj ga otvarate. https, osim ako radi na ovom računaru."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "Dozvola da se dođe do te adrese je odbijena."
+  },
+  "tokenRefused": {
+    "message": "Postulo ne prihvata ovaj token. Provjerite ga u $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Ne sadrži ni opseg $CAPTURES$ ni opseg $BIND$, pa ovo proširenje s njim ne može ništa.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "To ne izgleda kao web adresa."
+  },
+  "notAllowed": {
+    "message": "Ovom tokenu nije dozvoljeno hvatanje."
+  },
+  "tokenHintScopes": {
+    "message": "Pravi se u $PATH$ u Postulu. Ovo proširenje može koristiti dva opsega: $CAPTURES$, za hvatanje oglasa, i $BIND$, za dodavanje poruke u historiju oglasa. Označite samo one koje želite da koristi, i ništa drugo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo je odgovorio: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Nijedna poruka nije na ekranu. Otvorite jednu, a zatim ponovo otvorite ovo."
+  },
+  "notBuiltYet": {
+    "message": "Hvatanje još nije napravljeno. Ovo je kostur proširenja: povezuje se s vašim Postulom i čita poruku na ekranu."
+  },
+  "settings": {
+    "message": "Postavke"
+  },
+  "tokenMissing": {
+    "message": "Zalijepite token koji vam je Postulo pokazao."
+  },
+  "optionsTitle": {
+    "message": "Postavke Postula"
+  },
+  "tokenStored": {
+    "message": "Token se čuva nešifrovan u ovom Thunderbird profilu. Glavna lozinka Thunderbirda ga ne štiti, i svako ko može čitati folder profila može ga koristiti dok ga ne opozovete u $PATH$ u Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Previše hvatanja u kratkom vremenu. Sačekajte minutu i pokušajte ponovo."
+  },
+  "storageFull": {
+    "message": "Pohrana Thunderbirda za Postulo je puna. Pokušajte ponovo nakon uklanjanja nekih podataka ili ponovo pokrenite Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Vaš Postulo"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Dës Annonce erfaassen"
+  },
+  "save": {
+    "message": "Späicheren"
+  },
+  "savedNoPermission": {
+    "message": "Gespäichert, mä Thunderbird huet d'Erlaabnis refuséiert, en z'erreechen; erlaabt et an den Autorisatioune vum Add-on."
+  },
+  "tokenTooWide": {
+    "message": "Dësen Token kann méi, wéi dës Erweiderung brauch ($EXTRA$). E gëtt onverschlësselt an dësem Profil gespäichert: maacht een, deen nëmmen déi uewe genannte Beräicher huet, a widderrufft dësen.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Astellungen → API-Tokens"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(kee Sujet)"
+  },
+  "saved": {
+    "message": "Gespäichert. Dësen Thunderbird ass mat $HOST$ verbonnen.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Token vergiessen"
+  },
+  "setUp": {
+    "message": "Ariichten"
+  },
+  "messageFrom": {
+    "message": "Vun $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Benotzt https fir alles, wat net op Ärem eegene Computer ass: den Token reest mat all Ufro mat."
+  },
+  "notPostulo": {
+    "message": "Dës Adress huet geäntwert, awer net als Postulo. Kontrolléiert d'Adress an eventuell Umeldesäiten doran."
+  },
+  "enterAddress": {
+    "message": "Gitt d'Adress vun Ärem Postulo an."
+  },
+  "noCredentialsInAddress": {
+    "message": "Loosst de Benotzernumm an d'Passwuert aus der Adress eraus: domat géif ni eng Verbindung zustane kommen, an d'Passwuert géif am Popup ugewise ginn."
+  },
+  "extensionDescription": {
+    "message": "Postulo fir Thunderbird: Stellenannoncen aus Ärer Mail, un Ären eegene Postulo geschéckt. Fir de Moment e Gerüst: et verbënnt sech a weist de Message um Schierm, mä erfaasst nach näischt."
+  },
+  "tokenForgotten": {
+    "message": "Den Token ass vergiess: e gëtt net méi an dësem Thunderbird-Profil gespäichert. E funktionéiert nach, bis Dir en am Postulo ënner $PATH$ widderrufft.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "De Message um Schierm"
+  },
+  "tokenIs": {
+    "message": "Token „$NAME$“ fir $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Testen"
+  },
+  "tokenIsScoped": {
+    "message": "Token „$NAME$“ fir $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "De Postulo gëtt gefrot, wiem dësen Token gehéiert…"
+  },
+  "notConnected": {
+    "message": "Nach net mat engem Postulo verbonnen."
+  },
+  "instanceHint": {
+    "message": "D'Adress, ënner där Dir en opmaacht. https, ausser e leeft op dësem Computer."
+  },
+  "tokenLabel": {
+    "message": "API-Token"
+  },
+  "addressRefused": {
+    "message": "D'Erlaabnis, dës Adress z'erreechen, gouf refuséiert."
+  },
+  "tokenRefused": {
+    "message": "De Postulo akzeptéiert dësen Token net. Kuckt en ënner $PATH$ no.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "En huet weder de Beräich $CAPTURES$ nach de Beräich $BIND$, dofir kann dës Erweiderung näischt domat ufänken.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Dat gesäit net no enger Webadress aus."
+  },
+  "notAllowed": {
+    "message": "Dësen Token däerf näischt erfaassen."
+  },
+  "tokenHintScopes": {
+    "message": "Gëtt am Postulo ënner $PATH$ gemaach. Dës Erweiderung ka zwee Beräicher benotzen: $CAPTURES$, fir eng Annonce z'erfaassen, an $BIND$, fir e Message an d'Geschicht vun enger Annonce ofzeleeën. Hakt nëmmen déi un, déi se benotze soll, a soss näischt.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "De Postulo huet mat $STATUS$ geäntwert.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Et ass kee Message um Schierm. Maacht een op, an da maacht dëst nach eng Kéier op."
+  },
+  "notBuiltYet": {
+    "message": "D'Erfaassen ass nach net gebaut. Dëst ass d'Gerüst vun der Erweiderung: si verbënnt sech mat Ärem Postulo a liest de Message um Schierm."
+  },
+  "settings": {
+    "message": "Astellungen"
+  },
+  "tokenMissing": {
+    "message": "Fügt den Token an, deen de Postulo Iech gewisen huet."
+  },
+  "optionsTitle": {
+    "message": "Astellunge vum Postulo"
+  },
+  "tokenStored": {
+    "message": "Den Token gëtt onverschlësselt an dësem Thunderbird-Profil gespäichert. D'Haaptpasswuert vun Thunderbird schützt en net, an all Mënsch, deen den Dossier vum Profil liese kann, kann en benotzen, bis Dir en am Postulo ënner $PATH$ widderrufft.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Ze vill Erfaassungen a kuerzer Zäit. Waart eng Minutt a probéiert nach eng Kéier."
+  },
+  "storageFull": {
+    "message": "D'Späicherplaz vun Thunderbird fir Postulo ass voll. Probéiert nach eng Kéier, nodeems Dir e puer Donnéeë geläscht hutt, oder start Thunderbird nei."
+  },
+  "instanceLabel": {
+    "message": "Äre Postulo"
+  }
+}

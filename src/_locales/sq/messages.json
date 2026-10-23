@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Kap këtë post"
+  },
+  "save": {
+    "message": "Ruaj"
+  },
+  "savedNoPermission": {
+    "message": "Shpëtoi, por Thunderbird refuzoi të drejtën për të arritur atë, le të jetë në të drejtat e shtuar."
+  },
+  "tokenTooWide": {
+    "message": "Kjo shenjë mund të bëjë më shumë se sa ka nevojë për zgjatje ($EXTRA$). Është mbajtur i papërshkrueshëm në këtë profil: të bëhet një me vetëm shtrirjen e përmendur sipër, dhe të heqë këtë.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Rregullimet → API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "subjekti"
+  },
+  "saved": {
+    "message": "Shpëtova. Ky zog është i lidhur me $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Harro"
+  },
+  "setUp": {
+    "message": "Vendose lart"
+  },
+  "messageFrom": {
+    "message": "Nga $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Përdor https për çdo gjë që nuk është në makinën tënde: shenja udhëton me çdo kërkesë."
+  },
+  "notPostulo": {
+    "message": "Ajo adresë u përgjigj, por jo si Populo. Kontrolloni adresën, dhe çdo tabelë-në faqe para saj."
+  },
+  "enterAddress": {
+    "message": "Shkruaj adresën e Postulos."
+  },
+  "extensionDescription": {
+    "message": "Postulo për Thunderbird: Postime pune nga posta juaj, dërguar në Populo tuaj. Një skelet për tani: ai lidh dhe shfaq mesazhin në ekran, dhe nuk kap ende."
+  },
+  "tokenForgotten": {
+    "message": "Shenja është harruar: ajo nuk mbahet më në këtë profil Thunderbird. Punon akoma derisa ta heqësh atë nën $PATH$ në Populo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Mesazh në ekran"
+  },
+  "test": {
+    "message": "Prova"
+  },
+  "asking": {
+    "message": "Po pyes Populo kush është.."
+  },
+  "notConnected": {
+    "message": "Nuk është lidhur akoma me një Populo."
+  },
+  "instanceHint": {
+    "message": "Adresa që e hap ti. https, nëse nuk funksionon në këtë makinë."
+  },
+  "tokenLabel": {
+    "message": "Sinj"
+  },
+  "addressRefused": {
+    "message": "Leja për të arritur në atë adresë nuk u pranua."
+  },
+  "tokenRefused": {
+    "message": "Postulo nuk e pranon këtë shenjë. Kontrolloje nën $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Kjo nuk duket si një adresë web."
+  },
+  "notAllowed": {
+    "message": "Kjo shenjë nuk lejohet të kapet."
+  },
+  "tokenHintScopes": {
+    "message": "E bërë nën $PATH$ në Populo. Kjo zgjatje mund të përdorë dy fusha: $CAPTURES$, për të kapur një postim, dhe $BIND$, për të dërguar një mesazh në historinë e një liste. Tik vetëm ato që dëshiron ti përdorësh, dhe asgjë tjetër.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Asnjë mesazh në ekran. Hape një, pastaj hape përsëri."
+  },
+  "notBuiltYet": {
+    "message": "Kapitura nuk është ndërtuar ende. Ky është skeleti i zgjatjes: lidhet me Populon tuaj dhe lexon mesazhin në ekran."
+  },
+  "settings": {
+    "message": "Rregullimet"
+  },
+  "tokenMissing": {
+    "message": "Ngjiteni shenjën që ju tregoi Postulo."
+  },
+  "optionsTitle": {
+    "message": "Rregullimet"
+  },
+  "tokenStored": {
+    "message": "Shenja është mbajtur e papërshkruar në këtë profil Thunderbird. Fjalëkalimi kryesor i Thunderbird nuk e mbron atë, dhe kushdo që mund të lexojë kartelën e profilit mund ta përdorë atë derisa ta heqë atë nën $PATH$ në Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Shumë goditje në një kohë të shkurtër. Prit një minutë dhe provoje përsëri."
+  },
+  "storageFull": {
+    "message": "Populo është plot. Provo edhe një herë pasi të heqësh disa të dhëna, ose të rinisësh Thunderbirdin."
+  },
+  "instanceLabel": {
+    "message": "Populoja juaj"
+  },
+  "noCredentialsInAddress": {
+    "message": "Mos e vendosni emrin e përdoruesit dhe fjalëkalimin në adresë: nuk do të lidhej kurrë, dhe fjalëkalimi do të shfaqej në dritaren kërcyese."
+  },
+  "answered": {
+    "message": "Postulo u përgjigj me $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenIs": {
+    "message": "Token-i “$NAME$” për $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Token-i “$NAME$” për $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Nuk ka as fushëveprimin $CAPTURES$ as fushëveprimin $BIND$, kështu që ky zgjerim nuk mund të bëjë asgjë me të.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  }
+}

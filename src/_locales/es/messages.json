@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Captura esta publicación"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "savedNoPermission": {
+    "message": "Guardado, pero Thunderbird rechazó el permiso para llegar a él; permitirlo en los permisos de la adición."
+  },
+  "tokenTooWide": {
+    "message": "Este token puede hacer más de lo que esta extensión necesita ($EXTRA$). Se mantiene sin cifrar en este perfil: hacer uno con sólo los alcances mencionados anteriormente, y revocar este.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Ajustes → fichas de API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(sin tema)"
+  },
+  "saved": {
+    "message": "Salvado. Este Thunderbird está conectado a $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Olvídalo"
+  },
+  "setUp": {
+    "message": "Arréglalo"
+  },
+  "messageFrom": {
+    "message": "De $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Utilice https para cualquier cosa que no esté en su propia máquina: el token viaja con cada solicitud."
+  },
+  "notPostulo": {
+    "message": "Esa dirección respondió, pero no como Postulo. Compruebe la dirección y cualquier página de inicio de sesión delante de ella."
+  },
+  "enterAddress": {
+    "message": "Introduzca la dirección de su Postulo."
+  },
+  "noCredentialsInAddress": {
+    "message": "Deje el nombre de usuario y la contraseña fuera de la dirección: nunca se conectará, y la contraseña se mostrará en el popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo para Thunderbird: correos de trabajo desde su correo, enviado a su propio Postulo. Un esqueleto por ahora: conecta y muestra el mensaje en pantalla, y no captura todavía."
+  },
+  "tokenForgotten": {
+    "message": "El token se olvida: ya no se mantiene en este perfil Thunderbird. Aún funciona hasta que la revocas bajo $PATH$ en Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "El mensaje en pantalla"
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” para $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Prueba"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” para $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Preguntando a Postulo quién es este token.."
+  },
+  "notConnected": {
+    "message": "Aún no está conectado a un Postulo."
+  },
+  "instanceHint": {
+    "message": "La dirección en la que la abres. https, a menos que funcione en esta máquina."
+  },
+  "tokenLabel": {
+    "message": "API token"
+  },
+  "addressRefused": {
+    "message": "Se rechazó la autorización para llegar a esa dirección."
+  },
+  "tokenRefused": {
+    "message": "Postulo no acepta este token. Compruébalo bajo $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "No tiene el alcance $CAPTURES$ ni el alcance $BIND$, por lo que esta extensión no puede hacer nada con él.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Eso no parece una dirección web."
+  },
+  "notAllowed": {
+    "message": "Este token no se permite capturar."
+  },
+  "tokenHintScopes": {
+    "message": "Hecho bajo $PATH$ en Postulo. Esta extensión puede utilizar dos ámbitos: $CAPTURES$, para capturar una publicación, y $BIND$, para presentar un mensaje en la historia de un listado. Tick sólo los que quieres que use, y nada más.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo respondió $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Ningún mensaje está en pantalla. Abre uno, luego abre esto otra vez."
+  },
+  "notBuiltYet": {
+    "message": "La captura no se ha construido todavía. Este es el esqueleto de la extensión: se conecta a su Postulo y lee el mensaje en pantalla."
+  },
+  "settings": {
+    "message": "Ajustes"
+  },
+  "tokenMissing": {
+    "message": "Pruebe el Postulo token le mostró."
+  },
+  "optionsTitle": {
+    "message": "Ajustes de posulo"
+  },
+  "tokenStored": {
+    "message": "El token se mantiene sin cifrar en este perfil Thunderbird. La contraseña primaria de Thunderbird no la protege, y cualquiera que pueda leer la carpeta de perfil puede utilizarla hasta que la revoque bajo $PATH$ en Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Demasiados capturas en poco tiempo. Espera un minuto y vuelve a intentarlo."
+  },
+  "storageFull": {
+    "message": "El almacenamiento de Thunderbird para Postulo está lleno. Intente de nuevo después de eliminar algunos datos, o reiniciar Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Su Postulo"
+  }
+}

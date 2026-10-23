@@ -133,5 +133,66 @@
   },
   "capture": {
     "message": "Capturer cette annonce"
+  },
+  "tokenTooWide": {
+    "message": "Ce jeton peut faire plus que ce dont cette extension a besoin ($EXTRA$). Il est conservé non chiffré dans ce profil : créez-en un avec uniquement les portées indiquées ci-dessus, et révoquez celui-ci.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Oublier le jeton"
+  },
+  "notPostulo": {
+    "message": "Cette adresse a répondu, mais pas comme Postulo. Vérifiez l'adresse, et toute page de connexion placée devant."
+  },
+  "noCredentialsInAddress": {
+    "message": "Laissez le nom d'utilisateur et le mot de passe en dehors de l'adresse : la connexion n'aboutirait jamais, et le mot de passe serait affiché dans la fenêtre contextuelle."
+  },
+  "tokenForgotten": {
+    "message": "Le jeton est oublié : il n'est plus conservé dans ce profil Thunderbird. Il fonctionne toujours jusqu'à ce que vous le révoquiez dans $PATH$ dans Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Il ne détient ni la portée $CAPTURES$ ni la portée $BIND$ : cette extension ne peut donc rien en faire.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Créé dans $PATH$ dans Postulo. Cette extension peut utiliser deux portées : $CAPTURES$, pour capturer une annonce, et $BIND$, pour classer un message dans l'historique d'une annonce. Cochez uniquement celles que vous voulez qu'elle utilise, et rien d'autre.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Le jeton est conservé non chiffré dans ce profil Thunderbird. Le mot de passe principal de Thunderbird ne le protège pas, et quiconque peut lire le dossier du profil peut l'utiliser jusqu'à ce que vous le révoquiez dans $PATH$ dans Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "L'espace de stockage de Thunderbird pour Postulo est plein. Réessayez après avoir supprimé des données, ou redémarrez Thunderbird."
   }
 }

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Tangkap lowongan ini"
+  },
+  "save": {
+    "message": "Simpan"
+  },
+  "savedNoPermission": {
+    "message": "Tersimpan, tetapi Thunderbird menolak izin untuk mengaksesnya; izinkan di izin add-on."
+  },
+  "tokenPath": {
+    "message": "Pengaturan → Token API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(tanpa subjek)"
+  },
+  "saved": {
+    "message": "Tersimpan. Thunderbird ini terhubung ke $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Siapkan"
+  },
+  "messageFrom": {
+    "message": "Dari $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Gunakan https untuk apa pun yang tidak berada di mesin Anda sendiri: token ikut terkirim pada setiap permintaan."
+  },
+  "enterAddress": {
+    "message": "Masukkan alamat Postulo Anda."
+  },
+  "extensionDescription": {
+    "message": "Postulo untuk Thunderbird: lowongan kerja dari email Anda, dikirim ke Postulo Anda sendiri. Untuk sementara masih kerangka: terhubung dan menampilkan pesan di layar, belum menangkap."
+  },
+  "messageHeading": {
+    "message": "Pesan di layar"
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” untuk $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Uji"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” untuk $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Menanyakan kepada Postulo siapa pemilik token ini…"
+  },
+  "notConnected": {
+    "message": "Belum terhubung ke Postulo."
+  },
+  "instanceHint": {
+    "message": "Alamat tempat Anda membukanya. https, kecuali berjalan di mesin ini."
+  },
+  "tokenLabel": {
+    "message": "Token API"
+  },
+  "addressRefused": {
+    "message": "Izin untuk mengakses alamat itu ditolak."
+  },
+  "tokenRefused": {
+    "message": "Postulo tidak menerima token ini. Periksa di $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Itu tidak terlihat seperti alamat web."
+  },
+  "notAllowed": {
+    "message": "Token ini tidak diizinkan untuk menangkap."
+  },
+  "answered": {
+    "message": "Postulo menjawab $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Tidak ada pesan di layar. Buka satu, lalu buka ini lagi."
+  },
+  "notBuiltYet": {
+    "message": "Penangkapan belum dibuat. Ini adalah kerangka ekstensi: terhubung ke Postulo Anda dan membaca pesan di layar."
+  },
+  "settings": {
+    "message": "Pengaturan"
+  },
+  "tokenMissing": {
+    "message": "Tempel token yang ditampilkan Postulo kepada Anda."
+  },
+  "optionsTitle": {
+    "message": "Pengaturan Postulo"
+  },
+  "tooMany": {
+    "message": "Terlalu banyak penangkapan dalam waktu singkat. Tunggu semenit lalu coba lagi."
+  },
+  "instanceLabel": {
+    "message": "Postulo Anda"
+  },
+  "tokenTooWide": {
+    "message": "Token ini dapat melakukan lebih dari yang dibutuhkan ekstensi ini ($EXTRA$). Hal ini disimpan unencrypted dalam profil ini: membuat satu dengan scope hanya bernama di atas, dan mencabut yang satu ini.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Lupakan token"
+  },
+  "notPostulo": {
+    "message": "Alamat yang menjawab, tapi tidak sebagai Postulo. Periksa alamatnya, dan tanda apapun di halaman depannya."
+  },
+  "noCredentialsInAddress": {
+    "message": "Biarkan nama pengguna dan kata sandi keluar dari alamat: itu tidak akan pernah terhubung, dan kata sandi akan ditampilkan dalam popup."
+  },
+  "tokenForgotten": {
+    "message": "Token ini dilupakan: tidak lagi disimpan dalam profil Thunderbird ini. Ini masih bekerja sampai Anda mencabut di bawah $PATH$ di Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Ini tidak memegang lingkup $CAPTURES$ maupun scope $BIND$, sehingga ekstensi ini tidak dapat berbuat apa-apa dengan itu.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Dibuat di bawah $PATH$ di Postulo. Ekstensi ini dapat menggunakan dua scope: $CAPTURES$, untuk menangkap sebuah posting, dan $BIND$, untuk mengajukan pesan ke dalam riwayat listing. Centang hanya yang Anda inginkan untuk digunakan, dan tidak ada yang lain.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Token ini disimpan uncrypted dalam profil Thunderbird ini. Sandi utama Thunderbird tidak melindunginya, dan siapa saja yang dapat membaca folder profil dapat menggunakannya sampai Anda membatalkannya di bawah $PATH$ di Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Gudang Thunderbird untuk Postulo penuh. Coba lagi setelah menghapus beberapa data, atau jalankan ulang Thunderbird."
+  }
+}

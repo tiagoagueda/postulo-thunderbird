@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Ujemi to objavo"
+  },
+  "save": {
+    "message": "Shrani"
+  },
+  "savedNoPermission": {
+    "message": "Rešeno, vendar je Thunderbird zavrnil dovoljenje, da bi ga dosegel; dovoli v dovoljenjih add-on."
+  },
+  "tokenTooWide": {
+    "message": "Ta žeton lahko naredi več, kot potrebuje ta razširitev ($EXTRA$). Ohranja se nešifrirano v tem profilu: naredi eno z zgoraj navedenimi obsegi in prekliče to.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Nastavitve → API žetoni"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(brez predmeta)"
+  },
+  "saved": {
+    "message": "Rešena. Ta Thunderbird je povezan z $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Pozabi žeton"
+  },
+  "setUp": {
+    "message": "Namesti"
+  },
+  "messageFrom": {
+    "message": "Od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Uporabite https za vse, kar ni na vašem stroju: žeton potuje z vsako zahtevo."
+  },
+  "notPostulo": {
+    "message": "Naslov se je oglasil, a ne kot Postulo. Preverite naslov in vsako stran pred njim."
+  },
+  "enterAddress": {
+    "message": "Vnesite naslov vašega Postula."
+  },
+  "extensionDescription": {
+    "message": "Postulo za Thunderbird: delovna mesta iz vaše pošte, poslan na lastno Postulo. Skelet za zdaj: povezuje in prikazuje sporočilo na zaslonu, in še ne zajema."
+  },
+  "tokenForgotten": {
+    "message": "Žeton je pozabljen: ni več shranjen v tem profilu Thunderbird. Še vedno deluje, dokler ga ne prekličete pod $PATH$ v Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Sporočilo na zaslonu"
+  },
+  "tokenIs": {
+    "message": "Token ‚$NAME$‘ za $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Preskus"
+  },
+  "tokenIsScoped": {
+    "message": "Žeton ‚$NAME$‘ za $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Sprašuješ Postula, kdo je ta žeton"
+  },
+  "notConnected": {
+    "message": "Ni še povezan s Postulom."
+  },
+  "instanceHint": {
+    "message": "Naslov, na katerem ste ga odprli. https, razen če deluje na tem stroju."
+  },
+  "tokenLabel": {
+    "message": "API žeton"
+  },
+  "addressRefused": {
+    "message": "Dovoljenje za dostop do tega naslova je bilo zavrnjeno."
+  },
+  "tokenRefused": {
+    "message": "Postulo ne sprejme tega žetona. Preverite pod $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Ne drži niti obsega $CAPTURES$ niti obsega $BIND$, zato ta razširitev z njim ne more storiti ničesar.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "To ne izgleda kot spletni naslov."
+  },
+  "notAllowed": {
+    "message": "Ta znak ni dovoljen."
+  },
+  "tokenHintScopes": {
+    "message": "Narejeno pod $PATH$ v Postulu. Ta raz1iritev lahko uporablja dva podroèja: $CAPTURES$, da zajame objavo, in $BIND$, da vpiše sporočilo v zgodovino seznama. Označite samo tiste, ki jih želite uporabiti, in nič drugega.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo je odgovoril $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Nobeno sporočilo ni na zaslonu. Odpri enega, potem pa še enkrat."
+  },
+  "notBuiltYet": {
+    "message": "Ujetništvo še ni zgrajeno. To je skelet podaljška: poveže se z vašim Postulom in prebere sporočilo na zaslonu."
+  },
+  "settings": {
+    "message": "Nastavitve"
+  },
+  "tokenMissing": {
+    "message": "Prilepi žeton, ki ti ga je pokazal Postulo."
+  },
+  "optionsTitle": {
+    "message": "Nastavitve postula"
+  },
+  "tokenStored": {
+    "message": "Žeton je nešifriran v profilu Thunderbirda. Primarno geslo Thunderbirda ga ne ščiti, in vsakdo, ki lahko prebere profilno mapo, ga lahko uporablja, dokler ga ne prekličete pod $PATH$ v Postulu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Preveč jih je v kratkem času. Počakaj malo in poskusi znova."
+  },
+  "storageFull": {
+    "message": "Skladišče Thunderbirda za Postulo je polno. Poskusite znova po odstranitvi nekaj podatkov, ali ponovno Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Vaš Postulo"
+  },
+  "noCredentialsInAddress": {
+    "message": "Uporabniškega imena in gesla ne vpisujte v naslov: povezava se ne bi nikoli vzpostavila, geslo pa bi bilo prikazano v pojavnem oknu."
+  }
+}

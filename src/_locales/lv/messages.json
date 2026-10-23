@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Tver šo ierakstu"
+  },
+  "save": {
+    "message": "Saglabāt"
+  },
+  "savedNoPermission": {
+    "message": "Saglabāts, bet Thunderbird atteica atļauju to sasniegt; ļauj tam pievienot atļaujas."
+  },
+  "tokenTooWide": {
+    "message": "Šī marķierierīce var darīt vairāk, nekā šī paplašināšanas vajadzībām ($EXTRA$). Tas tiek turēts nešifrēts šajā profilā: veikt vienu ar tikai darbības jomām, kas minētas iepriekš, un atsaukt šo vienu.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Iestatījumi → API marķieri"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(bez temata)"
+  },
+  "saved": {
+    "message": "Glābts. Šis Thunderbird ir savienots ar $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Aizmirst marķieri"
+  },
+  "setUp": {
+    "message": "Uzstādiet to"
+  },
+  "messageFrom": {
+    "message": "No $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Izmantojiet https par kaut ko, kas nav jūsu pašu mašīna: marķieris ceļo ar katru pieprasījumu."
+  },
+  "notPostulo": {
+    "message": "Atbildēja šī adrese, bet ne Postulo. Pārbaudiet adresi un jebkuru pierakstīšanās lapu tās priekšā."
+  },
+  "enterAddress": {
+    "message": "Ievadiet Postulo adresi."
+  },
+  "noCredentialsInAddress": {
+    "message": "Atstājiet lietotāja vārdu un paroli no adreses: tas nekad nesavienotos, un parole tiktu parādīta izlecošajā."
+  },
+  "extensionDescription": {
+    "message": "Postulo par Thunderbird: darba norīkošanu no jūsu pastu, nosūtīts uz savu Postulo. Skelets tagad: tas savieno un parāda ziņojumu uz ekrāna, un nav uztveršanas vēl."
+  },
+  "tokenForgotten": {
+    "message": "Žetonu aizmirst: tas vairs netiek turēts šajā Thunderbird profilā. Tas joprojām darbojas, līdz Jūs to atsaucat saskaņā ar $PATH$ Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Ziņojums ekrānā"
+  },
+  "tokenIs": {
+    "message": "$OWNER$ marķieris “$NAME$”.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Pārbaude"
+  },
+  "tokenIsScoped": {
+    "message": "Marķieris “$NAME$” $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Jautājot Postulo, kurš tas ir.."
+  },
+  "notConnected": {
+    "message": "Vēl nav saistīts ar Postulo."
+  },
+  "instanceHint": {
+    "message": "Uzruna, uz kuru atverat. https, ja vien tas nedarbojas šajā iekārtā."
+  },
+  "tokenLabel": {
+    "message": "API marķierierīce"
+  },
+  "addressRefused": {
+    "message": "Atļauja sasniegt šo adresi tika atteikta."
+  },
+  "tokenRefused": {
+    "message": "Postulo nepieņem šo žetonu. Pārbaudiet to zem $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Tam nav ne $CAPTURES$ darbības jomas, ne $BIND$ darbības jomas, tāpēc šis paplašinājums ar to neko nevar darīt.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Tas neizskatās pēc tīmekļa adreses."
+  },
+  "notAllowed": {
+    "message": "Šī marķierierīce nav atļauta notveršanai."
+  },
+  "tokenHintScopes": {
+    "message": "Izgatavots saskaņā ar $PATH$ Postulo. Šis paplašinājums var izmantot divas jomas: $CAPTURES$, lai iegūtu norīkošanu, un $BIND$, lai failu ziņojumu sarakstā vēsturē. Atzīmējiet tikai tos, kurus vēlaties izmantot, un neko citu.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo atbildēja $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Ekrānā nav nevienas vēstules. Atvērt vienu, tad atvērt šo vēlreiz."
+  },
+  "notBuiltYet": {
+    "message": "Sagūstīšana vēl nav uzbūvēta. Šis ir paplašinājuma skelets: tas savieno ar jūsu Postulo un lasa ziņojumu uz ekrāna."
+  },
+  "settings": {
+    "message": "Iestatījumi"
+  },
+  "tokenMissing": {
+    "message": "Pastēt žetonu Postulo jums parādīja."
+  },
+  "optionsTitle": {
+    "message": "Postulo iestatījumi"
+  },
+  "tokenStored": {
+    "message": "Žetonu nešifrē šajā Thunderbird profilā. Thunderbird primārā parole to neaizsargā, un ikviens, kas var izlasīt profila mapi, var to izmantot, līdz jūs to atsaucat zem $PATH$ Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Pārāk daudzi notverti īsā laikā. Pagaidiet brīdi un mēģiniet vēlreiz."
+  },
+  "storageFull": {
+    "message": "Thunderbird krātuve Postulo ir pilna. Mēģiniet vēlreiz pēc dažu datu noņemšanas, vai atsākt Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Jūsu postulo"
+  }
+}

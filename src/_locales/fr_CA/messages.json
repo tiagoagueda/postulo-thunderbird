@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Capturer cette annonce"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "savedNoPermission": {
+    "message": "Enregistré, mais Thunderbird a refusé l'autorisation d'y accéder; autorisez-le dans les permissions du module complémentaire."
+  },
+  "tokenPath": {
+    "message": "Paramètres → Jetons d'API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(sans objet)"
+  },
+  "saved": {
+    "message": "Enregistré. Ce Thunderbird est connecté à $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "La configurer"
+  },
+  "messageFrom": {
+    "message": "De $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Utilisez https pour tout ce qui n'est pas sur votre propre machine : le jeton voyage avec chaque requête."
+  },
+  "enterAddress": {
+    "message": "Saisissez l'adresse de votre Postulo."
+  },
+  "extensionDescription": {
+    "message": "Postulo pour Thunderbird : les offres d'emploi de votre courriel, envoyées à votre propre Postulo. Un squelette pour le moment : il se connecte et affiche le message à l'écran, mais ne capture pas encore."
+  },
+  "messageHeading": {
+    "message": "Le message à l'écran"
+  },
+  "tokenIs": {
+    "message": "Jeton « $NAME$ » de $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Tester"
+  },
+  "tokenIsScoped": {
+    "message": "Jeton « $NAME$ » de $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Postulo est interrogé sur le propriétaire de ce jeton…"
+  },
+  "notConnected": {
+    "message": "Pas encore connecté à un Postulo."
+  },
+  "instanceHint": {
+    "message": "L'adresse à laquelle vous l'ouvrez. En https, sauf s'il tourne sur cette machine."
+  },
+  "tokenLabel": {
+    "message": "Jeton d'API"
+  },
+  "addressRefused": {
+    "message": "L'autorisation de joindre cette adresse a été refusée."
+  },
+  "tokenRefused": {
+    "message": "Postulo n'accepte pas ce jeton. Vérifiez-le dans $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Cela ne ressemble pas à une adresse web."
+  },
+  "notAllowed": {
+    "message": "Ce jeton n'est pas autorisé à capturer."
+  },
+  "answered": {
+    "message": "Postulo a répondu $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "Aucun message n'est affiché à l'écran. Ouvrez-en un, puis rouvrez ceci."
+  },
+  "notBuiltYet": {
+    "message": "La capture n'est pas encore disponible. Ceci est le squelette de l'extension : elle se connecte à votre Postulo et lit le message à l'écran."
+  },
+  "settings": {
+    "message": "Paramètres"
+  },
+  "tokenMissing": {
+    "message": "Collez le jeton que Postulo vous a montré."
+  },
+  "optionsTitle": {
+    "message": "Paramètres de Postulo"
+  },
+  "tooMany": {
+    "message": "Trop de captures en peu de temps. Attendez une minute et réessayez."
+  },
+  "instanceLabel": {
+    "message": "Votre Postulo"
+  },
+  "tokenTooWide": {
+    "message": "Ce jeton peut faire plus que ce dont cette extension a besoin ($EXTRA$). Il est conservé non chiffré dans ce profil : créez-en un avec uniquement les portées indiquées ci-dessus, et révoquez celui-ci.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Oublier le jeton"
+  },
+  "notPostulo": {
+    "message": "Cette adresse a répondu, mais pas comme Postulo. Vérifiez l'adresse, et toute page de connexion placée devant."
+  },
+  "noCredentialsInAddress": {
+    "message": "Laissez le nom d'utilisateur et le mot de passe en dehors de l'adresse : la connexion n'aboutirait jamais, et le mot de passe serait affiché dans la fenêtre contextuelle."
+  },
+  "tokenForgotten": {
+    "message": "Le jeton est oublié : il n'est plus conservé dans ce profil Thunderbird. Il fonctionne toujours jusqu'à ce que vous le révoquiez dans $PATH$ dans Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Il ne détient ni la portée $CAPTURES$ ni la portée $BIND$ : cette extension ne peut donc rien en faire.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Créé dans $PATH$ dans Postulo. Cette extension peut utiliser deux portées : $CAPTURES$, pour capturer une annonce, et $BIND$, pour classer un message dans l'historique d'une annonce. Cochez uniquement celles que vous voulez qu'elle utilise, et rien d'autre.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Le jeton est conservé non chiffré dans ce profil Thunderbird. Le mot de passe principal de Thunderbird ne le protège pas, et quiconque peut lire le dossier du profil peut l'utiliser jusqu'à ce que vous le révoquiez dans $PATH$ dans Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "L'espace de stockage de Thunderbird pour Postulo est plein. Réessayez après avoir supprimé des données, ou redémarrez Thunderbird."
+  }
+}

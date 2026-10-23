@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Kupata barua hii"
+  },
+  "save": {
+    "message": "Kuokoa kuokoa kuokoa"
+  },
+  "savedNoPermission": {
+    "message": "Na Kuokoa: Ni kuashiria kwenye mambo waliyo tihaniwa nayo watu wale."
+  },
+  "tokenPath": {
+    "message": "Mipangilio ya API"
+  },
+  "actionTitle": {
+    "message": "Orodha ya"
+  },
+  "noSubject": {
+    "message": "(hakuna tatizo)"
+  },
+  "saved": {
+    "message": "Kuwaokoa. Hii ina uhusiano na $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Kusahau kuhusu"
+  },
+  "setUp": {
+    "message": "Kuweka juu"
+  },
+  "messageFrom": {
+    "message": "Kwa upande wa $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Tumia https kwa kitu chochote kisicho kwenye mashine yako mwenyewe: ishara husafiri na kila ombi."
+  },
+  "notPostulo": {
+    "message": "Barua hiyo ilijibu, lakini sio kama barua pepe. Angalia anwani, na ukurasa wowote wa kuingia mbele yake."
+  },
+  "enterAddress": {
+    "message": "Ingiza anwani yako ya barua pepe."
+  },
+  "noCredentialsInAddress": {
+    "message": "Acha jina la mtumiaji na nenosiri nje ya anwani: haiwezi kuunganisha, na nenosiri litaonyeshwa kwenye popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo kwa Thunderbird: nafasi za kazi kutoka barua yako, kutumwa kwa Postulo yako mwenyewe. Mifupa kwa sasa: inaunganisha na inaonyesha ujumbe kwenye skrini, na bado haipatikani."
+  },
+  "tokenForgotten": {
+    "message": "Ishara ni wamesahau: ni tena kuhifadhiwa katika hii Thunderbird profile. Na bado inafanya kazi mpaka unaondoa chini ya $PATH$ katika Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Ujumbe kwenye screen"
+  },
+  "test": {
+    "message": "Jaribio la majaribio"
+  },
+  "asking": {
+    "message": "Kwa wale ambao ni postulo, hii ni.."
+  },
+  "notConnected": {
+    "message": "Bado haijaunganishwa na Postulo."
+  },
+  "instanceHint": {
+    "message": "Anwani ambayo unaweza kufungua.  https . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  },
+  "tokenLabel": {
+    "message": "API ya API"
+  },
+  "addressRefused": {
+    "message": "Ruhusa ya kuingia kwenye akaunti hiyo ilikataliwa."
+  },
+  "notAnAddress": {
+    "message": "Hii haionekani kama anwani ya wavuti."
+  },
+  "notAllowed": {
+    "message": "Alama hii haiwezi kuruhusiwa kuingia."
+  },
+  "noMessage": {
+    "message": "Hakuna ujumbe kwenye skrini. Fungua moja, kisha ufungue tena."
+  },
+  "notBuiltYet": {
+    "message": "Ujenzi wa kituo hicho bado haujakamilika. Hii ni mifupa ya ugani: inaunganisha kwa Postulo yako na kusoma ujumbe kwenye skrini."
+  },
+  "settings": {
+    "message": "Mipangilio ya Mipangilio"
+  },
+  "tokenMissing": {
+    "message": "Bonyeza kitufe cha \"Postulo\" kuonyesha wewe."
+  },
+  "optionsTitle": {
+    "message": "Mipangilio ya Postulo"
+  },
+  "tokenStored": {
+    "message": "Ishara ni kuhifadhiwa unencrypted katika hii Thunderbird profile. Neno la msingi la Thunderbird halihifadhi, na mtu yeyote ambaye anaweza kusoma folda ya wasifu anaweza kuitumia hadi uifute chini ya $PATH$ katika Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Kuna mengi ya kuchukua katika muda mfupi. Subiri kwa dakika moja na ujaribu tena."
+  },
+  "storageFull": {
+    "message": "Hifadhi ya Thunderbird kwa Postulo ni kamili. Jaribu tena baada ya kuondoa baadhi ya data, au kuanzisha upya Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Ujumbe wako"
+  },
+  "tokenIs": {
+    "message": "Tokeni “$NAME$” ya $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "answered": {
+    "message": "Postulo ilijibu $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Tokeni hii inaweza kufanya zaidi ya kile kiendelezi hiki kinahitaji ($EXTRA$). Inahifadhiwa bila usimbaji fiche katika wasifu huu: tengeneza moja yenye mawanda yaliyotajwa hapo juu tu, kisha ubatilishe hii.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Tokeni “$NAME$” ya $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Haina wigo wa $CAPTURES$ wala wigo wa $BIND$, kwa hiyo kiendelezi hiki hakiwezi kufanya chochote nayo.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenHintScopes": {
+    "message": "Imetengenezwa chini ya $PATH$ katika Postulo. Kiendelezi hiki kinaweza kutumia mawanda mawili: $CAPTURES$, kunasa tangazo, na $BIND$, kuweka ujumbe katika historia ya tangazo. Weka alama kwenye yale tu unayotaka litumie, na si kingine.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenRefused": {
+    "message": "Postulo haikubali tokeni hii. Ikague chini ya $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "capture": {
+    "message": "Aqbad dan l-avviż"
+  },
+  "save": {
+    "message": "Issejvja"
+  },
+  "savedNoPermission": {
+    "message": "Issejvjat, iżda Thunderbird irrifjuta l-permess biex jilħqu; ippermettih fil-permessi tal-add-on."
+  },
+  "tokenTooWide": {
+    "message": "Dan it-token jista' jagħmel aktar milli teħtieġ din l-estensjoni ($EXTRA$). Jinżamm mhux kriptat f'dan il-profil: agħmel wieħed bl-ambiti msemmija hawn fuq biss, u rrevoka dan.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenPath": {
+    "message": "Settings → Tokens tal-API"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "noSubject": {
+    "message": "(l-ebda suġġett)"
+  },
+  "saved": {
+    "message": "Issejvjat. Dan it-Thunderbird huwa konness ma' $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Insa t-token"
+  },
+  "setUp": {
+    "message": "Issettjaha"
+  },
+  "messageFrom": {
+    "message": "Minn $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "httpsOnly": {
+    "message": "Uża https għal kull ħaġa li mhix fuq il-magna tiegħek: it-token jivvjaġġa ma' kull talba."
+  },
+  "notPostulo": {
+    "message": "Dak l-indirizz wieġeb, iżda mhux bħala Postulo. Iċċekkja l-indirizz, u kwalunkwe paġna tal-illoggjar quddiemu."
+  },
+  "enterAddress": {
+    "message": "Daħħal l-indirizz tal-Postulo tiegħek."
+  },
+  "noCredentialsInAddress": {
+    "message": "Ħalli l-isem tal-utent u l-password barra mill-indirizz: qatt ma jikkonnettja, u l-password tintwera fil-popup."
+  },
+  "extensionDescription": {
+    "message": "Postulo għal Thunderbird: avviżi tax-xogħol mill-posta tiegħek, mibgħuta lill-Postulo tiegħek. Għalissa huwa skeletru: jikkonnettja u juri l-messaġġ fuq l-iskrin, u għadu ma jaqbadx."
+  },
+  "tokenForgotten": {
+    "message": "It-token intesa: m'għadux miżmum f'dan il-profil ta' Thunderbird. Xorta jaħdem sakemm tirrevokah taħt $PATH$ fil-Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "messageHeading": {
+    "message": "Il-messaġġ fuq l-iskrin"
+  },
+  "tokenIs": {
+    "message": "Token “$NAME$” għal $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "test": {
+    "message": "Ittestja"
+  },
+  "tokenIsScoped": {
+    "message": "Token “$NAME$” għal $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "asking": {
+    "message": "Qed nistaqsu lill-Postulo ta' min hu dan it-token…"
+  },
+  "notConnected": {
+    "message": "Għad m'hemmx konnessjoni ma' Postulo."
+  },
+  "instanceHint": {
+    "message": "L-indirizz li tiftħu fih. https, sakemm ma jkunx qed jaħdem fuq din il-magna."
+  },
+  "tokenLabel": {
+    "message": "Token tal-API"
+  },
+  "addressRefused": {
+    "message": "Il-permess biex jintlaħaq dak l-indirizz ġie rrifjutat."
+  },
+  "tokenRefused": {
+    "message": "Il-Postulo ma jaċċettax dan it-token. Iċċekkjah taħt $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Ma fihx la l-ambitu $CAPTURES$ u lanqas l-ambitu $BIND$, għalhekk din l-estensjoni ma tista' tagħmel xejn bih.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "notAnAddress": {
+    "message": "Dan ma jidhirx indirizz tal-web."
+  },
+  "notAllowed": {
+    "message": "Dan it-token mhux permess jaqbad."
+  },
+  "tokenHintScopes": {
+    "message": "Isir taħt $PATH$ fil-Postulo. Din l-estensjoni tista' tuża żewġ ambiti: $CAPTURES$, biex taqbad avviż, u $BIND$, biex tpoġġi messaġġ fl-istorja ta' anunzju. Immarka biss dawk li trid li tuża, u xejn aktar.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "answered": {
+    "message": "Il-Postulo wieġeb $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "noMessage": {
+    "message": "L-ebda messaġġ mhu fuq l-iskrin. Iftaħ wieħed, imbagħad erġa' iftaħ dan."
+  },
+  "notBuiltYet": {
+    "message": "Il-qbid għadu ma nbniex. Dan hu l-iskeletru tal-estensjoni: jikkonnettja mal-Postulo tiegħek u jaqra l-messaġġ fuq l-iskrin."
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "tokenMissing": {
+    "message": "Waħħal it-token li wriek il-Postulo."
+  },
+  "optionsTitle": {
+    "message": "Settings tal-Postulo"
+  },
+  "tokenStored": {
+    "message": "It-token jinżamm mhux kriptat f'dan il-profil ta' Thunderbird. Il-password primarja ta' Thunderbird ma tipproteġihx, u kull min jista' jaqra l-folder tal-profil jista' jużah sakemm tirrevokah taħt $PATH$ fil-Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooMany": {
+    "message": "Wisq qbid f'ħin qasir. Stenna minuta u erġa' pprova."
+  },
+  "storageFull": {
+    "message": "L-ispazju ta' Thunderbird għal Postulo mimli. Erġa' pprova wara li tneħħi xi data, jew erġa' ibda Thunderbird."
+  },
+  "instanceLabel": {
+    "message": "Il-Postulo tiegħek"
+  }
+}
