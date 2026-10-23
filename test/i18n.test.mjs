@@ -39,9 +39,14 @@ test("the extension speaks the languages Postulo does, English by default", () =
   assert.equal(read(join(SOURCE, "manifest.json")).default_locale, "en");
 });
 
+/** Tags the core writes as IANA registers them that CLDR, and so Intl, folds into another
+ *  language: Montenegrin is its own code to the core, `sr-ME` to Intl. Kept as the core
+ *  writes it, so the extension and the instance name the language alike. */
+const CLDR_FOLDS = new Set(["cnr"]);
+
 test("every language code is a BCP 47 tag in its canonical form", () => {
   for (const { tag, folder } of LANGUAGES) {
-    assert.deepEqual(Intl.getCanonicalLocales(tag), [tag], tag);
+    if (!CLDR_FOLDS.has(tag)) assert.deepEqual(Intl.getCanonicalLocales(tag), [tag], tag);
     assert.equal(shipped(messages[folder], folder).languageTag.message, tag, `${tag} names itself`);
   }
 });
