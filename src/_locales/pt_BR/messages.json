@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Capture esta postagem"
+    "message": "Capturar este anúncio"
   },
   "save": {
-    "message": "Salve"
+    "message": "Salvar"
   },
   "savedNoPermission": {
-    "message": "Salvo, mas Thunderbird recusou permissão para alcançá-lo; permita-o nas permissões do complemento."
+    "message": "Salvo, mas o Thunderbird recusou a permissão para acessá-lo; permita o acesso nas permissões do complemento."
   },
   "tokenTooWide": {
-    "message": "Este símbolo pode fazer mais do que esta extensão precisa ($EXTRA$). Ele é mantido descriptografado neste perfil: fazer um com apenas os escopos mencionados acima, e revogar este.",
+    "message": "Este token pode fazer mais do que esta extensão precisa ($EXTRA$). Ele fica guardado sem criptografia neste perfil: crie um apenas com os escopos indicados acima e revogue este.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,7 +17,7 @@
     }
   },
   "tokenPath": {
-    "message": "Configurações → Tokens API"
+    "message": "Configurações → Tokens de API"
   },
   "actionTitle": {
     "message": "Postulo"
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "Esqueça o símbolo"
+    "message": "Esquecer token"
   },
   "setUp": {
-    "message": "Preparem-se"
+    "message": "Configurar"
   },
   "messageFrom": {
-    "message": "$SENDER$",
+    "message": "De $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,25 +48,25 @@
     }
   },
   "httpsOnly": {
-    "message": "Use https para qualquer coisa que não esteja na sua própria máquina: o símbolo viaja com cada pedido."
+    "message": "Use https para tudo o que não estiver na sua própria máquina: o token vai junto em cada requisição."
   },
   "notPostulo": {
-    "message": "Esse endereço respondeu, mas não como Postulo. Verifique o endereço, e qualquer página na frente dele."
+    "message": "Esse endereço respondeu, mas não como o Postulo. Verifique o endereço e qualquer página de login na frente dele."
   },
   "enterAddress": {
     "message": "Digite o endereço do seu Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Deixe o nome de usuário e senha fora do endereço: ele nunca se conectaria, e a senha seria mostrada no popup."
+    "message": "Deixe o nome de usuário e a senha fora do endereço: com eles, a conexão nunca funcionaria e a senha apareceria no pop-up."
   },
   "extensionDescription": {
-    "message": "Postulo para Thunderbird: postagens de trabalho de sua correspondência, enviadas para seu próprio Postulo. Um esqueleto por enquanto: ele se conecta e mostra a mensagem na tela, e não captura ainda."
+    "message": "Postulo para Thunderbird: anúncios de vagas do seu e-mail, enviados para o seu próprio Postulo. Por enquanto, um esqueleto: ele se conecta e mostra a mensagem na tela, mas ainda não captura."
   },
   "messageHeading": {
     "message": "A mensagem na tela"
   },
   "tokenIs": {
-    "message": "Toque “$NAME$” para $OWNER$.",
+    "message": "Token “$NAME$” de $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -77,10 +77,10 @@
     }
   },
   "test": {
-    "message": "Teste"
+    "message": "Testar"
   },
   "tokenIsScoped": {
-    "message": "Token “$NAME$” para $OWNER$ ($SCOPES$).",
+    "message": "Token “$NAME$” de $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -94,22 +94,22 @@
     }
   },
   "asking": {
-    "message": "Perguntando a Postulo quem é esse símbolo.."
+    "message": "Perguntando ao Postulo de quem é este token…"
   },
   "notConnected": {
-    "message": "Ainda não conectado a um Postulo."
+    "message": "Ainda não está conectado a um Postulo."
   },
   "instanceHint": {
-    "message": "O endereço onde você abre. https, a menos que funcione nesta máquina."
+    "message": "O endereço em que você o abre. https, a menos que ele rode nesta máquina."
   },
   "tokenLabel": {
-    "message": "Token API"
+    "message": "Token de API"
   },
   "addressRefused": {
-    "message": "A permissão para chegar ao endereço foi recusada."
+    "message": "A permissão para acessar esse endereço foi recusada."
   },
   "tokenRefused": {
-    "message": "Postulo não aceita este símbolo. Veja em $PATH$.",
+    "message": "O Postulo não aceita este token. Verifique-o em $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -131,10 +131,10 @@
     "message": "Isso não parece um endereço da web."
   },
   "notAllowed": {
-    "message": "Este símbolo não pode ser capturado."
+    "message": "Este token não tem permissão para capturar."
   },
   "tokenHintScopes": {
-    "message": "Feito sob $PATH$ em Postulo. Esta extensão pode usar dois escopos: $CAPTURES$, para capturar uma postagem, e $BIND$, para registrar uma mensagem no histórico de uma lista. Só os que você quer que use, e nada mais.",
+    "message": "Criado em $PATH$ no Postulo. Esta extensão pode usar dois escopos: $CAPTURES$, para capturar um anúncio, e $BIND$, para arquivar uma mensagem no histórico de uma vaga. Marque apenas os que você quer que ela use, e nada mais.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -148,25 +148,25 @@
     }
   },
   "noMessage": {
-    "message": "Nenhuma mensagem está na tela. Abra um e abra de novo."
+    "message": "Nenhuma mensagem na tela. Abra uma e depois abra isto de novo."
   },
   "notBuiltYet": {
-    "message": "Capturar ainda não foi construído. Este é o esqueleto da extensão: ele se conecta ao seu Postulo e lê a mensagem na tela."
+    "message": "A captura ainda não foi implementada. Este é o esqueleto da extensão: ele se conecta ao seu Postulo e lê a mensagem na tela."
   },
   "settings": {
     "message": "Configurações"
   },
   "tokenMissing": {
-    "message": "Cole o símbolo que Postulo lhe mostrou."
+    "message": "Cole o token que o Postulo mostrou a você."
   },
   "optionsTitle": {
-    "message": "Configurações do postulo"
+    "message": "Configurações do Postulo"
   },
   "tooMany": {
     "message": "Muitas capturas em pouco tempo. Espere um minuto e tente de novo."
   },
   "storageFull": {
-    "message": "O depósito do Thunderbird para Postulo está cheio. Tente novamente depois de remover alguns dados, ou reiniciar Thunderbird."
+    "message": "O armazenamento do Thunderbird para o Postulo está cheio. Tente novamente depois de remover alguns dados ou reinicie o Thunderbird."
   },
   "instanceLabel": {
     "message": "Seu Postulo"

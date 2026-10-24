@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Przechwyć tę wiadomość"
+    "message": "Przechwyć to ogłoszenie"
   },
   "save": {
     "message": "Zapisz"
   },
   "savedNoPermission": {
-    "message": "Uratowana, ale Thunderbird odmówił pozwolenia na dotarcie do niego; wpuść go do uprawnień add- on."
+    "message": "Zapisano, ale Thunderbird odmówił uprawnienia dostępu do tego adresu; zezwól na nie w uprawnieniach dodatku."
   },
   "tokenTooWide": {
-    "message": "Ten token może zrobić więcej niż to rozszerzenie wymaga ($EXTRA$). W tym profilu nie jest on zaszyfrowany: należy zrobić jeden tylko z wyżej wymienionymi zakresami i cofnąć ten profil.",
+    "message": "Ten token może więcej, niż potrzebuje to rozszerzenie ($EXTRA$). Jest przechowywany w tym profilu bez szyfrowania: utwórz token tylko z wymienionymi wyżej zakresami, a ten unieważnij.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,7 +17,7 @@
     }
   },
   "tokenPath": {
-    "message": "Ustawienia → Żetony API"
+    "message": "Ustawienia → Tokeny API"
   },
   "actionTitle": {
     "message": "Postulo"
@@ -26,7 +26,7 @@
     "message": "(brak tematu)"
   },
   "saved": {
-    "message": "Uratowana. Ten Thunderbird jest połączony z $HOST$.",
+    "message": "Zapisano. Ten Thunderbird jest połączony z $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,10 +34,10 @@
     }
   },
   "forgetToken": {
-    "message": "Zapomnij o symbolu"
+    "message": "Zapomnij token"
   },
   "setUp": {
-    "message": "Ustaw to"
+    "message": "Skonfiguruj"
   },
   "messageFrom": {
     "message": "Od $SENDER$",
@@ -48,25 +48,25 @@
     }
   },
   "httpsOnly": {
-    "message": "Użyj https do wszystkiego, co nie jest na własnej maszynie: token podróżuje z każdym żądaniem."
+    "message": "Używaj https dla wszystkiego, co nie znajduje się na Twoim własnym komputerze: token jest przesyłany z każdym żądaniem."
   },
   "notPostulo": {
-    "message": "Ten adres odpowiada, ale nie jako Postulo. Sprawdź adres i wszystkie znaki na stronie przed nim."
+    "message": "Ten adres odpowiedział, ale nie jako Postulo. Sprawdź adres i ewentualną stronę logowania, która go poprzedza."
   },
   "enterAddress": {
     "message": "Wpisz adres swojego Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Zostaw nazwę użytkownika i hasło w adresie: nigdy się nie połączy, a hasło zostanie wyświetlone w menu."
+    "message": "Nie podawaj w adresie nazwy użytkownika ani hasła: połączenie nigdy by się nie udało, a hasło byłoby widoczne w okienku rozszerzenia."
   },
   "extensionDescription": {
-    "message": "Postulo dla Thunderbird: delegowanie pracy z poczty, wysłane do własnego Postulo. Na razie szkielet: łączy i wyświetla wiadomość na ekranie i jeszcze jej nie przechwytuje."
+    "message": "Postulo dla Thunderbirda: ogłoszenia o pracę z Twojej poczty, wysyłane do Twojego własnego Postulo. Na razie to szkielet: łączy się i pokazuje wiadomość widoczną na ekranie, ale jeszcze niczego nie przechwytuje."
   },
   "messageHeading": {
     "message": "Wiadomość na ekranie"
   },
   "tokenIs": {
-    "message": "Token \"$NAME$\" dla $OWNER$.",
+    "message": "Token „$NAME$” dla $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -77,10 +77,10 @@
     }
   },
   "test": {
-    "message": "Badanie"
+    "message": "Testuj"
   },
   "tokenIsScoped": {
-    "message": "Token \"$NAME$\" dla $OWNER$ ($SCOPES$).",
+    "message": "Token „$NAME$” dla $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -94,22 +94,22 @@
     }
   },
   "asking": {
-    "message": "Pytanie Postulo, kim jest ten symbol.."
+    "message": "Pytam Postulo, czyj jest ten token…"
   },
   "notConnected": {
-    "message": "Nie ma jeszcze powiązania z Postulo."
+    "message": "Nie połączono jeszcze z żadnym Postulo."
   },
   "instanceHint": {
-    "message": "Adres, pod którym go otwierasz. https, chyba że działa na tej maszynie."
+    "message": "Adres, pod którym je otwierasz. https, chyba że działa na tym komputerze."
   },
   "tokenLabel": {
     "message": "Token API"
   },
   "addressRefused": {
-    "message": "Odmówiono pozwolenia na dotarcie do tego adresu."
+    "message": "Odmówiono uprawnienia dostępu do tego adresu."
   },
   "tokenRefused": {
-    "message": "Postulo nie akceptuje tego symbolu. Sprawdź pod $PATH$.",
+    "message": "Postulo nie akceptuje tego tokena. Sprawdź go w $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -131,10 +131,10 @@
     "message": "To nie wygląda jak adres internetowy."
   },
   "notAllowed": {
-    "message": "Ten token nie może zostać przechwycony."
+    "message": "Ten token nie ma uprawnienia do przechwytywania."
   },
   "tokenHintScopes": {
-    "message": "Wykonane pod $PATH$ w Postulo. To rozszerzenie może używać dwóch zakresów: $CAPTURES$, aby uchwycić wpis, i $BIND$, aby wysłać wiadomość do historii listy. Zaznacz tylko te, których chcesz użyć i nic więcej.",
+    "message": "Tworzony w Postulo w $PATH$. To rozszerzenie może używać dwóch zakresów: $CAPTURES$, aby przechwycić ogłoszenie, i $BIND$, aby dołączyć wiadomość do historii oferty. Zaznacz tylko te, których ma używać, i nic poza nimi.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -148,7 +148,7 @@
     }
   },
   "answered": {
-    "message": "Postulo odpowiedział $STATUS$.",
+    "message": "Postulo odpowiedziało: $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -156,22 +156,22 @@
     }
   },
   "noMessage": {
-    "message": "Brak wiadomości na ekranie. Otwórz jeden, a potem otwórz jeszcze raz."
+    "message": "Na ekranie nie ma żadnej wiadomości. Otwórz jakąś, a potem otwórz to okienko ponownie."
   },
   "notBuiltYet": {
-    "message": "Złapanie nie zostało jeszcze zbudowane. To jest szkielet rozszerzenia: łączy się z Twoim Postulo i czyta wiadomość na ekranie."
+    "message": "Przechwytywanie nie jest jeszcze gotowe. To szkielet rozszerzenia: łączy się z Twoim Postulo i odczytuje wiadomość widoczną na ekranie."
   },
   "settings": {
     "message": "Ustawienia"
   },
   "tokenMissing": {
-    "message": "Wklej znak Postulo."
+    "message": "Wklej token, który pokazało Ci Postulo."
   },
   "optionsTitle": {
     "message": "Ustawienia Postulo"
   },
   "tokenStored": {
-    "message": "W profilu Thunderbird token jest niekodowany. Podstawowe hasło Thunderbird nie chroni go, a każdy, kto może przeczytać folder profilu może go używać do odwołania go pod $PATH$ w Postulo.",
+    "message": "Token jest przechowywany bez szyfrowania w tym profilu Thunderbirda. Hasło główne Thunderbirda go nie chroni, a każdy, kto może odczytać folder profilu, może go używać, dopóki nie unieważnisz go w Postulo w $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -179,16 +179,16 @@
     }
   },
   "tooMany": {
-    "message": "Za dużo ujęć w krótkim czasie. Poczekaj chwilę i spróbuj jeszcze raz."
+    "message": "Za dużo przechwyceń w krótkim czasie. Odczekaj minutę i spróbuj ponownie."
   },
   "storageFull": {
-    "message": "Magazyn Thunderbirda dla Postulo jest pełny. Spróbuj ponownie po usunięciu niektórych danych, lub ponownie uruchomić Thunderbird."
+    "message": "Miejsce na dane Thunderbirda przeznaczone dla Postulo jest pełne. Usuń część danych i spróbuj ponownie albo uruchom Thunderbirda ponownie."
   },
   "instanceLabel": {
-    "message": "Twój Postulo"
+    "message": "Twoje Postulo"
   },
   "tokenForgotten": {
-    "message": "Token został zapomniany: nie jest już przechowywany w tym profilu Thunderbirda. Działa jednak, dopóki nie unieważnisz go w Postulo pod $PATH$.",
+    "message": "Token został zapomniany: nie jest już przechowywany w tym profilu Thunderbirda. Nadal działa, dopóki nie unieważnisz go w Postulo w $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"

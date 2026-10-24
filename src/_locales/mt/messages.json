@@ -51,7 +51,7 @@
     "message": "Uża https għal kull ħaġa li mhix fuq il-magna tiegħek: it-token jivvjaġġa ma' kull talba."
   },
   "notPostulo": {
-    "message": "Dak l-indirizz wieġeb, iżda mhux bħala Postulo. Iċċekkja l-indirizz, u kwalunkwe paġna tal-illoggjar quddiemu."
+    "message": "Dak l-indirizz wieġeb, iżda mhux bħala Postulo. Iċċekkja l-indirizz, u kwalunkwe paġna tad-dħul quddiemu."
   },
   "enterAddress": {
     "message": "Daħħal l-indirizz tal-Postulo tiegħek."
@@ -108,7 +108,7 @@
     "message": "Għad m'hemmx konnessjoni ma' Postulo."
   },
   "instanceHint": {
-    "message": "L-indirizz li tiftħu fih. https, sakemm ma jkunx qed jaħdem fuq din il-magna."
+    "message": "L-indirizz fejn tiftħu. https, sakemm ma jkunx qed jaħdem fuq din il-magna."
   },
   "tokenLabel": {
     "message": "Token tal-API"
@@ -139,10 +139,10 @@
     "message": "Dan ma jidhirx indirizz tal-web."
   },
   "notAllowed": {
-    "message": "Dan it-token mhux permess jaqbad."
+    "message": "Dan it-token m'għandux permess jaqbad."
   },
   "tokenHintScopes": {
-    "message": "Isir taħt $PATH$ fil-Postulo. Din l-estensjoni tista' tuża żewġ ambiti: $CAPTURES$, biex taqbad avviż, u $BIND$, biex tpoġġi messaġġ fl-istorja ta' anunzju. Immarka biss dawk li trid li tuża, u xejn aktar.",
+    "message": "Isir taħt $PATH$ fil-Postulo. Din l-estensjoni tista' tuża żewġ ambiti: $CAPTURES$, biex taqbad avviż, u $BIND$, biex tpoġġi messaġġ fl-istorja ta' avviż. Immarka biss dawk li trid li tuża, u xejn aktar.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -164,7 +164,7 @@
     }
   },
   "noMessage": {
-    "message": "L-ebda messaġġ mhu fuq l-iskrin. Iftaħ wieħed, imbagħad erġa' iftaħ dan."
+    "message": "L-ebda messaġġ mhu fuq l-iskrin. Iftaħ wieħed, imbagħad erġa' iftaħ din."
   },
   "notBuiltYet": {
     "message": "Il-qbid għadu ma nbniex. Dan hu l-iskeletru tal-estensjoni: jikkonnettja mal-Postulo tiegħek u jaqra l-messaġġ fuq l-iskrin."
@@ -190,7 +190,7 @@
     "message": "Wisq qbid f'ħin qasir. Stenna minuta u erġa' pprova."
   },
   "storageFull": {
-    "message": "L-ispazju ta' Thunderbird għal Postulo mimli. Erġa' pprova wara li tneħħi xi data, jew erġa' ibda Thunderbird."
+    "message": "L-ispazju ta' Thunderbird għal Postulo huwa mimli. Erġa' pprova wara li tneħħi xi data, jew erġa' ibda Thunderbird."
   },
   "instanceLabel": {
     "message": "Il-Postulo tiegħek"

@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Captura esta publicación"
+    "message": "Capturar este anuncio"
   },
   "save": {
     "message": "Guardar"
   },
   "savedNoPermission": {
-    "message": "Guardado, pero Thunderbird rechazó el permiso para llegar a él; permitirlo en los permisos de la adición."
+    "message": "Guardado, pero Thunderbird denegó el permiso para acceder a ella; permítalo en los permisos del complemento."
   },
   "tokenTooWide": {
-    "message": "Este token puede hacer más de lo que esta extensión necesita ($EXTRA$). Se mantiene sin cifrar en este perfil: hacer uno con sólo los alcances mencionados anteriormente, y revocar este.",
+    "message": "Este token puede hacer más de lo que esta extensión necesita ($EXTRA$). Se guarda sin cifrar en este perfil: cree uno solo con los ámbitos indicados arriba y revoque este.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Ajustes → fichas de API"
+    "message": "Ajustes → Tokens de API"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(sin tema)"
+    "message": "(sin asunto)"
   },
   "saved": {
-    "message": "Salvado. Este Thunderbird está conectado a $HOST$.",
+    "message": "Guardado. Este Thunderbird está conectado a $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,10 +34,10 @@
     }
   },
   "forgetToken": {
-    "message": "Olvídalo"
+    "message": "Olvidar el token"
   },
   "setUp": {
-    "message": "Arréglalo"
+    "message": "Configurar"
   },
   "messageFrom": {
     "message": "De $SENDER$",
@@ -57,13 +57,13 @@
     "message": "Introduzca la dirección de su Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Deje el nombre de usuario y la contraseña fuera de la dirección: nunca se conectará, y la contraseña se mostrará en el popup."
+    "message": "Deje el nombre de usuario y la contraseña fuera de la dirección: nunca se conectaría, y la contraseña se mostraría en la ventana emergente."
   },
   "extensionDescription": {
-    "message": "Postulo para Thunderbird: correos de trabajo desde su correo, enviado a su propio Postulo. Un esqueleto por ahora: conecta y muestra el mensaje en pantalla, y no captura todavía."
+    "message": "Postulo para Thunderbird: anuncios de empleo de su correo, enviados a su propio Postulo. Por ahora es un esqueleto: se conecta y muestra el mensaje en pantalla, pero todavía no captura."
   },
   "tokenForgotten": {
-    "message": "El token se olvida: ya no se mantiene en este perfil Thunderbird. Aún funciona hasta que la revocas bajo $PATH$ en Postulo.",
+    "message": "El token se ha olvidado: ya no se guarda en este perfil de Thunderbird. Sigue funcionando hasta que lo revoque en $PATH$ en Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -74,7 +74,7 @@
     "message": "El mensaje en pantalla"
   },
   "tokenIs": {
-    "message": "Token “$NAME$” para $OWNER$.",
+    "message": "Token «$NAME$» de $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -85,10 +85,10 @@
     }
   },
   "test": {
-    "message": "Prueba"
+    "message": "Probar"
   },
   "tokenIsScoped": {
-    "message": "Token “$NAME$” para $OWNER$ ($SCOPES$).",
+    "message": "Token «$NAME$» de $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,22 +102,22 @@
     }
   },
   "asking": {
-    "message": "Preguntando a Postulo quién es este token.."
+    "message": "Preguntando a Postulo de quién es este token…"
   },
   "notConnected": {
     "message": "Aún no está conectado a un Postulo."
   },
   "instanceHint": {
-    "message": "La dirección en la que la abres. https, a menos que funcione en esta máquina."
+    "message": "La dirección en la que lo abre. https, salvo que se ejecute en este equipo."
   },
   "tokenLabel": {
-    "message": "API token"
+    "message": "Token de API"
   },
   "addressRefused": {
-    "message": "Se rechazó la autorización para llegar a esa dirección."
+    "message": "Se denegó el permiso para acceder a esa dirección."
   },
   "tokenRefused": {
-    "message": "Postulo no acepta este token. Compruébalo bajo $PATH$.",
+    "message": "Postulo no acepta este token. Compruébelo en $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -139,10 +139,10 @@
     "message": "Eso no parece una dirección web."
   },
   "notAllowed": {
-    "message": "Este token no se permite capturar."
+    "message": "Este token no tiene permiso para capturar."
   },
   "tokenHintScopes": {
-    "message": "Hecho bajo $PATH$ en Postulo. Esta extensión puede utilizar dos ámbitos: $CAPTURES$, para capturar una publicación, y $BIND$, para presentar un mensaje en la historia de un listado. Tick sólo los que quieres que use, y nada más.",
+    "message": "Se crea en $PATH$ en Postulo. Esta extensión puede usar dos ámbitos: $CAPTURES$, para capturar un anuncio, y $BIND$, para archivar un mensaje en el historial de una oferta. Marque solo los que quiera que use, y nada más.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -164,22 +164,22 @@
     }
   },
   "noMessage": {
-    "message": "Ningún mensaje está en pantalla. Abre uno, luego abre esto otra vez."
+    "message": "No hay ningún mensaje en pantalla. Abra uno y vuelva a abrir esto."
   },
   "notBuiltYet": {
-    "message": "La captura no se ha construido todavía. Este es el esqueleto de la extensión: se conecta a su Postulo y lee el mensaje en pantalla."
+    "message": "La captura aún no está implementada. Este es el esqueleto de la extensión: se conecta a su Postulo y lee el mensaje en pantalla."
   },
   "settings": {
     "message": "Ajustes"
   },
   "tokenMissing": {
-    "message": "Pruebe el Postulo token le mostró."
+    "message": "Pegue el token que Postulo le mostró."
   },
   "optionsTitle": {
-    "message": "Ajustes de posulo"
+    "message": "Ajustes de Postulo"
   },
   "tokenStored": {
-    "message": "El token se mantiene sin cifrar en este perfil Thunderbird. La contraseña primaria de Thunderbird no la protege, y cualquiera que pueda leer la carpeta de perfil puede utilizarla hasta que la revoque bajo $PATH$ en Postulo.",
+    "message": "El token se guarda sin cifrar en este perfil de Thunderbird. La contraseña principal de Thunderbird no lo protege, y cualquiera que pueda leer la carpeta del perfil puede usarlo hasta que lo revoque en $PATH$ en Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,10 +187,10 @@
     }
   },
   "tooMany": {
-    "message": "Demasiados capturas en poco tiempo. Espera un minuto y vuelve a intentarlo."
+    "message": "Demasiadas capturas en poco tiempo. Espere un minuto y vuelva a intentarlo."
   },
   "storageFull": {
-    "message": "El almacenamiento de Thunderbird para Postulo está lleno. Intente de nuevo después de eliminar algunos datos, o reiniciar Thunderbird."
+    "message": "El almacenamiento de Thunderbird para Postulo está lleno. Vuelva a intentarlo después de eliminar algunos datos, o reinicie Thunderbird."
   },
   "instanceLabel": {
     "message": "Su Postulo"
