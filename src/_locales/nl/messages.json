@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Deze post vastleggen"
+    "message": "Deze vacature vastleggen"
   },
   "save": {
     "message": "Opslaan"
   },
   "savedNoPermission": {
-    "message": "Gered, maar Thunderbird weigerde toestemming om het te bereiken; laat het in de toestemmingen van de add-on."
+    "message": "Opgeslagen, maar Thunderbird weigerde toestemming om het te bereiken; sta het toe in de machtigingen van de add-on."
   },
   "tokenTooWide": {
-    "message": "Deze token kan meer doen dan deze extensie nodig heeft ($EXTRA$). Het wordt ongecodeerd gehouden in dit profiel: maak er één met alleen de bovengenoemde scopes, en trek deze in.",
+    "message": "Dit token kan meer dan deze extensie nodig heeft ($EXTRA$). Het wordt onversleuteld bewaard in dit profiel: maak er een aan met alleen de hierboven genoemde scopes, en trek dit token in.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,7 +17,7 @@
     }
   },
   "tokenPath": {
-    "message": "Instellingen → API tokens"
+    "message": "Instellingen → API-tokens"
   },
   "actionTitle": {
     "message": "Postulo"
@@ -26,7 +26,7 @@
     "message": "(geen onderwerp)"
   },
   "saved": {
-    "message": "Gered. Deze Thunderbird is verbonden met $HOST$.",
+    "message": "Opgeslagen. Deze Thunderbird is verbonden met $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -37,7 +37,7 @@
     "message": "Token vergeten"
   },
   "setUp": {
-    "message": "Regel het"
+    "message": "Instellen"
   },
   "messageFrom": {
     "message": "Van $SENDER$",
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Gebruik https voor alles wat niet op uw eigen machine: de token reist met elke aanvraag."
+    "message": "Gebruik https voor alles wat niet op uw eigen computer staat: het token gaat mee met elk verzoek."
   },
   "notPostulo": {
-    "message": "Dat adres antwoordde, maar niet als Postulo. Controleer het adres en elke inlogpagina ervoor."
+    "message": "Dat adres antwoordde, maar niet als Postulo. Controleer het adres en een eventuele inlogpagina die ervoor staat."
   },
   "enterAddress": {
     "message": "Voer het adres van uw Postulo in."
   },
   "noCredentialsInAddress": {
-    "message": "Laat de gebruikersnaam en het wachtwoord buiten het adres: het zou nooit verbinden, en het wachtwoord zou worden weergegeven in de popup."
+    "message": "Laat de gebruikersnaam en het wachtwoord weg uit het adres: daarmee wordt nooit verbinding gemaakt, en het wachtwoord zou in de pop-up worden getoond."
   },
   "extensionDescription": {
-    "message": "Postulo voor Thunderbird: job berichten vanuit je mail, verzonden naar je eigen Postulo. Een skelet voor nu: het verbindt en toont het bericht op het scherm, en nog niet vastleggen."
+    "message": "Postulo voor Thunderbird: vacatures uit uw mail, verstuurd naar uw eigen Postulo. Voorlopig een skelet: het maakt verbinding en toont het bericht op het scherm, maar legt nog niets vast."
   },
   "tokenForgotten": {
-    "message": "Het token wordt vergeten: het wordt niet meer bewaard in dit Thunderbird profiel. Het werkt nog steeds totdat je het herroept onder $PATH$ in Postulo.",
+    "message": "Het token is vergeten: het wordt niet meer bewaard in dit Thunderbird-profiel. Het werkt nog steeds totdat u het intrekt onder $PATH$ in Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -74,19 +74,19 @@
     "message": "Het bericht op het scherm"
   },
   "test": {
-    "message": "Test"
+    "message": "Testen"
   },
   "asking": {
-    "message": "Postulo vragen wie deze token is.."
+    "message": "Postulo wordt gevraagd van wie dit token is…"
   },
   "notConnected": {
     "message": "Nog niet verbonden met een Postulo."
   },
   "instanceHint": {
-    "message": "Het adres waar je het opent. https, tenzij het op deze machine draait."
+    "message": "Het adres waarop u het opent. https, tenzij het op deze computer draait."
   },
   "tokenLabel": {
-    "message": "API token"
+    "message": "API-token"
   },
   "addressRefused": {
     "message": "Toestemming om dat adres te bereiken werd geweigerd."
@@ -100,7 +100,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Het heeft noch de $CAPTURES$ scope noch de $BIND$ scope, dus deze extensie kan er niets mee doen.",
+    "message": "Het heeft noch de scope $CAPTURES$ noch de scope $BIND$, dus deze extensie kan er niets mee.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -114,10 +114,10 @@
     "message": "Dat lijkt niet op een webadres."
   },
   "notAllowed": {
-    "message": "Deze token mag niet gevangen worden."
+    "message": "Dit token mag niets vastleggen."
   },
   "tokenHintScopes": {
-    "message": "Gemaakt onder $PATH$ in Postulo. Deze extensie kan gebruik maken van twee scopes: $CAPTURES$, om een posting vast te leggen, en $BIND$, om een bericht in de geschiedenis van een lijst te plaatsen. Kies alleen degenen die je wilt dat het gebruikt, en niets anders.",
+    "message": "Aangemaakt onder $PATH$ in Postulo. Deze extensie kan twee scopes gebruiken: $CAPTURES$, om een vacature vast te leggen, en $BIND$, om een bericht in de geschiedenis van een vacature op te nemen. Vink alleen de scopes aan die u het wilt laten gebruiken, en verder niets.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -139,22 +139,22 @@
     }
   },
   "noMessage": {
-    "message": "Er is geen bericht op het scherm. Open er een, open dit dan opnieuw."
+    "message": "Er staat geen bericht op het scherm. Open er een en open dit daarna opnieuw."
   },
   "notBuiltYet": {
-    "message": "Vangen is nog niet gebouwd. Dit is het skelet van de uitbreiding: het verbindt met uw Postulo en leest het bericht op het scherm."
+    "message": "Vastleggen is nog niet gebouwd. Dit is het skelet van de extensie: het maakt verbinding met uw Postulo en leest het bericht op het scherm."
   },
   "settings": {
     "message": "Instellingen"
   },
   "tokenMissing": {
-    "message": "Plak het token dat Postulo je liet zien."
+    "message": "Plak het token dat Postulo u liet zien."
   },
   "optionsTitle": {
-    "message": "Postulo instellingen"
+    "message": "Postulo-instellingen"
   },
   "tokenStored": {
-    "message": "Het token wordt ongecodeerd gehouden in dit Thunderbird profiel. Het primaire wachtwoord van Thunderbird beschermt het niet en iedereen die de profielmap kan lezen kan het gebruiken totdat u het herroept onder $PATH$ in Postulo.",
+    "message": "Het token wordt onversleuteld bewaard in dit Thunderbird-profiel. Het hoofdwachtwoord van Thunderbird beschermt het niet, en iedereen die de profielmap kan lezen, kan het gebruiken totdat u het intrekt onder $PATH$ in Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -162,16 +162,16 @@
     }
   },
   "tooMany": {
-    "message": "Te veel gevangen in korte tijd. Wacht even en probeer het opnieuw."
+    "message": "Te veel vastleggingen in korte tijd. Wacht een minuut en probeer het opnieuw."
   },
   "storageFull": {
-    "message": "Thunderbird's opslag voor Postulo is vol. Probeer het opnieuw na het verwijderen van sommige gegevens, of herstart Thunderbird."
+    "message": "De opslag van Thunderbird voor Postulo is vol. Verwijder wat gegevens en probeer het opnieuw, of start Thunderbird opnieuw."
   },
   "instanceLabel": {
     "message": "Uw Postulo"
   },
   "tokenIs": {
-    "message": "Token ‘$NAME$’ voor $OWNER$.",
+    "message": "Token “$NAME$” voor $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -182,7 +182,7 @@
     }
   },
   "tokenIsScoped": {
-    "message": "Token ‘$NAME$’ voor $OWNER$ ($SCOPES$).",
+    "message": "Token “$NAME$” voor $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"

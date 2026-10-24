@@ -105,7 +105,7 @@
     "message": "Pitamo Postulo čiji je ovaj token…"
   },
   "notConnected": {
-    "message": "Još nije povezan nijedan Postulo."
+    "message": "Još nije povezano ni s jednim Postulom."
   },
   "instanceHint": {
     "message": "Adresa na kojoj ga otvarate. https, osim ako radi na ovom računalu."

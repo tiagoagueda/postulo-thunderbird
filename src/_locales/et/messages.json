@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Selle postituse jäädvustamine"
+    "message": "Jäädvusta see kuulutus"
   },
   "save": {
-    "message": "Päästa"
+    "message": "Salvesta"
   },
   "savedNoPermission": {
-    "message": "Salvestatud, kuid Thunderbird keeldus luba selleni jõudmiseks; lubage seda lisalubades."
+    "message": "Salvestatud, kuid Thunderbird ei andnud sellele aadressile pääsemise luba; lubage see lisandmooduli õigustes."
   },
   "tokenTooWide": {
-    "message": "See token võib teha rohkem kui see laiendus vajab ($EXTRA$). Selles profiilis hoitakse seda krüptimata: tehke üks ainult ülalnimetatud ulatusega ja tühistage see.",
+    "message": "See tõend lubab rohkem, kui laiendus vajab ($EXTRA$). Seda hoitakse selles profiilis krüptimata: looge tõend ainult ülal nimetatud õigustega ja tühistage see.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Seadistused → API märgid"
+    "message": "Seaded → API-tõendid"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(subjekt puudub)"
+    "message": "(teema puudub)"
   },
   "saved": {
-    "message": "Päästsin. See Thunderbird on ühendatud $HOST$.",
+    "message": "Salvestatud. See Thunderbird on ühendatud hostiga $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "Unusta märgid"
+    "message": "Unusta tõend"
   },
   "setUp": {
-    "message": "Pane paika"
+    "message": "Seadista"
   },
   "messageFrom": {
-    "message": "Alates $SENDER$",
+    "message": "Saatja: $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Kasutage HTTP-d kõige jaoks, mis ei ole teie enda masinas: märk liigub iga päringuga."
+    "message": "Kasutage https-i kõige jaoks, mis ei asu teie enda arvutis: tõend liigub kaasa iga päringuga."
   },
   "notPostulo": {
-    "message": "Sellele küsimusele vastati, kuid mitte Postulo. Kontrollige aadressi ja selle ees olevat sisselogimislehte."
+    "message": "See aadress vastas, kuid mitte nagu Postulo. Kontrollige aadressi ja selle ees olevat sisselogimislehte."
   },
   "enterAddress": {
-    "message": "Sisesta oma postiaadressi aadress."
+    "message": "Sisestage oma Postulo aadress."
   },
   "noCredentialsInAddress": {
-    "message": "Jäta kasutajanimi ja parool aadressist välja: see ei ühenduks kunagi ja parooli näidatakse hüpikmenüüs."
+    "message": "Jätke kasutajanimi ja parool aadressist välja: sellega ei saaks kunagi ühendust ja parool kuvataks hüpikaknas."
   },
   "extensionDescription": {
-    "message": "Postulo Thunderbirdile: tööpostitused teie postist, mis saadetakse teie enda Postuloile. Praegune skelett: see ühendab ja näitab sõnumit ekraanil ega võta veel."
+    "message": "Postulo Thunderbirdile: töökuulutused teie e-postist, saadetud teie enda Postulosse. Praegu alles toorik: see loob ühenduse ja näitab ekraanil olevat kirja, kuid ei jäädvusta veel."
   },
   "tokenForgotten": {
-    "message": "Märk on unustatud: seda ei hoita enam selles Thunderbirdi profiilis. See töötab endiselt, kuni te selle $PATH$ alusel Postulois tühistate.",
+    "message": "Tõend on unustatud: seda ei hoita enam selles Thunderbirdi profiilis. See töötab siiski, kuni te selle Postulos jaotises $PATH$ tühistate.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,10 +71,10 @@
     }
   },
   "messageHeading": {
-    "message": "Teade ekraanil"
+    "message": "Ekraanil olev kiri"
   },
   "tokenIs": {
-    "message": "Token „$NAME$ $OWNER$ jaoks.",
+    "message": "Tõend „$NAME$“ kasutajale $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -88,7 +88,7 @@
     "message": "Testi"
   },
   "tokenIsScoped": {
-    "message": "Token „$NAME$ tähistab $OWNER$ ($SCOPES$).",
+    "message": "Tõend „$NAME$“ kasutajale $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,22 +102,22 @@
     }
   },
   "asking": {
-    "message": "Küsige Postulolt, kes see märk on.."
+    "message": "Küsin Postulolt, kelle tõend see on…"
   },
   "notConnected": {
-    "message": "Pole veel Postuloiga ühendatud."
+    "message": "Postuloga pole veel ühendatud."
   },
   "instanceHint": {
-    "message": "Aadress, kus sa selle avad. https, kui see ei tööta sellel masinal."
+    "message": "Aadress, millel te selle avate. https, välja arvatud juhul, kui see töötab selles arvutis."
   },
   "tokenLabel": {
-    "message": "API-märk"
+    "message": "API-tõend"
   },
   "addressRefused": {
-    "message": "Luba sellele aadressile jõudmiseks keelduti."
+    "message": "Sellele aadressile pääsemise luba ei antud."
   },
   "tokenRefused": {
-    "message": "Postulo ei võta seda luba vastu. Kontrollige seda $PATH$ all.",
+    "message": "Postulo ei aktsepteeri seda tõendit. Kontrollige seda jaotises $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Sellel ei ole ei $CAPTURES$ ega $BIND$ ulatust, seega ei saa see laiendus sellega midagi teha.",
+    "message": "Sellel pole ei $CAPTURES$ ega $BIND$ õigust, seega ei saa see laiendus sellega midagi teha.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -139,10 +139,10 @@
     "message": "See ei näe välja nagu veebiaadress."
   },
   "notAllowed": {
-    "message": "Seda märki ei ole lubatud jäädvustada."
+    "message": "Sellel tõendil puudub jäädvustamise õigus."
   },
   "tokenHintScopes": {
-    "message": "Made under $PATH$ in Postulo. See laiendus võib kasutada kahte ulatust: $CAPTURES$, postitamise jäädvustamiseks ja $BIND$, et saata sõnum kirje ajaloosse. Pange ainult need, mida soovite kasutada, ja mitte midagi muud.",
+    "message": "Luuakse Postulos jaotises $PATH$. See laiendus saab kasutada kahte õigust: $CAPTURES$ kuulutuse jäädvustamiseks ja $BIND$ kirja lisamiseks kuulutuse ajalukku. Märkige ainult need, mida soovite lubada, ja mitte midagi muud.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -156,7 +156,7 @@
     }
   },
   "answered": {
-    "message": "Postulo vastas $STATUS$.",
+    "message": "Postulo vastas: $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -164,22 +164,22 @@
     }
   },
   "noMessage": {
-    "message": "Ekraanil pole ühtegi teadet. Ava üks ja siis ava see uuesti."
+    "message": "Ekraanil pole ühtegi kirja. Avage üks ja seejärel avage see uuesti."
   },
   "notBuiltYet": {
-    "message": "Kinnivõtmine pole veel ehitatud. See on laienduse skelett: see ühendub teie Postuloiga ja loeb sõnumi ekraanil."
+    "message": "Jäädvustamine pole veel valmis. See on laienduse toorik: see loob ühenduse teie Postuloga ja loeb ekraanil olevat kirja."
   },
   "settings": {
-    "message": "Seadistused"
+    "message": "Seaded"
   },
   "tokenMissing": {
-    "message": "Aseta märk Postulo näitas sulle."
+    "message": "Kleepige tõend, mille Postulo teile näitas."
   },
   "optionsTitle": {
-    "message": "Postulo seadistused"
+    "message": "Postulo seaded"
   },
   "tokenStored": {
-    "message": "Märki hoitakse selles Thunderbirdi profiilis krüptimata. Thunderbirdi esmane parool ei kaitse seda ja igaüks, kes saab profiilikataloogi lugeda, võib seda kasutada kuni selle tühistamiseni $PATH$ Postulois.",
+    "message": "Tõendit hoitakse selles Thunderbirdi profiilis krüptimata. Thunderbirdi ülemparool seda ei kaitse ning igaüks, kes saab profiilikausta lugeda, saab seda kasutada, kuni te selle Postulos jaotises $PATH$ tühistate.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,12 +187,12 @@
     }
   },
   "tooMany": {
-    "message": "Liiga palju tabamisi lühikese aja jooksul. Oota üks hetk ja proovi uuesti."
+    "message": "Liiga palju jäädvustusi lühikese aja jooksul. Oodake minut ja proovige uuesti."
   },
   "storageFull": {
-    "message": "Thunderbirdi laoruum Postulole on täis. Proovige uuesti pärast mõnede andmete eemaldamist või taaskäivitage Thunderbird."
+    "message": "Thunderbirdi salvestusruum Postulo jaoks on täis. Proovige uuesti pärast osa andmete eemaldamist või taaskäivitage Thunderbird."
   },
   "instanceLabel": {
-    "message": "Postulo"
+    "message": "Teie Postulo"
   }
 }

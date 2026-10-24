@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Ota tämä viesti"
+    "message": "Kaappaa tämä ilmoitus"
   },
   "save": {
     "message": "Tallenna"
   },
   "savedNoPermission": {
-    "message": "Pelastaa, mutta Thunderbird kieltäytyi lupa saavuttaa se; anna sen lisäosan luvissa."
+    "message": "Tallennettu, mutta Thunderbird ei antanut lupaa ottaa siihen yhteyttä; salli se lisäosan käyttöoikeuksissa."
   },
   "tokenTooWide": {
-    "message": "Tämä merkki voi tehdä enemmän kuin tämä laajennus tarpeet ($EXTRA$). Se pidetään salaamattomana tässä profiilissa: tee yksi, jossa on vain edellä mainitut soveltamisalat, ja peruuta tämä.",
+    "message": "Tämä tunnus voi tehdä enemmän kuin laajennus tarvitsee ($EXTRA$). Se säilytetään salaamattomana tässä profiilissa: luo tunnus, jolla on vain yllä mainitut käyttöoikeudet, ja peruuta tämä.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,7 +17,7 @@
     }
   },
   "tokenPath": {
-    "message": "Asetukset → API-rahat"
+    "message": "Asetukset → API-tunnukset"
   },
   "actionTitle": {
     "message": "Postulo"
@@ -26,7 +26,7 @@
     "message": "(ei aihetta)"
   },
   "saved": {
-    "message": "Pelastui. Tämä Thunderbird on yhteydessä $HOST$.",
+    "message": "Tallennettu. Tämä Thunderbird on yhdistetty palvelimeen $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "Unohda kuponki"
+    "message": "Unohda tunnus"
   },
   "setUp": {
-    "message": "Järjestä se"
+    "message": "Määritä"
   },
   "messageFrom": {
-    "message": "$SENDER$",
+    "message": "Lähettäjä: $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Käytä https:tä kaikkeen, mikä ei ole omalla koneellasi: kuponki matkustaa jokaisen pyynnön kanssa."
+    "message": "Käytä https:ää kaikkeen, mikä ei ole omalla koneellasi: tunnus kulkee jokaisen pyynnön mukana."
   },
   "notPostulo": {
-    "message": "Tuohon osoitteeseen vastattiin, mutta ei Postulona. Tarkista osoite ja kaikki kirjautumissivut."
+    "message": "Osoite vastasi, mutta ei Postulona. Tarkista osoite ja mahdollinen sen edessä oleva kirjautumissivu."
   },
   "enterAddress": {
     "message": "Anna Postulon osoite."
   },
   "noCredentialsInAddress": {
-    "message": "Jätä käyttäjätunnus ja salasana pois osoitteesta: se ei koskaan yhdistäisi, ja salasana näytettäisiin ponnahdusikkunassa."
+    "message": "Jätä käyttäjätunnus ja salasana pois osoitteesta: yhteys ei koskaan toimisi, ja salasana näkyisi ponnahdusikkunassa."
   },
   "extensionDescription": {
-    "message": "Postulo Myrskylintu: työkomennuksia postista, lähetetään omaan Postulo. Toistaiseksi luuranko: se yhdistää ja näyttää viestin näytöllä, eikä kuvaa vielä."
+    "message": "Postulo Thunderbirdille: työpaikkailmoitukset sähköpostistasi omaan Postuloosi. Toistaiseksi vasta runko: se muodostaa yhteyden ja näyttää näytöllä olevan viestin, mutta ei vielä kaappaa."
   },
   "tokenForgotten": {
-    "message": "Merkki on unohdettu: sitä ei enää pidetä tässä Myrskylintu profiilissa. Se toimii, kunnes peruutat sen Postulossa $PATH$.",
+    "message": "Tunnus on unohdettu: sitä ei enää säilytetä tässä Thunderbird-profiilissa. Se toimii edelleen, kunnes peruutat sen Postulossa kohdassa $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -74,25 +74,25 @@
     "message": "Näytöllä oleva viesti"
   },
   "test": {
-    "message": "Testi"
+    "message": "Testaa"
   },
   "asking": {
-    "message": "Kysyn Postulolta, kuka tämä on.."
+    "message": "Kysytään Postulolta, kenen tunnus tämä on…"
   },
   "notConnected": {
     "message": "Ei vielä yhteyttä Postuloon."
   },
   "instanceHint": {
-    "message": "Osoite, jossa avaat sen. Jos se ei toimi tällä koneella."
+    "message": "Osoite, josta avaat sen. Käytä https:ää, ellei se toimi tällä koneella."
   },
   "tokenLabel": {
     "message": "API-tunnus"
   },
   "addressRefused": {
-    "message": "Lupa päästä siihen osoitteeseen evättiin."
+    "message": "Lupa ottaa yhteys tuohon osoitteeseen evättiin."
   },
   "tokenRefused": {
-    "message": "Postulo ei hyväksy tätä merkkiä. Tarkista se alla $PATH$.",
+    "message": "Postulo ei hyväksy tätä tunnusta. Tarkista se kohdassa $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -100,7 +100,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Sillä ei ole $CAPTURES$-kenttää eikä $BIND$-kenttää, joten tämä laajennus ei voi tehdä sille mitään.",
+    "message": "Sillä ei ole $CAPTURES$- eikä $BIND$-käyttöoikeutta, joten tämä laajennus ei voi tehdä sillä mitään.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -111,13 +111,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Tuo ei näytä nettiosoitteelta."
+    "message": "Tuo ei näytä verkko-osoitteelta."
   },
   "notAllowed": {
-    "message": "Tämä merkki ei saa kaapata."
+    "message": "Tällä tunnuksella ei ole lupaa kaapata."
   },
   "tokenHintScopes": {
-    "message": "Valmistettu Postulossa $PATH$. Tämä laajennus voi käyttää kahta sovellusta: $CAPTURES$, kaapata lähettämistä, ja $BIND$, arkistoida viestin listauksen historiaan. Valitse vain ne, joita haluat käyttää.",
+    "message": "Luodaan Postulossa kohdassa $PATH$. Tämä laajennus voi käyttää kahta käyttöoikeutta: $CAPTURES$ ilmoituksen kaappaamiseen ja $BIND$ viestin arkistointiin ilmoituksen historiaan. Valitse vain ne, joita haluat sen käyttävän, eikä mitään muuta.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -131,7 +131,7 @@
     }
   },
   "answered": {
-    "message": "Postulo vastasi $STATUS$.",
+    "message": "Postulo vastasi: $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -139,22 +139,22 @@
     }
   },
   "noMessage": {
-    "message": "Näytöllä ei ole viestiä. Avaa yksi ja avaa tämä uudestaan."
+    "message": "Näytöllä ei ole viestiä. Avaa viesti ja avaa sitten tämä uudelleen."
   },
   "notBuiltYet": {
-    "message": "Vangitsemista ei ole vielä rakennettu. Tämä on luuranko laajennus: se yhdistää teidän Postulo ja lukee viestin näytöllä."
+    "message": "Kaappausta ei ole vielä toteutettu. Tämä on laajennuksen runko: se muodostaa yhteyden Postuloosi ja lukee näytöllä olevan viestin."
   },
   "settings": {
     "message": "Asetukset"
   },
   "tokenMissing": {
-    "message": "Liitä Postulon kuponki."
+    "message": "Liitä tunnus, jonka Postulo näytti sinulle."
   },
   "optionsTitle": {
-    "message": "Postulo- asetukset"
+    "message": "Postulon asetukset"
   },
   "tokenStored": {
-    "message": "Merkki pidetään salaamattomana tässä Myrskylintu profiilissa. Thunderbirdin ensisijainen salasana ei suojaa sitä, ja kuka tahansa, joka voi lukea profiilikansion, voi käyttää sitä, kunnes peruutat sen Postulossa $PATH$.",
+    "message": "Tunnus säilytetään salaamattomana tässä Thunderbird-profiilissa. Thunderbirdin pääsalasana ei suojaa sitä, ja kuka tahansa, joka voi lukea profiilikansion, voi käyttää sitä, kunnes peruutat sen Postulossa kohdassa $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -162,13 +162,13 @@
     }
   },
   "tooMany": {
-    "message": "Liian monta vangitsemista lyhyessä ajassa. Yritä uudestaan."
+    "message": "Liian monta kaappausta lyhyessä ajassa. Odota hetki ja yritä uudelleen."
   },
   "storageFull": {
-    "message": "Thunderbirdin varasto Postulolle on täynnä. Yritä uudelleen, kun olet poistanut joitakin tietoja, tai käynnistää Thunderbird."
+    "message": "Thunderbirdin tallennustila Postulolle on täynnä. Yritä uudelleen, kun olet poistanut tietoja, tai käynnistä Thunderbird uudelleen."
   },
   "instanceLabel": {
-    "message": "Postulo"
+    "message": "Postulosi"
   },
   "tokenIsScoped": {
     "message": "Tunnus ”$NAME$” käyttäjälle $OWNER$ ($SCOPES$).",

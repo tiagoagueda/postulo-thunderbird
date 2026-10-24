@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Captura acest post"
+    "message": "Capturați acest anunț"
   },
   "save": {
-    "message": "Salvează"
+    "message": "Salvați"
   },
   "savedNoPermission": {
-    "message": "Salvat, dar Thunderbird a refuzat permisiunea de a ajunge la ea; permiteți-l în permisiunile add-on lui."
+    "message": "Salvat, dar Thunderbird a refuzat permisiunea de a o accesa; permiteți-o în permisiunile suplimentului."
   },
   "tokenTooWide": {
-    "message": "Acest jeton poate face mai mult decât necesităţile de extensie ($EXTRA$). Acesta este păstrat necriptat în acest profil: face unul cu doar domeniile de aplicare menționate mai sus, și revocă aceasta.",
+    "message": "Acest token poate face mai mult decât are nevoie această extensie ($EXTRA$). Este păstrat necriptat în acest profil: creați unul doar cu permisiunile numite mai sus și revocați-l pe acesta.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,13 +17,13 @@
     }
   },
   "tokenPath": {
-    "message": "Configurări → jetoane API"
+    "message": "Setări → Tokenuri API"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(nici un subiect)"
+    "message": "(fără subiect)"
   },
   "saved": {
     "message": "Salvat. Acest Thunderbird este conectat la $HOST$.",
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "Uită de semn"
+    "message": "Uitați tokenul"
   },
   "setUp": {
-    "message": "Aranjează totul"
+    "message": "Configurați"
   },
   "messageFrom": {
-    "message": "Din $SENDER$",
+    "message": "De la $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Utilizați https pentru orice lucru care nu este pe propria mașină: jetonul călătorește cu fiecare cerere."
+    "message": "Folosiți https pentru tot ce nu se află pe propriul calculator: tokenul este trimis cu fiecare cerere."
   },
   "notPostulo": {
-    "message": "Această adresă a răspuns, dar nu ca Postulo. Verifică adresa şi orice pagină din faţa ei."
+    "message": "Adresa a răspuns, dar nu ca Postulo. Verificați adresa și orice pagină de conectare din fața ei."
   },
   "enterAddress": {
-    "message": "Introduceţi adresa Postulo."
+    "message": "Introduceți adresa Postulo-ului dumneavoastră."
   },
   "noCredentialsInAddress": {
-    "message": "Lăsați numele de utilizator și parola din adresa: nu s-ar conecta niciodată, iar parola ar fi afișată în popup."
+    "message": "Nu includeți numele de utilizator și parola în adresă: conexiunea nu ar funcționa niciodată, iar parola ar fi afișată în fereastra pop-up."
   },
   "extensionDescription": {
-    "message": "Postulo pentru Thunderbird: postări de locuri de muncă din e-mail, trimis la propriul Postulo. Un schelet pentru moment: se conectează și arată mesajul pe ecran, și nu surprinde încă."
+    "message": "Postulo pentru Thunderbird: anunțuri de angajare din e-mailurile dumneavoastră, trimise către propriul Postulo. Deocamdată doar un schelet: se conectează și afișează mesajul de pe ecran, dar încă nu capturează."
   },
   "tokenForgotten": {
-    "message": "Semnul este uitat: nu mai este păstrat în profilul Thunderbird. Încă funcţionează până când îl revoci la $PATH$ în Postulo.",
+    "message": "Tokenul a fost uitat: nu mai este păstrat în acest profil Thunderbird. Funcționează în continuare până când îl revocați la $PATH$ în Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -74,25 +74,25 @@
     "message": "Mesajul de pe ecran"
   },
   "test": {
-    "message": "Test"
+    "message": "Testați"
   },
   "asking": {
-    "message": "Întreabă Postulo cine este acest jeton.."
+    "message": "Se întreabă Postulo cui aparține acest token…"
   },
   "notConnected": {
-    "message": "Nu este conectat la un Postulo încă."
+    "message": "Încă nu este conectat la niciun Postulo."
   },
   "instanceHint": {
-    "message": "Adresa la care o deschizi. https, dacă nu rulează pe această mașină."
+    "message": "Adresa la care îl deschideți. https, cu excepția cazului în care rulează pe acest calculator."
   },
   "tokenLabel": {
     "message": "Token API"
   },
   "addressRefused": {
-    "message": "Permisiunea de a ajunge la acea adresă a fost refuzată."
+    "message": "Permisiunea de a accesa acea adresă a fost refuzată."
   },
   "tokenRefused": {
-    "message": "Postulo nu acceptă acest semn. Verificați sub $PATH$.",
+    "message": "Postulo nu acceptă acest token. Verificați-l la $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -100,7 +100,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Ea nu deține nici domeniul de aplicare $CAPTURES$, nici domeniul de aplicare $BIND$, astfel încât această extensie să nu poată face nimic cu el.",
+    "message": "Nu are nici permisiunea $CAPTURES$, nici permisiunea $BIND$, așa că această extensie nu poate face nimic cu el.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -111,13 +111,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Asta nu arata ca o adresă de web."
+    "message": "Aceasta nu pare a fi o adresă web."
   },
   "notAllowed": {
-    "message": "Acest jeton nu este permis pentru a captura."
+    "message": "Acest token nu are permisiunea de a captura."
   },
   "tokenHintScopes": {
-    "message": "Fabricat sub $PATH$ în Postulo. Această extensie poate utiliza două domenii de aplicare: $CAPTURES$, pentru a captura o postare, și $BIND$, pentru a depune un mesaj într-o listă de istorie. Tick numai cele pe care doriți să-l folosească, și nimic altceva.",
+    "message": "Creat la $PATH$ în Postulo. Această extensie poate folosi două permisiuni: $CAPTURES$, pentru a captura un anunț, și $BIND$, pentru a adăuga un mesaj la istoricul unui anunț. Bifați doar pe cele pe care doriți să le folosească, și nimic altceva.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -131,7 +131,7 @@
     }
   },
   "answered": {
-    "message": "Postulo a răspuns $STATUS$.",
+    "message": "Postulo a răspuns cu $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -139,22 +139,22 @@
     }
   },
   "noMessage": {
-    "message": "Nici un mesaj nu este pe ecran. Deschide una, apoi deschide asta din nou."
+    "message": "Niciun mesaj nu este afișat. Deschideți unul, apoi deschideți din nou această fereastră."
   },
   "notBuiltYet": {
-    "message": "Capturarea nu este construită încă. Acesta este scheletul de extensie: se conectează la Postulo și citește mesajul de pe ecran."
+    "message": "Capturarea nu este încă implementată. Acesta este scheletul extensiei: se conectează la Postulo și citește mesajul de pe ecran."
   },
   "settings": {
-    "message": "Configurări"
+    "message": "Setări"
   },
   "tokenMissing": {
-    "message": "Lipeşte semnul Postulo."
+    "message": "Lipiți tokenul afișat de Postulo."
   },
   "optionsTitle": {
-    "message": "Configurări Postulo"
+    "message": "Setări Postulo"
   },
   "tokenStored": {
-    "message": "Semnul este păstrat necriptat în acest profil Thunderbird. Parola principală a lui Thunderbird nu o protejează, iar oricine poate citi dosarul de profil îl poate folosi până când îl revoci sub $PATH$ în Postulo.",
+    "message": "Tokenul este păstrat necriptat în acest profil Thunderbird. Parola principală a Thunderbird nu îl protejează, iar oricine poate citi dosarul profilului îl poate folosi până când îl revocați la $PATH$ în Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -162,13 +162,13 @@
     }
   },
   "tooMany": {
-    "message": "Prea multe capturi într-un timp scurt. Stai puţin şi încearcă din nou."
+    "message": "Prea multe capturi într-un timp scurt. Așteptați un minut și încercați din nou."
   },
   "storageFull": {
-    "message": "Depozitul lui Thunderbird pentru Postulo e plin. Încercați din nou după eliminarea unor date, sau reporniți Thunderbird."
+    "message": "Spațiul de stocare al Thunderbird pentru Postulo este plin. Încercați din nou după ce eliminați niște date sau reporniți Thunderbird."
   },
   "instanceLabel": {
-    "message": "Postul tău"
+    "message": "Postulo-ul dumneavoastră"
   },
   "tokenIs": {
     "message": "Tokenul „$NAME$” pentru $OWNER$.",

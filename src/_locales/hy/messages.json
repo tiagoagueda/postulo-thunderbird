@@ -1,1 +1,198 @@
-{}
+{
+  "noCredentialsInAddress": {
+    "message": "Մի՛ ներառեք օգտանունն ու գաղտնաբառը հասցեում․ այդպես այն երբեք չի միանա, իսկ գաղտնաբառը կերևա թռուցիկ պատուհանում։"
+  },
+  "extensionDescription": {
+    "message": "Postulo Thunderbird-ի համար՝ աշխատանքի հայտարարություններ ձեր փոստից, ուղարկված ձեր սեփական Postulo-ին։ Առայժմ սա կմախք է․ այն միանում է և ցույց է տալիս էկրանին բացված նամակը, բայց դեռ չի որսում։"
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "saved": {
+    "message": "Պահպանված է։ Այս Thunderbird-ը միացված է $HOST$-ին։",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Դեռ միացված չէ որևէ Postulo-ի։"
+  },
+  "messageHeading": {
+    "message": "Էկրանին բացված նամակը"
+  },
+  "noMessage": {
+    "message": "Էկրանին նամակ չկա։ Բացեք որևէ մեկը, ապա կրկին բացեք սա։"
+  },
+  "messageFrom": {
+    "message": "Ումից՝ $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(առանց թեմայի)"
+  },
+  "notBuiltYet": {
+    "message": "Որսալը դեռ պատրաստ չէ։ Սա ընդլայնման կմախքն է․ այն միանում է ձեր Postulo-ին և կարդում էկրանին բացված նամակը։"
+  },
+  "optionsTitle": {
+    "message": "Postulo-ի կարգավորումներ"
+  },
+  "instanceLabel": {
+    "message": "Ձեր Postulo-ն"
+  },
+  "instanceHint": {
+    "message": "Հասցեն, որով այն բացում եք։ https, եթե այն չի աշխատում այս համակարգչում։"
+  },
+  "tokenLabel": {
+    "message": "API թոքեն"
+  },
+  "tokenPath": {
+    "message": "Կարգավորումներ → API թոքեններ"
+  },
+  "save": {
+    "message": "Պահպանել"
+  },
+  "test": {
+    "message": "Ստուգել"
+  },
+  "asking": {
+    "message": "Հարցնում ենք Postulo-ին, թե ում է պատկանում այս թոքենը…"
+  },
+  "addressRefused": {
+    "message": "Այդ հասցեին դիմելու թույլտվությունը մերժվեց։"
+  },
+  "tokenMissing": {
+    "message": "Փակցրեք այն թոքենը, որը ցույց տվեց Postulo-ն։"
+  },
+  "tokenIs": {
+    "message": "«$NAME$» թոքեն՝ $OWNER$-ի համար։",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "«$NAME$» թոքեն՝ $OWNER$-ի համար ($SCOPES$)։",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Պահպանված է, բայց Thunderbird-ը մերժեց այդ հասցեին դիմելու թույլտվությունը․ թույլատրեք այն հավելման թույլտվություններում։"
+  },
+  "enterAddress": {
+    "message": "Մուտքագրեք ձեր Postulo-ի հասցեն։"
+  },
+  "notAnAddress": {
+    "message": "Սա վեբ հասցեի նման չէ։"
+  },
+  "httpsOnly": {
+    "message": "Օգտագործեք https այն ամենի համար, ինչը ձեր սեփական համակարգչում չէ․ թոքենն ուղարկվում է յուրաքանչյուր հարցման հետ։"
+  },
+  "tokenRefused": {
+    "message": "Postulo-ն չի ընդունում այս թոքենը։ Ստուգեք այն այստեղ՝ $PATH$։",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Այս թոքենին թույլատրված չէ որսալ։"
+  },
+  "tooMany": {
+    "message": "Կարճ ժամանակում չափազանց շատ որսեր։ Սպասեք մեկ րոպե և կրկին փորձեք։"
+  },
+  "answered": {
+    "message": "Postulo-ն պատասխանեց $STATUS$ կոդով։",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "Կարգավորել"
+  },
+  "settings": {
+    "message": "Կարգավորումներ"
+  },
+  "capture": {
+    "message": "Որսալ այս հայտարարությունը"
+  },
+  "tokenHintScopes": {
+    "message": "Ստեղծվում է Postulo-ում՝ $PATH$ բաժնում։ Այս ընդլայնումը կարող է օգտագործել երկու շրջանակ՝ $CAPTURES$՝ հայտարարություն որսալու համար, և $BIND$՝ նամակը հայտարարության պատմության մեջ դասելու համար։ Նշեք միայն նրանք, որոնք ցանկանում եք, որ այն օգտագործի, և ուրիշ ոչինչ։",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Թոքենը պահվում է չգաղտնագրված այս Thunderbird պրոֆիլում։ Thunderbird-ի հիմնական գաղտնաբառն այն չի պաշտպանում, և յուրաքանչյուր ոք, ով կարող է կարդալ պրոֆիլի թղթապանակը, կարող է օգտագործել այն, մինչև դուք այն հետ կանչեք Postulo-ում՝ $PATH$ բաժնում։",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "Այն չունի ո՛չ $CAPTURES$ շրջանակը, ո՛չ էլ $BIND$ շրջանակը, ուստի այս ընդլայնումը դրանով ոչինչ անել չի կարող։",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Այս թոքենը կարող է ավելին, քան պետք է այս ընդլայնմանը ($EXTRA$)։ Այն պահվում է չգաղտնագրված այս պրոֆիլում․ ստեղծեք թոքեն միայն վերևում նշված շրջանակներով և հետ կանչեք այս մեկը։",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "Մոռանալ թոքենը"
+  },
+  "tokenForgotten": {
+    "message": "Թոքենը մոռացված է․ այն այլևս չի պահվում այս Thunderbird պրոֆիլում։ Այն դեռ գործում է, մինչև դուք այն հետ կանչեք Postulo-ում՝ $PATH$ բաժնում։",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Այդ հասցեն պատասխանեց, բայց ոչ որպես Postulo։ Ստուգեք հասցեն և դրա առջև գտնվող մուտքի ցանկացած էջ։"
+  },
+  "storageFull": {
+    "message": "Thunderbird-ի պահեստը Postulo-ի համար լցված է։ Կրկին փորձեք որոշ տվյալներ հեռացնելուց հետո կամ վերագործարկեք Thunderbird-ը։"
+  }
+}

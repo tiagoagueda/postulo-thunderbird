@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Captura aquesta publicació"
+    "message": "Captura aquest anunci"
   },
   "save": {
     "message": "Desa"
   },
   "savedNoPermission": {
-    "message": "Desat, però el Thunderbird va refusar el permís d'arribar-hi, permetent-lo en els permisos d'addició."
+    "message": "S'ha desat, però el Thunderbird ha denegat el permís per accedir-hi; permeteu-ho als permisos del complement."
   },
   "tokenTooWide": {
-    "message": "Aquest testimoni pot fer més que aquesta extensió necessita ($EXTRA$). Es manté sense encriptar en aquest perfil: Feu- ne un amb només l' àmbit que es digui més amunt i revertit aquest.",
+    "message": "Aquest testimoni pot fer més del que necessita aquesta extensió ($EXTRA$). Es desa sense xifrar en aquest perfil: creeu-ne un només amb els àmbits indicats més amunt i revoqueu aquest.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Arranjament Neteja les fitxes API"
+    "message": "Configuració → Testimonis d'API"
   },
   "actionTitle": {
-    "message": "Postuloitalyprovince. kgm"
+    "message": "Postulo"
   },
   "noSubject": {
     "message": "(sense assumpte)"
   },
   "saved": {
-    "message": "Salvat. Aquest Thunderbird està connectat a $HOST$.",
+    "message": "S'ha desat. Aquest Thunderbird està connectat a $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -37,10 +37,10 @@
     "message": "Oblida el testimoni"
   },
   "setUp": {
-    "message": "Estableix- lo"
+    "message": "Configura'l"
   },
   "messageFrom": {
-    "message": "Des de $SENDER$",
+    "message": "De: $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Utilitza https per qualsevol cosa que no sigui a la vostra pròpia màquina: el testimoni viatja amb cada petició."
+    "message": "Utilitzeu https per a tot el que no sigui a la vostra pròpia màquina: el testimoni viatja amb cada petició."
   },
   "notPostulo": {
-    "message": "Aquesta adreça ha respost, però no com Postulo. Comproveu l'adreça i qualsevol pàgina de signes al davant."
+    "message": "Aquesta adreça ha respost, però no com ho fa Postulo. Comproveu l'adreça i qualsevol pàgina d'inici de sessió que hi hagi al davant."
   },
   "enterAddress": {
-    "message": "Introduïu l' adreça del vostre Postulo."
+    "message": "Introduïu l'adreça del vostre Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Deixa el nom d' usuari i la contrasenya de l' adreça: mai es connectarà, i la contrasenya es mostrarà en el menú emergent."
+    "message": "Traieu el nom d'usuari i la contrasenya de l'adreça: no es connectaria mai, i la contrasenya es mostraria a la finestra emergent."
   },
   "extensionDescription": {
-    "message": "Postulo per al Thunderbird: publicacions de feina del vostre correu, enviats al teu propi Postulo. Un esquelet per ara: connecta i mostra el missatge a la pantalla, i encara no captura."
+    "message": "Postulo per al Thunderbird: anuncis de feina del vostre correu, enviats al vostre propi Postulo. De moment és un esquelet: es connecta i mostra el missatge que hi ha en pantalla, però encara no captura."
   },
   "tokenForgotten": {
-    "message": "La fitxa s'oblida: ja no es manté en aquest perfil del Thunderbird. Encara funciona fins que l'escriguis sota $PATH$ a Postulo.",
+    "message": "S'ha oblidat el testimoni: ja no es desa en aquest perfil del Thunderbird. Continua funcionant fins que el revoqueu a $PATH$, a Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,10 +71,10 @@
     }
   },
   "messageHeading": {
-    "message": "El missatge de la pantalla"
+    "message": "El missatge en pantalla"
   },
   "tokenIs": {
-    "message": "Token $NAME$ 2001- 2009 per $OWNER$.",
+    "message": "Testimoni «$NAME$» per a $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -88,22 +88,22 @@
     "message": "Prova"
   },
   "asking": {
-    "message": "Preguntant postulo qui és aquest testimoni.."
+    "message": "S'està preguntant a Postulo a qui pertany aquest testimoni…"
   },
   "notConnected": {
-    "message": "Encara no està connectat a un postulo."
+    "message": "Encara no està connectat a cap Postulo."
   },
   "instanceHint": {
-    "message": "L'adreça on l'obres. https, llevat que vagi en aquesta màquina."
+    "message": "L'adreça on l'obriu. Amb https, tret que s'executi en aquesta màquina."
   },
   "tokenLabel": {
-    "message": "Testimoni API"
+    "message": "Testimoni d'API"
   },
   "addressRefused": {
-    "message": "S' ha refusat el permís per arribar a aquesta adreça."
+    "message": "S'ha denegat el permís per accedir a aquesta adreça."
   },
   "tokenRefused": {
-    "message": "El postulo no accepta aquest testimoni. Comprova-ho sota $PATH$.",
+    "message": "Postulo no accepta aquest testimoni. Comproveu-lo a $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -111,7 +111,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Manté l' àmbit $CAPTURES$ ni l' àmbit $BIND$, per tant aquesta extensió no pot fer res amb ella.",
+    "message": "No té ni l'àmbit $CAPTURES$ ni l'àmbit $BIND$, de manera que aquesta extensió no hi pot fer res.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -125,10 +125,10 @@
     "message": "Això no sembla una adreça web."
   },
   "notAllowed": {
-    "message": "Aquest testimoni no està permès de capturar."
+    "message": "Aquest testimoni no té permís per capturar."
   },
   "tokenHintScopes": {
-    "message": "Fet sota $PATH$ a Postulo. Aquesta extensió pot usar dos àmbits: $CAPTURES$, per a capturar una publicació, i $BIND$, per a filer un missatge a l' historial d' un llistat. Només els que vols utilitzar, i res més.",
+    "message": "Es crea a $PATH$, a Postulo. Aquesta extensió pot fer servir dos àmbits: $CAPTURES$, per capturar un anunci, i $BIND$, per arxivar un missatge a l'historial d'una oferta. Marqueu només els que vulgueu que faci servir, i res més.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -142,7 +142,7 @@
     }
   },
   "answered": {
-    "message": "Postulo va respondre $STATUS$.",
+    "message": "Postulo ha respost $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -150,22 +150,22 @@
     }
   },
   "noMessage": {
-    "message": "No hi ha cap missatge a la pantalla. Obre un, i després obre-ho de nou."
+    "message": "No hi ha cap missatge en pantalla. Obriu-ne un i després torneu a obrir això."
   },
   "notBuiltYet": {
-    "message": "Encara no s'ha construït cap distracció. Aquest és l'esquelet de l'extensió: es connecta amb el seu postulo i llegeix el missatge a la pantalla."
+    "message": "La captura encara no està implementada. Aquest és l'esquelet de l'extensió: es connecta al vostre Postulo i llegeix el missatge en pantalla."
   },
   "settings": {
-    "message": "Arranjament"
+    "message": "Configuració"
   },
   "tokenMissing": {
-    "message": "Enganxa el testimoni que et va ensenyar Postulo."
+    "message": "Enganxeu el testimoni que us ha mostrat Postulo."
   },
   "optionsTitle": {
-    "message": "Arranjaments del Postulo"
+    "message": "Configuració de Postulo"
   },
   "tokenStored": {
-    "message": "La fitxa es manté sense encriptar en aquest perfil del Thunderbird. La contrasenya primària del Thunderbird no la protegeix, i qualsevol que pugui llegir la carpeta de perfil pot usar- la fins que l' emetgueu sota $PATH$ en Postulo.",
+    "message": "El testimoni es desa sense xifrar en aquest perfil del Thunderbird. La contrasenya principal del Thunderbird no el protegeix, i qualsevol persona que pugui llegir la carpeta del perfil el pot fer servir fins que el revoqueu a $PATH$, a Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -173,13 +173,13 @@
     }
   },
   "tooMany": {
-    "message": "Massa captures en poc temps. Espera un minut i prova-ho de nou."
+    "message": "Massa captures en poc temps. Espereu un minut i torneu-ho a provar."
   },
   "storageFull": {
-    "message": "L'emmagatzematge del Thunderbird per al Postulo està ple. Torneu a intentar- ho després d' eliminar algunes dades, o reiniciar el Thunderbird."
+    "message": "L'emmagatzematge del Thunderbird per a Postulo és ple. Torneu-ho a provar després d'eliminar algunes dades, o reinicieu el Thunderbird."
   },
   "instanceLabel": {
-    "message": "El seu postulo"
+    "message": "El vostre Postulo"
   },
   "tokenIsScoped": {
     "message": "Testimoni «$NAME$» per a $OWNER$ ($SCOPES$).",

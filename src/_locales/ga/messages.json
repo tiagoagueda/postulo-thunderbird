@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Gabháil phost seo"
+    "message": "Gabh an fógra poist seo"
   },
   "save": {
     "message": "Sábháil"
   },
   "savedNoPermission": {
-    "message": "Sábháil, ach dhiúltaigh Thunderbird cead chun é a bhaint amach; lig sé sna ceadanna a chur ar."
+    "message": "Sábháilte, ach dhiúltaigh Thunderbird cead chun é a bhaint amach; ceadaigh é i gceadanna an bhreiseáin."
   },
   "tokenTooWide": {
-    "message": "Is féidir leis an dearbhán a dhéanamh níos mó ná an riachtanais síneadh ($EXTRA$). Coinnítear é gan chriptiú sa phróifíl seo: ceann a dhéanamh leis na raonta atá ainmnithe thuas, agus an ceann seo a chúlghairm.",
+    "message": "Is féidir leis an gcomhartha seo níos mó a dhéanamh ná mar a theastaíonn ón síneadh seo ($EXTRA$). Coinnítear gan chriptiú é sa phróifíl seo: déan ceann nach bhfuil aige ach na raonta atá luaite thuas, agus cúlghair an ceann seo.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Socruithe → comharthaí API"
+    "message": "Socruithe → Comharthaí API"
   },
   "actionTitle": {
-    "message": "Taiseachas aeir: fliuch"
+    "message": "Postulo"
   },
   "noSubject": {
     "message": "(gan ábhar)"
   },
   "saved": {
-    "message": "Sábháil. Tá an Thunderbird ceangailte le $HOST$.",
+    "message": "Sábháilte. Tá an Thunderbird seo ceangailte le $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,10 +34,10 @@
     }
   },
   "forgetToken": {
-    "message": "Déan teagmháil linn"
+    "message": "Déan dearmad ar an gcomhartha"
   },
   "setUp": {
-    "message": "Socraigh sé suas"
+    "message": "Socraigh é"
   },
   "messageFrom": {
     "message": "Ó $SENDER$",
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Bain úsáid as https le haghaidh aon rud nach bhfuil ar do mheaisín féin: taistealann an dearbhán le gach iarratas."
+    "message": "Úsáid https d’aon rud nach bhfuil ar do ríomhaire féin: téann an comhartha le gach iarratas."
   },
   "notPostulo": {
-    "message": "D'fhreagair an seoladh sin, ach ní mar Postulo. Seiceáil an seoladh, agus aon leathanach sínithe os a chomhair."
+    "message": "D’fhreagair an seoladh sin, ach ní mar Postulo. Seiceáil an seoladh, agus aon leathanach sínithe isteach atá roimhe."
   },
   "enterAddress": {
     "message": "Cuir isteach seoladh do Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Fág an t-ainm úsáideora agus focal faire as an seoladh: ní bheadh sé ceangal, agus bheadh an focal faire a thaispeáint sa popup."
+    "message": "Fág an t-ainm úsáideora agus an pasfhocal as an seoladh: ní dhéanfaí ceangal choíche, agus thaispeánfaí an pasfhocal sa phreabfhuinneog."
   },
   "extensionDescription": {
-    "message": "Postulo do Thunderbird: postálacha poist ó do phost, a sheoladh chuig do Postulo féin. A creatlach do anois: nascann sé agus léiríonn sé an teachtaireacht ar an scáileán, agus ní ghabháil go fóill."
+    "message": "Postulo do Thunderbird: fógraí poist ó do ríomhphost, seolta chuig do Postulo féin. Creatlach go fóill: déanann sé ceangal agus taispeánann sé an teachtaireacht atá ar an scáileán, ach ní ghabhann sé aon rud fós."
   },
   "tokenForgotten": {
-    "message": "Is é an dearbhán dearmad: tá sé a thuilleadh a choinneáil sa phróifíl Thunderbird. Oibríonn sé fós go dtí go ndéanann tú é a chúlghairm faoi $PATH$ in Postulo.",
+    "message": "Rinneadh dearmad ar an gcomhartha: ní choinnítear sa phróifíl Thunderbird seo é a thuilleadh. Oibríonn sé fós go dtí go gcúlghairfidh tú é faoi $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -74,7 +74,7 @@
     "message": "An teachtaireacht ar an scáileán"
   },
   "tokenIs": {
-    "message": "Token \"$NAME$\" le haghaidh $OWNER$.",
+    "message": "Comhartha “$NAME$” do $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -88,7 +88,7 @@
     "message": "Tástáil"
   },
   "tokenIsScoped": {
-    "message": "Token \"$NAME$\" le haghaidh $OWNER$ ($SCOPES$).",
+    "message": "Comhartha “$NAME$” do $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,22 +102,22 @@
     }
   },
   "asking": {
-    "message": "Asking Postulo a bhfuil an chomhartha seo.."
+    "message": "Ag fiafraí de Postulo cé leis an comhartha seo…"
   },
   "notConnected": {
-    "message": "Gan a bheith ceangailte le Postulo go fóill."
+    "message": "Níl ceangal le Postulo fós."
   },
   "instanceHint": {
-    "message": "An seoladh a osclaíonn tú é ag. https, mura ritheann sé ar an meaisín seo."
+    "message": "An seoladh ag a n-osclaíonn tú é. https, mura ritheann sé ar an ríomhaire seo."
   },
   "tokenLabel": {
-    "message": "Token API"
+    "message": "Comhartha API"
   },
   "addressRefused": {
     "message": "Diúltaíodh cead chun an seoladh sin a bhaint amach."
   },
   "tokenRefused": {
-    "message": "Ní ghlacann Postulo leis an dearbhán seo. Seiceáil é faoi $PATH$.",
+    "message": "Ní ghlacann Postulo leis an gcomhartha seo. Seiceáil é faoi $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Tá sé nach bhfuil an $CAPTURES$ raon feidhme ná an $BIND$ raon feidhme, mar sin is féidir an síneadh a dhéanamh rud ar bith leis.",
+    "message": "Níl an raon $CAPTURES$ ná an raon $BIND$ aige, mar sin ní féidir leis an síneadh seo aon rud a dhéanamh leis.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -136,13 +136,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Ní cuma mhaith seoladh gréasáin."
+    "message": "Ní cosúil gur seoladh gréasáin é sin."
   },
   "notAllowed": {
-    "message": "Ní cheadaítear an dearbhán seo a ghabháil."
+    "message": "Níl cead ag an gcomhartha seo gabháil a dhéanamh."
   },
   "tokenHintScopes": {
-    "message": "Déanta faoi $PATH$ i Postulo. Is féidir leis an síneadh seo dhá raon feidhme a úsáid: $CAPTURES$, postáil a ghabháil, agus $BIND$, teachtaireacht a chomhdú i stair liostála. Tioc ach na cinn is mian leat é a úsáid, agus aon rud eile.",
+    "message": "Déantar é faoi $PATH$ i Postulo. Is féidir leis an síneadh seo dhá raon a úsáid: $CAPTURES$, chun fógra poist a ghabháil, agus $BIND$, chun teachtaireacht a chomhdú i stair fógra poist. Cuir tic leis na cinn ar mian leat go n-úsáidfeadh sé iad, agus leo sin amháin.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -164,22 +164,22 @@
     }
   },
   "noMessage": {
-    "message": "Níl aon teachtaireacht ar an scáileán. Oscailte amháin, ansin oscailte seo arís."
+    "message": "Níl aon teachtaireacht ar an scáileán. Oscail ceann, agus ansin oscail é seo arís."
   },
   "notBuiltYet": {
-    "message": "Níl sé tógtha go fóill. Is é seo an creatlach an síneadh: nascann sé le do Postulo agus léann sé an teachtaireacht ar an scáileán."
+    "message": "Níl an ghabháil tógtha fós. Seo creatlach an tsínte: déanann sé ceangal le do Postulo agus léann sé an teachtaireacht atá ar an scáileán."
   },
   "settings": {
-    "message": "An tSraith Shinsearach"
+    "message": "Socruithe"
   },
   "tokenMissing": {
-    "message": "Léirigh an chomhartha Postulo duit."
+    "message": "Greamaigh an comhartha a thaispeáin Postulo duit."
   },
   "optionsTitle": {
-    "message": "Seirbhís do Chustaiméirí"
+    "message": "Socruithe Postulo"
   },
   "tokenStored": {
-    "message": "Coinnítear an dearbhán gan chriptiú sa phróifíl Thunderbird seo. Ní dhéanann Focal faire bunscoile Thunderbird é a chosaint, agus is féidir le duine ar bith ar féidir leo an fillteán próifíl a léamh é a úsáid go dtí go bhfuil tú a chúlghairm faoi $PATH$ i Postulo.",
+    "message": "Coinnítear an comhartha gan chriptiú sa phróifíl Thunderbird seo. Ní chosnaíonn príomhphasfhocal Thunderbird é, agus is féidir le duine ar bith atá in ann fillteán na próifíle a léamh é a úsáid go dtí go gcúlghairfidh tú é faoi $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,12 +187,12 @@
     }
   },
   "tooMany": {
-    "message": "Too gabhálacha go leor i ghearr ama. Fan nóiméad agus déan iarracht arís."
+    "message": "An iomarca gabhálacha i mbeagán ama. Fan nóiméad agus bain triail eile as."
   },
   "storageFull": {
-    "message": "Tá stóráil Thunderbird do Postulo iomlán. Bain triail as arís tar éis roinnt sonraí a bhaint, nó Thunderbird atosú."
+    "message": "Tá stóras Thunderbird do Postulo lán. Bain roinnt sonraí agus bain triail eile as, nó atosaigh Thunderbird."
   },
   "instanceLabel": {
-    "message": "Do Postas"
+    "message": "Do Postulo"
   }
 }

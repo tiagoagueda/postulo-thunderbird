@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Fånga detta inlägg"
+    "message": "Fånga in den här annonsen"
   },
   "save": {
     "message": "Spara"
   },
   "savedNoPermission": {
-    "message": "Sparad, men Thunderbird vägrade tillstånd att nå den; låt den i tilläggets behörigheter."
+    "message": "Sparat, men Thunderbird nekade behörighet att nå den; tillåt den i tilläggets behörigheter."
   },
   "tokenTooWide": {
-    "message": "Denna token kan göra mer än denna förlängning behov ($EXTRA$). Den hålls okrypterad i denna profil: gör en med endast de omfattningar som anges ovan, och återkalla den här.",
+    "message": "Den här token kan göra mer än tillägget behöver ($EXTRA$). Den sparas okrypterad i den här profilen: skapa en med bara de behörigheter som nämns ovan, och återkalla den här.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,7 +17,7 @@
     }
   },
   "tokenPath": {
-    "message": "Inställningar → API tokens"
+    "message": "Inställningar → API-tokens"
   },
   "actionTitle": {
     "message": "Postulo"
@@ -26,7 +26,7 @@
     "message": "(inget ämne)"
   },
   "saved": {
-    "message": "Sparad. Denna Thunderbird är ansluten till $HOST$.",
+    "message": "Sparat. Den här Thunderbird är ansluten till $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -37,7 +37,7 @@
     "message": "Glöm token"
   },
   "setUp": {
-    "message": "Ställ upp det"
+    "message": "Ställ in"
   },
   "messageFrom": {
     "message": "Från $SENDER$",
@@ -48,19 +48,19 @@
     }
   },
   "httpsOnly": {
-    "message": "Använd https för allt som inte finns på din egen maskin: token reser med varje förfrågan."
+    "message": "Använd https för allt som inte finns på din egen dator: token skickas med varje förfrågan."
   },
   "notPostulo": {
-    "message": "Denna adress svarade, men inte som Postulo. Kontrollera adressen och alla inloggningssidor framför den."
+    "message": "Den adressen svarade, men inte som Postulo. Kontrollera adressen och eventuella inloggningssidor framför den."
   },
   "enterAddress": {
     "message": "Ange adressen till din Postulo."
   },
   "extensionDescription": {
-    "message": "Postulo för Thunderbird: jobbposter från din post, skickade till din egen Postulo. Ett skelett för tillfället: det ansluter och visar meddelandet på skärmen och fångar inte ännu."
+    "message": "Postulo för Thunderbird: jobbannonser från din e-post, skickade till din egen Postulo. Än så länge ett skelett: det ansluter och visar meddelandet på skärmen, men fångar inte in något ännu."
   },
   "tokenForgotten": {
-    "message": "Token glöms bort: den hålls inte längre i denna Thunderbird-profil. Det fungerar fortfarande tills du återkallar det under $PATH$ i Postulo.",
+    "message": "Token är bortglömd: den sparas inte längre i den här Thunderbird-profilen. Den fungerar fortfarande tills du återkallar den under $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,25 +71,25 @@
     "message": "Meddelandet på skärmen"
   },
   "test": {
-    "message": "Testa test"
+    "message": "Testa"
   },
   "asking": {
-    "message": "Fråga Postulo vem denna token är.."
+    "message": "Frågar Postulo vem den här token tillhör…"
   },
   "notConnected": {
-    "message": "Inte ansluten till en Postulo ännu."
+    "message": "Inte ansluten till någon Postulo ännu."
   },
   "instanceHint": {
-    "message": "Adressen du öppnar den på. https, om det inte körs på denna maskin."
+    "message": "Adressen du öppnar den på. https, om den inte körs på den här datorn."
   },
   "tokenLabel": {
-    "message": "API token"
+    "message": "API-token"
   },
   "addressRefused": {
-    "message": "Tillstånd att nå denna adress vägrades."
+    "message": "Behörighet att nå den adressen nekades."
   },
   "tokenRefused": {
-    "message": "Postulo accepterar inte denna token. Kontrollera det under $PATH$.",
+    "message": "Postulo godkänner inte den här token. Kontrollera den under $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -97,7 +97,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Den har varken $CAPTURES$ omfattningen eller $BIND$ omfattningen, så denna förlängning kan göra ingenting med den.",
+    "message": "Den har varken behörigheten $CAPTURES$ eller behörigheten $BIND$, så det här tillägget kan inte göra något med den.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -111,10 +111,10 @@
     "message": "Det ser inte ut som en webbadress."
   },
   "notAllowed": {
-    "message": "Denna token är inte tillåtet att fånga."
+    "message": "Den här token får inte fånga in."
   },
   "tokenHintScopes": {
-    "message": "Tillverkad under $PATH$ i Postulo. Denna förlängning kan använda två omfattningar: $CAPTURES$, för att fånga en inlägg, och $BIND$, för att lämna in ett meddelande i en lista historia. Kryssa bara de du vill att den ska använda, och inget annat.",
+    "message": "Skapas under $PATH$ i Postulo. Det här tillägget kan använda två behörigheter: $CAPTURES$, för att fånga in en annons, och $BIND$, för att föra in ett meddelande i en annons historik. Kryssa bara i dem du vill att det ska använda, och inget annat.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -136,22 +136,22 @@
     }
   },
   "noMessage": {
-    "message": "Inget meddelande finns på skärmen. Öppna en, öppna den igen."
+    "message": "Inget meddelande visas. Öppna ett och öppna sedan det här igen."
   },
   "notBuiltYet": {
-    "message": "Att fånga är ännu inte byggt. Detta är skelettet av förlängningen: det ansluter till din Postulo och läser meddelandet på skärmen."
+    "message": "Infångning är inte byggd ännu. Det här är tilläggets skelett: det ansluter till din Postulo och läser meddelandet på skärmen."
   },
   "settings": {
     "message": "Inställningar"
   },
   "tokenMissing": {
-    "message": "Paste token Postulo visade dig."
+    "message": "Klistra in den token som Postulo visade dig."
   },
   "optionsTitle": {
-    "message": "Postulo inställningar"
+    "message": "Postulo-inställningar"
   },
   "tokenStored": {
-    "message": "Token hålls okrypterad i denna Thunderbird-profil. Thunderbirds primära lösenord skyddar inte det, och alla som kan läsa profilmappen kan använda det tills du återkallar det under $PATH$ i Postulo.",
+    "message": "Token sparas okrypterad i den här Thunderbird-profilen. Thunderbirds huvudlösenord skyddar den inte, och alla som kan läsa profilmappen kan använda den tills du återkallar den under $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -159,10 +159,10 @@
     }
   },
   "tooMany": {
-    "message": "För många fångar på kort tid. Vänta en minut och försök igen."
+    "message": "För många infångningar på kort tid. Vänta en minut och försök igen."
   },
   "storageFull": {
-    "message": "Thunderbirds lagring för Postulo är full. Försök igen efter att du tagit bort lite data eller startar om Thunderbird."
+    "message": "Thunderbirds lagringsutrymme för Postulo är fullt. Ta bort lite data och försök igen, eller starta om Thunderbird."
   },
   "instanceLabel": {
     "message": "Din Postulo"

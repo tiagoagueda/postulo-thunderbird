@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Fange denne udstationering"
+    "message": "Indfang dette opslag"
   },
   "save": {
     "message": "Gem"
   },
   "savedNoPermission": {
-    "message": "Reddet, men Thunderbird nægtede at få lov til at nå det; tillad det i add-on 's tilladelser."
+    "message": "Gemt, men Thunderbird afviste tilladelsen til at nå den; tillad det i tilføjelsens tilladelser."
   },
   "tokenTooWide": {
-    "message": "Denne token kan gøre mere end denne udvidelse behov ($EXTRA$). Det er holdt ukrypteret i denne profil: lave en med kun de områder, der er nævnt ovenfor, og tilbagekalde denne.",
+    "message": "Dette token kan mere, end denne udvidelse har brug for ($EXTRA$). Det gemmes ukrypteret i denne profil: opret et med kun de adgangsområder, der er nævnt ovenfor, og tilbagekald dette.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Opsætning → API tokens"
+    "message": "Indstillinger → API-tokens"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(ingen emne)"
+    "message": "(intet emne)"
   },
   "saved": {
-    "message": "Reddet. Thunderbird er forbundet til $HOST$.",
+    "message": "Gemt. Denne Thunderbird er forbundet til $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -37,7 +37,7 @@
     "message": "Glem token"
   },
   "setUp": {
-    "message": "Sæt det op"
+    "message": "Konfigurer"
   },
   "messageFrom": {
     "message": "Fra $SENDER$",
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Brug https for noget, der ikke er på din egen maskine: token rejser med hver anmodning."
+    "message": "Brug https til alt, der ikke er på din egen maskine: tokenet sendes med hver anmodning."
   },
   "notPostulo": {
-    "message": "Adressen svarede, men ikke som Postulo. Tjek adressen, og eventuelle tegn på side foran den."
+    "message": "Adressen svarede, men ikke som Postulo. Tjek adressen og en eventuel loginside foran den."
   },
   "enterAddress": {
     "message": "Indtast adressen på din Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Efterlad brugernavn og adgangskode ud af adressen: det ville aldrig forbinde, og adgangskoden ville blive vist i popup."
+    "message": "Udelad brugernavn og adgangskode fra adressen: den ville aldrig kunne forbinde, og adgangskoden ville blive vist i pop op-vinduet."
   },
   "extensionDescription": {
-    "message": "Postulo for Thunderbird: job indlæg fra din mail, sendt til din egen Postulo. Et skelet for nu: det forbinder og viser beskeden på skærmen, og ikke fange endnu."
+    "message": "Postulo til Thunderbird: jobopslag fra din mail, sendt til din egen Postulo. Foreløbig et skelet: den forbinder og viser beskeden på skærmen, men indfanger endnu ikke."
   },
   "tokenForgotten": {
-    "message": "Tegnet er glemt: det er ikke længere i denne Thunderbird profil. Det virker stadig, indtil du tilbagekalde det under $PATH$ i Postulo.",
+    "message": "Tokenet er glemt: det gemmes ikke længere i denne Thunderbird-profil. Det virker stadig, indtil du tilbagekalder det under $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,10 +71,10 @@
     }
   },
   "messageHeading": {
-    "message": "Meddelelsen på skærmen"
+    "message": "Beskeden på skærmen"
   },
   "tokenIs": {
-    "message": "Token \"$NAME$\" for $OWNER$.",
+    "message": "Token »$NAME$« for $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -88,7 +88,7 @@
     "message": "Test"
   },
   "tokenIsScoped": {
-    "message": "Token \"$NAME$\" for $OWNER$ ($SCOPES$).",
+    "message": "Token »$NAME$« for $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,22 +102,22 @@
     }
   },
   "asking": {
-    "message": "At spørge Postulo, hvem det er.."
+    "message": "Spørger Postulo, hvem dette token tilhører…"
   },
   "notConnected": {
-    "message": "Ikke forbundet til en postulo endnu."
+    "message": "Endnu ikke forbundet til en Postulo."
   },
   "instanceHint": {
-    "message": "Adressen du åbner den på. med mindre det kører på denne maskine."
+    "message": "Adressen, du åbner den på. https, medmindre den kører på denne maskine."
   },
   "tokenLabel": {
     "message": "API-token"
   },
   "addressRefused": {
-    "message": "Tilladelse til at nå adressen blev nægtet."
+    "message": "Tilladelse til at nå den adresse blev afvist."
   },
   "tokenRefused": {
-    "message": "Postulo accepterer ikke dette symbol. Tjek det under $PATH$.",
+    "message": "Postulo accepterer ikke dette token. Tjek det under $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Det har hverken $CAPTURES$ eller $BIND$ anvendelsesområde, så denne udvidelse kan ikke gøre noget med det.",
+    "message": "Det har hverken adgangsområdet $CAPTURES$ eller adgangsområdet $BIND$, så denne udvidelse kan ikke bruge det til noget.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -139,10 +139,10 @@
     "message": "Det ligner ikke en webadresse."
   },
   "notAllowed": {
-    "message": "Dette symbol må ikke indfanges."
+    "message": "Dette token har ikke tilladelse til at indfange."
   },
   "tokenHintScopes": {
-    "message": "Lavet under $PATH$ i Postulo. Denne udvidelse kan bruge to skoper: $CAPTURES$, til at fange en udstationering, og $BIND$, til at indgive en meddelelse i en listeopførelse historie. Tik kun dem, du vil have det til at bruge, og intet andet.",
+    "message": "Oprettes under $PATH$ i Postulo. Denne udvidelse kan bruge to adgangsområder: $CAPTURES$ til at indfange et opslag og $BIND$ til at arkivere en besked i et opslags historik. Sæt kun flueben ved dem, du vil have den til at bruge, og intet andet.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -164,22 +164,22 @@
     }
   },
   "noMessage": {
-    "message": "Ingen besked er på skærmen. Åbn en, og åbn den igen."
+    "message": "Der er ingen besked på skærmen. Åbn en, og åbn så dette igen."
   },
   "notBuiltYet": {
-    "message": "Optagelse er ikke bygget endnu. Dette er skelettet af udvidelsen: det forbinder til din Postulo og læser meddelelsen på skærmen."
+    "message": "Indfangning er ikke bygget endnu. Dette er udvidelsens skelet: den forbinder til din Postulo og læser beskeden på skærmen."
   },
   "settings": {
     "message": "Indstillinger"
   },
   "tokenMissing": {
-    "message": "Indsæt tegnet Posulo viste dig."
+    "message": "Indsæt det token, Postulo viste dig."
   },
   "optionsTitle": {
-    "message": "Postulo- indstillinger"
+    "message": "Postulo-indstillinger"
   },
   "tokenStored": {
-    "message": "Tegnet holdes ukrypteret i denne Thunderbird profil. Thunderbird primære adgangskode beskytter det ikke, og alle, der kan læse profilmappen kan bruge det, indtil du tilbagekalde det under $PATH$ i Postulo.",
+    "message": "Tokenet gemmes ukrypteret i denne Thunderbird-profil. Thunderbirds hovedadgangskode beskytter det ikke, og alle, der kan læse profilmappen, kan bruge det, indtil du tilbagekalder det under $PATH$ i Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,12 +187,12 @@
     }
   },
   "tooMany": {
-    "message": "For mange fanger på kort tid. Vent lidt og prøv igen."
+    "message": "For mange indfangninger på kort tid. Vent et minut, og prøv igen."
   },
   "storageFull": {
-    "message": "Thunderbird lager til Postulo er fuld. Prøv igen efter at fjerne nogle data, eller genstart Thunderbird."
+    "message": "Thunderbirds lager til Postulo er fuldt. Prøv igen, når du har fjernet nogle data, eller genstart Thunderbird."
   },
   "instanceLabel": {
-    "message": "Din postulo"
+    "message": "Din Postulo"
   }
 }
