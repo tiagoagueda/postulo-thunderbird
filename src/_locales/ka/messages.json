@@ -1,1 +1,198 @@
-{}
+{
+  "noCredentialsInAddress": {
+    "message": "მისამართში მომხმარებლის სახელი და პაროლი არ მიუთითოთ: ასე კავშირი ვერასოდეს დამყარდება, პაროლი კი ამომხტარ ფანჯარაში გამოჩნდება."
+  },
+  "extensionDescription": {
+    "message": "Postulo Thunderbird-ისთვის: ვაკანსიები თქვენი ფოსტიდან, გაგზავნილი თქვენს საკუთარ Postulo-ში. ჯერჯერობით მხოლოდ ჩონჩხია: უკავშირდება და აჩვენებს ეკრანზე გახსნილ წერილს, მაგრამ ჯერ ვერაფერს იღებს."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "saved": {
+    "message": "შენახულია. ეს Thunderbird დაკავშირებულია $HOST$-თან.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "ჯერ არცერთ Postulo-სთან არ არის დაკავშირებული."
+  },
+  "messageHeading": {
+    "message": "ეკრანზე გახსნილი წერილი"
+  },
+  "noMessage": {
+    "message": "ეკრანზე წერილი არ არის. გახსენით ერთი, შემდეგ კი ხელახლა გახსენით ეს."
+  },
+  "messageFrom": {
+    "message": "გამგზავნი: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(თემის გარეშე)"
+  },
+  "notBuiltYet": {
+    "message": "აღება ჯერ არ არის შექმნილი. ეს გაფართოების ჩონჩხია: ის უკავშირდება თქვენს Postulo-ს და კითხულობს ეკრანზე გახსნილ წერილს."
+  },
+  "optionsTitle": {
+    "message": "Postulo-ს პარამეტრები"
+  },
+  "instanceLabel": {
+    "message": "თქვენი Postulo"
+  },
+  "instanceHint": {
+    "message": "მისამართი, რომლითაც მას ხსნით. https, თუ ის ამავე კომპიუტერზე არ მუშაობს."
+  },
+  "tokenLabel": {
+    "message": "API ტოკენი"
+  },
+  "tokenPath": {
+    "message": "პარამეტრები → API ტოკენები"
+  },
+  "save": {
+    "message": "შენახვა"
+  },
+  "test": {
+    "message": "შემოწმება"
+  },
+  "asking": {
+    "message": "Postulo-ს ვეკითხები, ვისია ეს ტოკენი…"
+  },
+  "addressRefused": {
+    "message": "ამ მისამართზე წვდომის ნებართვა უარყოფილია."
+  },
+  "tokenMissing": {
+    "message": "ჩასვით ტოკენი, რომელიც Postulo-მ გაჩვენათ."
+  },
+  "tokenIs": {
+    "message": "ტოკენი „$NAME$“, მფლობელი: $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "ტოკენი „$NAME$“, მფლობელი: $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "შენახულია, მაგრამ Thunderbird-მა მასზე წვდომის ნებართვა არ მისცა; დაუშვით ის დამატების ნებართვებში."
+  },
+  "enterAddress": {
+    "message": "შეიყვანეთ თქვენი Postulo-ს მისამართი."
+  },
+  "notAnAddress": {
+    "message": "ეს ვებმისამართს არ ჰგავს."
+  },
+  "httpsOnly": {
+    "message": "გამოიყენეთ https ყველაფრისთვის, რაც თქვენს კომპიუტერზე არ არის: ტოკენი ყოველ მოთხოვნასთან ერთად იგზავნება."
+  },
+  "tokenRefused": {
+    "message": "Postulo ამ ტოკენს არ იღებს. შეამოწმეთ ის აქ: $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "ამ ტოკენს აღების უფლება არ აქვს."
+  },
+  "tooMany": {
+    "message": "ძალიან ბევრი აღება მოკლე დროში. დაიცადეთ ერთი წუთი და სცადეთ ხელახლა."
+  },
+  "answered": {
+    "message": "Postulo-მ უპასუხა: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "setUp": {
+    "message": "დაყენება"
+  },
+  "settings": {
+    "message": "პარამეტრები"
+  },
+  "capture": {
+    "message": "ამ ვაკანსიის აღება"
+  },
+  "tokenHintScopes": {
+    "message": "იქმნება Postulo-ში, აქ: $PATH$. ამ გაფართოებას ორი უფლების გამოყენება შეუძლია: $CAPTURES$ — ვაკანსიის ასაღებად, და $BIND$ — წერილის ვაკანსიის ისტორიაში შესატანად. მონიშნეთ მხოლოდ ის, რისი გამოყენებაც გსურთ, და მეტი არაფერი.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "ტოკენი ამ Thunderbird-ის პროფილში დაუშიფრავად ინახება. Thunderbird-ის მთავარი პაროლი მას არ იცავს და ნებისმიერს, ვისაც პროფილის საქაღალდის წაკითხვა შეუძლია, შეუძლია მისი გამოყენება, სანამ მას Postulo-ში არ გააუქმებთ, აქ: $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenNeither": {
+    "message": "მას არც $CAPTURES$ უფლება აქვს და არც $BIND$ უფლება, ამიტომ ეს გაფართოება მასთან ვერაფერს გააკეთებს.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "ამ ტოკენს იმაზე მეტის გაკეთება შეუძლია, ვიდრე ამ გაფართოებას სჭირდება ($EXTRA$). ის ამ პროფილში დაუშიფრავად ინახება: შექმენით ახალი მხოლოდ ზემოთ დასახელებული უფლებებით და ეს გააუქმეთ.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "forgetToken": {
+    "message": "ტოკენის დავიწყება"
+  },
+  "tokenForgotten": {
+    "message": "ტოკენი დავიწყებულია: ის აღარ ინახება ამ Thunderbird-ის პროფილში. ის კვლავ მუშაობს, სანამ მას Postulo-ში არ გააუქმებთ, აქ: $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "ამ მისამართმა უპასუხა, მაგრამ არა როგორც Postulo. შეამოწმეთ მისამართი და მის წინ მდგომი ნებისმიერი შესვლის გვერდი."
+  },
+  "storageFull": {
+    "message": "Thunderbird-ის საცავი Postulo-სთვის სავსეა. სცადეთ ხელახლა ზოგიერთი მონაცემის წაშლის შემდეგ, ან გადატვირთეთ Thunderbird."
+  }
+}

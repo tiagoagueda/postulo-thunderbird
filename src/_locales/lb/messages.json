@@ -9,7 +9,7 @@
     "message": "Gespäichert, mä Thunderbird huet d'Erlaabnis refuséiert, en z'erreechen; erlaabt et an den Autorisatioune vum Add-on."
   },
   "tokenTooWide": {
-    "message": "Dësen Token kann méi, wéi dës Erweiderung brauch ($EXTRA$). E gëtt onverschlësselt an dësem Profil gespäichert: maacht een, deen nëmmen déi uewe genannte Beräicher huet, a widderrufft dësen.",
+    "message": "Dësen Token kann méi wéi dës Erweiderung brauch ($EXTRA$). Hie gëtt onverschlësselt an dësem Profil gespäichert: maacht een, deen nëmmen déi uewe genannte Berechtegungen huet, a widderrufft dësen.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -51,7 +51,7 @@
     "message": "Benotzt https fir alles, wat net op Ärem eegene Computer ass: den Token reest mat all Ufro mat."
   },
   "notPostulo": {
-    "message": "Dës Adress huet geäntwert, awer net als Postulo. Kontrolléiert d'Adress an eventuell Umeldesäiten doran."
+    "message": "Dës Adress huet geäntwert, awer net als Postulo. Kontrolléiert d'Adress an eng eventuell Umeldesäit dovir."
   },
   "enterAddress": {
     "message": "Gitt d'Adress vun Ärem Postulo an."
@@ -60,10 +60,10 @@
     "message": "Loosst de Benotzernumm an d'Passwuert aus der Adress eraus: domat géif ni eng Verbindung zustane kommen, an d'Passwuert géif am Popup ugewise ginn."
   },
   "extensionDescription": {
-    "message": "Postulo fir Thunderbird: Stellenannoncen aus Ärer Mail, un Ären eegene Postulo geschéckt. Fir de Moment e Gerüst: et verbënnt sech a weist de Message um Schierm, mä erfaasst nach näischt."
+    "message": "Postulo fir Thunderbird: Annoncen aus Ären E-Mailen, un Ären eegene Postulo geschéckt. Fir de Moment e Skelett: et verbënnt sech a weist de Message um Schierm, mä erfaasst nach näischt."
   },
   "tokenForgotten": {
-    "message": "Den Token ass vergiess: e gëtt net méi an dësem Thunderbird-Profil gespäichert. E funktionéiert nach, bis Dir en am Postulo ënner $PATH$ widderrufft.",
+    "message": "Den Token ass vergiess: hie gëtt net méi an dësem Thunderbird-Profil gespäichert. Hie funktionéiert nach, bis Dir en am Postulo ënner $PATH$ widderrufft.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "En huet weder de Beräich $CAPTURES$ nach de Beräich $BIND$, dofir kann dës Erweiderung näischt domat ufänken.",
+    "message": "Hien huet weder d'Berechtegung $CAPTURES$ nach d'Berechtegung $BIND$, dofir kann dës Erweiderung näischt domat ufänken.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -142,7 +142,7 @@
     "message": "Dësen Token däerf näischt erfaassen."
   },
   "tokenHintScopes": {
-    "message": "Gëtt am Postulo ënner $PATH$ gemaach. Dës Erweiderung ka zwee Beräicher benotzen: $CAPTURES$, fir eng Annonce z'erfaassen, an $BIND$, fir e Message an d'Geschicht vun enger Annonce ofzeleeën. Hakt nëmmen déi un, déi se benotze soll, a soss näischt.",
+    "message": "Gëtt am Postulo ënner $PATH$ gemaach. Dës Erweiderung ka zwou Berechtegunge benotzen: $CAPTURES$, fir eng Annonce z'erfaassen, an $BIND$, fir e Message an de Verlaf vun enger Annonce ofzeleeën. Haakt nëmmen déi un, déi se benotze soll, a soss näischt.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -167,7 +167,7 @@
     "message": "Et ass kee Message um Schierm. Maacht een op, an da maacht dëst nach eng Kéier op."
   },
   "notBuiltYet": {
-    "message": "D'Erfaassen ass nach net gebaut. Dëst ass d'Gerüst vun der Erweiderung: si verbënnt sech mat Ärem Postulo a liest de Message um Schierm."
+    "message": "D'Erfaassen ass nach net gebaut. Dëst ass d'Skelett vun der Erweiderung: se verbënnt sech mat Ärem Postulo a liest de Message um Schierm."
   },
   "settings": {
     "message": "Astellungen"
@@ -179,7 +179,7 @@
     "message": "Astellunge vum Postulo"
   },
   "tokenStored": {
-    "message": "Den Token gëtt onverschlësselt an dësem Thunderbird-Profil gespäichert. D'Haaptpasswuert vun Thunderbird schützt en net, an all Mënsch, deen den Dossier vum Profil liese kann, kann en benotzen, bis Dir en am Postulo ënner $PATH$ widderrufft.",
+    "message": "Den Token gëtt onverschlësselt an dësem Thunderbird-Profil gespäichert. D'Haaptpasswuert vun Thunderbird schützt en net, a jiddereen, deen den Dossier vum Profil liese kann, kann en benotzen, bis Dir en am Postulo ënner $PATH$ widderrufft.",
     "placeholders": {
       "path": {
         "content": "$1"

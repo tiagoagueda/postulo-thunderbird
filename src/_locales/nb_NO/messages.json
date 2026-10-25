@@ -57,7 +57,7 @@
     "message": "Skriv inn adressen til din Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "La brukernavnet og passordet være ute av adressen: det ville aldri koble til, og passordet vil bli vist i popup."
+    "message": "Ikke ta med brukernavnet og passordet i adressen: den ville aldri koble til, og passordet ville blitt vist i popup-vinduet."
   },
   "extensionDescription": {
     "message": "Postulo for Thunderbird: jobbinnlegg fra din e-post, sendt til din egen Postulo. Et skjelett for nå: det kobler til og viser meldingen på skjermen, og fanger ikke enda."

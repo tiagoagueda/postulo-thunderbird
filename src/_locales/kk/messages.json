@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Параметрлер"
+  },
+  "setUp": {
+    "message": "Баптау"
+  },
+  "capture": {
+    "message": "Бұл вакансияны түсіру"
+  },
+  "optionsTitle": {
+    "message": "Postulo параметрлері"
+  },
+  "instanceLabel": {
+    "message": "Сіздің Postulo"
+  },
+  "instanceHint": {
+    "message": "Оны ашатын мекенжайыңыз. Осы компьютерде жұмыс істемесе, https болуы керек."
+  },
+  "tokenLabel": {
+    "message": "API токені"
+  },
+  "tokenPath": {
+    "message": "Параметрлер → API токендері"
+  },
+  "save": {
+    "message": "Сақтау"
+  },
+  "test": {
+    "message": "Сынау"
+  },
+  "tokenMissing": {
+    "message": "Postulo көрсеткен токенді қойыңыз."
+  },
+  "asking": {
+    "message": "Бұл токеннің кімдікі екені Postulo-дан сұралуда…"
+  },
+  "addressRefused": {
+    "message": "Ол мекенжайға қосылуға рұқсат берілмеді."
+  },
+  "tokenIs": {
+    "message": "«$NAME$» токені, иесі: $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "«$NAME$» токені, иесі: $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Пайдаланушы аты мен құпия сөзді мекенжайға жазбаңыз: ол ешқашан қосылмайды, ал құпия сөз қалқымалы терезеде көрсетіледі."
+  },
+  "enterAddress": {
+    "message": "Postulo данаңыздың мекенжайын енгізіңіз."
+  },
+  "notAnAddress": {
+    "message": "Бұл веб-мекенжайға ұқсамайды."
+  },
+  "httpsOnly": {
+    "message": "Өз компьютеріңізде емес кез келген нәрсе үшін https пайдаланыңыз: токен әр сұраумен бірге жіберіледі."
+  },
+  "tokenRefused": {
+    "message": "Postulo бұл токенді қабылдамайды. Оны мына жерден тексеріңіз: $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Бұл токенге түсіруге рұқсат жоқ."
+  },
+  "tooMany": {
+    "message": "Қысқа уақытта тым көп түсірілім жасалды. Бір минут күтіп, қайталап көріңіз."
+  },
+  "answered": {
+    "message": "Postulo жауабы: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Бұл мекенжай жауап берді, бірақ Postulo ретінде емес. Мекенжайды және оның алдындағы кез келген кіру бетін тексеріңіз."
+  },
+  "extensionDescription": {
+    "message": "Thunderbird-ке арналған Postulo: поштаңыздағы вакансиялар өз Postulo данаңызға жіберіледі. Әзірге бұл тек қаңқа: ол қосылып, экрандағы хатты көрсетеді, бірақ әлі түсірмейді."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Postulo-да $PATH$ бөлімінде жасалады. Бұл кеңейтім екі рұқсат аясын пайдалана алады: $CAPTURES$ — вакансияны түсіру үшін және $BIND$ — хатты вакансия тарихына тіркеу үшін. Тек оның пайдалануын қалайтындарыңызды белгілеңіз, басқа ештеңені емес.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Токен осы Thunderbird профилінде шифрланбай сақталады. Thunderbird-тің негізгі құпия сөзі оны қорғамайды және профиль қалтасын оқи алатын кез келген адам оны Postulo-да $PATH$ бөлімінде күшін жойғаныңызға дейін пайдалана алады.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Сақталды. Бұл Thunderbird мына хостқа қосылды: $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Әзірге ешбір Postulo данасына қосылмаған."
+  },
+  "messageHeading": {
+    "message": "Экрандағы хат"
+  },
+  "noMessage": {
+    "message": "Экранда хат жоқ. Бір хатты ашып, содан кейін мұны қайта ашыңыз."
+  },
+  "messageFrom": {
+    "message": "Жіберуші: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(тақырыбы жоқ)"
+  },
+  "notBuiltYet": {
+    "message": "Түсіру әлі жасалмаған. Бұл — кеңейтімнің қаңқасы: ол Postulo данаңызға қосылып, экрандағы хатты оқиды."
+  },
+  "tokenNeither": {
+    "message": "Онда $CAPTURES$ рұқсат аясы да, $BIND$ рұқсат аясы да жоқ, сондықтан бұл кеңейтім онымен ештеңе істей алмайды.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Бұл токен осы кеңейтімге қажеттіден көп нәрсе істей алады ($EXTRA$). Ол осы профильде шифрланбай сақталады: тек жоғарыда аталған рұқсат аялары бар токен жасап, бұл токеннің күшін жойыңыз.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Сақталды, бірақ Thunderbird оған қосылуға рұқсат бермеді; оны қосымшаның рұқсаттарында рұқсат етіңіз."
+  },
+  "forgetToken": {
+    "message": "Токенді ұмыту"
+  },
+  "tokenForgotten": {
+    "message": "Токен ұмытылды: ол енді осы Thunderbird профилінде сақталмайды. Бірақ Postulo-да $PATH$ бөлімінде күшін жойғаныңызға дейін ол жұмыс істей береді.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Thunderbird-тің Postulo-ға арналған жады толы. Біраз деректерді жойғаннан кейін қайталап көріңіз немесе Thunderbird-ті қайта іске қосыңыз."
+  }
+}

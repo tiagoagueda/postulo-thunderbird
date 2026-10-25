@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "التقط هذا الموقع"
+    "message": "التقاط هذا الإعلان"
   },
   "save": {
-    "message": "أنقذ"
+    "message": "حفظ"
   },
   "savedNoPermission": {
-    "message": "وفّر، لكنّ (ثندربيرد) رفض الإذن للوصول إليه، السماح بذلك في تصريحات الإضافات."
+    "message": "تم الحفظ، لكن Thunderbird رفض منح الإذن بالوصول إليه؛ اسمح به في أذونات الإضافة."
   },
   "tokenTooWide": {
-    "message": "This token can do more than this extension needs ($EXTRA$). It is kept unencrypted in this profile: make one with only the scopes named above, and revoke this one.",
+    "message": "يستطيع هذا الرمز المميز فعل أكثر مما تحتاجه هذه الإضافة ($EXTRA$). وهو محفوظ دون تشفير في ملف التعريف هذا: أنشئ رمزًا بالنطاقين المذكورين أعلاه فقط، وألغِ هذا الرمز.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Settings s API tokens"
+    "message": "الإعدادات ← رموز API المميزة"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(لا موضوع)"
+    "message": "(بلا موضوع)"
   },
   "saved": {
-    "message": "منقذ هذا الطائر الرعد مرتبط بـ $HOST$.",
+    "message": "تم الحفظ. Thunderbird هذا متصل بـ $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,10 +34,10 @@
     }
   },
   "forgetToken": {
-    "message": "انسي أمرك"
+    "message": "نسيان الرمز المميز"
   },
   "setUp": {
-    "message": "أعدها"
+    "message": "إعداد"
   },
   "messageFrom": {
     "message": "من $SENDER$",
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "استعملوا مواقعكم لأي شيء ليس على جهازكم الخاص.."
+    "message": "استخدم https لكل ما ليس على جهازك: فالرمز المميز يُرسَل مع كل اتصال."
   },
   "notPostulo": {
-    "message": "ذلك العنوان أجاب، لكن ليس كـ (سولو). تحقق من العنوان، وأي صفحة أمامه."
+    "message": "استجاب ذلك العنوان، لكن ليس بصفته Postulo. تحقّق من العنوان، ومن أي صفحة تسجيل دخول تسبقه."
   },
   "enterAddress": {
-    "message": "أدخل عنوان البريد."
+    "message": "أدخل عنوان Postulo الخاص بك."
   },
   "noCredentialsInAddress": {
-    "message": "دع اسم المستخدم وكلمة السر خارج العنوان: لن يتواصل أبداً، وستظهر كلمة السر في البابا."
+    "message": "احذف اسم المستخدم وكلمة المرور من العنوان: فلن يتصل أبدًا، وستظهر كلمة المرور في النافذة المنبثقة."
   },
   "extensionDescription": {
-    "message": "بريدولو لثندربيرد الوظائف من بريدك أرسل إلى بريدك الخاص هيكل عظمي للآن إنه يربط ويظهر الرسالة على الشاشة ولا يلتقطها بعد."
+    "message": "Postulo لـ Thunderbird: إعلانات الوظائف من بريدك، تُرسَل إلى Postulo الخاص بك. هذا هيكل أولي حاليًا: يتصل ويعرض الرسالة الظاهرة على الشاشة، ولا يلتقط بعد."
   },
   "tokenForgotten": {
-    "message": "لقد نسي (توكن) لم يعد محتفظاً به في ملف (ثاندر بيرد) هذا لا يزال يعمل حتى تلغيه تحت $PATH$ في بوستولو.",
+    "message": "نُسي الرمز المميز: لم يعد محفوظًا في ملف تعريف Thunderbird هذا. لكنه يظل صالحًا إلى أن تلغيه ضمن $PATH$ في Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,13 +71,13 @@
     }
   },
   "messageHeading": {
-    "message": "الرسالة على الشاشة"
+    "message": "الرسالة المعروضة على الشاشة"
   },
   "test": {
-    "message": "الاختبار"
+    "message": "اختبار"
   },
   "tokenIsScoped": {
-    "message": "Token “$NAME$” for $OWNER$ ($SCOPES$).",
+    "message": "الرمز المميز «$NAME$» لـ $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -91,22 +91,22 @@
     }
   },
   "asking": {
-    "message": "أسأل (سولو) من هو هذا المُلكي.."
+    "message": "جارٍ سؤال Postulo عن صاحب هذا الرمز المميز…"
   },
   "notConnected": {
-    "message": "ليس متصلاً بـ \" بوستولو \" بعد."
+    "message": "لم يتم الاتصال بأي Postulo بعد."
   },
   "instanceHint": {
-    "message": "العنوان الذي تفتحه ما لم يتم تشغيل هذه الآلة."
+    "message": "العنوان الذي تفتحه منه. يجب أن يكون https، ما لم يكن يعمل على هذا الجهاز."
   },
   "tokenLabel": {
-    "message": "API token"
+    "message": "رمز API المميز"
   },
   "addressRefused": {
-    "message": "ورُفض الإذن بالوصول إلى هذا العنوان."
+    "message": "رُفض الإذن بالوصول إلى هذا العنوان."
   },
   "tokenRefused": {
-    "message": "البريد لا يقبل هذا تحقق من ذلك تحت $PATH$.",
+    "message": "لا يقبل Postulo هذا الرمز المميز. تحقّق منه ضمن $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -114,7 +114,7 @@
     }
   },
   "tokenNeither": {
-    "message": "وهي لا تملك نطاق $CAPTURES$ ولا نطاق $BIND$، لذا لا يمكن لهذا التمديد أن يفعل أي شيء به.",
+    "message": "لا يملك نطاق $CAPTURES$ ولا نطاق $BIND$، لذا لا تستطيع هذه الإضافة فعل أي شيء به.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -125,13 +125,13 @@
     }
   },
   "notAnAddress": {
-    "message": "هذا لا يبدو كعنوان على الشبكة."
+    "message": "لا يبدو هذا عنوان ويب."
   },
   "notAllowed": {
-    "message": "ليس مسموحاً للقبض عليه."
+    "message": "هذا الرمز المميز غير مسموح له بالالتقاط."
   },
   "tokenHintScopes": {
-    "message": "صنع تحت $PATH$ في Postulo. هذا التمديد يمكن أن يستخدم مجالين: $CAPTURES$، لالتقاط البريد، و $BIND$، لتقديم رسالة في تاريخ الإدراج. فقط من تريد استخدامها، ولا شيء آخر.",
+    "message": "يُنشأ ضمن $PATH$ في Postulo. يمكن لهذه الإضافة استخدام نطاقين: $CAPTURES$ لالتقاط إعلان، و$BIND$ لحفظ رسالة في سجل أحد الإعلانات. حدّد فقط ما تريد أن تستخدمه منهما، ولا شيء غيرهما.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -145,22 +145,22 @@
     }
   },
   "noMessage": {
-    "message": "لا توجد رسالة على الشاشة افتحي واحدة ثم افتحي هذا مجدداً."
+    "message": "لا توجد رسالة على الشاشة. افتح رسالة، ثم افتح هذه النافذة مجددًا."
   },
   "notBuiltYet": {
-    "message": "لم يتم بناء القدرات بعد هذا هو الهيكل الأساسي للتمديد إنه يتواصل مع رئيسك ويقرأ الرسالة على الشاشة."
+    "message": "لم تُنجَز ميزة الالتقاط بعد. هذا هيكل أولي للإضافة: يتصل بـ Postulo الخاص بك ويقرأ الرسالة المعروضة على الشاشة."
   },
   "settings": {
-    "message": "الترتيبات"
+    "message": "الإعدادات"
   },
   "tokenMissing": {
-    "message": "(أظهر لك (توكين بوستولو."
+    "message": "الصق الرمز المميز الذي عرضه عليك Postulo."
   },
   "optionsTitle": {
-    "message": "Postulo settings"
+    "message": "إعدادات Postulo"
   },
   "tokenStored": {
-    "message": "المُخدّر يُبقي غير مُشفّر في هذا ملف (ثندربيرد). كلمة السر الرئيسية لـ (ثندربيرد) لا تحميها، وأي شخص يمكنه قراءة ملف الملف يمكن أن يستخدمه حتى تلغيه تحت $PATH$ في بوستولو.",
+    "message": "يُحفظ الرمز المميز دون تشفير في ملف تعريف Thunderbird هذا. كلمة المرور الرئيسية لـ Thunderbird لا تحميه، ويستطيع أي شخص يمكنه قراءة مجلد ملف التعريف استخدامه إلى أن تلغيه ضمن $PATH$ في Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -168,16 +168,16 @@
     }
   },
   "tooMany": {
-    "message": "الكثير من الأسر في وقت قصير انتظر لحظة وحاول مرة أخرى."
+    "message": "عدد كبير جدًا من الالتقاطات في وقت قصير. انتظر دقيقة ثم أعد المحاولة."
   },
   "storageFull": {
-    "message": "مخزن (ثندربيرد) لـ (سولو) ممتلئ حاول مرة أخرى بعد إزالة بعض البيانات، أو إعادة ثندربيرد."
+    "message": "مساحة تخزين Postulo في Thunderbird ممتلئة. أعد المحاولة بعد إزالة بعض البيانات، أو أعد تشغيل Thunderbird."
   },
   "instanceLabel": {
-    "message": "سول"
+    "message": "Postulo الخاص بك"
   },
   "tokenIs": {
-    "message": "الرمز «$NAME$» لـ $OWNER$.",
+    "message": "الرمز المميز «$NAME$» لـ $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"

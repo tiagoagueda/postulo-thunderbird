@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Налады"
+  },
+  "setUp": {
+    "message": "Наладзіць"
+  },
+  "capture": {
+    "message": "Захапіць гэтую аб'яву"
+  },
+  "optionsTitle": {
+    "message": "Налады Postulo"
+  },
+  "instanceLabel": {
+    "message": "Ваш Postulo"
+  },
+  "instanceHint": {
+    "message": "Адрас, па якім вы яго адкрываеце. https, калі ён працуе не на гэтым камп'ютары."
+  },
+  "tokenLabel": {
+    "message": "Токен API"
+  },
+  "tokenPath": {
+    "message": "Налады → Токены API"
+  },
+  "save": {
+    "message": "Захаваць"
+  },
+  "test": {
+    "message": "Праверыць"
+  },
+  "tokenMissing": {
+    "message": "Устаўце токен, які паказаў вам Postulo."
+  },
+  "asking": {
+    "message": "Пытаемся ў Postulo, чый гэта токен…"
+  },
+  "addressRefused": {
+    "message": "Дазвол на доступ да гэтага адраса не дадзены."
+  },
+  "tokenIs": {
+    "message": "Токен «$NAME$» для $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Токен «$NAME$» для $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Не ўключайце ў адрас імя карыстальніка і пароль: з імі падключэнне ніколі не атрымаецца, а пароль паказваўся б ва ўсплывальным акне."
+  },
+  "enterAddress": {
+    "message": "Увядзіце адрас вашага Postulo."
+  },
+  "notAnAddress": {
+    "message": "Гэта не падобна на вэб-адрас."
+  },
+  "httpsOnly": {
+    "message": "Выкарыстоўвайце https для ўсяго, што не на вашым уласным камп'ютары: токен перадаецца з кожным запытам."
+  },
+  "tokenRefused": {
+    "message": "Postulo не прымае гэты токен. Праверце яго ў раздзеле $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Гэтаму токену не дазволена захопліваць."
+  },
+  "tooMany": {
+    "message": "Занадта шмат захопаў за кароткі час. Пачакайце хвіліну і паспрабуйце зноў."
+  },
+  "answered": {
+    "message": "Postulo адказаў: $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Па гэтым адрасе адказалі, але не як Postulo. Праверце адрас і старонку ўваходу перад ім, калі яна ёсць."
+  },
+  "extensionDescription": {
+    "message": "Postulo для Thunderbird: аб'явы з вашай пошты, адпраўленыя ў ваш уласны Postulo. Пакуль гэта толькі каркас: ён падключаецца і паказвае ліст на экране, але яшчэ не захоплівае."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Ствараецца ў раздзеле $PATH$ у Postulo. Гэтае пашырэнне можа выкарыстоўваць дзве вобласці доступу: $CAPTURES$ — каб захапіць аб'яву, і $BIND$ — каб далучыць ліст да гісторыі аб'явы. Адзначце толькі тыя, якімі яно павінна карыстацца, і больш нічога.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Токен захоўваецца ў гэтым профілі Thunderbird без шыфравання. Асноўны пароль Thunderbird яго не абараняе, і кожны, хто можа прачытаць папку профілю, можа карыстацца ім, пакуль вы не адклічаце яго ў раздзеле $PATH$ у Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Захавана. Гэты Thunderbird падключаны да $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Яшчэ не падключана да Postulo."
+  },
+  "messageHeading": {
+    "message": "Ліст на экране"
+  },
+  "noMessage": {
+    "message": "На экране няма ліста. Адкрыйце ліст, а потым адкрыйце гэта зноў."
+  },
+  "messageFrom": {
+    "message": "Ад: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(без тэмы)"
+  },
+  "notBuiltYet": {
+    "message": "Захоп яшчэ не зроблены. Гэта каркас пашырэння: яно падключаецца да вашага Postulo і чытае ліст на экране."
+  },
+  "tokenNeither": {
+    "message": "У яго няма ні вобласці доступу $CAPTURES$, ні вобласці доступу $BIND$, таму гэтае пашырэнне нічога не можа з ім зрабіць.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Гэты токен дазваляе больш, чым патрэбна гэтаму пашырэнню ($EXTRA$). Ён захоўваецца ў гэтым профілі без шыфравання: стварыце токен толькі з названымі вышэй вобласцямі доступу і адклічце гэты.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Захавана, але Thunderbird не даў дазволу на доступ да гэтага адраса; дазвольце яго ў дазволах дадатку."
+  },
+  "forgetToken": {
+    "message": "Забыць токен"
+  },
+  "tokenForgotten": {
+    "message": "Токен забыты: ён больш не захоўваецца ў гэтым профілі Thunderbird. Ён усё яшчэ дзейнічае, пакуль вы не адклічаце яго ў раздзеле $PATH$ у Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Сховішча Thunderbird для Postulo запоўнена. Паспрабуйце зноў, выдаліўшы частку даных, або перазапусціце Thunderbird."
+  }
+}

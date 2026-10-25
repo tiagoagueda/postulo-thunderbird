@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "抓取此文章"
+    "message": "擷取此徵才啟事"
   },
   "save": {
-    "message": "保存"
+    "message": "儲存"
   },
   "savedNoPermission": {
-    "message": "有被拯救了 但是雷鳥拒絕了取回它; 在附加的取回權限中取回它."
+    "message": "已儲存，但 Thunderbird 拒絕了連線到該網址的權限；請在附加元件的權限中允許。"
   },
   "tokenTooWide": {
-    "message": "此符號能做多於此延伸需要 ($EXTRA$). 它被不加密地保存在這個檔案中: 做一個只有上方所命名的範圍的,并取消它 .",
+    "message": "此權杖的權限超過此擴充功能所需（$EXTRA$）。它以未加密的形式保存在此設定檔中：請建立一個只有上述範圍的權杖，並撤銷這個權杖。",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "設定 ~ API 令牌"
+    "message": "設定 → API 權杖"
   },
   "actionTitle": {
-    "message": "波斯杜洛"
+    "message": "Postulo"
   },
   "noSubject": {
-    "message": "(無主題)"
+    "message": "（無主旨）"
   },
   "saved": {
-    "message": "有被取出. 這只雷鳥接通了 $HOST$.",
+    "message": "已儲存。此 Thunderbird 已連線到 $HOST$。",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "忘了指使牌"
+    "message": "忘記權杖"
   },
   "setUp": {
-    "message": "就地取出"
+    "message": "進行設定"
   },
   "messageFrom": {
-    "message": "从 $SENDER$",
+    "message": "寄件者：$SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,25 +48,25 @@
     }
   },
   "httpsOnly": {
-    "message": "使用 https 在您自有相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相關相相相關相相關相相相相關相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+    "message": "不在您自己電腦上的站台都必須使用 https：每個請求都會附帶權杖。"
   },
   "notPostulo": {
-    "message": "他的住址被接通了 但是不是波斯圖洛所接通的 查下地址和前面的任何登入頁面."
+    "message": "該網址有回應，但不是 Postulo 的回應。請檢查網址，以及它前面的任何登入頁面。"
   },
   "enterAddress": {
-    "message": "輸入您的 Postulo 地址 ."
+    "message": "請輸入您的 Postulo 網址。"
   },
   "noCredentialsInAddress": {
-    "message": "在通訊錄中放出使用者名和口令: 它永遠不會接通 ."
+    "message": "請勿在網址中填入使用者名稱和密碼：這樣永遠無法連線，而且密碼會顯示在彈出視窗中。"
   },
   "extensionDescription": {
-    "message": "有工作被寄去自已的Postulo. 有一具骨架: 它能連接并顯示相關訊息到螢幕上, 但尚未被取出 ."
+    "message": "Postulo for Thunderbird：從您的郵件中找出徵才啟事，傳送到您自己的 Postulo。目前只是雛形：它能連線並顯示畫面上的郵件，但還無法擷取。"
   },
   "messageHeading": {
-    "message": "屏幕上的消息"
+    "message": "畫面上的郵件"
   },
   "tokenIs": {
-    "message": "“$NAME$”指$OWNER$.",
+    "message": "$OWNER$ 的權杖「$NAME$」。",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -80,7 +80,7 @@
     "message": "測試"
   },
   "tokenIsScoped": {
-    "message": "2. “$NAME$”指$OWNER$($SCOPES$).",
+    "message": "$OWNER$ 的權杖「$NAME$」（$SCOPES$）。",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -94,22 +94,22 @@
     }
   },
   "asking": {
-    "message": "在問波斯圖克到底是誰"
+    "message": "正在向 Postulo 查詢此權杖的身分…"
   },
   "notConnected": {
-    "message": "尚未接通一輛波斯圖."
+    "message": "尚未連線到 Postulo。"
   },
   "instanceHint": {
-    "message": "有你打開的地址 有相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相相相相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+    "message": "您用來開啟它的網址。除非它在這台電腦上執行，否則須使用 https。"
   },
   "tokenLabel": {
-    "message": "API 令牌"
+    "message": "API 權杖"
   },
   "addressRefused": {
-    "message": "有被拒絕去取取地址."
+    "message": "連線到該網址的權限遭到拒絕。"
   },
   "tokenRefused": {
-    "message": "Postulo 不接受此符號 。 在 $PATH$下取取.",
+    "message": "Postulo 不接受此權杖。請在 $PATH$ 中檢查。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -117,7 +117,7 @@
     }
   },
   "tokenNeither": {
-    "message": "它既不能有 $CAPTURES$ 範圍,又能有 $BIND$ 範圍, 因此這個延伸可以無所事事.",
+    "message": "此權杖既沒有 $CAPTURES$ 範圍，也沒有 $BIND$ 範圍，因此此擴充功能無法使用它。",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -128,13 +128,13 @@
     }
   },
   "notAnAddress": {
-    "message": "它看起來不像是網址."
+    "message": "這看起來不像網址。"
   },
   "notAllowed": {
-    "message": "它不能被取出."
+    "message": "此權杖沒有擷取的權限。"
   },
   "tokenHintScopes": {
-    "message": "在波斯圖洛由$PATH$出品. 此延伸可以使用兩個範圍: $CAPTURES$,取出一通通訊; $BIND$,取出一通訊息入列的歷史. 就去想取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取取.",
+    "message": "在 Postulo 的 $PATH$ 中建立。此擴充功能可以使用兩個範圍：$CAPTURES$ 用於擷取徵才啟事，$BIND$ 用於將郵件歸入職缺的歷程。只勾選您希望它使用的範圍，不要勾選其他範圍。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -148,7 +148,7 @@
     }
   },
   "answered": {
-    "message": "波斯都洛接了 $STATUS$.",
+    "message": "Postulo 回應了 $STATUS$。",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -156,22 +156,22 @@
     }
   },
   "noMessage": {
-    "message": "屏幕上沒有訊息 。 打開一通再打開一通."
+    "message": "畫面上沒有郵件。請開啟一封郵件，然後再開啟這裡。"
   },
   "notBuiltYet": {
-    "message": "抓取尚未建立 。 這是延伸檔的骨架: 它能連接到您的 Postulo 在屏幕上讀取信件 ."
+    "message": "擷取功能尚未完成。這是擴充功能的雛形：它會連線到您的 Postulo，並讀取畫面上的郵件。"
   },
   "settings": {
-    "message": "設定值"
+    "message": "設定"
   },
   "tokenMissing": {
-    "message": "貼上所展示的花花公子."
+    "message": "請貼上 Postulo 顯示給您的權杖。"
   },
   "optionsTitle": {
-    "message": "Postulo 設定值"
+    "message": "Postulo 設定"
   },
   "tokenStored": {
-    "message": "在 Sunderbird 描述檔中未加密此符號 。 有能讀取相關資料夾的人可以用到, 直到您在 Postulo $PATH$ 下取出相關資料夾.",
+    "message": "權杖以未加密的形式保存在此 Thunderbird 設定檔中。Thunderbird 的主要密碼無法保護它，任何能讀取設定檔資料夾的人都能使用它，直到您在 Postulo 的 $PATH$ 中撤銷它為止。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -179,16 +179,16 @@
     }
   },
   "tooMany": {
-    "message": "有太多的捕捉 在很短的时间内。 等一下再想一想."
+    "message": "短時間內擷取次數太多。請稍候一分鐘再試一次。"
   },
   "storageFull": {
-    "message": "有雷鳥去接波斯圖洛了 在移除一些相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相關相相關相關相相相關相關相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相相."
+    "message": "Thunderbird 為 Postulo 保留的儲存空間已滿。請移除一些資料後再試一次，或重新啟動 Thunderbird。"
   },
   "instanceLabel": {
-    "message": "您的 Pposulo"
+    "message": "您的 Postulo"
   },
   "tokenForgotten": {
-    "message": "已忘記此權杖：它不再保存在這個 Thunderbird 設定檔中。在您於 Postulo 的 $PATH$ 下撤銷它之前，它仍然有效。",
+    "message": "已忘記權杖：它不再保存在此 Thunderbird 設定檔中。在您於 Postulo 的 $PATH$ 中撤銷它之前，它仍然有效。",
     "placeholders": {
       "path": {
         "content": "$1"

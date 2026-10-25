@@ -1,12 +1,12 @@
 {
   "capture": {
-    "message": "Dal yr hysbyseb hon"
+    "message": "Cipio'r hysbyseb hon"
   },
   "save": {
     "message": "Cadw"
   },
   "savedNoPermission": {
-    "message": "Wedi'i gadw, ond gwrthododd Thunderbird ganiatâd i'w gyrraedd; caniatewch hynny yng nghaniatâd yr ychwanegyn."
+    "message": "Wedi'i gadw, ond gwrthododd Thunderbird ganiatâd i'w gyrraedd; caniatewch hynny yng nghaniatadau'r ychwanegyn."
   },
   "tokenTooWide": {
     "message": "Gall y tocyn hwn wneud mwy nag sydd ei angen ar yr estyniad hwn ($EXTRA$). Mae'n cael ei gadw heb ei amgryptio yn y proffil hwn: gwnewch un gyda'r cwmpasau a enwir uchod yn unig, a dirymwch yr un hwn.",
@@ -57,13 +57,13 @@
     "message": "Rhowch gyfeiriad eich Postulo."
   },
   "noCredentialsInAddress": {
-    "message": "Gadewch yr enw defnyddiwr a'r cyfrinair allan o'r cyfeiriad: fyddai e byth yn cysylltu, a byddai'r cyfrinair yn cael ei ddangos yn y ffenestr naid."
+    "message": "Gadewch yr enw defnyddiwr a'r cyfrinair allan o'r cyfeiriad: ni fyddai byth yn cysylltu, a byddai'r cyfrinair yn cael ei ddangos yn y ffenestr naid."
   },
   "extensionDescription": {
-    "message": "Postulo ar gyfer Thunderbird: hysbysebion swyddi o'ch post, wedi'u hanfon i'ch Postulo eich hun. Sgerbwd am y tro: mae'n cysylltu ac yn dangos y neges ar y sgrin, a dyw e ddim yn dal eto."
+    "message": "Postulo ar gyfer Thunderbird: hysbysebion swyddi o'ch post, wedi'u hanfon i'ch Postulo eich hun. Sgerbwd am y tro: mae'n cysylltu ac yn dangos y neges ar y sgrin, ond nid yw'n cipio eto."
   },
   "tokenForgotten": {
-    "message": "Mae'r tocyn wedi'i anghofio: dyw e ddim yn cael ei gadw yn y proffil Thunderbird hwn mwyach. Mae'n dal i weithio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
+    "message": "Mae'r tocyn wedi'i anghofio: nid yw'n cael ei gadw yn y proffil Thunderbird hwn mwyach. Mae'n dal i weithio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -108,7 +108,7 @@
     "message": "Heb gysylltu â Postulo eto."
   },
   "instanceHint": {
-    "message": "Y cyfeiriad rydych chi'n ei agor arno. https, oni bai ei fod yn rhedeg ar y peiriant hwn."
+    "message": "Y cyfeiriad a ddefnyddiwch i'w agor. https, oni bai ei fod yn rhedeg ar y peiriant hwn."
   },
   "tokenLabel": {
     "message": "Tocyn API"
@@ -117,7 +117,7 @@
     "message": "Gwrthodwyd caniatâd i gyrraedd y cyfeiriad hwnnw."
   },
   "tokenRefused": {
-    "message": "Dydy Postulo ddim yn derbyn y tocyn hwn. Gwiriwch ef o dan $PATH$.",
+    "message": "Nid yw Postulo yn derbyn y tocyn hwn. Gwiriwch ef o dan $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "Does ganddo ddim y cwmpas $CAPTURES$ na'r cwmpas $BIND$, felly all yr estyniad hwn wneud dim ag ef.",
+    "message": "Nid oes ganddo'r cwmpas $CAPTURES$ na'r cwmpas $BIND$, felly ni all yr estyniad hwn wneud dim ag ef.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -136,13 +136,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Dydy hwnna ddim yn edrych fel cyfeiriad gwe."
+    "message": "Nid yw hynny'n edrych fel cyfeiriad gwe."
   },
   "notAllowed": {
-    "message": "Does gan y tocyn hwn ddim caniatâd i ddal."
+    "message": "Nid oes gan y tocyn hwn ganiatâd i gipio."
   },
   "tokenHintScopes": {
-    "message": "Caiff ei wneud o dan $PATH$ yn Postulo. Gall yr estyniad hwn ddefnyddio dau gwmpas: $CAPTURES$, i ddal hysbyseb, a $BIND$, i ffeilio neges yn hanes hysbyseb. Ticiwch dim ond y rhai rydych chi am iddo eu defnyddio, a dim byd arall.",
+    "message": "Fe'i gwneir o dan $PATH$ yn Postulo. Gall yr estyniad hwn ddefnyddio dau gwmpas: $CAPTURES$, i gipio hysbyseb, a $BIND$, i ffeilio neges yn hanes hysbyseb. Ticiwch y rhai rydych am iddo eu defnyddio yn unig, a dim byd arall.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -167,7 +167,7 @@
     "message": "Does dim neges ar y sgrin. Agorwch un, yna agorwch hwn eto."
   },
   "notBuiltYet": {
-    "message": "Dyw dal ddim wedi'i adeiladu eto. Dyma sgerbwd yr estyniad: mae'n cysylltu â'ch Postulo ac yn darllen y neges ar y sgrin."
+    "message": "Nid yw'r gallu i gipio wedi'i adeiladu eto. Dyma sgerbwd yr estyniad: mae'n cysylltu â'ch Postulo ac yn darllen y neges ar y sgrin."
   },
   "settings": {
     "message": "Gosodiadau"
@@ -179,7 +179,7 @@
     "message": "Gosodiadau Postulo"
   },
   "tokenStored": {
-    "message": "Mae'r tocyn yn cael ei gadw heb ei amgryptio yn y proffil Thunderbird hwn. Dyw prif gyfrinair Thunderbird ddim yn ei warchod, a gall unrhyw un sy'n gallu darllen ffolder y proffil ei ddefnyddio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
+    "message": "Mae'r tocyn yn cael ei gadw heb ei amgryptio yn y proffil Thunderbird hwn. Nid yw prif gyfrinair Thunderbird yn ei warchod, a gall unrhyw un sy'n gallu darllen ffolder y proffil ei ddefnyddio nes i chi ei ddirymu o dan $PATH$ yn Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,7 +187,7 @@
     }
   },
   "tooMany": {
-    "message": "Gormod o ddalfeydd mewn amser byr. Arhoswch funud a rhowch gynnig arall arni."
+    "message": "Gormod o gipiadau mewn amser byr. Arhoswch funud a rhowch gynnig arall arni."
   },
   "storageFull": {
     "message": "Mae storfa Thunderbird ar gyfer Postulo yn llawn. Rhowch gynnig arall arni ar ôl tynnu rhywfaint o ddata, neu ailgychwynnwch Thunderbird."

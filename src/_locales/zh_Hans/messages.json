@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "抓取此邮件"
+    "message": "抓取此招聘信息"
   },
   "save": {
     "message": "保存"
   },
   "savedNoPermission": {
-    "message": "保存了,但\"雷鸟\"拒绝允许到达;允许在附加的许可中被允许."
+    "message": "已保存，但 Thunderbird 拒绝授予访问该地址的权限；请在附加组件的权限设置中允许。"
   },
   "tokenTooWide": {
-    "message": "此符可以做超过此扩展需要( $EXTRA$). 此配置文件未加密 : 制作一个仅包含上面命名的范围, 并撤销它 .",
+    "message": "此令牌的权限超出了此扩展的需要（$EXTRA$）。它以未加密形式保存在此配置文件中：请创建一个仅含上述权限范围的令牌，并撤销此令牌。",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "设置 ~ API 令牌"
+    "message": "设置 → API 令牌"
   },
   "actionTitle": {
-    "message": "波图洛"
+    "message": "Postulo"
   },
   "noSubject": {
-    "message": "(无主题)"
+    "message": "（无主题）"
   },
   "saved": {
-    "message": "救过. 此雷鸟与$HOST$相接.",
+    "message": "已保存。此 Thunderbird 已连接到$HOST$。",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,13 +34,13 @@
     }
   },
   "forgetToken": {
-    "message": "忘记代币"
+    "message": "忘记令牌"
   },
   "setUp": {
-    "message": "准备好了"
+    "message": "去设置"
   },
   "messageFrom": {
-    "message": "从 $SENDER$",
+    "message": "来自$SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "使用 https 来获取您自己的机器上以外的任何信息: 信使会随每个请求一起旅行 ."
+    "message": "凡不在你本机上的地址都请使用 https：每个请求都会携带令牌。"
   },
   "notPostulo": {
-    "message": "地址是回答的,但不是波斯图洛。 检查地址, 和任何登录页 在它的前面."
+    "message": "该地址有响应，但不是 Postulo。请检查地址，以及它前面是否有登录页面。"
   },
   "enterAddress": {
-    "message": "输入您的 Postulo 地址 ."
+    "message": "请输入你的 Postulo 的地址。"
   },
   "noCredentialsInAddress": {
-    "message": "离开地址的用户名和密码:它永远不会连接,密码会在弹出中显示."
+    "message": "请不要在地址中填写用户名和密码：这样永远无法连接，而且密码会显示在弹出窗口中。"
   },
   "extensionDescription": {
-    "message": "Postulo for Thunderbird:从您的邮件中发送到您自己的Postulo的工作帖子. 现在的骨架:它连接并显示在屏幕上的消息,还没有捕获."
+    "message": "Postulo for Thunderbird：将邮件中的招聘信息发送到你自己的 Postulo。目前只是框架：它可以连接并显示屏幕上的邮件，但还不能抓取。"
   },
   "tokenForgotten": {
-    "message": "道具被遗忘了:它不再保存在这个\"雷鸟\"简介中. 直到你根据$PATH$在波斯图洛废除它为止,它仍然有效.",
+    "message": "已忘记令牌：它不再保存在此 Thunderbird 配置文件中。在你于 Postulo 的$PATH$中将其撤销之前，它仍然有效。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,10 +71,10 @@
     }
   },
   "messageHeading": {
-    "message": "屏幕上的消息"
+    "message": "屏幕上的邮件"
   },
   "tokenIs": {
-    "message": "Token $NAME$)用于$OWNER$.",
+    "message": "$OWNER$的令牌“$NAME$”。",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -88,7 +88,7 @@
     "message": "测试"
   },
   "tokenIsScoped": {
-    "message": "用于$OWNER$($SCOPES$)的Token $NAME$.",
+    "message": "$OWNER$的令牌“$NAME$”（$SCOPES$）。",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,22 +102,22 @@
     }
   },
   "asking": {
-    "message": "问波斯图洛这个标志是谁.."
+    "message": "正在向 Postulo 查询此令牌的身份……"
   },
   "notConnected": {
-    "message": "还没有连接到波斯图洛."
+    "message": "尚未连接到 Postulo。"
   },
   "instanceHint": {
-    "message": "你打开的地址 https,除非它运行在这个机器上."
+    "message": "你打开它时使用的地址。除非它运行在本机上，否则须使用 https。"
   },
   "tokenLabel": {
     "message": "API 令牌"
   },
   "addressRefused": {
-    "message": "未能获准前往该地址."
+    "message": "访问该地址的权限被拒绝。"
   },
   "tokenRefused": {
-    "message": "Postulo不接受这个标志。 请检查date=中的日期值 (帮助) $PATH$.",
+    "message": "Postulo 不接受此令牌。请在$PATH$中检查。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,7 +125,7 @@
     }
   },
   "tokenNeither": {
-    "message": "它既无$CAPTURES$范围,也无$BIND$范围,因此这个扩展无法用它做任何事情.",
+    "message": "它既没有$CAPTURES$权限范围，也没有$BIND$权限范围，因此此扩展无法使用它做任何事。",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -136,13 +136,13 @@
     }
   },
   "notAnAddress": {
-    "message": "这看起来不像一个网址."
+    "message": "这看起来不像一个网址。"
   },
   "notAllowed": {
-    "message": "此符相出不得取取."
+    "message": "此令牌无权抓取。"
   },
   "tokenHintScopes": {
-    "message": "在波斯图洛$PATH$下制造. 这个扩展可以使用两个范围:$CAPTURES$,用来捕捉一个帖子;$BIND$,用来将一个消息放入列表的历史. 只勾住你想要它用的,别的东西.",
+    "message": "在 Postulo 的$PATH$中创建。此扩展可以使用两个权限范围：$CAPTURES$，用于抓取招聘信息；$BIND$，用于将邮件归入职位的历史记录。只勾选你希望它使用的权限范围，不要勾选其他任何权限。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -156,7 +156,7 @@
     }
   },
   "answered": {
-    "message": "波斯图洛回答 $STATUS$.",
+    "message": "Postulo 返回了$STATUS$。",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -164,22 +164,22 @@
     }
   },
   "noMessage": {
-    "message": "屏幕上没有消息 。 打开一个,再打开这个."
+    "message": "屏幕上没有邮件。请打开一封邮件，然后重新打开此窗口。"
   },
   "notBuiltYet": {
-    "message": "抓取尚未建立 。 这是扩展的骨架:它连接到你的Postulo,并在屏幕上读取消息."
+    "message": "抓取功能尚未实现。这是扩展的框架：它可以连接到你的 Postulo 并读取屏幕上的邮件。"
   },
   "settings": {
     "message": "设置"
   },
   "tokenMissing": {
-    "message": "粘上Postulo给你看的标志."
+    "message": "请粘贴 Postulo 显示给你的令牌。"
   },
   "optionsTitle": {
     "message": "Postulo 设置"
   },
   "tokenStored": {
-    "message": "此 Sunderbird 简介中未加密此令牌 。 雷鸟的主密码不能保护它,任何能够读取剖面文件夹的人都可以使用它,直到你根据\"Postulo\"的$PATH$撤销.",
+    "message": "令牌以未加密形式保存在此 Thunderbird 配置文件中。Thunderbird 的主密码无法保护它，任何能读取配置文件夹的人都可以使用它，直到你在 Postulo 的$PATH$中将其撤销。",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -187,12 +187,12 @@
     }
   },
   "tooMany": {
-    "message": "短时间内抓取过多. 等一下 再试一次."
+    "message": "短时间内抓取次数过多。请等一分钟后再试。"
   },
   "storageFull": {
-    "message": "雷鸟为波斯图洛所贮已满. 删除一些数据后再试一次, 或者重新启动雷鸟 ."
+    "message": "Thunderbird 为 Postulo 提供的存储空间已满。请删除一些数据后重试，或重新启动 Thunderbird。"
   },
   "instanceLabel": {
-    "message": "您的波图洛"
+    "message": "你的 Postulo"
   }
 }

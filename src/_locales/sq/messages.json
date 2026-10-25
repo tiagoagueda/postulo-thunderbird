@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Kap këtë post"
+    "message": "Kap këtë shpallje"
   },
   "save": {
     "message": "Ruaj"
   },
   "savedNoPermission": {
-    "message": "Shpëtoi, por Thunderbird refuzoi të drejtën për të arritur atë, le të jetë në të drejtat e shtuar."
+    "message": "U ruajt, por Thunderbird refuzoi lejen për ta arritur; lejojeni te lejet e shtesës."
   },
   "tokenTooWide": {
-    "message": "Kjo shenjë mund të bëjë më shumë se sa ka nevojë për zgjatje ($EXTRA$). Është mbajtur i papërshkrueshëm në këtë profil: të bëhet një me vetëm shtrirjen e përmendur sipër, dhe të heqë këtë.",
+    "message": "Ky token mund të bëjë më shumë se ç'i duhet këtij zgjerimi ($EXTRA$). Ruhet i paenkriptuar në këtë profil: krijoni një me vetëm fushëveprimet e përmendura më sipër dhe shfuqizojeni këtë.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -17,16 +17,16 @@
     }
   },
   "tokenPath": {
-    "message": "Rregullimet → API"
+    "message": "Cilësimet → Tokenë API"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "subjekti"
+    "message": "(pa subjekt)"
   },
   "saved": {
-    "message": "Shpëtova. Ky zog është i lidhur me $HOST$.",
+    "message": "U ruajt. Ky Thunderbird është i lidhur me $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -34,10 +34,10 @@
     }
   },
   "forgetToken": {
-    "message": "Harro"
+    "message": "Harro tokenin"
   },
   "setUp": {
-    "message": "Vendose lart"
+    "message": "Konfiguroje"
   },
   "messageFrom": {
     "message": "Nga $SENDER$",
@@ -48,19 +48,19 @@
     }
   },
   "httpsOnly": {
-    "message": "Përdor https për çdo gjë që nuk është në makinën tënde: shenja udhëton me çdo kërkesë."
+    "message": "Përdorni https për çdo gjë që nuk është në makinën tuaj: tokeni udhëton me çdo kërkesë."
   },
   "notPostulo": {
-    "message": "Ajo adresë u përgjigj, por jo si Populo. Kontrolloni adresën, dhe çdo tabelë-në faqe para saj."
+    "message": "Ajo adresë u përgjigj, por jo si Postulo. Kontrolloni adresën dhe çdo faqe hyrjeje që qëndron përpara saj."
   },
   "enterAddress": {
-    "message": "Shkruaj adresën e Postulos."
+    "message": "Shkruani adresën e Postulo-s tuaj."
   },
   "extensionDescription": {
-    "message": "Postulo për Thunderbird: Postime pune nga posta juaj, dërguar në Populo tuaj. Një skelet për tani: ai lidh dhe shfaq mesazhin në ekran, dhe nuk kap ende."
+    "message": "Postulo për Thunderbird: shpallje pune nga posta juaj, të dërguara te Postulo-ja juaj. Për momentin vetëm një skelet: lidhet dhe shfaq mesazhin në ekran, por ende nuk kap."
   },
   "tokenForgotten": {
-    "message": "Shenja është harruar: ajo nuk mbahet më në këtë profil Thunderbird. Punon akoma derisa ta heqësh atë nën $PATH$ në Populo.",
+    "message": "Tokeni u harrua: nuk ruhet më në këtë profil të Thunderbird-it. Ai funksionon ende derisa ta shfuqizoni te $PATH$ në Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -68,28 +68,28 @@
     }
   },
   "messageHeading": {
-    "message": "Mesazh në ekran"
+    "message": "Mesazhi në ekran"
   },
   "test": {
-    "message": "Prova"
+    "message": "Testo"
   },
   "asking": {
-    "message": "Po pyes Populo kush është.."
+    "message": "Po pyetet Postulo se kujt i përket ky token…"
   },
   "notConnected": {
-    "message": "Nuk është lidhur akoma me një Populo."
+    "message": "Ende i palidhur me një Postulo."
   },
   "instanceHint": {
-    "message": "Adresa që e hap ti. https, nëse nuk funksionon në këtë makinë."
+    "message": "Adresa ku e hapni. https, përveç nëse funksionon në këtë makinë."
   },
   "tokenLabel": {
-    "message": "Sinj"
+    "message": "Token API"
   },
   "addressRefused": {
-    "message": "Leja për të arritur në atë adresë nuk u pranua."
+    "message": "Leja për të arritur atë adresë u refuzua."
   },
   "tokenRefused": {
-    "message": "Postulo nuk e pranon këtë shenjë. Kontrolloje nën $PATH$.",
+    "message": "Postulo nuk e pranon këtë token. Kontrollojeni te $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -97,13 +97,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Kjo nuk duket si një adresë web."
+    "message": "Kjo nuk duket si adresë uebi."
   },
   "notAllowed": {
-    "message": "Kjo shenjë nuk lejohet të kapet."
+    "message": "Ky token nuk ka leje për të kapur."
   },
   "tokenHintScopes": {
-    "message": "E bërë nën $PATH$ në Populo. Kjo zgjatje mund të përdorë dy fusha: $CAPTURES$, për të kapur një postim, dhe $BIND$, për të dërguar një mesazh në historinë e një liste. Tik vetëm ato që dëshiron ti përdorësh, dhe asgjë tjetër.",
+    "message": "Krijohet te $PATH$ në Postulo. Ky zgjerim mund të përdorë dy fushëveprime: $CAPTURES$, për të kapur një shpallje, dhe $BIND$, për të vendosur një mesazh në historikun e një shpalljeje. Shënoni vetëm ato që dëshironi të përdorë, dhe asgjë tjetër.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -117,22 +117,22 @@
     }
   },
   "noMessage": {
-    "message": "Asnjë mesazh në ekran. Hape një, pastaj hape përsëri."
+    "message": "Asnjë mesazh në ekran. Hapni një, pastaj hapeni sërish këtë."
   },
   "notBuiltYet": {
-    "message": "Kapitura nuk është ndërtuar ende. Ky është skeleti i zgjatjes: lidhet me Populon tuaj dhe lexon mesazhin në ekran."
+    "message": "Kapja nuk është ndërtuar ende. Ky është skeleti i zgjerimit: lidhet me Postulo-n tuaj dhe lexon mesazhin në ekran."
   },
   "settings": {
-    "message": "Rregullimet"
+    "message": "Cilësimet"
   },
   "tokenMissing": {
-    "message": "Ngjiteni shenjën që ju tregoi Postulo."
+    "message": "Ngjitni tokenin që ju tregoi Postulo."
   },
   "optionsTitle": {
-    "message": "Rregullimet"
+    "message": "Cilësimet e Postulo-s"
   },
   "tokenStored": {
-    "message": "Shenja është mbajtur e papërshkruar në këtë profil Thunderbird. Fjalëkalimi kryesor i Thunderbird nuk e mbron atë, dhe kushdo që mund të lexojë kartelën e profilit mund ta përdorë atë derisa ta heqë atë nën $PATH$ në Postulo.",
+    "message": "Tokeni ruhet i paenkriptuar në këtë profil të Thunderbird-it. Fjalëkalimi kryesor i Thunderbird-it nuk e mbron, dhe kushdo që mund të lexojë dosjen e profilit mund ta përdorë derisa ta shfuqizoni te $PATH$ në Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -140,16 +140,16 @@
     }
   },
   "tooMany": {
-    "message": "Shumë goditje në një kohë të shkurtër. Prit një minutë dhe provoje përsëri."
+    "message": "Shumë kapje brenda një kohe të shkurtër. Prisni një minutë dhe provoni sërish."
   },
   "storageFull": {
-    "message": "Populo është plot. Provo edhe një herë pasi të heqësh disa të dhëna, ose të rinisësh Thunderbirdin."
+    "message": "Hapësira e Thunderbird-it për Postulo-n është plot. Provoni sërish pasi të hiqni disa të dhëna, ose rinisni Thunderbird-in."
   },
   "instanceLabel": {
-    "message": "Populoja juaj"
+    "message": "Postulo-ja juaj"
   },
   "noCredentialsInAddress": {
-    "message": "Mos e vendosni emrin e përdoruesit dhe fjalëkalimin në adresë: nuk do të lidhej kurrë, dhe fjalëkalimi do të shfaqej në dritaren kërcyese."
+    "message": "Mos i vendosni emrin e përdoruesit dhe fjalëkalimin në adresë: nuk do të lidhej kurrë, dhe fjalëkalimi do të shfaqej në dritaren kërcyese."
   },
   "answered": {
     "message": "Postulo u përgjigj me $STATUS$.",
@@ -160,7 +160,7 @@
     }
   },
   "tokenIs": {
-    "message": "Token-i “$NAME$” për $OWNER$.",
+    "message": "Tokeni “$NAME$” për $OWNER$.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -171,7 +171,7 @@
     }
   },
   "tokenIsScoped": {
-    "message": "Token-i “$NAME$” për $OWNER$ ($SCOPES$).",
+    "message": "Tokeni “$NAME$” për $OWNER$ ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
