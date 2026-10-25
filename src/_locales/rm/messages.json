@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Parameters"
+  },
+  "setUp": {
+    "message": "Configurar"
+  },
+  "capture": {
+    "message": "Capturar quest inserat"
+  },
+  "optionsTitle": {
+    "message": "Parameters da Postulo"
+  },
+  "instanceLabel": {
+    "message": "Voss Postulo"
+  },
+  "instanceHint": {
+    "message": "L'adressa cun la quala Vus avris Postulo. https, nun ch'el funcziunia sin quest computer."
+  },
+  "tokenLabel": {
+    "message": "Token d'API"
+  },
+  "tokenPath": {
+    "message": "Parameters → Tokens API"
+  },
+  "save": {
+    "message": "Arcunar"
+  },
+  "test": {
+    "message": "Testar"
+  },
+  "tokenMissing": {
+    "message": "Encollai il token che Postulo As ha mussà."
+  },
+  "asking": {
+    "message": "Dumonda Postulo a tgi che quest token appartegna…"
+  },
+  "addressRefused": {
+    "message": "La permissiun da cuntanscher questa adressa è vegnida refusada."
+  },
+  "tokenIs": {
+    "message": "Token «$NAME$» per $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Token «$NAME$» per $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Laschai davent il num d'utilisader ed il pled-clav da l'adressa: la connexiun na funcziunass mai, ed il pled-clav vegniss mussà en il pop-up."
+  },
+  "enterAddress": {
+    "message": "Endatai l'adressa da Voss Postulo."
+  },
+  "notAnAddress": {
+    "message": "Quai na para betg d'esser in'adressa web."
+  },
+  "httpsOnly": {
+    "message": "Utilisai https per tut quai che n'è betg sin Voss agen computer: il token viagia cun mintga dumonda."
+  },
+  "tokenRefused": {
+    "message": "Postulo n'accepta betg quest token. Controllai el sut $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Quest token n'ha betg il dretg da capturar."
+  },
+  "tooMany": {
+    "message": "Memia bleras capturas en curt temp. Spetgai ina minuta ed empruvai anc ina giada."
+  },
+  "answered": {
+    "message": "Postulo ha respundì $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Questa adressa ha respundì, ma betg sco Postulo. Controllai l'adressa e mintga pagina d'annunzia che stat avant ella."
+  },
+  "extensionDescription": {
+    "message": "Postulo per Thunderbird: inserats da Voss e-mails, tramess a Voss agen Postulo. Per il mument mo ina versiun da basa: ella sa collia e mussa il messadi sin il visur, ma na captura anc betg."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Creà sut $PATH$ en Postulo. Questa extensiun po utilisar duas cumpetenzas: $CAPTURES$, per capturar in inserat, e $BIND$, per archivar in messadi en l'istorgia d'in inserat. Marcai mo quellas che Vus vulais ch'ella utiliseschia, e nagut auter.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Il token vegn arcunà betg criptà en quest profil da Thunderbird. Il pled-clav principal da Thunderbird n'al protegia betg, e mintgin che po leger l'ordinatur dal profil al po utilisar, fin che Vus al revocais sut $PATH$ en Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Arcunà. Quest Thunderbird è collià cun $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Anc betg collià cun in Postulo."
+  },
+  "messageHeading": {
+    "message": "Il messadi sin il visur"
+  },
+  "noMessage": {
+    "message": "Nagin messadi n'è sin il visur. Avri in messadi e lura danovamain questa fanestra."
+  },
+  "messageFrom": {
+    "message": "Da $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(senza object)"
+  },
+  "notBuiltYet": {
+    "message": "La funcziun da capturar n'è anc betg realisada. Quai è la versiun da basa da l'extensiun: ella sa collia cun Voss Postulo e legia il messadi sin il visur."
+  },
+  "tokenNeither": {
+    "message": "El n'ha ni la cumpetenza $CAPTURES$ ni la cumpetenza $BIND$, perquai na po questa extensiun far nagut cun el.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Quest token po far dapli che questa extensiun dovra ($EXTRA$). El vegn arcunà betg criptà en quest profil: creai in cun mo las cumpetenzas numnadas survart e revocai quest.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Arcunà, ma Thunderbird ha refusà la permissiun da cuntanscher l'adressa; permettai quai en las permissiuns dal supplement."
+  },
+  "forgetToken": {
+    "message": "Emblidar il token"
+  },
+  "tokenForgotten": {
+    "message": "Il token è emblidà: el n'è betg pli arcunà en quest profil da Thunderbird. El funcziuna anc, fin che Vus al revocais sut $PATH$ en Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "La memoria da Thunderbird per Postulo è plaina. Empruvai anc ina giada suenter avair allontanà intginas datas, u reaviai Thunderbird."
+  }
+}

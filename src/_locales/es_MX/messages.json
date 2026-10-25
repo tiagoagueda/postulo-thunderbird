@@ -1,6 +1,6 @@
 {
   "capture": {
-    "message": "Capturar esta oferta"
+    "message": "Capturar esta vacante"
   },
   "save": {
     "message": "Guardar"
@@ -26,7 +26,7 @@
     }
   },
   "setUp": {
-    "message": "Configurarlo"
+    "message": "Configurar"
   },
   "messageFrom": {
     "message": "De $SENDER$",
@@ -37,10 +37,10 @@
     }
   },
   "httpsOnly": {
-    "message": "Use https para cualquier dirección que no esté en su propia computadora: el token viaja con cada solicitud."
+    "message": "Use https para todo lo que no esté en su propia computadora: el token viaja con cada solicitud."
   },
   "enterAddress": {
-    "message": "Escriba la dirección de su Postulo."
+    "message": "Ingrese la dirección de su Postulo."
   },
   "extensionDescription": {
     "message": "Postulo para Thunderbird: ofertas de empleo de su correo, enviadas a su propio Postulo. Por ahora es solo un esqueleto: se conecta y muestra el mensaje en pantalla, pero todavía no captura."
@@ -83,13 +83,13 @@
     "message": "Aún no está conectado a un Postulo."
   },
   "instanceHint": {
-    "message": "La dirección con la que lo abre. https, a menos que se ejecute en esta computadora."
+    "message": "La dirección con la que lo abre. https, salvo que se ejecute en esta computadora."
   },
   "tokenLabel": {
     "message": "Token de API"
   },
   "addressRefused": {
-    "message": "Se rechazó el permiso para acceder a esa dirección."
+    "message": "Se denegó el permiso para conectarse con esa dirección."
   },
   "tokenRefused": {
     "message": "Postulo no acepta este token. Revíselo en $PATH$.",
@@ -106,7 +106,7 @@
     "message": "Este token no tiene permiso para capturar."
   },
   "answered": {
-    "message": "Postulo respondió $STATUS$.",
+    "message": "Postulo respondió con $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -129,13 +129,13 @@
     "message": "Configuración de Postulo"
   },
   "tooMany": {
-    "message": "Demasiadas capturas en poco tiempo. Espere un minuto e inténtelo de nuevo."
+    "message": "Demasiadas capturas en poco tiempo. Espere un minuto y vuelva a intentarlo."
   },
   "instanceLabel": {
     "message": "Su Postulo"
   },
   "tokenTooWide": {
-    "message": "Este token puede hacer más de lo que esta extensión necesita ($EXTRA$). Se mantiene sin cifrar en este perfil: hacer uno con sólo los alcances mencionados anteriormente, y revocar este.",
+    "message": "Este token puede hacer más de lo que esta extensión necesita ($EXTRA$). Se guarda sin cifrar en este perfil: cree uno solo con los alcances indicados arriba y revoque este.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -143,16 +143,16 @@
     }
   },
   "forgetToken": {
-    "message": "Olvídalo"
+    "message": "Olvidar el token"
   },
   "notPostulo": {
     "message": "Esa dirección respondió, pero no como Postulo. Compruebe la dirección y cualquier página de inicio de sesión delante de ella."
   },
   "noCredentialsInAddress": {
-    "message": "Deje el nombre de usuario y la contraseña fuera de la dirección: nunca se conectará, y la contraseña se mostrará en el popup."
+    "message": "Deje el nombre de usuario y la contraseña fuera de la dirección: nunca se conectaría, y la contraseña se mostraría en la ventana emergente."
   },
   "tokenForgotten": {
-    "message": "El token se olvida: ya no se mantiene en este perfil Thunderbird. Aún funciona hasta que la revocas bajo $PATH$ en Postulo.",
+    "message": "El token se olvidó: ya no se guarda en este perfil de Thunderbird. Sigue funcionando hasta que lo revoque en $PATH$ en Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -171,7 +171,7 @@
     }
   },
   "tokenHintScopes": {
-    "message": "Hecho bajo $PATH$ en Postulo. Esta extensión puede utilizar dos ámbitos: $CAPTURES$, para capturar una publicación, y $BIND$, para presentar un mensaje en la historia de un listado. Tick sólo los que quieres que use, y nada más.",
+    "message": "Se crea en $PATH$ en Postulo. Esta extensión puede usar dos alcances: $CAPTURES$, para capturar una vacante, y $BIND$, para archivar un mensaje en el historial de una oferta. Marque solo los que quiera que use, y nada más.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -185,7 +185,7 @@
     }
   },
   "tokenStored": {
-    "message": "El token se mantiene sin cifrar en este perfil Thunderbird. La contraseña primaria de Thunderbird no la protege, y cualquiera que pueda leer la carpeta de perfil puede utilizarla hasta que la revoque bajo $PATH$ en Postulo.",
+    "message": "El token se guarda sin cifrar en este perfil de Thunderbird. La contraseña principal de Thunderbird no lo protege, y cualquiera que pueda leer la carpeta del perfil puede usarlo hasta que lo revoque en $PATH$ en Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -193,6 +193,6 @@
     }
   },
   "storageFull": {
-    "message": "El almacenamiento de Thunderbird para Postulo está lleno. Intente de nuevo después de eliminar algunos datos, o reiniciar Thunderbird."
+    "message": "El almacenamiento de Thunderbird para Postulo está lleno. Vuelva a intentarlo después de eliminar algunos datos, o reinicie Thunderbird."
   }
 }

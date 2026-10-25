@@ -1,15 +1,15 @@
 {
   "capture": {
-    "message": "Kapturatu mezu hau"
+    "message": "Kapturatu iragarki hau"
   },
   "save": {
     "message": "Gorde"
   },
   "savedNoPermission": {
-    "message": "Gordeta, baina Thunderbirdek ez zuen baimenik lortu ahal izateko."
+    "message": "Gordeta, baina Thunderbirdek ukatu egin du helbide horretara iristeko baimena; baimendu ezazu gehigarriaren baimenetan."
   },
   "tokenTooWide": {
-    "message": "Token honek luzapen honek behar duena baino gehiago egin dezake ($EXTRA$). Profil honetan enkriptatu gabe mantentzen da: bat egin goian aipatutako esparruekin, eta errebokatu hau.",
+    "message": "Token honek hedapen honek behar duena baino gehiago egin dezake ($EXTRA$). Profil honetan zifratu gabe gordetzen da: sortu goian aipatutako esparruak soilik dituen bat, eta baliogabetu hau.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -26,7 +26,7 @@
     "message": "(gairik ez)"
   },
   "saved": {
-    "message": "Gordeta. Thunderbird honi lotuta dago $HOST$.",
+    "message": "Gordeta. Thunderbird hau $HOST$ ostalariarekin konektatuta dago.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -37,10 +37,10 @@
     "message": "Ahaztu tokena"
   },
   "setUp": {
-    "message": "Ezarri ezazu"
+    "message": "Konfiguratu"
   },
   "messageFrom": {
-    "message": "$SENDER$",
+    "message": "Igorlea: $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -48,22 +48,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Erabili https zure ordenagailuan ez dagoen edozer gauzarako: tokena eskaera bakoitzarekin bidaiatzen du."
+    "message": "Erabili https zure makinan ez dagoen edozertarako: tokena eskaera guztiekin batera bidaltzen da."
   },
   "notPostulo": {
-    "message": "Helbide horrek erantzun zuen, baina ez Postulok bezala. Begiratu helbidea, eta edozein seinale-orri aurrean."
+    "message": "Helbide horrek erantzun du, baina ez Postulok bezala. Egiaztatu helbidea, eta haren aurrean saio-hasierako orririk dagoen."
   },
   "enterAddress": {
-    "message": "Sartu zure Postulo helbidea."
+    "message": "Sartu zure Postuloren helbidea."
   },
   "noCredentialsInAddress": {
     "message": "Utzi erabiltzaile-izena eta pasahitza helbidetik kanpo: ez da inoiz konektatuko, eta pasahitza laster-leihoan erakutsiko da."
   },
   "extensionDescription": {
-    "message": "Postulo for Thunderbird: lan-mezuak zure postatik, zure Postulora bidalita. Eskeleto bat oraingoz: pantailako mezua lotzen eta erakusten du, eta oraindik ez du harrapatzen."
+    "message": "Postulo Thunderbirderako: lan-iragarkiak zure postatik, zure Postulora bidalita. Oraingoz eskeleto bat da: konektatu egiten da eta pantailako mezua erakusten du, baina oraindik ez du kapturatzen."
   },
   "tokenForgotten": {
-    "message": "Tokena ahaztu egiten da: ez da jadanik Thunderbirden profil honetan gordetzen. Oraindik funtzionatzen du Postulon $PATH$ azpian errebokatzen duzun arte.",
+    "message": "Tokena ahaztu da: jada ez da Thunderbirden profil honetan gordetzen. Funtzionatzen jarraitzen du Postulon baliogabetzen duzun arte (hemen: $PATH$).",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -71,10 +71,10 @@
     }
   },
   "messageHeading": {
-    "message": "Mezua pantailan"
+    "message": "Pantailako mezua"
   },
   "tokenIs": {
-    "message": "Token \"$NAME$\" $OWNER$.",
+    "message": "$OWNER$ kontuaren «$NAME$» tokena.",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -85,10 +85,10 @@
     }
   },
   "test": {
-    "message": "Proba"
+    "message": "Probatu"
   },
   "tokenIsScoped": {
-    "message": "Token \"$NAME$\" $OWNER$ ($SCOPES$).",
+    "message": "$OWNER$ kontuaren «$NAME$» tokena ($SCOPES$).",
     "placeholders": {
       "name": {
         "content": "$1"
@@ -102,13 +102,13 @@
     }
   },
   "asking": {
-    "message": "Postulori galdetuz nor den token hau.."
+    "message": "Postulori galdetzen token hau norena den…"
   },
   "notConnected": {
-    "message": "Oraindik ez dago postulo batekin konektatuta."
+    "message": "Oraindik ez dago Postulo batekin konektatuta."
   },
   "instanceHint": {
-    "message": "Irekitzen duzun helbidea. https, ez bada makina honetan exekutatzen."
+    "message": "Postulo irekitzeko erabiltzen duzun helbidea. https, makina honetan exekutatzen ez bada."
   },
   "tokenLabel": {
     "message": "API tokena"
@@ -117,7 +117,7 @@
     "message": "Helbide horretara iristeko baimena ukatu egin da."
   },
   "tokenRefused": {
-    "message": "Postulok ez du token hau onartzen. Egiaztatu $PATH$ azpian.",
+    "message": "Postulok ez du token hau onartzen. Egiaztatu hemen: $PATH$.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -125,13 +125,13 @@
     }
   },
   "notAnAddress": {
-    "message": "Ez dirudi web helbide bat denik."
+    "message": "Ez dirudi web-helbide bat denik."
   },
   "notAllowed": {
-    "message": "Token hau ezin da harrapatu."
+    "message": "Token honek ez du kapturatzeko baimenik."
   },
   "answered": {
-    "message": "Postulok erantzun zuen $STATUS$.",
+    "message": "Postulok $STATUS$ egoera-kodearekin erantzun du.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -139,22 +139,22 @@
     }
   },
   "noMessage": {
-    "message": "Ez dago mezurik pantailan. Ireki bat eta ireki berriro."
+    "message": "Ez dago mezurik pantailan. Ireki bat, eta ireki hau berriro."
   },
   "notBuiltYet": {
-    "message": "Ez da oraindik eraiki. Hau da hedapenaren eskeletoa: Postulorekin konektatzen da eta mezua pantailan irakurtzen du."
+    "message": "Kapturatzeko aukera oraindik ez dago eginda. Hau hedapenaren eskeletoa da: zure Postulorekin konektatzen da eta pantailako mezua irakurtzen du."
   },
   "settings": {
     "message": "Ezarpenak"
   },
   "tokenMissing": {
-    "message": "Postulok erakutsi dizu."
+    "message": "Itsatsi Postulok erakutsi dizun tokena."
   },
   "optionsTitle": {
-    "message": "Postularen ezarpenak"
+    "message": "Postuloren ezarpenak"
   },
   "tokenStored": {
-    "message": "Tokena ez dago enkriptatuta Thunderbirden profil honetan. Thunderbirden pasahitz nagusiak ez du babesten, eta profilaren karpeta irakurtzeko gai den edonork erabil dezake Postulo-n $PATH$ azpian errebokatu arte.",
+    "message": "Tokena zifratu gabe gordetzen da Thunderbirden profil honetan. Thunderbirden pasahitz nagusiak ez du babesten, eta profilaren karpeta irakur dezakeen edonork erabil dezake, Postulon baliogabetzen duzun arte (hemen: $PATH$).",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -162,16 +162,16 @@
     }
   },
   "tooMany": {
-    "message": "Kaptura gehiegi denbora laburrean. Itxaron eta saiatu berriro."
+    "message": "Kaptura gehiegi denbora laburrean. Itxaron minutu bat eta saiatu berriro."
   },
   "storageFull": {
     "message": "Postulorako Thunderbirden biltegia beteta dago. Saiatu berriro datu batzuk kendu edo Thunderbird berrabiarazi ondoren."
   },
   "instanceLabel": {
-    "message": "Zure postaria"
+    "message": "Zure Postulo"
   },
   "tokenNeither": {
-    "message": "Ez du ez $CAPTURES$ esparrurik ez $BIND$ esparrurik, beraz luzapen honek ezin du ezer egin harekin.",
+    "message": "Ez du ez $CAPTURES$ esparrua ez $BIND$ esparrua; beraz, hedapen honek ezin du ezer egin harekin.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -182,7 +182,7 @@
     }
   },
   "tokenHintScopes": {
-    "message": "Postulon $PATH$ atalean sortua. Luzapen honek bi esparru erabil ditzake: $CAPTURES$, iragarki bat harrapatzeko, eta $BIND$, mezu bat iragarki baten historian artxibatzeko. Markatu erabiltzea nahi dituzunak bakarrik, eta ezer gehiago ez.",
+    "message": "Postulon sortzen da, hemen: $PATH$. Hedapen honek bi esparru erabil ditzake: $CAPTURES$, iragarki bat kapturatzeko, eta $BIND$, mezu bat iragarki baten historian artxibatzeko. Markatu erabiltzea nahi dituzunak soilik, eta besterik ez.",
     "placeholders": {
       "path": {
         "content": "$1"

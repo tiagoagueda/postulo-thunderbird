@@ -9,7 +9,7 @@
     "message": "Vistað, en Thunderbird neitaði um leyfi til að ná í það; leyfðu það í heimildum viðbótarinnar."
   },
   "tokenTooWide": {
-    "message": "Þetta teikn getur gert meira en þessi viðbót þarf ($EXTRA$). Það er geymt ódulkóðað í þessu notandasniði: búðu til teikn með aðeins þeim heimildum sem nefndar eru hér að ofan og afturkallaðu þetta.",
+    "message": "Þetta teikn getur gert meira en þessi viðbót þarf ($EXTRA$). Það er geymt ódulritað í þessu notandasniði: búðu til teikn með aðeins þeim heimildum sem nefndar eru hér að ofan og afturkallaðu þetta.",
     "placeholders": {
       "extra": {
         "content": "$1"
@@ -26,7 +26,7 @@
     "message": "(ekkert efni)"
   },
   "saved": {
-    "message": "Vistað. Þetta Thunderbird er tengt við $HOST$.",
+    "message": "Vistað. Þetta Thunderbird-notandasnið er tengt við $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -51,16 +51,16 @@
     "message": "Notaðu https fyrir allt sem er ekki á þinni eigin vél: teiknið ferðast með hverri beiðni."
   },
   "notPostulo": {
-    "message": "Þetta heimilisfang svaraði, en ekki sem Postulo. Athugaðu heimilisfangið og hvort innskráningarsíða standi fyrir framan það."
+    "message": "Þetta vistfang svaraði, en ekki sem Postulo. Athugaðu vistfangið og hvort innskráningarsíða sé fyrir framan það."
   },
   "enterAddress": {
-    "message": "Sláðu inn vistfang Postulo-sins þíns."
+    "message": "Sláðu inn vistfang Postulo-uppsetningarinnar þinnar."
   },
   "noCredentialsInAddress": {
     "message": "Slepptu notandanafninu og lykilorðinu úr vistfanginu: það myndi aldrei tengjast og lykilorðið yrði sýnt í sprettiglugganum."
   },
   "extensionDescription": {
-    "message": "Postulo fyrir Thunderbird: starfsauglýsingar úr póstinum þínum, sendar í þitt eigið Postulo. Beinagrind í bili: hún tengist og sýnir skeytið á skjánum, en grípur ekki enn."
+    "message": "Postulo fyrir Thunderbird: starfsauglýsingar úr póstinum þínum, sendar í þína eigin Postulo-uppsetningu. Beinagrind í bili: hún tengist og sýnir skeytið á skjánum, en grípur ekki enn."
   },
   "tokenForgotten": {
     "message": "Teikninu hefur verið gleymt: það er ekki lengur geymt í þessu Thunderbird-notandasniði. Það virkar enn þar til þú afturkallar það undir $PATH$ í Postulo.",
@@ -142,7 +142,7 @@
     "message": "Þetta teikn má ekki grípa."
   },
   "tokenHintScopes": {
-    "message": "Búið til undir $PATH$ í Postulo. Þessi viðbót getur notað tvær heimildir: $CAPTURES$, til að grípa auglýsingu, og $BIND$, til að skrá skeyti í feril auglýsingar. Hakaðu aðeins við þær sem þú vilt að hún noti, og ekkert annað.",
+    "message": "Búið til undir $PATH$ í Postulo. Þessi viðbót getur notað tvær heimildir: $CAPTURES$, til að grípa auglýsingu, og $BIND$, til að skrá skeyti í sögu auglýsingar. Hakaðu aðeins við þær sem þú vilt að hún noti, og ekkert annað.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -167,7 +167,7 @@
     "message": "Ekkert skeyti er á skjánum. Opnaðu eitt og opnaðu svo þetta aftur."
   },
   "notBuiltYet": {
-    "message": "Ekki er enn hægt að grípa. Þetta er beinagrind viðbótarinnar: hún tengist Postulo-inu þínu og les skeytið á skjánum."
+    "message": "Ekki er enn hægt að grípa. Þetta er beinagrind viðbótarinnar: hún tengist Postulo-uppsetningunni þinni og les skeytið á skjánum."
   },
   "settings": {
     "message": "Stillingar"
@@ -179,7 +179,7 @@
     "message": "Stillingar Postulo"
   },
   "tokenStored": {
-    "message": "Teiknið er geymt ódulkóðað í þessu Thunderbird-notandasniði. Aðallykilorð Thunderbird verndar það ekki, og hver sem getur lesið möppu notandasniðsins getur notað það þar til þú afturkallar það undir $PATH$ í Postulo.",
+    "message": "Teiknið er geymt ódulritað í þessu Thunderbird-notandasniði. Aðallykilorð Thunderbird verndar það ekki, og hver sem getur lesið möppu notandasniðsins getur notað það þar til þú afturkallar það undir $PATH$ í Postulo.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -193,6 +193,6 @@
     "message": "Geymslupláss Thunderbird fyrir Postulo er fullt. Reyndu aftur eftir að hafa fjarlægt einhver gögn, eða endurræstu Thunderbird."
   },
   "instanceLabel": {
-    "message": "Postulo-ið þitt"
+    "message": "Postulo-uppsetningin þín"
   }
 }

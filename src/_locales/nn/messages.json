@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Innstillingar"
+  },
+  "setUp": {
+    "message": "Set det opp"
+  },
+  "capture": {
+    "message": "Fang inn denne stillingsannonsen"
+  },
+  "optionsTitle": {
+    "message": "Innstillingar for Postulo"
+  },
+  "instanceLabel": {
+    "message": "Postulo-en din"
+  },
+  "instanceHint": {
+    "message": "Adressa du opnar han på. https, med mindre han køyrer på denne maskinen."
+  },
+  "tokenLabel": {
+    "message": "API-token"
+  },
+  "tokenPath": {
+    "message": "Innstillingar → API-token"
+  },
+  "save": {
+    "message": "Lagre"
+  },
+  "test": {
+    "message": "Test"
+  },
+  "tokenMissing": {
+    "message": "Lim inn tokenet Postulo viste deg."
+  },
+  "asking": {
+    "message": "Spør Postulo kven dette tokenet høyrer til…"
+  },
+  "addressRefused": {
+    "message": "Løyve til å nå den adressa vart nekta."
+  },
+  "tokenIs": {
+    "message": "Tokenet «$NAME$» for $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Tokenet «$NAME$» for $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Ta brukarnamnet og passordet ut av adressa: ho ville aldri kople til, og passordet ville bli vist i sprettoppvindauget."
+  },
+  "enterAddress": {
+    "message": "Skriv inn adressa til Postulo-en din."
+  },
+  "notAnAddress": {
+    "message": "Det ser ikkje ut som ei nettadresse."
+  },
+  "httpsOnly": {
+    "message": "Bruk https for alt som ikkje er på din eigen maskin: tokenet blir sendt med kvar førespurnad."
+  },
+  "tokenRefused": {
+    "message": "Postulo godtek ikkje dette tokenet. Kontroller det under $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Dette tokenet har ikkje løyve til å fange inn."
+  },
+  "tooMany": {
+    "message": "For mange fangstar på kort tid. Vent eit minutt og prøv igjen."
+  },
+  "answered": {
+    "message": "Postulo svarte $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Den adressa svarte, men ikkje som Postulo. Kontroller adressa og eventuelle innloggingssider framfor henne."
+  },
+  "extensionDescription": {
+    "message": "Postulo for Thunderbird: stillingsannonsar frå e-posten din, sende til din eigen Postulo. Berre eit skjelett førebels: tillegget koplar til og viser meldinga på skjermen, men fangar ikkje inn enno."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Laga under $PATH$ i Postulo. Denne utvidinga kan bruke to tilgangsområde: $CAPTURES$, for å fange inn ein stillingsannonse, og $BIND$, for å arkivere ei melding i historikken til ei utlysing. Kryss berre av for dei du vil at ho skal bruke, og ingenting anna.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Tokenet blir lagra ukryptert i denne Thunderbird-profilen. Hovudpassordet i Thunderbird vernar det ikkje, og alle som kan lese profilmappa, kan bruke det til du trekkjer det tilbake under $PATH$ i Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Lagra. Denne Thunderbird-en er kopla til $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Ikkje kopla til nokon Postulo enno."
+  },
+  "messageHeading": {
+    "message": "Meldinga på skjermen"
+  },
+  "noMessage": {
+    "message": "Inga melding er på skjermen. Opne ei, og opne så dette igjen."
+  },
+  "messageFrom": {
+    "message": "Frå $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(utan emne)"
+  },
+  "notBuiltYet": {
+    "message": "Fangst er ikkje laga enno. Dette er skjelettet til utvidinga: ho koplar til Postulo-en din og les meldinga på skjermen."
+  },
+  "tokenNeither": {
+    "message": "Det har verken tilgangsområdet $CAPTURES$ eller tilgangsområdet $BIND$, så denne utvidinga kan ikkje gjere noko med det.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Dette tokenet kan gjere meir enn denne utvidinga treng ($EXTRA$). Det blir lagra ukryptert i denne profilen: lag eitt med berre dei tilgangsområda som er nemnde ovanfor, og trekk tilbake dette.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Lagra, men Thunderbird nekta løyve til å nå adressa; gje løyve i løyva til tillegget."
+  },
+  "forgetToken": {
+    "message": "Gløym tokenet"
+  },
+  "tokenForgotten": {
+    "message": "Tokenet er gløymt: det blir ikkje lenger lagra i denne Thunderbird-profilen. Det verkar framleis til du trekkjer det tilbake under $PATH$ i Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Lagringsplassen til Postulo i Thunderbird er full. Prøv igjen etter å ha fjerna noko data, eller start Thunderbird på nytt."
+  }
+}

@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "setUp": {
+    "message": "Ayarla"
+  },
+  "capture": {
+    "message": "Bu elanı götür"
+  },
+  "optionsTitle": {
+    "message": "Postulo ayarları"
+  },
+  "instanceLabel": {
+    "message": "Sizin Postulo"
+  },
+  "instanceHint": {
+    "message": "Onu açdığınız ünvan. Bu kompüterdə işləmirsə, https olmalıdır."
+  },
+  "tokenLabel": {
+    "message": "API tokeni"
+  },
+  "tokenPath": {
+    "message": "Ayarlar → API tokenləri"
+  },
+  "save": {
+    "message": "Yadda saxla"
+  },
+  "test": {
+    "message": "Sına"
+  },
+  "tokenMissing": {
+    "message": "Postulo-nun sizə göstərdiyi tokeni yapışdırın."
+  },
+  "asking": {
+    "message": "Postulo-dan bu tokenin kimə aid olduğu soruşulur…"
+  },
+  "addressRefused": {
+    "message": "O ünvana qoşulmaq icazəsi rədd edildi."
+  },
+  "tokenIs": {
+    "message": "$OWNER$ üçün «$NAME$» tokeni.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "$OWNER$ üçün «$NAME$» tokeni ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "İstifadəçi adını və parolu ünvana daxil etməyin: bağlantı heç vaxt qurulmaz, parol isə açılan pəncərədə göstərilərdi."
+  },
+  "enterAddress": {
+    "message": "Postulo-nuzun ünvanını daxil edin."
+  },
+  "notAnAddress": {
+    "message": "Bu, veb ünvana oxşamır."
+  },
+  "httpsOnly": {
+    "message": "Öz kompüterinizdə olmayan hər şey üçün https istifadə edin: token hər sorğu ilə birlikdə göndərilir."
+  },
+  "tokenRefused": {
+    "message": "Postulo bu tokeni qəbul etmir. Onu $PATH$ bölməsində yoxlayın.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Bu tokenin götürməyə icazəsi yoxdur."
+  },
+  "tooMany": {
+    "message": "Qısa müddətdə həddindən çox götürmə. Bir dəqiqə gözləyin və yenidən cəhd edin."
+  },
+  "answered": {
+    "message": "Postulo $STATUS$ cavabını verdi.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Bu ünvan cavab verdi, amma Postulo kimi yox. Ünvanı və onun qarşısındakı istənilən giriş səhifəsini yoxlayın."
+  },
+  "extensionDescription": {
+    "message": "Thunderbird üçün Postulo: poçtunuzdakı iş elanları öz Postulo-nuza göndərilir. Hələlik bu, skeletdir: qoşulur və ekrandakı məktubu göstərir, lakin hələ götürmür."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Postulo-da $PATH$ bölməsində yaradılır. Bu genişləndirmə iki icazə sahəsindən istifadə edə bilər: $CAPTURES$ (elanı götürmək üçün) və $BIND$ (məktubu elanın tarixçəsinə əlavə etmək üçün). Yalnız onun istifadə etməsini istədiklərinizi işarələyin, başqa heç nəyi.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Token bu Thunderbird profilində şifrələnmədən saxlanılır. Thunderbird-ün əsas parolu onu qorumur və profil qovluğunu oxuya bilən hər kəs, siz onu Postulo-da $PATH$ bölməsində ləğv edənə qədər, ondan istifadə edə bilər.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Yadda saxlanıldı. Bu Thunderbird $HOST$ ünvanına qoşulub.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Hələ heç bir Postulo-ya qoşulmayıb."
+  },
+  "messageHeading": {
+    "message": "Ekrandakı məktub"
+  },
+  "noMessage": {
+    "message": "Ekranda məktub yoxdur. Birini açın, sonra bunu yenidən açın."
+  },
+  "messageFrom": {
+    "message": "Göndərən: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(mövzu yoxdur)"
+  },
+  "notBuiltYet": {
+    "message": "Götürmə hələ hazırlanmayıb. Bu, genişləndirmənin skeletidir: Postulo-nuza qoşulur və ekrandakı məktubu oxuyur."
+  },
+  "tokenNeither": {
+    "message": "Onda nə $CAPTURES$, nə də $BIND$ icazə sahəsi var, ona görə bu genişləndirmə onunla heç nə edə bilməz.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Bu token bu genişləndirməyə lazım olandan artıq iş görə bilər ($EXTRA$). O, bu profildə şifrələnmədən saxlanılır: yalnız yuxarıda adı çəkilən icazə sahələri ilə token yaradın və bunu ləğv edin.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Yadda saxlanıldı, lakin Thunderbird ora qoşulmaq icazəsini rədd etdi; əlavənin icazələrində buna icazə verin."
+  },
+  "forgetToken": {
+    "message": "Tokeni unut"
+  },
+  "tokenForgotten": {
+    "message": "Token unuduldu: artıq bu Thunderbird profilində saxlanılmır. Siz onu Postulo-da $PATH$ bölməsində ləğv edənə qədər işləməyə davam edir.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Thunderbird-ün Postulo üçün yaddaşı doludur. Bəzi məlumatları sildikdən sonra yenidən cəhd edin və ya Thunderbird-ü yenidən başladın."
+  }
+}

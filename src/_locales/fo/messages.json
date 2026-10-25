@@ -1,1 +1,198 @@
-{}
+{
+  "settings": {
+    "message": "Stillingar"
+  },
+  "setUp": {
+    "message": "Set tað upp"
+  },
+  "capture": {
+    "message": "Fanga hesa starvslýsingina"
+  },
+  "optionsTitle": {
+    "message": "Postulo-stillingar"
+  },
+  "instanceLabel": {
+    "message": "Tín Postulo"
+  },
+  "instanceHint": {
+    "message": "Vevbústaðurin, tú letur hana upp á. https, uttan so at hon koyrir á hesi teldu."
+  },
+  "tokenLabel": {
+    "message": "API-tekin"
+  },
+  "tokenPath": {
+    "message": "Stillingar → API-tekin"
+  },
+  "save": {
+    "message": "Goym"
+  },
+  "test": {
+    "message": "Royn"
+  },
+  "tokenMissing": {
+    "message": "Set inn tekinið, sum Postulo vísti tær."
+  },
+  "asking": {
+    "message": "Spyr Postulo, hvørjum hetta tekinið hoyrir til…"
+  },
+  "addressRefused": {
+    "message": "Loyvi at fáa samband við hendan vevbústaðin varð noktað."
+  },
+  "tokenIs": {
+    "message": "Tekinið „$NAME$“ hjá $OWNER$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenIsScoped": {
+    "message": "Tekinið „$NAME$“ hjá $OWNER$ ($SCOPES$).",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "owner": {
+        "content": "$2"
+      },
+      "scopes": {
+        "content": "$3"
+      }
+    }
+  },
+  "noCredentialsInAddress": {
+    "message": "Tak brúkaranavnið og loyniorðið burtur úr vevbústaðinum: hann hevði ongantíð fingið samband, og loyniorðið hevði verið víst í gluggaskjalinum."
+  },
+  "enterAddress": {
+    "message": "Skriva vevbústaðin hjá tínari Postulo."
+  },
+  "notAnAddress": {
+    "message": "Tað sær ikki út sum ein vevbústaður."
+  },
+  "httpsOnly": {
+    "message": "Brúka https til alt, sum ikki er á tínari egnu teldu: tekinið fylgir við hvørji umbøn."
+  },
+  "tokenRefused": {
+    "message": "Postulo góðtekur ikki hetta tekinið. Kanna tað undir $PATH$.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "notAllowed": {
+    "message": "Hetta tekinið hevur ikki loyvi at fanga."
+  },
+  "tooMany": {
+    "message": "Ov nógvar fangingar í stuttari tíð. Bíða ein minutt og royn aftur."
+  },
+  "answered": {
+    "message": "Postulo svaraði $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "notPostulo": {
+    "message": "Vevbústaðurin svaraði, men ikki sum Postulo. Kanna vevbústaðin og eina møguliga innritanarsíðu framman fyri hann."
+  },
+  "extensionDescription": {
+    "message": "Postulo fyri Thunderbird: starvslýsingar úr teldupostinum hjá tær, sendar til tína egnu Postulo. Enn bert ein beinagrind: tað knýtir samband og vísir boðini á skerminum, men fangar ikki enn."
+  },
+  "actionTitle": {
+    "message": "Postulo"
+  },
+  "tokenHintScopes": {
+    "message": "Gjørt undir $PATH$ í Postulo. Hetta ískoytið kann brúka tvær heimildir: $CAPTURES$ til at fanga eina starvslýsing og $BIND$ til at leggja eini boð inn í søguna hjá eini starvslýsing. Krossa bert av tær, tú vilt, at tað skal brúka, og onki annað.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      },
+      "captures": {
+        "content": "$2"
+      },
+      "bind": {
+        "content": "$3"
+      }
+    }
+  },
+  "tokenStored": {
+    "message": "Tekinið verður goymt óbronglað í hesum Thunderbird-vanganum. Høvuðsloyniorðið í Thunderbird verjir tað ikki, og øll, sum kunnu lesa vangamappuna, kunnu brúka tað, til tú tekur tað aftur undir $PATH$ í Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "saved": {
+    "message": "Goymt. Hesin Thunderbird er í sambandi við $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "notConnected": {
+    "message": "Enn ikki í sambandi við nakra Postulo."
+  },
+  "messageHeading": {
+    "message": "Boðini á skerminum"
+  },
+  "noMessage": {
+    "message": "Eingi boð eru á skerminum. Lat ein upp, og lat so hetta upp aftur."
+  },
+  "messageFrom": {
+    "message": "Frá $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "noSubject": {
+    "message": "(einki evni)"
+  },
+  "notBuiltYet": {
+    "message": "Fanging er ikki gjørd enn. Hetta er beinagrindin í ískoytinum: tað knýtir samband við tína Postulo og lesur boðini á skerminum."
+  },
+  "tokenNeither": {
+    "message": "Tað hevur hvørki heimildina $CAPTURES$ ella heimildina $BIND$, so hetta ískoytið kann einki gera við tí.",
+    "placeholders": {
+      "captures": {
+        "content": "$1"
+      },
+      "bind": {
+        "content": "$2"
+      }
+    }
+  },
+  "tokenTooWide": {
+    "message": "Hetta tekinið kann meira, enn hetta ískoytið hevur brúk fyri ($EXTRA$). Tað verður goymt óbronglað í hesum vanganum: ger eitt við bert teimum heimildunum, sum eru nevndar omanfyri, og tak hetta aftur.",
+    "placeholders": {
+      "extra": {
+        "content": "$1"
+      }
+    }
+  },
+  "savedNoPermission": {
+    "message": "Goymt, men Thunderbird noktaði loyvi at fáa samband við hann; loyv tað í loyvunum hjá ískoytinum."
+  },
+  "forgetToken": {
+    "message": "Gloym tekinið"
+  },
+  "tokenForgotten": {
+    "message": "Tekinið er gloymt: tað verður ikki longur goymt í hesum Thunderbird-vanganum. Tað virkar framvegis, til tú tekur tað aftur undir $PATH$ í Postulo.",
+    "placeholders": {
+      "path": {
+        "content": "$1"
+      }
+    }
+  },
+  "storageFull": {
+    "message": "Goymslan í Thunderbird til Postulo er full. Royn aftur, eftir at tú hevur tikið nakrar dátur burtur, ella byrja Thunderbird av nýggjum."
+  }
+}

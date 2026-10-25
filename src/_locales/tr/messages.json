@@ -1,24 +1,24 @@
 {
   "capture": {
-    "message": "Bu postayı yakalayın"
+    "message": "Bu ilanı yakala"
   },
   "save": {
     "message": "Kaydet"
   },
   "savedNoPermission": {
-    "message": "Kaydeten, ancak Thunderbird buna ulaşma izni reddetti; ek-on'un iznine izin verin."
+    "message": "Kaydedildi, ancak Thunderbird adrese ulaşma iznini vermedi; eklentinin izinlerinden buna izin verin."
   },
   "tokenPath": {
-    "message": "Ayarlar"
+    "message": "Ayarlar → API belirteçleri"
   },
   "actionTitle": {
     "message": "Postulo"
   },
   "noSubject": {
-    "message": "(hayır konusu)"
+    "message": "(konu yok)"
   },
   "saved": {
-    "message": "Kurtarın. Bu Thunderbird $HOST$ ile bağlantılıdır.",
+    "message": "Kaydedildi. Bu Thunderbird, $HOST$ adresine bağlı.",
     "placeholders": {
       "host": {
         "content": "$1"
@@ -26,13 +26,13 @@
     }
   },
   "forgetToken": {
-    "message": "Unutma token"
+    "message": "Belirteci unut"
   },
   "setUp": {
-    "message": "Set it up up"
+    "message": "Ayarla"
   },
   "messageFrom": {
-    "message": "$SENDER$",
+    "message": "Gönderen: $SENDER$",
     "placeholders": {
       "sender": {
         "content": "$1"
@@ -40,22 +40,22 @@
     }
   },
   "httpsOnly": {
-    "message": "Kendi makinenizde olmayan bir şey için https kullanın: token her istekle seyahat eder."
+    "message": "Kendi makinenizde olmayan her şey için https kullanın: belirteç her istekle birlikte gönderilir."
   },
   "notPostulo": {
-    "message": "Bu adres cevap verdi, ancak Postulo olarak değil. Adresi kontrol edin ve bunun önünde herhangi bir işaret sayfası."
+    "message": "Bu adres yanıt verdi, ama Postulo olarak değil. Adresi ve önündeki olası giriş sayfalarını kontrol edin."
   },
   "enterAddress": {
-    "message": "Postulo'nun adresini girin."
+    "message": "Postulo'nuzun adresini girin."
   },
   "noCredentialsInAddress": {
-    "message": "Kullanıcı adını ve şifreyi adres dışında bırakın: asla bağlantı kurmayacak ve şifre popup'da gösterilecekti."
+    "message": "Kullanıcı adını ve parolayı adrese yazmayın: bağlantı hiç kurulamaz ve parola açılır pencerede görünür."
   },
   "extensionDescription": {
-    "message": "Thunderbird için Postulo: postanızdan iş yayınları, kendi Postulo'nuza gönderilir. Şimdilik bir iskelet: ekrandaki mesajı bağlar ve gösterir ve henüz yakalamaz."
+    "message": "Thunderbird için Postulo: e-postalarınızdaki iş ilanları, kendi Postulo'nuza gönderilir. Şimdilik bir iskelet: bağlanır ve ekrandaki iletiyi gösterir, henüz yakalama yapmaz."
   },
   "tokenForgotten": {
-    "message": "Token unutuluyor: artık bu Thunderbird profilinde tutulmadı. Yine de Postulo'da $PATH$ altında geri dönene kadar çalışır.",
+    "message": "Belirteç unutuldu: artık bu Thunderbird profilinde saklanmıyor. Postulo'da $PATH$ bölümünde iptal edene kadar çalışmaya devam eder.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -63,28 +63,28 @@
     }
   },
   "messageHeading": {
-    "message": "Ekrandaki mesaj"
+    "message": "Ekrandaki ileti"
   },
   "test": {
-    "message": "Test Testi"
+    "message": "Test et"
   },
   "asking": {
-    "message": "Bu token'in kim olduğunu sormak .."
+    "message": "Postulo'ya bu belirtecin kime ait olduğu soruluyor…"
   },
   "notConnected": {
-    "message": "Henüz bir Postulo ile bağlantılı değil."
+    "message": "Henüz bir Postulo'ya bağlı değil."
   },
   "instanceHint": {
-    "message": "Bunu açıkladığınız adres. https, bu makinede çalışmadığı sürece."
+    "message": "Postulo'yu açtığınız adres. Bu makinede çalışmıyorsa https olmalı."
   },
   "tokenLabel": {
-    "message": "API token"
+    "message": "API belirteci"
   },
   "addressRefused": {
     "message": "Bu adrese ulaşma izni reddedildi."
   },
   "tokenRefused": {
-    "message": "Postulo bunu token kabul etmiyor. $PATH$ altında kontrol edin.",
+    "message": "Postulo bu belirteci kabul etmiyor. $PATH$ bölümünden kontrol edin.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -92,7 +92,7 @@
     }
   },
   "tokenNeither": {
-    "message": "$CAPTURES$ kapsamı ne de $BIND$ kapsamı tutar, bu nedenle bu uzatma bununla hiçbir şey yapamaz.",
+    "message": "Belirteçte ne $CAPTURES$ kapsamı ne de $BIND$ kapsamı var, bu yüzden bu uzantı onunla hiçbir şey yapamaz.",
     "placeholders": {
       "captures": {
         "content": "$1"
@@ -106,10 +106,10 @@
     "message": "Bu bir web adresi gibi görünmüyor."
   },
   "notAllowed": {
-    "message": "Bu token yakalamaya izin verilmez."
+    "message": "Bu belirtecin yakalama yapma izni yok."
   },
   "tokenHintScopes": {
-    "message": "Postulo'da $PATH$ altında yapılır. Bu uzatma iki kapsamı kullanabilir: $CAPTURES$, bir yayın yakalamak ve $BIND$, bir liste tarihine mesaj vermek için. Sadece kullanmak istediğiniz kişiler ve başka hiçbir şey.",
+    "message": "Postulo'da $PATH$ bölümünde oluşturulur. Bu uzantı iki kapsam kullanabilir: bir ilanı yakalamak için $CAPTURES$ ve bir iletiyi bir ilanın geçmişine eklemek için $BIND$. Yalnızca kullanmasını istediklerinizi işaretleyin, başka hiçbirini değil.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -123,7 +123,7 @@
     }
   },
   "answered": {
-    "message": "Postulo cevap verdi $STATUS$.",
+    "message": "Postulo şu yanıtı verdi: $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -131,22 +131,22 @@
     }
   },
   "noMessage": {
-    "message": "Hiçbir mesaj ekranda değildir. Bir tane açın, sonra tekrar açın."
+    "message": "Ekranda ileti yok. Bir ileti açın, sonra bunu yeniden açın."
   },
   "notBuiltYet": {
-    "message": "Capturing henüz inşa edilmedi. Bu uzatmanın iskeletidir: Postulo'ya bağlanır ve ekranda mesajı okur."
+    "message": "Yakalama özelliği henüz hazır değil. Bu, uzantının iskeleti: Postulo'nuza bağlanır ve ekrandaki iletiyi okur."
   },
   "settings": {
     "message": "Ayarlar"
   },
   "tokenMissing": {
-    "message": "Token Postulo sizi gösterdi."
+    "message": "Postulo'nun size gösterdiği belirteci yapıştırın."
   },
   "optionsTitle": {
     "message": "Postulo ayarları"
   },
   "tokenStored": {
-    "message": "Token bu Thunderbird profilinde şifrelenmez. Thunderbird'in birincil şifresi onu korumaz ve profil klasörünü okuyabilen herkes bunu Postulo'da $PATH$ altında geri döndürene kadar kullanabilir.",
+    "message": "Belirteç bu Thunderbird profilinde şifrelenmeden saklanır. Thunderbird'ün ana parolası onu korumaz; profil klasörünü okuyabilen herkes, siz Postulo'da $PATH$ bölümünde iptal edene kadar onu kullanabilir.",
     "placeholders": {
       "path": {
         "content": "$1"
@@ -154,13 +154,13 @@
     }
   },
   "tooMany": {
-    "message": "Çok fazla kişi kısa sürede yakalar. Bir dakika bekleyin ve tekrar deneyin."
+    "message": "Kısa sürede çok fazla yakalama yapıldı. Bir dakika bekleyip yeniden deneyin."
   },
   "storageFull": {
-    "message": "Thunderbird Postulo için depolama tam. Bazı verileri kaldırarak tekrar deneyin veya Thunderbird'i yeniden başlatın."
+    "message": "Thunderbird'ün Postulo için ayırdığı depolama alanı dolu. Bazı verileri kaldırdıktan sonra yeniden deneyin ya da Thunderbird'ü yeniden başlatın."
   },
   "instanceLabel": {
-    "message": "Your Postulo"
+    "message": "Postulo'nuz"
   },
   "tokenIs": {
     "message": "$OWNER$ için “$NAME$” belirteci.",
@@ -174,7 +174,7 @@
     }
   },
   "tokenTooWide": {
-    "message": "Bu belirteç, bu eklentinin ihtiyacından fazlasını yapabilir ($EXTRA$). Bu profilde şifrelenmeden saklanır: yalnızca yukarıda adı geçen kapsamlarla yeni bir belirteç oluşturun ve bunu iptal edin.",
+    "message": "Bu belirteç, bu uzantının ihtiyacından fazlasını yapabilir ($EXTRA$). Bu profilde şifrelenmeden saklanır: yalnızca yukarıda adı geçen kapsamlarla yeni bir belirteç oluşturun ve bunu iptal edin.",
     "placeholders": {
       "extra": {
         "content": "$1"
