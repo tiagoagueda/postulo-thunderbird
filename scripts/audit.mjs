@@ -10,9 +10,8 @@
 import { spawnSync } from "node:child_process";
 
 const ALLOWED = {
-  // node-forge has no release without it. It is reached through web-ext's Android debugging
-  // (@devicefarmer/adbkit), which this project never runs.
-  "GHSA-86w9-cpqp-85rv": "no fixed node-forge release; web-ext's adb path only; look again 2026-12-01",
+  // An advisory with no fixed release, and why it cannot reach the extension:
+  // "GHSA-…": "reason; look again YYYY-MM-DD".
 };
 
 const run = spawnSync("npm", ["audit", "--json"], { encoding: "utf8", shell: process.platform === "win32", maxBuffer: 64 * 1024 * 1024 });
