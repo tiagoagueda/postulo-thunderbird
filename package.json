@@ -1,6 +1,6 @@
 {
   "name": "postulo-thunderbird",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "private": true,
   "description": "Thunderbird extension for Postulo: job postings from your mail to your own Postulo. A skeleton for now.",
   "type": "module",
