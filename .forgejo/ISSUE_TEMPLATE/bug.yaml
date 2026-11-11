@@ -1,0 +1,81 @@
+name: Bug report
+about: Something in the Thunderbird extension does not work, or a message was read wrongly.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Write in whatever language you can; English is easiest for the maintainer to act on, but a report in another language is better than none.
+
+        **Is it a security problem?** Do not post it here, this page is public. Follow [SECURITY.md](https://source.tiagoagueda.com/postulo/postulo/src/branch/main/SECURITY.md).
+
+        **Remove personal details before you paste anything.** Postulo holds CVs, home addresses and the names of the people somebody is applying to. A log or a screenshot is where those leak: blank out names, addresses, e-mail addresses, company and listing details, tokens and cookies first. **Never paste the mail itself**, its sender or its subject: say what kind of mail it was.
+
+        **Which repository?** Talking to Postulo, filling the pages from the translations, the stylesheet and the icons are shared with the browser extension and are [postulo-chromium](https://source.tiagoagueda.com/postulo/postulo-chromium/issues/new/choose)'s, as is reading a job posting on a web page. What touches Thunderbird and reading a message belongs here.
+  - type: input
+    id: extension-version
+    attributes:
+      label: Extension version
+      description: Shown in Thunderbird's *Add-ons and Themes*.
+      placeholder: "0.5.0"
+    validations:
+      required: true
+  - type: input
+    id: thunderbird
+    attributes:
+      label: Thunderbird and its version
+      placeholder: Thunderbird 140.3 ESR
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11
+    validations:
+      required: true
+  - type: input
+    id: postulo-version
+    attributes:
+      label: Postulo version it sends to
+      description: The foot of every page shows the version. On the `:dev` image, give the pinned tag (`<version>-dev.<short sha>`), because `:dev` moves.
+      placeholder: "0.5.0"
+    validations:
+      required: true
+  - type: input
+    id: mail-kind
+    attributes:
+      label: What kind of mail
+      description: An alert from a job board, a recruiter's message, an application's acknowledgement, an interview invitation. Never the mail itself.
+      placeholder: An alert from a job board
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did, step by step
+      placeholder: |
+        1. Open ...
+        2. Press ...
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Anything from Thunderbird's error console that bears on it, with personal details removed first.
+      render: text

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A security problem is not a public issue
+    url: https://source.tiagoagueda.com/postulo/postulo/src/branch/main/SECURITY.md
+    about: Report a vulnerability privately, as SECURITY.md describes. Do not open an issue.
+  - name: A wrong or missing translation
+    url: https://source.tiagoagueda.com/postulo/postulo-thunderbird/src/branch/main/README.md#languages
+    about: Correct a word in Weblate, where this extension's translations are kept, rather than reporting it here.
+  - name: A question about using the extension
+    url: https://source.tiagoagueda.com/postulo/postulo-thunderbird/src/branch/main/README.md#try-it
+    about: The README says what the extension does so far and how to load it into Thunderbird.
