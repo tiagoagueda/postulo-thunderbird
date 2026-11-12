@@ -39,12 +39,28 @@ test("every file the manifest names is there", () => {
 test("every script and stylesheet a page loads is there", () => {
   for (const page of ["popup.html", "options.html"]) {
     const html = readFileSync(join(SOURCE, page), "utf8");
-    const loaded = [...html.matchAll(/(?:src|href)="([^"#:]+\.(?:js|css|png))"/g)].map((match) => match[1]);
+    const loaded = [...html.matchAll(/(?:src|href)="([^"#:]+\.(?:js|css|png|svg))"/g)].map((match) => match[1]);
     assert.ok(loaded.length, `${page} loads something`);
     for (const path of loaded) {
       assert.ok(there(path), `${page} loads ${path}, which is missing`);
     }
   }
+});
+
+test("the mark is the vector everywhere, as Thunderbird takes SVG icons (postulo/postulo#1238)", () => {
+  const icons = [
+    ...Object.values(manifest.icons),
+    ...Object.values(manifest.action.default_icon),
+    ...Object.values(manifest.message_display_action.default_icon),
+  ];
+  for (const path of icons) assert.equal(path, "icons/postulo.svg");
+  const svg = readFileSync(join(SOURCE, "icons", "postulo.svg"), "utf8");
+  // What Gecko asks of an SVG icon (MDN, manifest.json `icons`): the namespace and a
+  // viewBox; square, so it is not squeezed into the square it is drawn in.
+  const [, width, height] = /^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg" viewBox="[-\d.]+ [-\d.]+ ([\d.]+) ([\d.]+)"/.exec(svg);
+  assert.equal(width, height);
+  assert.doesNotMatch(svg, /<script|foreignObject|href="(?!#)/);
+  assert.match(readFileSync(join(SOURCE, "popup.html"), "utf8"), /<img src="icons\/postulo\.svg"/);
 });
 
 test("it asks for what it uses and nothing more", () => {

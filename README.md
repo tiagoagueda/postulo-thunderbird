@@ -74,13 +74,22 @@ the address and the token into the extension's settings.
 ## Shared with the browser extension
 
 Talking to Postulo (`src/lib/api.js`), filling a page from the catalogues
-(`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), the stylesheet and the icons are postulo-chromium's, copied here.
+(`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), and the stylesheet are postulo-chromium's, copied here.
 `shared.json` names the commit they were copied from and each file's SHA-256, and
 `npm test` fails when a copy no longer matches. To change one, change it there, then:
 
 ```sh
 npm run shared:sync    # copies again from ../postulo-chromium and writes the new commit and hashes
 ```
+
+The mark is one vector, `src/icons/postulo.svg`, for the popup, the toolbar buttons and the
+add-on's icon alike: Thunderbird takes SVG icons ("Thunderbird supports basic image types
+like PNG files, but also SVG files",
+<https://developer.thunderbird.net/add-ons/mailextensions>), so no raster is kept
+(postulo/postulo#1238). It is a byte-for-byte copy of the core's served
+`src/postulo/static/brand/logo.svg`, which the core's `scripts/brand.py` makes from
+`assets/brand/postulo.svg`; postulo-chromium keeps the same copy in `src/icons/`, and the
+file joins `shared.json` once that is released.
 
 Everything that touches Thunderbird's own API is in `src/lib/thunderbird.js`, so the shared
 files stay free of it.
@@ -117,7 +126,8 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
 | `src/lib/scopes.js` | The two scopes the extension can use, and when a token holds more |
 | `src/lib/mail.js` | Reading a message's header: pure functions, tested with `node --test` |
-| `src/lib/api.js`, `src/lib/i18n.js`, `messages.js`, `src/style.css`, `src/icons/` | Shared with postulo-chromium; see `shared.json` |
+| `src/lib/api.js`, `src/lib/i18n.js`, `messages.js`, `src/style.css` | Shared with postulo-chromium; see `shared.json` |
+| `src/icons/postulo.svg` | Postulo's mark, the core's served vector (see above) |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |
 | `scripts/audit.mjs` | Fails CI on a new high or critical advisory in the development chain |
 | `scripts/shared.mjs` | Checks the shared files, and copies them again |

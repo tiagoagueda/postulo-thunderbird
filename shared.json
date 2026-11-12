@@ -6,11 +6,6 @@
     "src/lib/api.js": "e245d873d5a4b451d1a7ac688b0df812781da938284c30e8335f734c449d6dd7",
     "src/lib/i18n.js": "32fadb7e0bedee1b476ccfa771397b9ce5b4dbbefc6f81a5e2a16fcd5c9b7c53",
     "src/lib/messages.js": "33dfc0e53eb20d8166e555b726ef8d4c46c193896cc58eebe69b598acf723bb9",
-    "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039",
-    "src/icons/postulo-16.png": "7f086576cf5aa70081f021d5ce33957119f8d6b3cea4e3a7db82a8e489f7c469",
-    "src/icons/postulo-32.png": "aa2dd1ada47193624aef54cd205f8fa377b00085ca5a68bcda20bd4ab38b7033",
-    "src/icons/postulo-48.png": "0a83f84ac92429ec8f55c574a2e98a6b676f5606a58b76355f6114e6c66491ae",
-    "src/icons/postulo-96.png": "ff74b028b47fcd7a814a0ce5cf07422274b6fdfb0305977c747660e90a5f5d9d",
-    "src/icons/postulo-128.png": "d510d4623700e0cd49caf01b1877c2f0da40a19aec81663e4459bb654253878e"
+    "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039"
   }
 }
