@@ -9,17 +9,24 @@
 const PREFIXES = ["re", "aw", "sv", "vs", "rv", "res", "rif", "odp", "fwd", "fw", "wg", "tr", "enc", "i", "vb", "pd", "doorst"];
 const PREFIX = new RegExp(`^(?:(?:${PREFIXES.join("|")})(?:\\[\\d+\\])?\\s*[:：]\\s*)+`, "i");
 
+const SUBJECT_LIMIT = 500; // a subject line shown in a popup
+const AUTHOR_LIMIT = 1000; // a display name and an address; anything longer is not one
+
 /** A subject without "Re:", "Fwd:" and their like in front of it. */
 export function cleanSubject(subject) {
-  return String(subject || "").trim().replace(PREFIX, "").trim();
+  return String(subject || "").slice(0, SUBJECT_LIMIT).trim().replace(PREFIX, "").trim();
 }
 
-/** "Ada Lovelace <ada@example.org>" as `{ name, address }`. Either may be empty. */
+/** "Ada Lovelace <ada@example.org>" as `{ name, address }`. Either may be empty.
+ *
+ *  The header is written by whoever sent the message, so it is cut to a length first and
+ *  split without an expression whose two parts can both take the same white space. */
 export function splitAuthor(author) {
-  const text = String(author || "").trim();
-  const match = text.match(/^(.*?)\s*<([^<>]+)>$/);
-  if (match) {
-    return { name: match[1].replace(/^"(.*)"$/, "$1").trim(), address: match[2].trim() };
+  const text = String(author || "").slice(0, AUTHOR_LIMIT).trim();
+  const open = text.lastIndexOf("<");
+  const inner = open >= 0 && text.endsWith(">") ? text.slice(open + 1, -1) : "";
+  if (inner && !inner.includes(">")) {
+    return { name: text.slice(0, open).trim().replace(/^"(.*)"$/, "$1").trim(), address: inner.trim() };
   }
   return text.includes("@") ? { name: "", address: text } : { name: text, address: "" };
 }

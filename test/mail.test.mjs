@@ -46,3 +46,16 @@ test("a message with nothing to say for itself is summed up as nothing, not as a
   assert.deepEqual(summarise(null), { subject: "", sender: "", address: "", sentAt: "" });
   assert.equal(summarise({ author: "jobs@example.org", date: "not a date" }).sender, "jobs@example.org");
 });
+
+test("an author with a very long run of white space is split at once", () => {
+  const gap = " ".repeat(200_000);
+  for (const author of [`Ada${gap}Lovelace`, `Ada${gap}Lovelace <ada@example.org>`, `Ada${gap}Lovelace\u00a0<ada@example.org>`]) {
+    const start = performance.now();
+    splitAuthor(author);
+    const took = performance.now() - start;
+    assert.ok(took < 50, `took ${Math.round(took)} ms`);
+  }
+  const start = performance.now();
+  cleanSubject(`Re: ${" ".repeat(200_000)}x`);
+  assert.ok(performance.now() - start < 50);
+});
