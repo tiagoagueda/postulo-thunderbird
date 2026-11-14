@@ -23,6 +23,24 @@
       <p id="sender" class="muted small"></p>
     </section>
 
+    <!-- Filing the message on screen into a listing's history: one message, on a click. -->
+    <section id="file" aria-labelledby="file-heading" hidden>
+      <h2 id="file-heading" class="hint" data-i18n="fileHeading">File this message</h2>
+      <p class="hint small" data-i18n="fileExplain">Adds the message to a listing's history in your Postulo: who it is from and to, the date, the subject and its text. Nothing else in your mailbox is read or sent.</p>
+      <form id="file-search" role="search">
+        <label for="file-q" data-i18n="fileSearchLabel">Find a listing</label>
+        <input id="file-q" type="search" maxlength="200" autocomplete="off" />
+        <button type="submit" data-i18n="fileSearch">Search</button>
+      </form>
+      <p id="file-count" class="hint small"></p>
+      <form id="file-form">
+        <fieldset id="file-choices">
+          <legend class="hint small" data-i18n="fileChoose">Choose the listing this message is about. It is not guessed.</legend>
+        </fieldset>
+        <button id="file-button" type="submit" class="primary" data-i18n="fileButton">File into the chosen listing</button>
+      </form>
+    </section>
+
     <!-- The skeleton's one honest button: it is here to be built, and says so. -->
     <section id="ready">
       <button id="capture" type="button" class="primary" data-i18n="capture" disabled>Capture this posting</button>

@@ -235,5 +235,75 @@
   "storageFull": {
     "message": "Thunderbird's storage for Postulo is full. Try again after removing some data, or restart Thunderbird.",
     "description": "Shown when saving is refused because the storage quota is used up."
+  },
+  "fileHeading": {
+    "message": "File this message",
+    "description": "Heading of the popup's section for filing the message on screen into a listing's history."
+  },
+  "fileExplain": {
+    "message": "Adds the message to a listing's history in your Postulo: who it is from and to, the date, the subject and its text. Nothing else in your mailbox is read or sent.",
+    "description": "Under the filing heading: says exactly what leaves Thunderbird."
+  },
+  "fileSearchLabel": {
+    "message": "Find a listing",
+    "description": "Label of the field that narrows the list of listings by title or company."
+  },
+  "fileSearch": {
+    "message": "Search",
+    "description": "Button that runs the listing search."
+  },
+  "fileChoose": {
+    "message": "Choose the listing this message is about. It is not guessed.",
+    "description": "Above the list of listings; nothing is chosen until the person does."
+  },
+  "fileNone": {
+    "message": "No listing matches.",
+    "description": "Shown when the search finds no listing."
+  },
+  "fileMore": {
+    "message": "Showing $SHOWN$ of $TOTAL$ listings: search to narrow them.",
+    "description": "SHOWN and TOTAL are numbers.",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "fileAlready": {
+    "message": "already filed",
+    "description": "A tag beside a listing that already holds this message."
+  },
+  "fileButton": {
+    "message": "File into the chosen listing",
+    "description": "The button that sends the message."
+  },
+  "fileDone": {
+    "message": "Filed in “$LISTING$”.",
+    "description": "LISTING is the title of the listing the message was filed into.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileWasDone": {
+    "message": "This message was already filed in “$LISTING$”; nothing was added.",
+    "description": "LISTING is the title of the listing; sent again for the same listing.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNeedsListing": {
+    "message": "Choose a listing first.",
+    "description": "Shown when the button is pressed with no listing chosen."
+  },
+  "noMessageId": {
+    "message": "This message has no Message-ID header, so it cannot be filed once and only once. It was not sent.",
+    "description": "Shown when the message lacks the identifier that keeps a second press from filing it twice."
   }
 }

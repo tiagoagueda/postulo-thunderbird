@@ -50,3 +50,9 @@ export async function displayedMessage() {
   const messages = Array.isArray(shown) ? shown : (shown && shown.messages) || [];
   return messages[0] || null;
 }
+
+/** The whole message as a tree of parts, with its headers: what filing it reads. Only the
+ *  message the person has on screen is ever asked for. */
+export async function fullMessage(id) {
+  return ext.messages.getFull(id);
+}

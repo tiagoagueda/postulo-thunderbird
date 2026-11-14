@@ -19,6 +19,11 @@ This is the frame the extension will be built in, not the extension. What is her
   that address.
 - **The popup shows the message on screen**: its subject, without "Re:" and "Fwd:", and
   who sent it. That is all it does with a message.
+- **Filing a message into a listing's history** (#9, with core #271): the popup lists your listings,
+  you search and tick the one the message is about (nothing is guessed), and *File into the chosen
+  listing* sends the message's `From`, `To`, `Date`, `Subject`, `Message-ID` and text, and nothing else
+  of your mailbox. The `Message-ID` is the key, so pressing twice, or filing from another folder or
+  machine, adds one entry. It needs a token with `listings:bind` only. Attachments are not sent yet.
 - English, French and European Portuguese.
 
 What is not here yet:
