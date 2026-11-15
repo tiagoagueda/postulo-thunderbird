@@ -116,9 +116,6 @@
   "noMessage": {
     "message": "Tidak ada pesan di layar. Buka satu, lalu buka ini lagi."
   },
-  "notBuiltYet": {
-    "message": "Penangkapan belum dibuat. Ini adalah kerangka ekstensi: terhubung ke Postulo Anda dan membaca pesan di layar."
-  },
   "settings": {
     "message": "Pengaturan"
   },

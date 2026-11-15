@@ -141,9 +141,6 @@
   "noMessage": {
     "message": "Er staat geen bericht op het scherm. Open er een en open dit daarna opnieuw."
   },
-  "notBuiltYet": {
-    "message": "Vastleggen is nog niet gebouwd. Dit is het skelet van de extensie: het maakt verbinding met uw Postulo en leest het bericht op het scherm."
-  },
   "settings": {
     "message": "Instellingen"
   },

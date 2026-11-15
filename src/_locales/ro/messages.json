@@ -141,9 +141,6 @@
   "noMessage": {
     "message": "Niciun mesaj nu este afișat. Deschideți unul, apoi deschideți din nou această fereastră."
   },
-  "notBuiltYet": {
-    "message": "Capturarea nu este încă implementată. Acesta este scheletul extensiei: se conectează la Postulo și citește mesajul de pe ecran."
-  },
   "settings": {
     "message": "Setări"
   },

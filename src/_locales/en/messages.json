@@ -1,6 +1,6 @@
 {
   "extensionDescription": {
-    "message": "Postulo for Thunderbird: job postings from your mail, sent to your own Postulo. A skeleton for now: it connects and shows the message on screen, and does not capture yet.",
+    "message": "Postulo for Thunderbird: job postings from your mail, sent to your own Postulo for review.",
     "description": "The extension's description, in Thunderbird's list of add-ons."
   },
   "actionTitle": {
@@ -8,7 +8,7 @@
     "description": "The toolbar buttons' tooltip."
   },
   "tokenHintScopes": {
-    "message": "Made under $PATH$ in Postulo. No scope is needed yet: capturing and filing are not built. When they are, this extension will use $CAPTURES$, to capture a posting, and $BIND$, to file a message into a listing's history; tick only the ones you want it to use, and nothing else.",
+    "message": "Made under $PATH$ in Postulo. Capturing a posting needs $CAPTURES$; filing a message into a listing's history, which is not built yet, will need $BIND$. Tick only the ones you want this extension to use, and nothing else.",
     "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; CAPTURES and BIND are the names of two scopes, captures and listings:bind, in code type: keep them as they are.",
     "placeholders": {
       "path": {
@@ -64,10 +64,6 @@
   "noSubject": {
     "message": "(no subject)",
     "description": "Shown for a message that has no subject."
-  },
-  "notBuiltYet": {
-    "message": "Capturing is not built yet. This is the skeleton of the extension: it connects to your Postulo and reads the message on screen.",
-    "description": "Under the capture button, which does nothing yet."
   },
   "optionsTitle": {
     "message": "Postulo settings",
@@ -235,5 +231,79 @@
   "storageFull": {
     "message": "Thunderbird's storage for Postulo is full. Try again after removing some data, or restart Thunderbird.",
     "description": "Shown when saving is refused because the storage quota is used up."
+  },
+  "noAddress": {
+    "message": "This message has no link to a posting, so there is nothing to capture: Postulo needs the posting's address to read it.",
+    "description": "Said when the message on screen has no link that could be a job posting."
+  },
+  "reading": {
+    "message": "Reading the message…",
+    "description": "Said while the message's text is read."
+  },
+  "whichAddress": {
+    "message": "Which link is the posting?",
+    "description": "Legend of the choice among several links in the message."
+  },
+  "titleLabel": {
+    "message": "Title",
+    "description": "Label of the posting's title field."
+  },
+  "companyLabel": {
+    "message": "Company",
+    "description": "Label of the posting's company field."
+  },
+  "locationLabel": {
+    "message": "Place",
+    "description": "Label of the posting's location field."
+  },
+  "companyGuessed": {
+    "message": "Taken from the sender: correct it if it is not the employer.",
+    "description": "Under the company field when it was filled from the message's sender and not read by Postulo."
+  },
+  "sendForReview": {
+    "message": "Send for review",
+    "description": "Button that sends the posting to Postulo's review queue."
+  },
+  "sendAddress": {
+    "message": "Send the address alone",
+    "description": "Button that sends only the link, and has Postulo fetch the page itself."
+  },
+  "sendAddressHint": {
+    "message": "The address alone has Postulo fetch the page itself: it counts against your capture allowance, and fails for a page behind a sign-in.",
+    "description": "Explains the button that sends only the address."
+  },
+  "previewing": {
+    "message": "Asking Postulo what it reads in this message…",
+    "description": "Said while Postulo previews the posting."
+  },
+  "capturedBefore": {
+    "message": "Postulo already holds this posting: $TITLE$.",
+    "description": "TITLE is the title of the capture or listing Postulo already has at this address.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sending…",
+    "description": "Said while the capture is sent."
+  },
+  "sentDone": {
+    "message": "Sent for review: $POSTING$.",
+    "description": "POSTING is the posting's title, company and place, as Postulo read it.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Open its review",
+    "description": "Button that opens the capture's review page in the web browser."
+  },
+  "untitled": {
+    "message": "Untitled posting",
+    "description": "The name of a posting that has no title."
   }
 }

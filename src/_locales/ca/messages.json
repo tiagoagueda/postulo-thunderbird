@@ -152,9 +152,6 @@
   "noMessage": {
     "message": "No hi ha cap missatge en pantalla. Obriu-ne un i després torneu a obrir això."
   },
-  "notBuiltYet": {
-    "message": "La captura encara no està implementada. Aquest és l'esquelet de l'extensió: es connecta al vostre Postulo i llegeix el missatge en pantalla."
-  },
   "settings": {
     "message": "Configuració"
   },

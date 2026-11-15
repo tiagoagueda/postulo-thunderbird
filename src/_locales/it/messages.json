@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Nessun messaggio sullo schermo. Aprine uno, poi riapri questo popup."
   },
-  "notBuiltYet": {
-    "message": "L'acquisizione non è ancora disponibile. Questo è lo scheletro dell'estensione: si collega al tuo Postulo e legge il messaggio sullo schermo."
-  },
   "settings": {
     "message": "Impostazioni"
   },

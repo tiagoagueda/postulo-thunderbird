@@ -116,9 +116,6 @@
   "noMessage": {
     "message": "Ekrane nėra laiško. Atidarykite laišką ir tada vėl atidarykite šį langą."
   },
-  "notBuiltYet": {
-    "message": "Fiksavimas dar neįdiegtas. Tai tik plėtinio pagrindas: jis jungiasi prie jūsų Postulo ir skaito ekrane esantį laišką."
-  },
   "settings": {
     "message": "Nustatymai"
   },

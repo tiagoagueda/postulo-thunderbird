@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Der er ingen besked på skærmen. Åbn en, og åbn så dette igen."
   },
-  "notBuiltYet": {
-    "message": "Indfangning er ikke bygget endnu. Dette er udvidelsens skelet: den forbinder til din Postulo og læser beskeden på skærmen."
-  },
   "settings": {
     "message": "Indstillinger"
   },

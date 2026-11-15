@@ -8,37 +8,41 @@ recruiter's message, a forward from a friend. The browser extension
 ([postulo-chromium](https://source.tiagoagueda.com/postulo/postulo-chromium)) captures the
 page you are looking at; this one is for the message you are reading.
 
-## A skeleton, for now
-
-This is the frame the extension will be built in, not the extension. What is here:
+## What it does
 
 - **It loads in Thunderbird** (128 or later, Manifest V3), with a button on the toolbar and
   one on the message you are reading. Both open the same popup.
 - **Settings**: your Postulo's address and an API token, kept in this Thunderbird profile.
   *Test* asks Postulo who the token is; *Save* asks Thunderbird for permission to reach
   that address.
-- **The popup shows the message on screen**: its subject, without "Re:" and "Fwd:", and
-  who sent it. That is all it does with a message.
+- **Capture this posting** (#1): from the message on screen, the extension finds the link
+  that is the posting (leaving out unsubscribe, tracking and social-network links, and asking
+  which when there are several), builds a page from the message's text under its subject as
+  the title, asks Postulo what it reads in it, shows that as a form (the sender offered as the
+  company, marked as a guess), says when Postulo already holds the posting, and sends it for
+  review with what you corrected. *Send the address alone* has Postulo fetch the page itself.
+  A message with no link to a posting cannot be captured, and says so.
 - English, French and European Portuguese.
 
-What is not here yet:
-
-- **Capturing.** The *Capture this posting* button is there and switched off. Nothing is
-  read beyond the subject and the sender, and nothing about a message is sent anywhere.
-- Everything that follows from it: the list of captures to review, the number on the
-  button, filing a message into a listing's history. Each is an
-  [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues).
+What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
+each: the number on the toolbar button, the list of captures to review, filing a message into
+a listing's history, and keeping a capture here until Postulo can be reached (a capture made
+while Postulo is away is not kept: the popup says so and nothing is lost but the effort).
 
 It was loaded once into Thunderbird 156 as a temporary add-on, which accepted the manifest.
-The popup and the settings page have not been clicked through by hand.
+The popup and the settings page have not been clicked through by hand, and capturing has been
+tested on the parts that do not need Thunderbird (reading links, building the page, the form's
+corrections) and not on a real message.
 
 ## Privacy, as it stands
 
-The extension reads the subject and the sender of the message on screen, when you open its
-popup, and shows them to you. It sends them nowhere. The only request it makes is the one
-*Test* makes, to the address you typed: it asks your Postulo who the token belongs to.
-It has no analytics and contacts nobody else. The address and the token stay in this
-Thunderbird profile (`storage.local`).
+The full statement is [PRIVACY.md](PRIVACY.md). In short: when you press *Capture this posting*,
+the extension reads the message on screen (its subject, sender, date, body and links), builds
+a page from its text, and sends that page and the posting's address to **your own Postulo**
+and to nobody else. Scripts, styles and remote images are dropped from the page first, and a
+remote image in a message is never loaded. Nothing is read until you press the button. It
+keeps, in this profile, the subject, sender and `Message-ID` of each message it has sent, and
+the address and the token. It has no analytics and contacts nobody else.
 
 **The token is stored unencrypted.** No WebExtension API offers encrypted storage, and
 Thunderbird's primary password protects the passwords of your mail accounts, not an
@@ -124,12 +128,13 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | Path | What |
 | --- | --- |
 | `src/manifest.json` | Manifest V3 for Thunderbird 128 and later |
-| `src/popup.*` | The popup: the message on screen, and the capture button to be built |
+| `src/popup.*` | The popup: the message on screen, and capturing it |
 | `src/options.*` | Address, token, *Test*, *Save* |
 | `src/background.js` | Nothing yet; where the number on the button and retries will live |
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
 | `src/lib/scopes.js` | The two scopes the extension can use, and when a token holds more |
-| `src/lib/mail.js` | Reading a message's header: pure functions, tested with `node --test` |
+| `src/lib/mail.js` | Reading a message: its header, its links, the page built from it; pure functions, tested with `node --test` |
+| `src/lib/correction.js`, `sent.js`, `postulo.js` | The form's starting values and corrections; the captures sent from here; the preview call |
 | `src/lib/api.js`, `src/lib/i18n.js`, `messages.js`, `src/style.css` | Shared with postulo-chromium; see `shared.json` |
 | `src/icons/postulo.svg` | Postulo's mark, the core's served vector (see above) |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |

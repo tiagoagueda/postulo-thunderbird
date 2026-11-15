@@ -156,9 +156,6 @@
   "noSubject": {
     "message": "(senza object)"
   },
-  "notBuiltYet": {
-    "message": "La funcziun da capturar n'è anc betg realisada. Quai è la versiun da basa da l'extensiun: ella sa collia cun Voss Postulo e legia il messadi sin il visur."
-  },
   "tokenNeither": {
     "message": "El n'ha ni la cumpetenza $CAPTURES$ ni la cumpetenza $BIND$, perquai na po questa extensiun far nagut cun el.",
     "placeholders": {

@@ -33,9 +33,6 @@
   "noSubject": {
     "message": "(sans objet)"
   },
-  "notBuiltYet": {
-    "message": "La capture n'est pas encore faite. Ceci est le squelette de l'extension : il se connecte à votre Postulo et lit le message affiché."
-  },
   "optionsTitle": {
     "message": "Paramètres de Postulo"
   },

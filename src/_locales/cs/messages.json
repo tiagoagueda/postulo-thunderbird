@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Na obrazovce není žádná zpráva. Nějakou otevřete a pak otevřete znovu toto okno."
   },
-  "notBuiltYet": {
-    "message": "Zachycování zatím není hotové. Toto je kostra rozšíření: připojí se k vašemu Postulo a přečte zprávu na obrazovce."
-  },
   "settings": {
     "message": "Nastavení"
   },

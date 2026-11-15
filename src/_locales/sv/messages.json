@@ -138,9 +138,6 @@
   "noMessage": {
     "message": "Inget meddelande visas. Öppna ett och öppna sedan det här igen."
   },
-  "notBuiltYet": {
-    "message": "Infångning är inte byggd ännu. Det här är tilläggets skelett: det ansluter till din Postulo och läser meddelandet på skärmen."
-  },
   "settings": {
     "message": "Inställningar"
   },

@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Es wird keine Nachricht angezeigt. Öffnen Sie eine und öffnen Sie dies dann erneut."
   },
-  "notBuiltYet": {
-    "message": "Das Erfassen ist noch nicht eingebaut. Dies ist das Grundgerüst der Erweiterung: Sie verbindet sich mit Ihrem Postulo und liest die angezeigte Nachricht."
-  },
   "settings": {
     "message": "Einstellungen"
   },

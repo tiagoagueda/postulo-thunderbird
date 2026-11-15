@@ -133,9 +133,6 @@
   "noMessage": {
     "message": "Ekranda ileti yok. Bir ileti açın, sonra bunu yeniden açın."
   },
-  "notBuiltYet": {
-    "message": "Yakalama özelliği henüz hazır değil. Bu, uzantının iskeleti: Postulo'nuza bağlanır ve ekrandaki iletiyi okur."
-  },
   "settings": {
     "message": "Ayarlar"
   },

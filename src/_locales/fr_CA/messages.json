@@ -116,9 +116,6 @@
   "noMessage": {
     "message": "Aucun message n'est affiché à l'écran. Ouvrez-en un, puis rouvrez ceci."
   },
-  "notBuiltYet": {
-    "message": "La capture n'est pas encore disponible. Ceci est le squelette de l'extension : elle se connecte à votre Postulo et lit le message à l'écran."
-  },
   "settings": {
     "message": "Paramètres"
   },

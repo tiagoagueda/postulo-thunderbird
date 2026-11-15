@@ -141,9 +141,6 @@
   "noMessage": {
     "message": "Näytöllä ei ole viestiä. Avaa viesti ja avaa sitten tämä uudelleen."
   },
-  "notBuiltYet": {
-    "message": "Kaappausta ei ole vielä toteutettu. Tämä on laajennuksen runko: se muodostaa yhteyden Postuloosi ja lukee näytöllä olevan viestin."
-  },
   "settings": {
     "message": "Asetukset"
   },

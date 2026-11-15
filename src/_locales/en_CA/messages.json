@@ -116,9 +116,6 @@
   "noMessage": {
     "message": "No message is on screen. Open one, then open this again."
   },
-  "notBuiltYet": {
-    "message": "Capturing is not built yet. This is the skeleton of the extension: it connects to your Postulo and reads the message on screen."
-  },
   "settings": {
     "message": "Settings"
   },

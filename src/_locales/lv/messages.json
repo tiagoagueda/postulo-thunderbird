@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Ekrānā nav nevienas vēstules. Atveriet kādu un tad vēlreiz atveriet šo."
   },
-  "notBuiltYet": {
-    "message": "Tveršana vēl nav izveidota. Šī ir paplašinājuma sagatave: tā izveido savienojumu ar jūsu Postulo un nolasa ekrānā redzamo vēstuli."
-  },
   "settings": {
     "message": "Iestatījumi"
   },

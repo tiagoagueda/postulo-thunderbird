@@ -156,9 +156,6 @@
   "noSubject": {
     "message": "(bez naslova)"
   },
-  "notBuiltYet": {
-    "message": "Hvatanje još nije napravljeno. Ovo je kostur dodatka: povezuje se s vašim Postulom i čita poruku na ekranu."
-  },
   "tokenNeither": {
     "message": "Nema ni opseg $CAPTURES$ ni opseg $BIND$, pa ovaj dodatak ne može ništa s njim.",
     "placeholders": {

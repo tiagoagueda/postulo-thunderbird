@@ -141,9 +141,6 @@
   "noMessage": {
     "message": "Ez dago mezurik pantailan. Ireki bat, eta ireki hau berriro."
   },
-  "notBuiltYet": {
-    "message": "Kapturatzeko aukera oraindik ez dago eginda. Hau hedapenaren eskeletoa da: zure Postulorekin konektatzen da eta pantailako mezua irakurtzen du."
-  },
   "settings": {
     "message": "Ezarpenak"
   },

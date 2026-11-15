@@ -156,9 +156,6 @@
   "noSubject": {
     "message": "(einki evni)"
   },
-  "notBuiltYet": {
-    "message": "Fanging er ikki gjørd enn. Hetta er beinagrindin í ískoytinum: tað knýtir samband við tína Postulo og lesur boðini á skerminum."
-  },
   "tokenNeither": {
     "message": "Tað hevur hvørki heimildina $CAPTURES$ ella heimildina $BIND$, so hetta ískoytið kann einki gera við tí.",
     "placeholders": {

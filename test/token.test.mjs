@@ -92,9 +92,8 @@ test("the options page judges the token's scopes on Save as well as on Test (SEC
   assert.match(test, /judgeToken\(/, "Test uses the same judgement");
 });
 
-test("the hint and the README say no scope is needed yet", () => {
+test("the hint says capturing needs the captures scope, and filing, not built yet, the other", () => {
   const messages = JSON.parse(readFileSync("src/_locales/en/messages.json", "utf8"));
-  assert.match(messages.tokenHintScopes.message, /No scope is needed yet/);
-  assert.match(readFileSync("src/options.html", "utf8"), /No scope is needed yet/);
-  assert.match(readFileSync("README.md", "utf8"), /No scope is needed yet/);
+  assert.match(messages.tokenHintScopes.message, /Capturing a posting needs \$CAPTURES\$/);
+  assert.match(readFileSync("src/options.html", "utf8"), /Capturing a posting needs\s+<code>captures<\/code>/);
 });

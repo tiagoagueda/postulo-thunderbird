@@ -158,9 +158,6 @@
   "noMessage": {
     "message": "Ingen melding er på skjermen. Åpne en, så åpne denne igjen."
   },
-  "notBuiltYet": {
-    "message": "Capturing er ikke bygget ennå. Dette er skjelettet i forlengelsen: den kobler til Postulo og leser meldingen på skjermen."
-  },
   "settings": {
     "message": "Innstillinger"
   },

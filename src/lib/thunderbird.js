@@ -2,6 +2,9 @@
 // Everything that touches Thunderbird's own API is here, so the modules shared with the
 // browser extension (`api.js`, `i18n.js`) stay free of it.
 
+import { bodiesOf, splitAuthor, summarise } from "./mail.js";
+import { keepSent, sentList } from "./sent.js";
+
 export const ext = globalThis.messenger ?? globalThis.browser;
 
 /** Where the person's Postulo is, and the token to reach it with. */
@@ -50,3 +53,33 @@ export async function displayedMessage() {
   const messages = Array.isArray(shown) ? shown : (shown && shown.messages) || [];
   return messages[0] || null;
 }
+
+/** The message on screen, read whole: its summary, its `Message-ID`, and its HTML and text
+ *  (`messages.getFull`, under `messagesRead`). Read when the person presses a button, never
+ *  before, and kept nowhere. */
+export async function readMessage(header) {
+  const summary = summarise(header);
+  const { html, text } = bodiesOf(await ext.messages.getFull(header.id));
+  return {
+    ...summary,
+    senderName: splitAuthor(header.author).name,
+    id: header.id,
+    messageId: header.headerMessageId || "",
+    html,
+    text,
+  };
+}
+
+/** Open an address of Postulo's in the person's own web browser, where they are signed in:
+ *  a tab or a window inside Thunderbird has cookies of its own and would ask them to sign in
+ *  again. Only a web address is opened. */
+export async function openInBrowser(url) {
+  if (!/^https?:\/\//i.test(String(url || ""))) {
+    return;
+  }
+  await ext.windows.openDefaultBrowser(url);
+}
+
+/** The captures sent from this profile, newest first, and the keeping of one. */
+export const sentCaptures = () => sentList(ext.storage.local);
+export const keepSentCapture = (entry) => keepSent(ext.storage.local, entry);

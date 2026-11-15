@@ -158,9 +158,6 @@
   "noMessage": {
     "message": "畫面上沒有郵件。請開啟一封郵件，然後再開啟這裡。"
   },
-  "notBuiltYet": {
-    "message": "擷取功能尚未完成。這是擴充功能的雛形：它會連線到您的 Postulo，並讀取畫面上的郵件。"
-  },
   "settings": {
     "message": "設定"
   },

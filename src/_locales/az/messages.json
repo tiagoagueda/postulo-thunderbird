@@ -156,9 +156,6 @@
   "noSubject": {
     "message": "(mövzu yoxdur)"
   },
-  "notBuiltYet": {
-    "message": "Götürmə hələ hazırlanmayıb. Bu, genişləndirmənin skeletidir: Postulo-nuza qoşulur və ekrandakı məktubu oxuyur."
-  },
   "tokenNeither": {
     "message": "Onda nə $CAPTURES$, nə də $BIND$ icazə sahəsi var, ona görə bu genişləndirmə onunla heç nə edə bilməz.",
     "placeholders": {

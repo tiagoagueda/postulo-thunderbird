@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Nijedna poruka nije na ekranu. Otvorite jednu, a zatim ponovo otvorite ovo."
   },
-  "notBuiltYet": {
-    "message": "Hvatanje još nije napravljeno. Ovo je kostur proširenja: povezuje se s vašim Postulom i čita poruku na ekranu."
-  },
   "settings": {
     "message": "Postavke"
   },

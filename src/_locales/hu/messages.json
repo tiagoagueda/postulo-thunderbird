@@ -116,9 +116,6 @@
   "noMessage": {
     "message": "Nincs levél a képernyőn. Nyisson meg egyet, majd nyissa meg ezt újra."
   },
-  "notBuiltYet": {
-    "message": "A rögzítés még nincs elkészítve. Ez a bővítmény váza: csatlakozik a Postulójához, és beolvassa a képernyőn lévő levelet."
-  },
   "settings": {
     "message": "Beállítások"
   },

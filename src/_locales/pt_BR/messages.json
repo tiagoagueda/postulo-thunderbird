@@ -150,9 +150,6 @@
   "noMessage": {
     "message": "Nenhuma mensagem na tela. Abra uma e depois abra isto de novo."
   },
-  "notBuiltYet": {
-    "message": "A captura ainda não foi implementada. Este é o esqueleto da extensão: ele se conecta ao seu Postulo e lê a mensagem na tela."
-  },
   "settings": {
     "message": "Configurações"
   },

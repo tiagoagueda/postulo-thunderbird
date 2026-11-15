@@ -33,9 +33,6 @@
   "noSubject": {
     "message": "(sem assunto)"
   },
-  "notBuiltYet": {
-    "message": "A captura ainda não está feita. Isto é o esqueleto da extensão: liga-se ao seu Postulo e lê a mensagem no ecrã."
-  },
   "optionsTitle": {
     "message": "Definições do Postulo"
   },

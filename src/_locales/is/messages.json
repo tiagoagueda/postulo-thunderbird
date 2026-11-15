@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "Ekkert skeyti er á skjánum. Opnaðu eitt og opnaðu svo þetta aftur."
   },
-  "notBuiltYet": {
-    "message": "Ekki er enn hægt að grípa. Þetta er beinagrind viðbótarinnar: hún tengist Postulo-uppsetningunni þinni og les skeytið á skjánum."
-  },
   "settings": {
     "message": "Stillingar"
   },

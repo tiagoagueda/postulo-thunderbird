@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "屏幕上没有邮件。请打开一封邮件，然后重新打开此窗口。"
   },
-  "notBuiltYet": {
-    "message": "抓取功能尚未实现。这是扩展的框架：它可以连接到你的 Postulo 并读取屏幕上的邮件。"
-  },
   "settings": {
     "message": "设置"
   },

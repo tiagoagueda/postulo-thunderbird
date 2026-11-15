@@ -119,9 +119,6 @@
   "noMessage": {
     "message": "Asnjë mesazh në ekran. Hapni një, pastaj hapeni sërish këtë."
   },
-  "notBuiltYet": {
-    "message": "Kapja nuk është ndërtuar ende. Ky është skeleti i zgjerimit: lidhet me Postulo-n tuaj dhe lexon mesazhin në ekran."
-  },
   "settings": {
     "message": "Cilësimet"
   },

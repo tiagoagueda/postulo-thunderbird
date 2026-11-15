@@ -158,9 +158,6 @@
   "noMessage": {
     "message": "Na ekranie nie ma żadnej wiadomości. Otwórz jakąś, a potem otwórz to okienko ponownie."
   },
-  "notBuiltYet": {
-    "message": "Przechwytywanie nie jest jeszcze gotowe. To szkielet rozszerzenia: łączy się z Twoim Postulo i odczytuje wiadomość widoczną na ekranie."
-  },
   "settings": {
     "message": "Ustawienia"
   },

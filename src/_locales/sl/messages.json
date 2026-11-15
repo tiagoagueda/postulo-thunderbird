@@ -163,9 +163,6 @@
   "noMessage": {
     "message": "Na zaslonu ni nobenega sporočila. Odprite sporočilo, nato znova odprite to okno."
   },
-  "notBuiltYet": {
-    "message": "Zajemanje še ni izdelano. To je ogrodje razširitve: poveže se z vašim Postulom in prebere sporočilo na zaslonu."
-  },
   "settings": {
     "message": "Nastavitve"
   },

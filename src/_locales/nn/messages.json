@@ -156,9 +156,6 @@
   "noSubject": {
     "message": "(utan emne)"
   },
-  "notBuiltYet": {
-    "message": "Fangst er ikkje laga enno. Dette er skjelettet til utvidinga: ho koplar til Postulo-en din og les meldinga på skjermen."
-  },
   "tokenNeither": {
     "message": "Det har verken tilgangsområdet $CAPTURES$ eller tilgangsområdet $BIND$, så denne utvidinga kan ikkje gjere noko med det.",
     "placeholders": {

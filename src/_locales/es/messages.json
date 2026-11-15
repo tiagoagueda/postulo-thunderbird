@@ -166,9 +166,6 @@
   "noMessage": {
     "message": "No hay ningún mensaje en pantalla. Abra uno y vuelva a abrir esto."
   },
-  "notBuiltYet": {
-    "message": "La captura aún no está implementada. Este es el esqueleto de la extensión: se conecta a su Postulo y lee el mensaje en pantalla."
-  },
   "settings": {
     "message": "Ajustes"
   },
