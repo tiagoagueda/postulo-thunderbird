@@ -81,3 +81,20 @@ test("the options page has the control, wired to forgetToken, and says the token
   const code = readFileSync("src/options.js", "utf8");
   assert.match(code, /\$\("forget"\)\.addEventListener\("click"[\s\S]*forgetToken\(\)/);
 });
+
+test("the options page judges the token's scopes on Save as well as on Test (SEC3-004)", () => {
+  const code = readFileSync("src/options.js", "utf8");
+  const save = code.slice(code.indexOf('$("settings").addEventListener("submit"'), code.indexOf('$("forget")'));
+  assert.match(save, /judgeToken\(/, "Save asks Postulo what the token may do");
+  assert.match(save, /judged\.warning/, "and shows the warning");
+  assert.match(save, /catch \{\s*say\(saved\)/, "an instance that cannot be reached does not undo the save");
+  const test = code.slice(code.indexOf('$("test")'));
+  assert.match(test, /judgeToken\(/, "Test uses the same judgement");
+});
+
+test("the hint and the README say no scope is needed yet", () => {
+  const messages = JSON.parse(readFileSync("src/_locales/en/messages.json", "utf8"));
+  assert.match(messages.tokenHintScopes.message, /No scope is needed yet/);
+  assert.match(readFileSync("src/options.html", "utf8"), /No scope is needed yet/);
+  assert.match(readFileSync("README.md", "utf8"), /No scope is needed yet/);
+});

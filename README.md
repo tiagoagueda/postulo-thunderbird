@@ -48,12 +48,13 @@ yours, a backup, a synced folder) can read the token and use it until you revoke
 button that removes the token from the profile (the address stays); that does not revoke it,
 so revoke it in Postulo too.
 
-**Which scopes.** The extension can use two: `captures` (hand a posting to your review queue)
-and `listings:bind` (file a message into a listing's history). Make the token with only the
-ones you want it to use. *Test* lists what the token may do and warns when it holds anything
-else, or neither of the two, because a token that can do more than the extension needs is
-worth more to whoever reads it out of the profile. Neither scope is used yet: capturing and
-filing are still to be built (#1, #9).
+**Which scopes.** No scope is needed yet: capturing and filing are still to be built (#1, #9),
+and the only request is `GET /me`. The extension will use two: `captures` (hand a posting to your
+review queue) and `listings:bind` (file a message into a listing's history); make the token
+with only the ones you want it to use. *Test* and *Save* both ask Postulo what the token may do
+and warn when it holds anything else, or neither of the two, because a token that can do more
+than the extension needs is worth more to whoever reads it out of the profile. Whether the two
+scopes belong on one token or two is open (#30, #9).
 
 ## Try it
 

@@ -24,6 +24,21 @@ function element(tag, text) {
   return made;
 }
 
+/** Ask Postulo who the token is and what it may do: the sentence that says so, and the warning
+ *  when it is wider than the extension's job or useless to it ("" when it is neither). */
+async function judgeToken({ instance, token }) {
+  const me = await whoAmI(instance, token);
+  const judged = judgeScopes(me);
+  const scopes = judged.held.join(", ");
+  const who = scopes ? t("tokenIsScoped", [me.name, me.owner, scopes]) : t("tokenIs", [me.name, me.owner]);
+  const warning = judged.neither
+    ? t("tokenNeither", [CAPTURES, BIND])
+    : judged.extra.length
+      ? t("tokenTooWide", [judged.extra.join(", ")])
+      : "";
+  return { who, warning };
+}
+
 async function main() {
   localise();
   // The sentences that carry markup: a menu path and the scopes' names, which are Postulo's
@@ -45,7 +60,20 @@ async function main() {
       // is asked for here, from the click that saves it.
       const granted = await requestHostPermission(originPattern(next.instance));
       await saveSettings(next);
-      say(granted ? t("saved", [new URL(next.instance).host]) : t("savedNoPermission"), !granted);
+      if (!granted) {
+        say(t("savedNoPermission"), true);
+        return;
+      }
+      // Saving stores whatever token was typed; ask Postulo what it may do, as Test does, and
+      // say so when it is wider than the extension's job (SEC3-004). An instance that cannot be
+      // reached now does not undo the save.
+      const saved = t("saved", [new URL(next.instance).host]);
+      try {
+        const judged = await judgeToken(next);
+        say(judged.warning ? `${saved} ${judged.who} ${judged.warning}` : saved, Boolean(judged.warning));
+      } catch {
+        say(saved);
+      }
     } catch (error) {
       say(explain(error), true);
     }
@@ -69,16 +97,7 @@ async function main() {
       if (!granted) {
         throw new Error(t("addressRefused"));
       }
-      const me = await whoAmI(next.instance, next.token);
-      const judged = judgeScopes(me);
-      const scopes = judged.held.join(", ");
-      const who = scopes ? t("tokenIsScoped", [me.name, me.owner, scopes]) : t("tokenIs", [me.name, me.owner]);
-      // Wider than the extension's job, or useless to it: both are said, in the error style.
-      const warning = judged.neither
-        ? t("tokenNeither", [CAPTURES, BIND])
-        : judged.extra.length
-          ? t("tokenTooWide", [judged.extra.join(", ")])
-          : "";
+      const { who, warning } = await judgeToken(next);
       say(warning ? `${who} ${warning}` : who, Boolean(warning));
     } catch (error) {
       say(explain(error), true);

@@ -8,7 +8,7 @@
     "description": "The toolbar buttons' tooltip."
   },
   "tokenHintScopes": {
-    "message": "Made under $PATH$ in Postulo. This extension can use two scopes: $CAPTURES$, to capture a posting, and $BIND$, to file a message into a listing's history. Tick only the ones you want it to use, and nothing else.",
+    "message": "Made under $PATH$ in Postulo. No scope is needed yet: capturing and filing are not built. When they are, this extension will use $CAPTURES$, to capture a posting, and $BIND$, to file a message into a listing's history; tick only the ones you want it to use, and nothing else.",
     "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; CAPTURES and BIND are the names of two scopes, captures and listings:bind, in code type: keep them as they are.",
     "placeholders": {
       "path": {
