@@ -31,6 +31,19 @@ export function splitAuthor(author) {
   return text.includes("@") ? { name: "", address: text } : { name: text, address: "" };
 }
 
+/** Whether the capture button may be pressed, and when not, the key of the sentence that says
+ *  why: Postulo not set up, no message on screen, or several selected (one message is one
+ *  posting, so it takes none of them). `shown` is how many messages Thunderbird is showing. */
+export function captureAvailability(shown, connected) {
+  if (!connected) {
+    return { ok: false, why: "notConnected" };
+  }
+  if (shown < 1) {
+    return { ok: false, why: "noMessage" };
+  }
+  return shown > 1 ? { ok: false, why: "severalMessages" } : { ok: true, why: "" };
+}
+
 /** What the popup says about a message: its subject, its sender, and when it was sent. */
 export function summarise(header) {
   const { name, address } = splitAuthor(header && header.author);

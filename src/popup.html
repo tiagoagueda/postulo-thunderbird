@@ -9,6 +9,27 @@
     <header>
       <img src="icons/postulo.svg" alt="" width="20" height="20" />
       <h1>Postulo</h1>
+      <!-- At the end of the header (the left in a right-to-left language), in this order for the keyboard. -->
+      <div class="header-actions">
+        <button id="capture" type="button" class="icon" aria-label="Capture this posting" title="Capture this posting" data-i18n-label="capture" disabled>
+          <!-- lucide-static v1.41.0, ISC -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M12 15V3" />
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <path d="m7 10 5 5 5-5" />
+          </svg>
+        </button>
+        <button id="new-listing" type="button" class="icon" aria-label="Add a listing from scratch" title="Add a listing from scratch" data-i18n-label="newListing" hidden>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M5 12h14" />
+            <path d="M12 5v14" />
+          </svg>
+        </button>
+      </div>
     </header>
 
     <p id="not-connected" class="note" hidden>
@@ -23,10 +44,9 @@
       <p id="sender" class="muted small"></p>
     </section>
 
-    <section id="ready">
-      <button id="capture" type="button" class="primary" data-i18n="capture" disabled>Capture this posting</button>
-      <p id="no-address" class="note" hidden data-i18n="noAddress">This message has no link to a posting, so there is nothing to capture.</p>
-    </section>
+    <!-- Why the capture button is off, in words: nothing on screen, several messages, or not set up. -->
+    <p id="why-not" class="note" hidden></p>
+    <p id="no-address" class="note" hidden data-i18n="noAddress">This message has no link to a posting, so there is nothing to capture.</p>
 
     <!-- The posting as it will be sent, filled from what Postulo reads in the message. -->
     <form id="review" class="posting" hidden>

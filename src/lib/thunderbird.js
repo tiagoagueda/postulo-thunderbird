@@ -39,19 +39,18 @@ export async function requestHostPermission(pattern) {
   return ext.permissions.request({ origins: [pattern] });
 }
 
-/** The header of the message Thunderbird is showing in the current tab, or null.
+/** The headers of the messages Thunderbird is showing in the current tab: none, one, or the
+ *  several that are selected.
  *
  *  In Manifest V3 `getDisplayedMessages` answers a list object with a `messages` array;
- *  older Thunderbirds answered the array itself. Both are read, and only the first message
- *  counts: several selected at once is not one posting. */
-export async function displayedMessage() {
+ *  older Thunderbirds answered the array itself. Both are read. */
+export async function displayedMessages() {
   const [tab] = await ext.tabs.query({ active: true, currentWindow: true });
   if (!tab) {
-    return null;
+    return [];
   }
   const shown = await ext.messageDisplay.getDisplayedMessages(tab.id);
-  const messages = Array.isArray(shown) ? shown : (shown && shown.messages) || [];
-  return messages[0] || null;
+  return Array.isArray(shown) ? shown : (shown && shown.messages) || [];
 }
 
 /** The message on screen, read whole: its summary, its `Message-ID`, and its HTML and text

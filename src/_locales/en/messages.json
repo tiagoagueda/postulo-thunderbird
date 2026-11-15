@@ -318,5 +318,13 @@
         "content": "$1"
       }
     }
+  },
+  "newListing": {
+    "message": "Add a listing from scratch",
+    "description": "Name of the popup's header button that opens Postulo's page for adding a listing by hand."
+  },
+  "severalMessages": {
+    "message": "Several messages are selected. Select one: one message is one posting.",
+    "description": "Said when the capture button is off because more than one message is on screen."
   }
 }

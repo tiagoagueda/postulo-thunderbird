@@ -15,6 +15,7 @@ page you are looking at; this one is for the message you are reading.
 - **Settings**: your Postulo's address and an API token, kept in this Thunderbird profile.
   *Test* asks Postulo who the token is; *Save* asks Thunderbird for permission to reach
   that address.
+- **Two icon buttons at the top right of the popup** (#3): *Capture this posting*, which is off, with its reason in words, when no message is on screen, several are selected or Postulo is not set up; and *Add a listing from scratch*, which opens Postulo's own page for it in your web browser (where you are signed in; a tab inside Thunderbird would ask you to sign in again) and is hidden until an address is set.
 - **Capture this posting** (#1): from the message on screen, the extension finds the link
   that is the posting (leaving out unsubscribe, tracking and social-network links, and asking
   which when there are several), builds a page from the message's text under its subject as

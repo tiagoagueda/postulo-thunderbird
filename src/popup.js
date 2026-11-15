@@ -1,10 +1,10 @@
-import { ADDRESS_LIMIT, capture, describe, known } from "./lib/api.js";
+import { ADDRESS_LIMIT, capture, describe, known, newListingUrl } from "./lib/api.js";
 import { corrections, formOf } from "./lib/correction.js";
 import { explain, localise, t } from "./lib/i18n.js";
-import { linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
+import { captureAvailability, linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
 import { preview } from "./lib/postulo.js";
 import { entryOf } from "./lib/sent.js";
-import { displayedMessage, ext, keepSentCapture, loadSettings, openInBrowser, openSettings, readMessage } from "./lib/thunderbird.js";
+import { displayedMessages, ext, keepSentCapture, loadSettings, openInBrowser, openSettings, readMessage } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -122,7 +122,6 @@ async function send(addressOnly) {
     $("open-review").hidden = !work.reviewUrl;
     $("done").hidden = false;
     $("review").hidden = true;
-    $("ready").hidden = true;
     say("");
   } catch (error) {
     say(explain(error), true);
@@ -155,22 +154,38 @@ async function main() {
     server.hidden = false;
   }
 
+  // The button that adds a listing by hand opens Postulo's own page, in the person's web
+  // browser, where they are signed in; it is shown once there is a Postulo to open.
+  if (settings.instance) {
+    $("new-listing").hidden = false;
+    $("new-listing").addEventListener("click", () => openInBrowser(newListingUrl(settings.instance)));
+  }
+  $("review").addEventListener("submit", (event) => {
+    event.preventDefault();
+    send(false);
+  });
+  $("send-address").addEventListener("click", () => send(true));
+
   try {
-    const header = await displayedMessage();
-    if (!header) {
-      $("subject").textContent = t("noMessage");
-      return;
+    const shown = await displayedMessages();
+    const header = shown.length === 1 ? shown[0] : null;
+    const { ok, why } = captureAvailability(shown.length, connected);
+    if (header) {
+      const { subject, sender } = summarise(header);
+      $("subject").textContent = subject || t("noSubject");
+      $("sender").textContent = sender ? t("messageFrom", [sender]) : "";
+    } else {
+      $("message").hidden = true;
     }
-    const { subject, sender } = summarise(header);
-    $("subject").textContent = subject || t("noSubject");
-    $("sender").textContent = sender ? t("messageFrom", [sender]) : "";
-    $("capture").disabled = !connected;
-    $("capture").addEventListener("click", () => startCapture(header).catch((error) => say(explain(error), true)));
-    $("review").addEventListener("submit", (event) => {
-      event.preventDefault();
-      send(false);
-    });
-    $("send-address").addEventListener("click", () => send(true));
+    $("capture").disabled = !ok;
+    // Why it is off, in words, unless the note about not being set up already says it.
+    if (!ok && why !== "notConnected") {
+      $("why-not").textContent = why === "severalMessages" ? t("severalMessages") : t("noMessage");
+      $("why-not").hidden = false;
+    }
+    if (ok) {
+      $("capture").addEventListener("click", () => startCapture(header).catch((error) => say(explain(error), true)));
+    }
   } catch (error) {
     say(explain(error), true);
   }
