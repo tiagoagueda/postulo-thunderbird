@@ -76,10 +76,13 @@ the address and the token into the extension's settings.
 Talking to Postulo (`src/lib/api.js`), filling a page from the catalogues
 (`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), and the stylesheet are postulo-chromium's, copied here.
 `shared.json` names the commit they were copied from and each file's SHA-256, and
-`npm test` fails when a copy no longer matches. To change one, change it there, then:
+`npm test` fails when a copy no longer matches, and `npm run shared:verify` (CI runs it) fetches
+postulo-chromium and fails when a recorded hash is not that file's hash at the recorded commit, or
+that commit is not on its `main`. To change one, change it there, then:
 
 ```sh
-npm run shared:sync    # copies again from ../postulo-chromium and writes the new commit and hashes
+npm run shared:sync    # copies again from ../postulo-chromium (refused unless its origin is postulo-chromium,
+                       # the tree is clean and HEAD is on its origin/main) and writes the new commit and hashes
 ```
 
 The mark is one vector, `src/icons/postulo.svg`, for the popup, the toolbar buttons and the

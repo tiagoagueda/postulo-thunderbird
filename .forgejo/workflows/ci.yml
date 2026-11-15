@@ -31,6 +31,10 @@ jobs:
           node scripts/guard.mjs
       - name: Test the pure parts, the catalogues, the manifest and the shared files
         run: npm test
+      - name: Check the shared files against postulo-chromium itself
+        # `npm test` only compares the copies with shared.json, which a change can edit too;
+        # this fetches postulo-chromium and compares the hashes with its files at the recorded commit.
+        run: npm run shared:verify
       # web-ext's linter is Firefox's: it warns about `messagesRead`, which is Thunderbird's
       # own permission, and fails only on an error.
       - name: Lint with web-ext

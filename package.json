@@ -11,6 +11,7 @@
     "start": "npm run stage && web-ext run --source-dir dist/src --firefox thunderbird",
     "audit": "node scripts/audit.mjs",
     "shared:check": "node scripts/shared.mjs check",
+    "shared:verify": "node scripts/shared.mjs verify",
     "shared:sync": "node scripts/shared.mjs sync",
     "stage": "node scripts/build.mjs"
   },
