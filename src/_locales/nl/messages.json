@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Taal"
+  },
+  "languageFollow": {
+    "message": "Thunderbird volgen"
+  },
+  "languageHint": {
+    "message": "Elke taal behalve Engels is een concept dat nog door geen enkele spreker is nagekeken. Gaat direct in, zonder Opslaan. De beschrijving in de lijst met add-ons van Thunderbird blijft in de taal van Thunderbird."
   }
 }

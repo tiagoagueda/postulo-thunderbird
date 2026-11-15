@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Mál"
+  },
+  "languageFollow": {
+    "message": "Fylg Thunderbird"
+  },
+  "languageHint": {
+    "message": "Øll mál uttan enskt eru uppkast, sum eingin málbrúkari hevur kannað enn. Tekur gildi beinanvegin, uttan at trýsta á Goym. Lýsingin í yviransyfirlitinum hjá Thunderbird verður verandi á máli Thunderbird."
   }
 }

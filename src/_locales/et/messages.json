@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Keel"
+  },
+  "languageFollow": {
+    "message": "Järgi Thunderbirdi"
+  },
+  "languageHint": {
+    "message": "Kõik keeled peale inglise keele on mustandid, mida ükski keelekõneleja pole veel üle vaadanud. Jõustub kohe, ilma Salvestamata. Kirjeldus Thunderbirdi lisandmoodulite loendis jääb Thunderbirdi keelde."
   }
 }

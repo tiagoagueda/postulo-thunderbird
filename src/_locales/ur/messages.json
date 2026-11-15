@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "زبان"
+  },
+  "languageFollow": {
+    "message": "Thunderbird کی پیروی کریں"
+  },
+  "languageHint": {
+    "message": "انگریزی کے سوا ہر زبان ایک مسودہ ہے جسے ابھی تک کسی بولنے والے نے نہیں دیکھا۔ یہ فوراً لاگو ہوتا ہے، محفوظ کریں کے بغیر۔ Thunderbird کی ایڈ آنز کی فہرست میں تفصیل Thunderbird کی زبان میں ہی رہتی ہے۔"
   }
 }

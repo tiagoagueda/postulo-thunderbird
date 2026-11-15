@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Teanga"
+  },
+  "languageFollow": {
+    "message": "Lean Thunderbird"
+  },
+  "languageHint": {
+    "message": "Is dréachtaí iad gach teanga seachas an Béarla nár athbhreithnigh cainteoir ar bith go fóill. Tagann sé i bhfeidhm láithreach, gan Sábháil. Fanann an tuairisc i liosta breiseán Thunderbird i dteanga Thunderbird."
   }
 }

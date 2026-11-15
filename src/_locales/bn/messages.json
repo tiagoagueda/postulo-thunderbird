@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "ভাষা"
+  },
+  "languageFollow": {
+    "message": "Thunderbird অনুসরণ করুন"
+  },
+  "languageHint": {
+    "message": "ইংরেজি ছাড়া প্রতিটি ভাষাই খসড়া, যা এখনও কোনো ভাষাভাষী পর্যালোচনা করেননি। এটি সঙ্গে সঙ্গে কার্যকর হয়, সংরক্ষণ করতে হয় না। Thunderbird-এর অ্যাড-অন তালিকার বিবরণ Thunderbird-এর ভাষাতেই থাকে।"
   }
 }

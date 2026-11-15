@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Јазик"
+  },
+  "languageFollow": {
+    "message": "Следи го Thunderbird"
+  },
+  "languageHint": {
+    "message": "Секој јазик освен англискиот е нацрт што сè уште не го прегледал ниту еден говорник. Важи веднаш, без Зачувај. Описот во списокот со додатоци на Thunderbird останува на јазикот на Thunderbird."
   }
 }

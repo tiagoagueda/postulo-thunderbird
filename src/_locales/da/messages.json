@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Sprog"
+  },
+  "languageFollow": {
+    "message": "Følg Thunderbird"
+  },
+  "languageHint": {
+    "message": "Alle sprog undtagen engelsk er kladder, som endnu ingen har gennemgået. Det træder i kraft med det samme, uden Gem. Beskrivelsen på Thunderbirds liste over tilføjelser forbliver på Thunderbirds sprog."
   }
 }

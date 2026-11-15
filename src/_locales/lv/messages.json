@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Valoda"
+  },
+  "languageFollow": {
+    "message": "Sekot Thunderbird"
+  },
+  "languageHint": {
+    "message": "Katra valoda, izņemot angļu, ir melnraksts, ko neviens šīs valodas runātājs vēl nav pārbaudījis. Stājas spēkā uzreiz, bez Saglabāt. Apraksts Thunderbird paplašinājumu sarakstā paliek Thunderbird valodā."
   }
 }

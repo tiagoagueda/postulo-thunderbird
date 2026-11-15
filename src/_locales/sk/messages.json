@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Jazyk"
+  },
+  "languageFollow": {
+    "message": "Podľa Thunderbirdu"
+  },
+  "languageHint": {
+    "message": "Každý jazyk okrem angličtiny je koncept, ktorý ešte nekontroloval žiadny rodený hovoriaci. Prejaví sa okamžite, bez Uložiť. Popis v zozname doplnkov Thunderbirdu zostáva v jazyku Thunderbirdu."
   }
 }

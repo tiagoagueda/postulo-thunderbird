@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "اللغة"
+  },
+  "languageFollow": {
+    "message": "اتباع لغة Thunderbird"
+  },
+  "languageHint": {
+    "message": "كل لغة عدا الإنجليزية مسودة لم يراجعها أي متحدث بعد. يسري التغيير فورًا دون الحاجة إلى الحفظ. يبقى الوصف في قائمة إضافات Thunderbird بلغة Thunderbird."
   }
 }

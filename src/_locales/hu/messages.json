@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Nyelv"
+  },
+  "languageFollow": {
+    "message": "Thunderbird követése"
+  },
+  "languageHint": {
+    "message": "Az angolon kívül minden nyelv egy piszkozat, amelyet még egyetlen anyanyelvi beszélő sem nézett át. Azonnal érvénybe lép, Mentés nélkül. A leírás a Thunderbird bővítménylistájában Thunderbird nyelvén marad."
   }
 }

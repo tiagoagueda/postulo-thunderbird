@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Мова"
+  },
+  "languageFollow": {
+    "message": "Як у Thunderbird"
+  },
+  "languageHint": {
+    "message": "Кожная мова, акрамя англійскай, — чарнавік, які пакуль ніхто з носьбітаў не праверыў. Дзейнічае адразу, без Захаваць. Апісанне ў спісе дадаткаў Thunderbird застаецца на мове Thunderbird."
   }
 }

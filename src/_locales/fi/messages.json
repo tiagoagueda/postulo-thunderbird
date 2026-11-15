@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Kieli"
+  },
+  "languageFollow": {
+    "message": "Seuraa Thunderbirdiä"
+  },
+  "languageHint": {
+    "message": "Kaikki muut kielet paitsi englanti ovat luonnoksia, joita yksikään kielen puhuja ei ole vielä tarkistanut. Tulee voimaan heti, ilman Tallenna-painiketta. Kuvaus Thunderbirdin lisäosaluettelossa pysyy Thunderbirdin kielellä."
   }
 }

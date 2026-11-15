@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Sprache"
+  },
+  "languageFollow": {
+    "message": "Thunderbird folgen"
+  },
+  "languageHint": {
+    "message": "Jede Sprache außer Englisch ist ein Entwurf, den noch kein Muttersprachler geprüft hat. Die Änderung gilt sofort, ohne Speichern. Die Beschreibung in Thunderbirds Liste der Add-ons bleibt in der Sprache von Thunderbird."
   }
 }

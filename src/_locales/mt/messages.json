@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Lingwa"
+  },
+  "languageFollow": {
+    "message": "Segwi Thunderbird"
+  },
+  "languageHint": {
+    "message": "Kull lingwa għajr l-Ingliż hija abbozz li għadu ma reġa' rrevedieh ebda kelliem. Jidħol fis-seħħ immedjatament, mingħajr Issejvja. Id-deskrizzjoni fil-lista tal-add-ons ta' Thunderbird tibqa' bil-lingwa ta' Thunderbird."
   }
 }

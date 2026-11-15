@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Język"
+  },
+  "languageFollow": {
+    "message": "Zgodnie z Thunderbirdem"
+  },
+  "languageHint": {
+    "message": "Każdy język poza angielskim to wersja robocza, której żadna osoba władająca językiem jeszcze nie sprawdziła. Działa od razu, bez Zapisz. Opis na liście dodatków Thunderbirda pozostaje w języku Thunderbirda."
   }
 }

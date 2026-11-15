@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Gjuha"
+  },
+  "languageFollow": {
+    "message": "Ndiq Thunderbird"
+  },
+  "languageHint": {
+    "message": "Çdo gjuhë përveç anglishtes është draft që asnjë folës nuk e ka rishikuar ende. Hyn në fuqi menjëherë, pa Ruaj. Përshkrimi në listën e shtesave të Thunderbird mbetet në gjuhën e Thunderbird."
   }
 }

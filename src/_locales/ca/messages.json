@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Llengua"
+  },
+  "languageFollow": {
+    "message": "Segueix Thunderbird"
+  },
+  "languageHint": {
+    "message": "Totes les llengües llevat de l'anglès són esborranys que cap parlant no ha revisat encara. Té efecte a l'instant, sense Desa. La descripció a la llista de complements de Thunderbird continua en la llengua de Thunderbird."
   }
 }

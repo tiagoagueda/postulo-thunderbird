@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "languageFollow": {
+    "message": "Follow Thunderbird"
+  },
+  "languageHint": {
+    "message": "Every language but English is a draft that no speaker has reviewed yet. Takes effect at once, without Save. The description in Thunderbird's list of add-ons stays in Thunderbird's language."
   }
 }

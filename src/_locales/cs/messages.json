@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Jazyk"
+  },
+  "languageFollow": {
+    "message": "Podle Thunderbirdu"
+  },
+  "languageHint": {
+    "message": "Každý jazyk kromě angličtiny je koncept, který zatím nikdo nezkontroloval. Projeví se hned, bez Uložit. Popis v seznamu doplňků Thunderbirdu zůstává v jazyce Thunderbirdu."
   }
 }

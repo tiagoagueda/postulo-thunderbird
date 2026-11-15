@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Тіл"
+  },
+  "languageFollow": {
+    "message": "Thunderbird тіліне ілесу"
+  },
+  "languageHint": {
+    "message": "Ағылшын тілінен басқа әрбір тіл — әлі ешбір сөйлеуші тексермеген жоба. Бірден күшіне енеді, Сақтау қажет емес. Thunderbird қосымшалар тізіміндегі сипаттама Thunderbird тілінде қалады."
   }
 }

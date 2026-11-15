@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Språk"
+  },
+  "languageFollow": {
+    "message": "Följ Thunderbird"
+  },
+  "languageHint": {
+    "message": "Alla språk utom engelska är utkast som ingen som talar språket har granskat ännu. Gäller direkt, utan Spara. Beskrivningen i Thunderbirds lista över tillägg förblir på Thunderbirds språk."
   }
 }

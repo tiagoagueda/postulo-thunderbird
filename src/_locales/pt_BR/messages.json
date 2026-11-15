@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "languageFollow": {
+    "message": "Seguir o Thunderbird"
+  },
+  "languageHint": {
+    "message": "Todos os idiomas, exceto o inglês, são rascunhos que ainda nenhum falante revisou. Tem efeito imediato, sem Salvar. A descrição na lista de extensões do Thunderbird continua no idioma do Thunderbird."
   }
 }

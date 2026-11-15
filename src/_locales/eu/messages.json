@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Hizkuntza"
+  },
+  "languageFollow": {
+    "message": "Jarraitu Thunderbirdi"
+  },
+  "languageHint": {
+    "message": "Ingelesa ez beste hizkuntza guztiak zirriborroak dira, eta inork ez ditu oraindik berrikusi. Berehala jartzen da indarrean, Gorde sakatu gabe. Thunderbirden gehigarrien zerrendako azalpena Thunderbirden hizkuntzan geratzen da."
   }
 }

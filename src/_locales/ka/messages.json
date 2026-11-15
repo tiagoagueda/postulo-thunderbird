@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "ენა"
+  },
+  "languageFollow": {
+    "message": "Thunderbird-ის მიყოლა"
+  },
+  "languageHint": {
+    "message": "ინგლისურის გარდა ყველა ენა პროექტია, რომელიც ჯერ არცერთ მოსაუბრეს არ გადაუხედავს. ძალაში შედის მაშინვე, შენახვის გარეშე. Thunderbird-ის დამატებების სიაში აღწერა Thunderbird-ის ენაზე რჩება."
   }
 }

@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "languageFollow": {
+    "message": "Seguir a Thunderbird"
+  },
+  "languageHint": {
+    "message": "Todos los idiomas salvo el inglés son borradores que ningún hablante ha revisado aún. Se aplica al instante, sin Guardar. La descripción en la lista de complementos de Thunderbird sigue en el idioma de Thunderbird."
   }
 }

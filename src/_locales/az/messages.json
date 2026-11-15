@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Dil"
+  },
+  "languageFollow": {
+    "message": "Thunderbird-ə uyğun"
+  },
+  "languageHint": {
+    "message": "İngilis dilindən başqa hər dil hələ heç bir natiq tərəfindən yoxlanmamış qaralamadır. Dərhal qüvvəyə minir, Saxla tələb etmir. Thunderbird-in əlavələr siyahısındakı təsvir Thunderbird-in dilində qalır."
   }
 }

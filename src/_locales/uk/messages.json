@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Мова"
+  },
+  "languageFollow": {
+    "message": "Як у Thunderbird"
+  },
+  "languageHint": {
+    "message": "Кожна мова, крім англійської, є чернеткою, яку ще не перевіряв жоден носій мови. Застосовується одразу, без «Зберегти». Опис у списку додатків Thunderbird залишається мовою Thunderbird."
   }
 }

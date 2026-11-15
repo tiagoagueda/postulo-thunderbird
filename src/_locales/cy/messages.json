@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Iaith"
+  },
+  "languageFollow": {
+    "message": "Dilyn Thunderbird"
+  },
+  "languageHint": {
+    "message": "Mae pob iaith ac eithrio Saesneg yn ddrafft nad oes unrhyw siaradwr wedi'i adolygu eto. Daw i rym ar unwaith, heb Cadw. Mae'r disgrifiad yn rhestr ychwanegion Thunderbird yn aros yn iaith Thunderbird."
   }
 }

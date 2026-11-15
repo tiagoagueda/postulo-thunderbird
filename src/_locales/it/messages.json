@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Lingua"
+  },
+  "languageFollow": {
+    "message": "Segui Thunderbird"
+  },
+  "languageHint": {
+    "message": "Ogni lingua tranne l'inglese è una bozza che nessun madrelingua ha ancora revisionato. Ha effetto subito, senza Salva. La descrizione nell'elenco dei componenti aggiuntivi di Thunderbird resta nella lingua di Thunderbird."
   }
 }

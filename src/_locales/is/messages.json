@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Tungumál"
+  },
+  "languageFollow": {
+    "message": "Fylgja Thunderbird"
+  },
+  "languageHint": {
+    "message": "Öll tungumál nema enska eru drög sem enginn sem talar tungumálið hefur enn yfirfarið. Tekur gildi strax, án Vista. Lýsingin í lista Thunderbird yfir viðbætur helst á tungumáli Thunderbird."
   }
 }

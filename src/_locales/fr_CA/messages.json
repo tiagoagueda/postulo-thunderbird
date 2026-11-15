@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Langue"
+  },
+  "languageFollow": {
+    "message": "Suivre Thunderbird"
+  },
+  "languageHint": {
+    "message": "Toutes les langues sauf l'anglais sont des brouillons qu'aucun locuteur n'a encore relus. Prend effet immédiatement, sans Enregistrer. La description dans la liste des modules complémentaires de Thunderbird reste dans la langue de Thunderbird."
   }
 }

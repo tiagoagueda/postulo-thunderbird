@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Sprooch"
+  },
+  "languageFollow": {
+    "message": "Thunderbird follegen"
+  },
+  "languageHint": {
+    "message": "All Sprooch ausser Englesch ass en Entworf, deen nach kee Sprécher iwwerpréift huet. Gëtt direkt ugewannt, ouni Späicheren. D'Beschreiwung an der Lëscht vun den Add-ons vun Thunderbird bleift an der Sprooch vun Thunderbird."
   }
 }

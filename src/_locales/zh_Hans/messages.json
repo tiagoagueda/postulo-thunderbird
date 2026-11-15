@@ -425,5 +425,14 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "语言"
+  },
+  "languageFollow": {
+    "message": "跟随 Thunderbird"
+  },
+  "languageHint": {
+    "message": "除英语外，所有语言都是尚无母语者审阅的草稿。选择后立即生效，无需点击“保存”。Thunderbird 附加组件列表中的说明仍使用 Thunderbird 的语言。"
   }
 }
