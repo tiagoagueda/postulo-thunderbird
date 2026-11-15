@@ -114,10 +114,25 @@ files stay free of it.
 
 ## Languages
 
-English is the source; French and European Portuguese are drafts no native speaker has
-reviewed. A language code here is a BCP 47 tag in its canonical form (`pt-PT`), as
-postulo/postulo#337 decided for the whole project. The folders under `src/_locales/` are
-named the way Thunderbird demands, with an underscore (`pt_PT`).
+English is the source; every other language is a draft no native speaker has reviewed. A
+language code here is a BCP 47 tag in its canonical form (`pt-PT`), as postulo/postulo#337
+decided for the whole project. The folders under `src/_locales/` are named the way
+Thunderbird demands, with an underscore (`pt_PT`) and never a script (Serbian's is `sr`, its
+tag `sr-Cyrl`).
+
+**Which languages.** The ones the Postulo core, the release this one is released beside,
+has a catalogue for: English plus every language in the core's roll-out, whether or not
+its catalogue has got far. (postulo-chromium ships only the languages the core has
+started; this extension follows the whole roll-out, and Weblate fills each.) The list is
+`src/lib/languages.js` (folder, tag, direction, own name), and it is written, not kept by
+hand: `python scripts/languages.py` reads the core checked out beside this repository
+(`../postulo`, or `POSTULO_CORE`) and rewrites it; `--check` fails on a difference, and
+`npm test` runs that check wherever a core is checked out (CI has none, so it is skipped
+there). Run it when a new core release starts a language, and let Weblate hand over the
+catalogue. `npm test` fails on a folder the list does not name, and the build leaves out a
+language whose catalogue is not complete. A language written right to left (Arabic,
+Urdu, ...) gets its page's `dir` from the catalogue; the style sheet, which is shared with
+the browser extension, names no physical side, and `npm test` holds it to that.
 
 **Translations are made in Weblate, never in a commit** (postulo/postulo#706): in the `postulo`
 project at <https://translate.tiagoagueda.com/projects/postulo/>, in this extension's

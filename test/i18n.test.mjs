@@ -1,6 +1,7 @@
 // Runs with `node --test`: every language says every sentence, with the same placeholders.
 import assert from "node:assert/strict";
-import { readdirSync, readFileSync } from "node:fs";
+import { spawnSync } from "node:child_process";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { test } from "node:test";
 
@@ -127,5 +128,35 @@ test("every key the code asks for exists, and every sentence is asked for", () =
   }
   for (const key of Object.keys(english)) {
     assert.ok(used.has(key), `en has ${key}, which nothing asks for`);
+  }
+});
+
+test("the list is the core's roll-out, when the core is checked out beside this extension", (t) => {
+  // scripts/languages.py writes src/lib/languages.js from the core's roll-out and `--check`
+  // fails on a difference. CI has no core checkout, so this runs where there is one
+  // (`../postulo`, or POSTULO_CORE) and says so when it does not.
+  const core = process.env.POSTULO_CORE || join("..", "postulo");
+  if (!existsSync(join(core, "src", "postulo", "locale", "status.json"))) {
+    t.skip(`no core checked out at ${core}`);
+    return;
+  }
+  const run = ["python", "python3", "py"].map((python) => spawnSync(python, ["scripts/languages.py", "--check"], { encoding: "utf8" })).find((result) => !result.error);
+  if (!run) {
+    t.skip("no Python to run scripts/languages.py");
+    return;
+  }
+  assert.equal(run.status, 0, run.stdout + run.stderr);
+});
+
+test("the languages are listed once each, and the right-to-left ones are laid out by logical sides", () => {
+  assert.equal(new Set(LANGUAGES.map((language) => language.tag)).size, LANGUAGES.length);
+  assert.equal(new Set(LANGUAGES.map((language) => language.folder)).size, LANGUAGES.length);
+  // A page's direction comes from the catalogue (localise() in src/lib/i18n.js), so the style
+  // sheet must name no physical side for a right-to-left language to mirror by itself.
+  assert.ok(LANGUAGES.some((language) => language.direction === "rtl"), "Arabic is in the list");
+  const css = readFileSync(join(SOURCE, "style.css"), "utf8");
+  assert.doesNotMatch(css, /\b(?:left|right)\b|-(?:left|right)\s*:/);
+  for (const page of ["popup.html", "options.html", "capture.html"]) {
+    assert.doesNotMatch(readFileSync(join(SOURCE, page), "utf8"), /\b(?:left|right)\b|dir="ltr"/, page);
   }
 });
