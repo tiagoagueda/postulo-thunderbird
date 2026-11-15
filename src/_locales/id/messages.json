@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Gudang Thunderbird untuk Postulo penuh. Coba lagi setelah menghapus beberapa data, atau jalankan ulang Thunderbird."
+  },
+  "noAddress": {
+    "message": "Pesan ini tidak memiliki tautan ke lowongan, jadi tidak ada yang bisa ditangkap: Postulo memerlukan alamat lowongan untuk membacanya."
+  },
+  "reading": {
+    "message": "Membaca pesan…"
+  },
+  "whichAddress": {
+    "message": "Tautan mana yang merupakan lowongan?"
+  },
+  "titleLabel": {
+    "message": "Judul"
+  },
+  "companyLabel": {
+    "message": "Perusahaan"
+  },
+  "locationLabel": {
+    "message": "Tempat"
+  },
+  "companyGuessed": {
+    "message": "Diambil dari pengirim: perbaiki jika bukan pemberi kerja."
+  },
+  "sendForReview": {
+    "message": "Kirim untuk ditinjau"
+  },
+  "sendAddress": {
+    "message": "Kirim alamatnya saja"
+  },
+  "sendAddressHint": {
+    "message": "Mengirim alamatnya saja membuat Postulo mengambil sendiri halamannya: ini dihitung dalam kuota tangkapan Anda, dan gagal untuk halaman yang memerlukan login."
+  },
+  "previewing": {
+    "message": "Menanyakan kepada Postulo apa yang dibacanya dalam pesan ini…"
+  },
+  "capturedBefore": {
+    "message": "Postulo sudah menyimpan lowongan ini: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Mengirim…"
+  },
+  "sentDone": {
+    "message": "Dikirim untuk ditinjau: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Buka tinjauannya"
+  },
+  "untitled": {
+    "message": "Lowongan tanpa judul"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 lowongan yang ditangkap dari surel menunggu ditinjau"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ lowongan yang ditangkap dari surel menunggu ditinjau",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Tambahkan lowongan dari awal"
+  },
+  "severalMessages": {
+    "message": "Beberapa pesan dipilih. Pilih satu: satu pesan adalah satu lowongan."
+  },
+  "reviewHeading": {
+    "message": "Perlu ditinjau"
+  },
+  "nothingWaiting": {
+    "message": "Tidak ada yang menunggu peninjauan."
+  },
+  "lastListed": {
+    "message": "Seperti yang terakhir didaftar Postulo, pada $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Menunggu peninjauan di Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ tangkapan lowongan ini",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Dari pesan “$SUBJECT$” oleh $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Buka pesan"
+  },
+  "messageGone": {
+    "message": "Pesan itu tidak lagi ada di Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Lihat semua $COUNT$ di Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Tangkap lowongan"
+  },
+  "noDraft": {
+    "message": "Tidak ada pesan untuk ditangkap di sini. Tekan tombol tangkap pada sebuah pesan."
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "footerOnline": {
+    "message": "Postulo menjawab"
+  },
+  "footerSlow": {
+    "message": "Postulo lambat menjawab"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo tidak dapat dijangkau."
+  },
+  "noPermission": {
+    "message": "Tanpa izin untuk menjangkau Postulo Anda, tidak ada yang dapat dikirim."
+  },
+  "offlineOn": {
+    "message": "Sakelar uji aktif: tidak ada yang dikirim ke Postulo."
+  },
+  "offlineOff": {
+    "message": "Sakelar uji nonaktif."
+  },
+  "offlineLabel": {
+    "message": "Bertindak seolah-olah Postulo tidak dapat dijangkau"
+  },
+  "offlineHint": {
+    "message": "Untuk pengujian. Selama ini aktif, tidak ada yang diminta dari Postulo dan tidak ada yang dikirim kepadanya, dan footer popup menampilkan labu abu-abu."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird bekerja secara luring: tidak ada yang diminta dari Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Dapat menangkap lowongan."
+  },
+  "tokenCannotCapture": {
+    "message": "Tidak dapat menangkap lowongan: tidak memiliki cakupan $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Dapat mengarsipkan pesan ke riwayat sebuah lowongan."
+  },
+  "tokenCannotFile": {
+    "message": "Tidak dapat mengarsipkan pesan ke riwayat sebuah lowongan: tidak memiliki cakupan $SCOPE$, sehingga popup tidak menawarkannya.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arsipkan pesan ini ke sebuah lowongan"
+  },
+  "searchListings": {
+    "message": "Cari lowongan Anda"
+  },
+  "suggested": {
+    "message": "Disarankan"
+  },
+  "noListings": {
+    "message": "Tidak ada lowongan yang cocok."
+  },
+  "subjectOnly": {
+    "message": "Kirim subjek saja"
+  },
+  "whatIsSent": {
+    "message": "Apa yang akan dikirim"
+  },
+  "fileIt": {
+    "message": "Arsipkan"
+  },
+  "filing": {
+    "message": "Mengarsipkan…"
+  },
+  "filedInto": {
+    "message": "Diarsipkan ke “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Pesan ini sudah ada di riwayat “$LISTING$”: tidak ada yang ditambahkan.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

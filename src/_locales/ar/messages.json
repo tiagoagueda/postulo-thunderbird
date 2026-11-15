@@ -191,5 +191,239 @@
         "content": "$1"
       }
     }
+  },
+  "noAddress": {
+    "message": "لا تحتوي هذه الرسالة على رابط إلى إعلان، فلا شيء يمكن التقاطه: يحتاج Postulo إلى عنوان الإعلان ليقرأه."
+  },
+  "reading": {
+    "message": "جارٍ قراءة الرسالة…"
+  },
+  "whichAddress": {
+    "message": "أي رابط هو الإعلان؟"
+  },
+  "titleLabel": {
+    "message": "العنوان"
+  },
+  "companyLabel": {
+    "message": "الشركة"
+  },
+  "locationLabel": {
+    "message": "المكان"
+  },
+  "companyGuessed": {
+    "message": "مأخوذة من المرسِل: صحّحها إن لم تكن جهة التوظيف."
+  },
+  "sendForReview": {
+    "message": "إرسال للمراجعة"
+  },
+  "sendAddress": {
+    "message": "إرسال العنوان وحده"
+  },
+  "sendAddressHint": {
+    "message": "إرسال العنوان وحده يجعل Postulo يجلب الصفحة بنفسه: يُحتسب ذلك من حصة الالتقاط لديك، ويفشل مع صفحة تتطلب تسجيل الدخول."
+  },
+  "previewing": {
+    "message": "جارٍ سؤال Postulo عمّا يقرؤه في هذه الرسالة…"
+  },
+  "capturedBefore": {
+    "message": "لدى Postulo هذا الإعلان بالفعل: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "جارٍ الإرسال…"
+  },
+  "sentDone": {
+    "message": "أُرسل للمراجعة: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "فتح مراجعته"
+  },
+  "untitled": {
+    "message": "إعلان بلا عنوان"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: إعلان واحد تم التقاطه من البريد بانتظار المراجعة"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ من الإعلانات التي تم التقاطها من البريد بانتظار المراجعة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "إضافة إعلان من الصفر"
+  },
+  "severalMessages": {
+    "message": "تم تحديد عدة رسائل. اختر رسالة واحدة: الرسالة الواحدة إعلان واحد."
+  },
+  "reviewHeading": {
+    "message": "بانتظار المراجعة"
+  },
+  "nothingWaiting": {
+    "message": "لا شيء بانتظار المراجعة."
+  },
+  "lastListed": {
+    "message": "كما أدرجها Postulo آخر مرة، في $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "بانتظار المراجعة في Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ التقاطات لهذا الإعلان",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "من الرسالة «$SUBJECT$» من $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "فتح الرسالة"
+  },
+  "messageGone": {
+    "message": "لم تعد تلك الرسالة في Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "عرض كل الـ $COUNT$ في Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "التقاط إعلان"
+  },
+  "noDraft": {
+    "message": "لا توجد رسالة للالتقاط هنا. اضغط زر الالتقاط على رسالة."
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "footerOnline": {
+    "message": "Postulo يستجيب"
+  },
+  "footerSlow": {
+    "message": "Postulo بطيء في الاستجابة"
+  },
+  "postuloUnreachable": {
+    "message": "تعذّر الوصول إلى Postulo."
+  },
+  "noPermission": {
+    "message": "دون إذن للوصول إلى Postulo الخاص بك، لا يمكن إرسال أي شيء."
+  },
+  "offlineOn": {
+    "message": "مفتاح الاختبار مفعّل: لا يُرسَل شيء إلى Postulo."
+  },
+  "offlineOff": {
+    "message": "مفتاح الاختبار معطّل."
+  },
+  "offlineLabel": {
+    "message": "التصرف كما لو تعذّر الوصول إلى Postulo"
+  },
+  "offlineHint": {
+    "message": "للاختبار. ما دام هذا مفعّلاً، لا يُطلب شيء من Postulo ولا يُرسَل إليه شيء، ويعرض تذييل النافذة المنبثقة دورقاً رمادياً."
+  },
+  "thunderbirdOffline": {
+    "message": "يعمل Thunderbird دون اتصال: لا يُطلب شيء من Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "يمكنه التقاط الإعلانات."
+  },
+  "tokenCannotCapture": {
+    "message": "لا يمكنه التقاط الإعلانات: ينقصه النطاق $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "يمكنه حفظ رسالة في سجل إعلان."
+  },
+  "tokenCannotFile": {
+    "message": "لا يمكنه حفظ رسالة في سجل إعلان: ينقصه النطاق $SCOPE$، لذا لا تعرض النافذة المنبثقة ذلك.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "حفظ هذه الرسالة في إعلان"
+  },
+  "searchListings": {
+    "message": "البحث في إعلاناتك"
+  },
+  "suggested": {
+    "message": "مقترح"
+  },
+  "noListings": {
+    "message": "لا يوجد إعلان مطابق."
+  },
+  "subjectOnly": {
+    "message": "إرسال الموضوع فقط"
+  },
+  "whatIsSent": {
+    "message": "ما سيُرسَل"
+  },
+  "fileIt": {
+    "message": "حفظ"
+  },
+  "filing": {
+    "message": "جارٍ الحفظ…"
+  },
+  "filedInto": {
+    "message": "تم الحفظ في «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "كانت هذه الرسالة موجودة بالفعل في سجل «$LISTING$»: لم تتم إضافة شيء.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$، $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

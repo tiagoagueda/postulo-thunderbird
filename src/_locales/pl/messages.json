@@ -191,5 +191,239 @@
         "content": "$1"
       }
     }
+  },
+  "noAddress": {
+    "message": "Ta wiadomość nie zawiera odnośnika do ogłoszenia, więc nie ma czego przechwycić: Postulo potrzebuje adresu ogłoszenia, aby je odczytać."
+  },
+  "reading": {
+    "message": "Odczytywanie wiadomości…"
+  },
+  "whichAddress": {
+    "message": "Który odnośnik prowadzi do ogłoszenia?"
+  },
+  "titleLabel": {
+    "message": "Tytuł"
+  },
+  "companyLabel": {
+    "message": "Firma"
+  },
+  "locationLabel": {
+    "message": "Miejsce"
+  },
+  "companyGuessed": {
+    "message": "Pobrano od nadawcy: popraw, jeśli to nie jest pracodawca."
+  },
+  "sendForReview": {
+    "message": "Wyślij do sprawdzenia"
+  },
+  "sendAddress": {
+    "message": "Wyślij sam adres"
+  },
+  "sendAddressHint": {
+    "message": "Po wysłaniu samego adresu Postulo samo pobiera stronę: wlicza się to do limitu przechwyceń i nie działa w przypadku strony za logowaniem."
+  },
+  "previewing": {
+    "message": "Sprawdzanie, co Postulo odczytuje z tej wiadomości…"
+  },
+  "capturedBefore": {
+    "message": "Postulo już ma to ogłoszenie: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Wysyłanie…"
+  },
+  "sentDone": {
+    "message": "Wysłano do sprawdzenia: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Otwórz stronę sprawdzania"
+  },
+  "untitled": {
+    "message": "Ogłoszenie bez tytułu"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 ogłoszenie przechwycone z poczty czeka na sprawdzenie"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: ogłoszenia przechwycone z poczty, czekające na sprawdzenie: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Dodaj ofertę od zera"
+  },
+  "severalMessages": {
+    "message": "Zaznaczono kilka wiadomości. Zaznacz jedną: jedna wiadomość to jedno ogłoszenie."
+  },
+  "reviewHeading": {
+    "message": "Do sprawdzenia"
+  },
+  "nothingWaiting": {
+    "message": "Nic nie czeka na sprawdzenie."
+  },
+  "lastListed": {
+    "message": "Tak, jak Postulo wyświetlił je ostatnio, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Czeka na sprawdzenie w Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "Liczba przechwyceń tego ogłoszenia: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Z wiadomości „$SUBJECT$” od $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Otwórz wiadomość"
+  },
+  "messageGone": {
+    "message": "Tej wiadomości nie ma już w Thunderbirdzie."
+  },
+  "seeAllCaptures": {
+    "message": "Zobacz wszystkie ($COUNT$) w Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Przechwyć ogłoszenie"
+  },
+  "noDraft": {
+    "message": "Nie ma tu wiadomości do przechwycenia. Naciśnij przycisk przechwytywania przy wiadomości."
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "footerOnline": {
+    "message": "Postulo odpowiada"
+  },
+  "footerSlow": {
+    "message": "Postulo odpowiada wolno"
+  },
+  "postuloUnreachable": {
+    "message": "Nie można połączyć się z Postulo."
+  },
+  "noPermission": {
+    "message": "Bez uprawnienia do połączenia z Twoim Postulo nic nie może zostać wysłane."
+  },
+  "offlineOn": {
+    "message": "Przełącznik testowy jest włączony: nic nie jest wysyłane do Postulo."
+  },
+  "offlineOff": {
+    "message": "Przełącznik testowy jest wyłączony."
+  },
+  "offlineLabel": {
+    "message": "Zachowuj się tak, jakby Postulo był nieosiągalny"
+  },
+  "offlineHint": {
+    "message": "Do testów. Gdy jest włączony, o nic nie pytamy Postulo i nic do niego nie wysyłamy, a stopka okna podręcznego pokazuje szarą kolbę."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird działa w trybie offline: o nic nie pytamy Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Może przechwytywać ogłoszenia."
+  },
+  "tokenCannotCapture": {
+    "message": "Nie może przechwytywać ogłoszeń: brakuje mu zakresu $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Może zapisać wiadomość w historii oferty."
+  },
+  "tokenCannotFile": {
+    "message": "Nie może zapisać wiadomości w historii oferty: brakuje mu zakresu $SCOPE$, więc okno podręczne tego nie oferuje.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Zapisz tę wiadomość w ofercie"
+  },
+  "searchListings": {
+    "message": "Szukaj wśród swoich ofert"
+  },
+  "suggested": {
+    "message": "Sugerowana"
+  },
+  "noListings": {
+    "message": "Żadna oferta nie pasuje."
+  },
+  "subjectOnly": {
+    "message": "Wyślij tylko temat"
+  },
+  "whatIsSent": {
+    "message": "Co zostanie wysłane"
+  },
+  "fileIt": {
+    "message": "Zapisz"
+  },
+  "filing": {
+    "message": "Zapisywanie…"
+  },
+  "filedInto": {
+    "message": "Zapisano w „$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ta wiadomość była już w historii oferty „$LISTING$”: nic nie dodano.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

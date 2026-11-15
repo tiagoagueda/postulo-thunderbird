@@ -191,5 +191,239 @@
         "content": "$2"
       }
     }
+  },
+  "noAddress": {
+    "message": "Tässä viestissä ei ole linkkiä ilmoitukseen, joten ei ole mitään kaapattavaa: Postulo tarvitsee ilmoituksen osoitteen voidakseen lukea sen."
+  },
+  "reading": {
+    "message": "Luetaan viestiä…"
+  },
+  "whichAddress": {
+    "message": "Mikä linkeistä on ilmoitus?"
+  },
+  "titleLabel": {
+    "message": "Otsikko"
+  },
+  "companyLabel": {
+    "message": "Yritys"
+  },
+  "locationLabel": {
+    "message": "Paikka"
+  },
+  "companyGuessed": {
+    "message": "Poimittu lähettäjästä: korjaa, jos se ei ole työnantaja."
+  },
+  "sendForReview": {
+    "message": "Lähetä tarkistettavaksi"
+  },
+  "sendAddress": {
+    "message": "Lähetä pelkkä osoite"
+  },
+  "sendAddressHint": {
+    "message": "Pelkällä osoitteella Postulo hakee sivun itse: se kuluttaa kaappauskiintiötäsi eikä onnistu sivulla, joka on kirjautumisen takana."
+  },
+  "previewing": {
+    "message": "Kysytään Postulolta, mitä se lukee tästä viestistä…"
+  },
+  "capturedBefore": {
+    "message": "Postulolla on jo tämä ilmoitus: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Lähetetään…"
+  },
+  "sentDone": {
+    "message": "Lähetetty tarkistettavaksi: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Avaa sen tarkistus"
+  },
+  "untitled": {
+    "message": "Otsikoton ilmoitus"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 viestistä tallennettu työpaikkailmoitus odottaa tarkistusta"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ viestistä tallennettua työpaikkailmoitusta odottaa tarkistusta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Lisää ilmoitus tyhjästä"
+  },
+  "severalMessages": {
+    "message": "Useita viestejä on valittu. Valitse yksi: yksi viesti on yksi ilmoitus."
+  },
+  "reviewHeading": {
+    "message": "Odottaa tarkistusta"
+  },
+  "nothingWaiting": {
+    "message": "Mikään ei odota tarkistusta."
+  },
+  "lastListed": {
+    "message": "Sellaisina kuin Postulo ne viimeksi listasi, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Odottaa tarkistusta Postulossa"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ kaappausta tästä ilmoituksesta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Viestistä ”$SUBJECT$”, lähettäjä $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Avaa viesti"
+  },
+  "messageGone": {
+    "message": "Viestiä ei enää ole Thunderbirdissä."
+  },
+  "seeAllCaptures": {
+    "message": "Näytä kaikki $COUNT$ Postulossa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Kaappaa ilmoitus"
+  },
+  "noDraft": {
+    "message": "Tässä ei ole kaapattavaa viestiä. Paina viestin kaappauspainiketta."
+  },
+  "close": {
+    "message": "Sulje"
+  },
+  "footerOnline": {
+    "message": "Postulo vastaa"
+  },
+  "footerSlow": {
+    "message": "Postulo vastaa hitaasti"
+  },
+  "postuloUnreachable": {
+    "message": "Postuloon ei saada yhteyttä."
+  },
+  "noPermission": {
+    "message": "Ilman lupaa ottaa yhteys Postuloosi mitään ei voi lähettää."
+  },
+  "offlineOn": {
+    "message": "Testikytkin on päällä: Postuloon ei lähetetä mitään."
+  },
+  "offlineOff": {
+    "message": "Testikytkin on pois päältä."
+  },
+  "offlineLabel": {
+    "message": "Toimi kuin Postuloon ei saataisi yhteyttä"
+  },
+  "offlineHint": {
+    "message": "Testausta varten. Kun tämä on päällä, Postulolta ei pyydetä mitään eikä sille lähetetä mitään, ja ponnahdusikkunan alareunassa näkyy harmaa kolvi."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird on offline-tilassa: Postulolta ei pyydetä mitään."
+  },
+  "tokenCanCapture": {
+    "message": "Se voi kaapata ilmoituksia."
+  },
+  "tokenCannotCapture": {
+    "message": "Se ei voi kaapata ilmoituksia: siltä puuttuu laajuus $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Se voi tallentaa viestin ilmoituksen historiaan."
+  },
+  "tokenCannotFile": {
+    "message": "Se ei voi tallentaa viestiä ilmoituksen historiaan: siltä puuttuu laajuus $SCOPE$, joten ponnahdusikkuna ei tarjoa sitä.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Tallenna tämä viesti ilmoitukseen"
+  },
+  "searchListings": {
+    "message": "Hae ilmoituksistasi"
+  },
+  "suggested": {
+    "message": "Ehdotus"
+  },
+  "noListings": {
+    "message": "Mikään ilmoitus ei vastaa hakua."
+  },
+  "subjectOnly": {
+    "message": "Lähetä vain otsikko"
+  },
+  "whatIsSent": {
+    "message": "Mitä lähetetään"
+  },
+  "fileIt": {
+    "message": "Tallenna"
+  },
+  "filing": {
+    "message": "Tallennetaan…"
+  },
+  "filedInto": {
+    "message": "Tallennettu ilmoitukseen ”$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Tämä viesti oli jo ilmoituksen ”$LISTING$” historiassa: mitään ei lisätty.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

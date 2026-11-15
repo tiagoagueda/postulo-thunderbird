@@ -191,5 +191,239 @@
         "content": "$1"
       }
     }
+  },
+  "noAddress": {
+    "message": "এই বার্তায় কোনো চাকরির বিজ্ঞাপনের লিঙ্ক নেই, তাই ক্যাপচার করার মতো কিছু নেই: বিজ্ঞাপনটি পড়তে Postulo-র তার ঠিকানা দরকার।"
+  },
+  "reading": {
+    "message": "বার্তাটি পড়া হচ্ছে…"
+  },
+  "whichAddress": {
+    "message": "কোন লিঙ্কটি বিজ্ঞাপন?"
+  },
+  "titleLabel": {
+    "message": "শিরোনাম"
+  },
+  "companyLabel": {
+    "message": "কোম্পানি"
+  },
+  "locationLabel": {
+    "message": "স্থান"
+  },
+  "companyGuessed": {
+    "message": "প্রেরকের কাছ থেকে নেওয়া: নিয়োগকর্তা না হলে ঠিক করে দিন।"
+  },
+  "sendForReview": {
+    "message": "পর্যালোচনার জন্য পাঠান"
+  },
+  "sendAddress": {
+    "message": "শুধু ঠিকানা পাঠান"
+  },
+  "sendAddressHint": {
+    "message": "শুধু ঠিকানা পাঠালে Postulo পৃষ্ঠাটি নিজেই এনে নেয়: এটি আপনার ক্যাপচারের সীমায় গণনা হয়, এবং সাইন-ইনের আড়ালে থাকা পৃষ্ঠার ক্ষেত্রে ব্যর্থ হয়।"
+  },
+  "previewing": {
+    "message": "এই বার্তায় Postulo কী পড়ে, তা জিজ্ঞেস করা হচ্ছে…"
+  },
+  "capturedBefore": {
+    "message": "Postulo-র কাছে এই বিজ্ঞাপনটি আগে থেকেই আছে: $TITLE$।",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "পাঠানো হচ্ছে…"
+  },
+  "sentDone": {
+    "message": "পর্যালোচনার জন্য পাঠানো হয়েছে: $POSTING$।",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "এর পর্যালোচনা খুলুন"
+  },
+  "untitled": {
+    "message": "শিরোনামহীন বিজ্ঞাপন"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: মেইল থেকে ক্যাপচার করা 1টি বিজ্ঞাপন পর্যালোচনার অপেক্ষায় আছে"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: মেইল থেকে ক্যাপচার করা $COUNT$টি বিজ্ঞাপন পর্যালোচনার অপেক্ষায় আছে",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "শুরু থেকে একটি বিজ্ঞাপন যোগ করুন"
+  },
+  "severalMessages": {
+    "message": "একাধিক বার্তা নির্বাচিত। একটি বেছে নিন: একটি বার্তা মানে একটি বিজ্ঞাপন।"
+  },
+  "reviewHeading": {
+    "message": "পর্যালোচনা প্রয়োজন"
+  },
+  "nothingWaiting": {
+    "message": "পর্যালোচনার জন্য কিছুই অপেক্ষায় নেই।"
+  },
+  "lastListed": {
+    "message": "Postulo সর্বশেষ যেভাবে তালিকাভুক্ত করেছিল, $WHEN$-এ।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo-তে পর্যালোচনার অপেক্ষায়"
+  },
+  "capturesOfPosting": {
+    "message": "এই বিজ্ঞাপনের $COUNT$টি ক্যাপচার",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "$SENDER$-এর পাঠানো \"$SUBJECT$\" বার্তা থেকে",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "বার্তাটি খুলুন"
+  },
+  "messageGone": {
+    "message": "সেই বার্তাটি আর Thunderbird-এ নেই।"
+  },
+  "seeAllCaptures": {
+    "message": "Postulo-তে সব $COUNT$টি দেখুন",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "একটি বিজ্ঞাপন ক্যাপচার করুন"
+  },
+  "noDraft": {
+    "message": "এখানে ক্যাপচার করার মতো কোনো বার্তা নেই। একটি বার্তায় ক্যাপচার বোতাম চাপুন।"
+  },
+  "close": {
+    "message": "বন্ধ করুন"
+  },
+  "footerOnline": {
+    "message": "Postulo সাড়া দিচ্ছে"
+  },
+  "footerSlow": {
+    "message": "Postulo ধীরে সাড়া দিচ্ছে"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo-তে পৌঁছানো যাচ্ছে না।"
+  },
+  "noPermission": {
+    "message": "আপনার Postulo-তে পৌঁছানোর অনুমতি ছাড়া কিছুই পাঠানো যাবে না।"
+  },
+  "offlineOn": {
+    "message": "পরীক্ষার সুইচ চালু আছে: Postulo-তে কিছুই পাঠানো হচ্ছে না।"
+  },
+  "offlineOff": {
+    "message": "পরীক্ষার সুইচ বন্ধ আছে।"
+  },
+  "offlineLabel": {
+    "message": "এমনভাবে আচরণ করুন যেন Postulo-তে পৌঁছানো যাচ্ছে না"
+  },
+  "offlineHint": {
+    "message": "পরীক্ষার জন্য। এটি চালু থাকলে Postulo-কে কিছু জিজ্ঞাসা করা হয় না এবং তাকে কিছু পাঠানো হয় না, আর পপআপের ফুটারে একটি ধূসর ফ্লাস্ক দেখা যায়।"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird অফলাইনে কাজ করছে: Postulo-কে কিছু জিজ্ঞাসা করা হচ্ছে না।"
+  },
+  "tokenCanCapture": {
+    "message": "এটি বিজ্ঞাপন ক্যাপচার করতে পারে।"
+  },
+  "tokenCannotCapture": {
+    "message": "এটি বিজ্ঞাপন ক্যাপচার করতে পারে না: এতে $SCOPE$ স্কোপ নেই।",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "এটি একটি বার্তা কোনো বিজ্ঞাপনের ইতিহাসে সংরক্ষণ করতে পারে।"
+  },
+  "tokenCannotFile": {
+    "message": "এটি একটি বার্তা কোনো বিজ্ঞাপনের ইতিহাসে সংরক্ষণ করতে পারে না: এতে $SCOPE$ স্কোপ নেই, তাই পপআপ এটি দেয় না।",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "এই বার্তাটি একটি বিজ্ঞাপনে সংরক্ষণ করুন"
+  },
+  "searchListings": {
+    "message": "আপনার বিজ্ঞাপনগুলিতে অনুসন্ধান করুন"
+  },
+  "suggested": {
+    "message": "প্রস্তাবিত"
+  },
+  "noListings": {
+    "message": "কোনো বিজ্ঞাপন মেলেনি।"
+  },
+  "subjectOnly": {
+    "message": "শুধু বিষয় পাঠান"
+  },
+  "whatIsSent": {
+    "message": "যা পাঠানো হবে"
+  },
+  "fileIt": {
+    "message": "সংরক্ষণ করুন"
+  },
+  "filing": {
+    "message": "সংরক্ষণ হচ্ছে…"
+  },
+  "filedInto": {
+    "message": "\"$LISTING$\"-এ সংরক্ষিত হয়েছে।",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "এই বার্তাটি আগে থেকেই \"$LISTING$\"-এর ইতিহাসে ছিল: কিছুই যোগ করা হয়নি।",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

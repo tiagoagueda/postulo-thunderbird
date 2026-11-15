@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "आपका Postulo"
+  },
+  "noAddress": {
+    "message": "इस मैसेज में किसी विज्ञापन का लिंक नहीं है, इसलिए कैप्चर करने को कुछ नहीं है: Postulo को इसे पढ़ने के लिए विज्ञापन का पता चाहिए।"
+  },
+  "reading": {
+    "message": "मैसेज पढ़ा जा रहा है…"
+  },
+  "whichAddress": {
+    "message": "इनमें से विज्ञापन का लिंक कौन-सा है?"
+  },
+  "titleLabel": {
+    "message": "शीर्षक"
+  },
+  "companyLabel": {
+    "message": "कंपनी"
+  },
+  "locationLabel": {
+    "message": "जगह"
+  },
+  "companyGuessed": {
+    "message": "भेजने वाले से लिया गया: अगर यह नियोक्ता नहीं है तो इसे ठीक करें।"
+  },
+  "sendForReview": {
+    "message": "जांच के लिए भेजें"
+  },
+  "sendAddress": {
+    "message": "सिर्फ़ पता भेजें"
+  },
+  "sendAddressHint": {
+    "message": "सिर्फ़ पता भेजने पर Postulo पेज खुद लाता है: यह आपकी कैप्चर सीमा में गिना जाता है, और साइन-इन के पीछे वाले पेज के लिए काम नहीं करता।"
+  },
+  "previewing": {
+    "message": "Postulo से पूछा जा रहा है कि वह इस मैसेज में क्या पढ़ता है…"
+  },
+  "capturedBefore": {
+    "message": "Postulo के पास यह विज्ञापन पहले से है: $TITLE$।",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "भेजा जा रहा है…"
+  },
+  "sentDone": {
+    "message": "जांच के लिए भेजा गया: $POSTING$।",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "इसकी जांच खोलें"
+  },
+  "untitled": {
+    "message": "बिना शीर्षक का विज्ञापन"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: मेल से कैप्चर की गई 1 पोस्टिंग समीक्षा की प्रतीक्षा में है"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: मेल से कैप्चर की गई $COUNT$ पोस्टिंग समीक्षा की प्रतीक्षा में हैं",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "शुरू से एक विज्ञापन जोड़ें"
+  },
+  "severalMessages": {
+    "message": "कई संदेश चुने गए हैं। एक चुनें: एक संदेश यानी एक विज्ञापन।"
+  },
+  "reviewHeading": {
+    "message": "समीक्षा ज़रूरी है"
+  },
+  "nothingWaiting": {
+    "message": "समीक्षा के लिए कुछ भी प्रतीक्षा में नहीं है।"
+  },
+  "lastListed": {
+    "message": "जैसा Postulo ने उन्हें आख़िरी बार सूचीबद्ध किया था, $WHEN$ को।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo में समीक्षा की प्रतीक्षा में"
+  },
+  "capturesOfPosting": {
+    "message": "इस विज्ञापन के $COUNT$ कैप्चर",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "संदेश “$SUBJECT$” से, भेजने वाला $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "संदेश खोलें"
+  },
+  "messageGone": {
+    "message": "वह संदेश अब Thunderbird में नहीं है।"
+  },
+  "seeAllCaptures": {
+    "message": "Postulo में सभी $COUNT$ देखें",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "विज्ञापन कैप्चर करें"
+  },
+  "noDraft": {
+    "message": "यहाँ कैप्चर करने के लिए कोई संदेश नहीं है। किसी संदेश पर कैप्चर बटन दबाएँ।"
+  },
+  "close": {
+    "message": "बंद करें"
+  },
+  "footerOnline": {
+    "message": "Postulo जवाब देता है"
+  },
+  "footerSlow": {
+    "message": "Postulo जवाब देने में धीमा है"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo तक पहुँचा नहीं जा सकता।"
+  },
+  "noPermission": {
+    "message": "आपके Postulo तक पहुँचने की अनुमति के बिना कुछ भी नहीं भेजा जा सकता।"
+  },
+  "offlineOn": {
+    "message": "परीक्षण स्विच चालू है: Postulo को कुछ भी नहीं भेजा जा रहा।"
+  },
+  "offlineOff": {
+    "message": "परीक्षण स्विच बंद है।"
+  },
+  "offlineLabel": {
+    "message": "ऐसा व्यवहार करें जैसे Postulo तक पहुँचा नहीं जा सकता"
+  },
+  "offlineHint": {
+    "message": "परीक्षण के लिए। इसके चालू रहने तक Postulo से कुछ भी नहीं माँगा जाता और उसे कुछ भी नहीं भेजा जाता, और पॉपअप के पाद में एक धूसर फ़्लास्क दिखता है।"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird ऑफ़लाइन काम कर रहा है: Postulo से कुछ भी नहीं माँगा जा रहा।"
+  },
+  "tokenCanCapture": {
+    "message": "यह विज्ञापन कैप्चर कर सकता है।"
+  },
+  "tokenCannotCapture": {
+    "message": "यह विज्ञापन कैप्चर नहीं कर सकता: इसमें $SCOPE$ स्कोप नहीं है।",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "यह किसी विज्ञापन के इतिहास में संदेश दर्ज कर सकता है।"
+  },
+  "tokenCannotFile": {
+    "message": "यह किसी विज्ञापन के इतिहास में संदेश दर्ज नहीं कर सकता: इसमें $SCOPE$ स्कोप नहीं है, इसलिए पॉपअप इसे नहीं दिखाता।",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "इस संदेश को किसी विज्ञापन में दर्ज करें"
+  },
+  "searchListings": {
+    "message": "अपने विज्ञापन खोजें"
+  },
+  "suggested": {
+    "message": "सुझाया गया"
+  },
+  "noListings": {
+    "message": "कोई विज्ञापन मेल नहीं खाता।"
+  },
+  "subjectOnly": {
+    "message": "केवल विषय भेजें"
+  },
+  "whatIsSent": {
+    "message": "क्या भेजा जाएगा"
+  },
+  "fileIt": {
+    "message": "दर्ज करें"
+  },
+  "filing": {
+    "message": "दर्ज किया जा रहा है…"
+  },
+  "filedInto": {
+    "message": "“$LISTING$” में दर्ज किया गया।",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "यह संदेश पहले से “$LISTING$” के इतिहास में था: कुछ भी नहीं जोड़ा गया।",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

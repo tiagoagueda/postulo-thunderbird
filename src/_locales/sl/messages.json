@@ -191,5 +191,239 @@
   },
   "noCredentialsInAddress": {
     "message": "Uporabniškega imena in gesla ne vpisujte v naslov: povezava se ne bi nikoli vzpostavila, geslo pa bi bilo prikazano v pojavnem oknu."
+  },
+  "noAddress": {
+    "message": "To sporočilo nima povezave do oglasa, zato ni ničesar za zajem: Postulo potrebuje naslov oglasa, da ga prebere."
+  },
+  "reading": {
+    "message": "Branje sporočila…"
+  },
+  "whichAddress": {
+    "message": "Katera povezava je oglas?"
+  },
+  "titleLabel": {
+    "message": "Naslov"
+  },
+  "companyLabel": {
+    "message": "Podjetje"
+  },
+  "locationLabel": {
+    "message": "Kraj"
+  },
+  "companyGuessed": {
+    "message": "Povzeto po pošiljatelju: popravite, če to ni delodajalec."
+  },
+  "sendForReview": {
+    "message": "Pošlji v pregled"
+  },
+  "sendAddress": {
+    "message": "Pošlji samo naslov"
+  },
+  "sendAddressHint": {
+    "message": "Če pošljete samo naslov, Postulo stran prenese sam: to se všteva v vašo kvoto zajemov, pri strani, ki zahteva prijavo, pa ne uspe."
+  },
+  "previewing": {
+    "message": "Preverjanje, kaj Postulo prebere v tem sporočilu…"
+  },
+  "capturedBefore": {
+    "message": "Postulo ta oglas že ima: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Pošiljanje…"
+  },
+  "sentDone": {
+    "message": "Poslano v pregled: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Odpri pregled"
+  },
+  "untitled": {
+    "message": "Oglas brez naslova"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 oglas, zajet iz pošte, čaka na pregled"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: oglasi, zajeti iz pošte, ki čakajo na pregled: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Dodaj oglas od začetka"
+  },
+  "severalMessages": {
+    "message": "Izbranih je več sporočil. Izberite eno: eno sporočilo je en oglas."
+  },
+  "reviewHeading": {
+    "message": "Čaka na pregled"
+  },
+  "nothingWaiting": {
+    "message": "Nič ne čaka na pregled."
+  },
+  "lastListed": {
+    "message": "Tako, kot jih je Postulo nazadnje navedel, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Čaka na pregled v Postulu"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ zajemov tega oglasa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Iz sporočila »$SUBJECT$« pošiljatelja $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Odpri sporočilo"
+  },
+  "messageGone": {
+    "message": "Tega sporočila ni več v Thunderbirdu."
+  },
+  "seeAllCaptures": {
+    "message": "Prikaži vse ($COUNT$) v Postulu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Zajemi oglas"
+  },
+  "noDraft": {
+    "message": "Tu ni sporočila za zajem. Pritisnite gumb za zajem pri sporočilu."
+  },
+  "close": {
+    "message": "Zapri"
+  },
+  "footerOnline": {
+    "message": "Postulo odgovarja"
+  },
+  "footerSlow": {
+    "message": "Postulo odgovarja počasi"
+  },
+  "postuloUnreachable": {
+    "message": "Postula ni mogoče doseči."
+  },
+  "noPermission": {
+    "message": "Brez dovoljenja za dostop do vašega Postula ni mogoče ničesar poslati."
+  },
+  "offlineOn": {
+    "message": "Preizkusno stikalo je vklopljeno: Postulu se ne pošilja nič."
+  },
+  "offlineOff": {
+    "message": "Preizkusno stikalo je izklopljeno."
+  },
+  "offlineLabel": {
+    "message": "Delaj, kot da Postula ni mogoče doseči"
+  },
+  "offlineHint": {
+    "message": "Za preizkušanje. Dokler je vklopljeno, se Postulo o ničemer ne sprašuje in se mu nič ne pošilja, noga okna pa kaže sivo bučko."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird deluje brez povezave: Postulo se o ničemer ne sprašuje."
+  },
+  "tokenCanCapture": {
+    "message": "Lahko zajema oglase."
+  },
+  "tokenCannotCapture": {
+    "message": "Ne more zajemati oglasov: manjka mu dovoljenje $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Lahko shrani sporočilo v zgodovino oglasa."
+  },
+  "tokenCannotFile": {
+    "message": "Ne more shraniti sporočila v zgodovino oglasa: manjka mu dovoljenje $SCOPE$, zato ga okno ne ponuja.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Shrani to sporočilo v oglas"
+  },
+  "searchListings": {
+    "message": "Išči po svojih oglasih"
+  },
+  "suggested": {
+    "message": "Predlagano"
+  },
+  "noListings": {
+    "message": "Noben oglas se ne ujema."
+  },
+  "subjectOnly": {
+    "message": "Pošlji samo zadevo"
+  },
+  "whatIsSent": {
+    "message": "Kaj bo poslano"
+  },
+  "fileIt": {
+    "message": "Shrani"
+  },
+  "filing": {
+    "message": "Shranjevanje …"
+  },
+  "filedInto": {
+    "message": "Shranjeno v »$LISTING$«.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "To sporočilo je že bilo v zgodovini oglasa »$LISTING$«: nič ni bilo dodano.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

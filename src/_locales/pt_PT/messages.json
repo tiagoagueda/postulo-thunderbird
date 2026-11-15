@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "O armazenamento do Thunderbird para o Postulo está cheio. Tente novamente depois de remover alguns dados, ou reinicie o Thunderbird."
+  },
+  "noAddress": {
+    "message": "Esta mensagem não tem nenhuma ligação para uma oferta, pelo que não há nada para capturar: o Postulo precisa do endereço da oferta para a ler."
+  },
+  "reading": {
+    "message": "A ler a mensagem…"
+  },
+  "whichAddress": {
+    "message": "Qual das ligações é a oferta?"
+  },
+  "titleLabel": {
+    "message": "Título"
+  },
+  "companyLabel": {
+    "message": "Empresa"
+  },
+  "locationLabel": {
+    "message": "Lugar"
+  },
+  "companyGuessed": {
+    "message": "Retirado do remetente: corrija se não for a entidade empregadora."
+  },
+  "sendForReview": {
+    "message": "Enviar para revisão"
+  },
+  "sendAddress": {
+    "message": "Enviar só o endereço"
+  },
+  "sendAddressHint": {
+    "message": "Enviar só o endereço faz com que o Postulo vá buscar a página por si: conta para a sua quota de capturas e falha numa página protegida por início de sessão."
+  },
+  "previewing": {
+    "message": "A perguntar ao Postulo o que lê nesta mensagem…"
+  },
+  "capturedBefore": {
+    "message": "O Postulo já tem esta oferta: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "A enviar…"
+  },
+  "sentDone": {
+    "message": "Enviado para revisão: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Abrir a revisão"
+  },
+  "untitled": {
+    "message": "Oferta sem título"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 anúncio capturado do e-mail aguarda revisão"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ anúncios capturados do e-mail aguardam revisão",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Adicionar um anúncio de raiz"
+  },
+  "severalMessages": {
+    "message": "Há várias mensagens selecionadas. Selecione uma: uma mensagem é um anúncio."
+  },
+  "reviewHeading": {
+    "message": "A rever"
+  },
+  "nothingWaiting": {
+    "message": "Nada está à espera de revisão."
+  },
+  "lastListed": {
+    "message": "Como o Postulo os listou pela última vez, em $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "À espera de revisão no Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ capturas deste anúncio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Da mensagem «$SUBJECT$» de $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Abrir a mensagem"
+  },
+  "messageGone": {
+    "message": "Essa mensagem já não está no Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Ver todos os $COUNT$ no Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capturar um anúncio"
+  },
+  "noDraft": {
+    "message": "Não há nenhuma mensagem para capturar aqui. Prima o botão de captura numa mensagem."
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "footerOnline": {
+    "message": "O Postulo responde"
+  },
+  "footerSlow": {
+    "message": "O Postulo demora a responder"
+  },
+  "postuloUnreachable": {
+    "message": "Não é possível contactar o Postulo."
+  },
+  "noPermission": {
+    "message": "Sem permissão para aceder ao seu Postulo, não é possível enviar nada."
+  },
+  "offlineOn": {
+    "message": "O interruptor de teste está ativado: nada é enviado para o Postulo."
+  },
+  "offlineOff": {
+    "message": "O interruptor de teste está desativado."
+  },
+  "offlineLabel": {
+    "message": "Agir como se o Postulo não pudesse ser contactado"
+  },
+  "offlineHint": {
+    "message": "Para testes. Enquanto estiver ativado, nada é pedido ao Postulo e nada lhe é enviado, e o rodapé da janela mostra um frasco cinzento."
+  },
+  "thunderbirdOffline": {
+    "message": "O Thunderbird está em modo offline: nada é pedido ao Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Pode capturar anúncios."
+  },
+  "tokenCannotCapture": {
+    "message": "Não pode capturar anúncios: falta-lhe a permissão $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Pode arquivar uma mensagem no histórico de um anúncio."
+  },
+  "tokenCannotFile": {
+    "message": "Não pode arquivar uma mensagem no histórico de um anúncio: falta-lhe a permissão $SCOPE$, por isso a janela não o oferece.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arquivar esta mensagem num anúncio"
+  },
+  "searchListings": {
+    "message": "Pesquisar nos seus anúncios"
+  },
+  "suggested": {
+    "message": "Sugerido"
+  },
+  "noListings": {
+    "message": "Nenhum anúncio corresponde."
+  },
+  "subjectOnly": {
+    "message": "Enviar apenas o assunto"
+  },
+  "whatIsSent": {
+    "message": "O que será enviado"
+  },
+  "fileIt": {
+    "message": "Arquivar"
+  },
+  "filing": {
+    "message": "A arquivar…"
+  },
+  "filedInto": {
+    "message": "Arquivada em «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Esta mensagem já estava no histórico de «$LISTING$»: nada foi adicionado.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

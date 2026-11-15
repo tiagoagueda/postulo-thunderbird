@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Acest mesaj nu conține niciun link către un anunț, deci nu e nimic de capturat: Postulo are nevoie de adresa anunțului ca să îl citească."
+  },
+  "reading": {
+    "message": "Se citește mesajul…"
+  },
+  "whichAddress": {
+    "message": "Care link este anunțul?"
+  },
+  "titleLabel": {
+    "message": "Titlu"
+  },
+  "companyLabel": {
+    "message": "Companie"
+  },
+  "locationLabel": {
+    "message": "Loc"
+  },
+  "companyGuessed": {
+    "message": "Preluată de la expeditor: corectați-o dacă nu este angajatorul."
+  },
+  "sendForReview": {
+    "message": "Trimiteți spre revizuire"
+  },
+  "sendAddress": {
+    "message": "Trimiteți doar adresa"
+  },
+  "sendAddressHint": {
+    "message": "Dacă trimiteți doar adresa, Postulo preia singur pagina: se numără în cota dumneavoastră de capturi și nu reușește pentru o pagină aflată în spatele unei autentificări."
+  },
+  "previewing": {
+    "message": "Se întreabă Postulo ce citește în acest mesaj…"
+  },
+  "capturedBefore": {
+    "message": "Postulo are deja acest anunț: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Se trimite…"
+  },
+  "sentDone": {
+    "message": "Trimis spre revizuire: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Deschideți revizuirea"
+  },
+  "untitled": {
+    "message": "Anunț fără titlu"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 anunț capturat din e-mail așteaptă revizuirea"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ anunțuri capturate din e-mail așteaptă revizuirea",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Adaugă un anunț de la zero"
+  },
+  "severalMessages": {
+    "message": "Sunt selectate mai multe mesaje. Selectați unul: un mesaj este un anunț."
+  },
+  "reviewHeading": {
+    "message": "De verificat"
+  },
+  "nothingWaiting": {
+    "message": "Nimic nu așteaptă verificarea."
+  },
+  "lastListed": {
+    "message": "Așa cum le-a listat Postulo ultima dată, la $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "În așteptare pentru verificare în Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ capturi ale acestui anunț",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Din mesajul „$SUBJECT$” de la $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Deschide mesajul"
+  },
+  "messageGone": {
+    "message": "Mesajul respectiv nu mai este în Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Vezi toate cele $COUNT$ în Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capturează un anunț"
+  },
+  "noDraft": {
+    "message": "Nu există niciun mesaj de capturat aici. Apăsați butonul de capturare pe un mesaj."
+  },
+  "close": {
+    "message": "Închide"
+  },
+  "footerOnline": {
+    "message": "Postulo răspunde"
+  },
+  "footerSlow": {
+    "message": "Postulo răspunde lent"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo nu poate fi contactat."
+  },
+  "noPermission": {
+    "message": "Fără permisiunea de a accesa Postulo, nu se poate trimite nimic."
+  },
+  "offlineOn": {
+    "message": "Comutatorul de testare este activat: nu se trimite nimic către Postulo."
+  },
+  "offlineOff": {
+    "message": "Comutatorul de testare este dezactivat."
+  },
+  "offlineLabel": {
+    "message": "Acționează ca și cum Postulo nu ar putea fi contactat"
+  },
+  "offlineHint": {
+    "message": "Pentru testare. Cât timp este activat, nu se cere nimic de la Postulo și nu i se trimite nimic, iar subsolul ferestrei afișează o fiolă gri."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird lucrează offline: nu se cere nimic de la Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Poate captura anunțuri."
+  },
+  "tokenCannotCapture": {
+    "message": "Nu poate captura anunțuri: îi lipsește permisiunea $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Poate arhiva un mesaj în istoricul unui anunț."
+  },
+  "tokenCannotFile": {
+    "message": "Nu poate arhiva un mesaj în istoricul unui anunț: îi lipsește permisiunea $SCOPE$, de aceea fereastra nu o oferă.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arhivează acest mesaj într-un anunț"
+  },
+  "searchListings": {
+    "message": "Căutați în anunțurile dvs."
+  },
+  "suggested": {
+    "message": "Sugerat"
+  },
+  "noListings": {
+    "message": "Niciun anunț nu se potrivește."
+  },
+  "subjectOnly": {
+    "message": "Trimite doar subiectul"
+  },
+  "whatIsSent": {
+    "message": "Ce va fi trimis"
+  },
+  "fileIt": {
+    "message": "Arhivează"
+  },
+  "filing": {
+    "message": "Se arhivează…"
+  },
+  "filedInto": {
+    "message": "Arhivat în „$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Acest mesaj era deja în istoricul anunțului „$LISTING$”: nu s-a adăugat nimic.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

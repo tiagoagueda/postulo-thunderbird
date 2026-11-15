@@ -191,5 +191,239 @@
         "content": "$1"
       }
     }
+  },
+  "noAddress": {
+    "message": "اس پیغام میں اشتہار کا کوئی لنک نہیں ہے، اس لیے کیپچر کرنے کے لیے کچھ نہیں: Postulo کو اسے پڑھنے کے لیے اشتہار کا پتہ درکار ہے۔"
+  },
+  "reading": {
+    "message": "پیغام پڑھا جا رہا ہے…"
+  },
+  "whichAddress": {
+    "message": "اشتہار کون سا لنک ہے؟"
+  },
+  "titleLabel": {
+    "message": "عنوان"
+  },
+  "companyLabel": {
+    "message": "کمپنی"
+  },
+  "locationLabel": {
+    "message": "جگہ"
+  },
+  "companyGuessed": {
+    "message": "بھیجنے والے سے لیا گیا: اگر یہ آجر نہیں ہے تو درست کریں۔"
+  },
+  "sendForReview": {
+    "message": "جائزے کے لیے بھیجیں"
+  },
+  "sendAddress": {
+    "message": "صرف پتہ بھیجیں"
+  },
+  "sendAddressHint": {
+    "message": "صرف پتہ بھیجنے پر Postulo صفحہ خود حاصل کرتا ہے: یہ آپ کے کیپچر کے کوٹے میں شمار ہوتا ہے، اور سائن اِن کے پیچھے والے صفحے کے لیے ناکام رہتا ہے۔"
+  },
+  "previewing": {
+    "message": "Postulo سے پوچھا جا رہا ہے کہ وہ اس پیغام میں کیا پڑھتا ہے…"
+  },
+  "capturedBefore": {
+    "message": "Postulo کے پاس یہ اشتہار پہلے سے موجود ہے: $TITLE$۔",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "بھیجا جا رہا ہے…"
+  },
+  "sentDone": {
+    "message": "جائزے کے لیے بھیج دیا گیا: $POSTING$۔",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "اس کا جائزہ کھولیں"
+  },
+  "untitled": {
+    "message": "بلا عنوان اشتہار"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: میل سے کیپچر کیا گیا 1 اشتہار جائزے کا منتظر ہے"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: میل سے کیپچر کیے گئے $COUNT$ اشتہارات جائزے کے منتظر ہیں",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "شروع سے ایک اشتہار شامل کریں"
+  },
+  "severalMessages": {
+    "message": "متعدد پیغامات منتخب ہیں۔ ایک منتخب کریں: ایک پیغام ایک اشتہار ہے۔"
+  },
+  "reviewHeading": {
+    "message": "جائزہ درکار ہے"
+  },
+  "nothingWaiting": {
+    "message": "جائزے کے لیے کچھ بھی منتظر نہیں۔"
+  },
+  "lastListed": {
+    "message": "جیسا کہ Postulo نے آخری بار فہرست بنائی تھی، $WHEN$ پر۔",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo میں جائزے کے منتظر"
+  },
+  "capturesOfPosting": {
+    "message": "اس اشتہار کے $COUNT$ کیپچر",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "پیغام \"$SUBJECT$\" از $SENDER$ سے",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "پیغام کھولیں"
+  },
+  "messageGone": {
+    "message": "وہ پیغام اب Thunderbird میں موجود نہیں۔"
+  },
+  "seeAllCaptures": {
+    "message": "Postulo میں تمام $COUNT$ دیکھیں",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "اشتہار کیپچر کریں"
+  },
+  "noDraft": {
+    "message": "یہاں کیپچر کرنے کے لیے کوئی پیغام نہیں۔ کسی پیغام پر کیپچر کا بٹن دبائیں۔"
+  },
+  "close": {
+    "message": "بند کریں"
+  },
+  "footerOnline": {
+    "message": "Postulo جواب دے رہا ہے"
+  },
+  "footerSlow": {
+    "message": "Postulo سست جواب دے رہا ہے"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo تک رسائی ممکن نہیں۔"
+  },
+  "noPermission": {
+    "message": "آپ کے Postulo تک رسائی کی اجازت کے بغیر کچھ بھی بھیجا نہیں جا سکتا۔"
+  },
+  "offlineOn": {
+    "message": "ٹیسٹنگ سوئچ آن ہے: Postulo کو کچھ نہیں بھیجا جا رہا۔"
+  },
+  "offlineOff": {
+    "message": "ٹیسٹنگ سوئچ آف ہے۔"
+  },
+  "offlineLabel": {
+    "message": "ایسے برتاؤ کریں جیسے Postulo تک رسائی ممکن نہ ہو"
+  },
+  "offlineHint": {
+    "message": "جانچ کے لیے۔ جب تک یہ آن ہے، Postulo سے کچھ نہیں پوچھا جاتا اور اسے کچھ نہیں بھیجا جاتا، اور پاپ اپ کے فوٹر میں ایک سرمئی فلاسک نظر آتا ہے۔"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird آف لائن کام کر رہا ہے: Postulo سے کچھ نہیں پوچھا جا رہا۔"
+  },
+  "tokenCanCapture": {
+    "message": "یہ اشتہارات کیپچر کر سکتا ہے۔"
+  },
+  "tokenCannotCapture": {
+    "message": "یہ اشتہارات کیپچر نہیں کر سکتا: اس میں $SCOPE$ اسکوپ موجود نہیں۔",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "یہ کسی پیغام کو کسی اشتہار کی تاریخچہ میں محفوظ کر سکتا ہے۔"
+  },
+  "tokenCannotFile": {
+    "message": "یہ کسی پیغام کو کسی اشتہار کی تاریخچہ میں محفوظ نہیں کر سکتا: اس میں $SCOPE$ اسکوپ موجود نہیں، اس لیے پاپ اپ اسے پیش نہیں کرتا۔",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "اس پیغام کو کسی اشتہار میں محفوظ کریں"
+  },
+  "searchListings": {
+    "message": "اپنے اشتہارات میں تلاش کریں"
+  },
+  "suggested": {
+    "message": "تجویز کردہ"
+  },
+  "noListings": {
+    "message": "کوئی اشتہار مماثل نہیں۔"
+  },
+  "subjectOnly": {
+    "message": "صرف موضوع بھیجیں"
+  },
+  "whatIsSent": {
+    "message": "کیا بھیجا جائے گا"
+  },
+  "fileIt": {
+    "message": "محفوظ کریں"
+  },
+  "filing": {
+    "message": "محفوظ ہو رہا ہے…"
+  },
+  "filedInto": {
+    "message": "\"$LISTING$\" میں محفوظ کر لیا گیا۔",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "یہ پیغام پہلے ہی \"$LISTING$\" کی تاریخچہ میں موجود تھا: کچھ شامل نہیں کیا گیا۔",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$، $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

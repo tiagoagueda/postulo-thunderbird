@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Aquest missatge no té cap enllaç a un anunci, així que no hi ha res per capturar: Postulo necessita l'adreça de l'anunci per llegir-lo."
+  },
+  "reading": {
+    "message": "S'està llegint el missatge…"
+  },
+  "whichAddress": {
+    "message": "Quin és l'enllaç de l'anunci?"
+  },
+  "titleLabel": {
+    "message": "Títol"
+  },
+  "companyLabel": {
+    "message": "Empresa"
+  },
+  "locationLabel": {
+    "message": "Lloc"
+  },
+  "companyGuessed": {
+    "message": "Presa del remitent: corregiu-la si no és l'ocupador."
+  },
+  "sendForReview": {
+    "message": "Envia per a revisió"
+  },
+  "sendAddress": {
+    "message": "Envia només l'adreça"
+  },
+  "sendAddressHint": {
+    "message": "Si envieu només l'adreça, Postulo obté la pàgina pel seu compte: compta per a la vostra quota de captures i falla si la pàgina és darrere d'un inici de sessió."
+  },
+  "previewing": {
+    "message": "S'està preguntant a Postulo què llegeix en aquest missatge…"
+  },
+  "capturedBefore": {
+    "message": "Postulo ja té aquest anunci: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "S'està enviant…"
+  },
+  "sentDone": {
+    "message": "Enviat per a revisió: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Obre'n la revisió"
+  },
+  "untitled": {
+    "message": "Anunci sense títol"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 anunci capturat del correu està pendent de revisió"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ anuncis capturats del correu estan pendents de revisió",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Afegeix una oferta des de zero"
+  },
+  "severalMessages": {
+    "message": "Hi ha diversos missatges seleccionats. Selecciona'n un: un missatge és un anunci."
+  },
+  "reviewHeading": {
+    "message": "Cal revisar"
+  },
+  "nothingWaiting": {
+    "message": "No hi ha res pendent de revisió."
+  },
+  "lastListed": {
+    "message": "Tal com Postulo les va llistar l'última vegada, el $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Pendent de revisió a Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ captures d'aquest anunci",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Del missatge «$SUBJECT$» de $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Obre el missatge"
+  },
+  "messageGone": {
+    "message": "Aquest missatge ja no és al Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Mostra les $COUNT$ a Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Captura un anunci"
+  },
+  "noDraft": {
+    "message": "Aquí no hi ha cap missatge per capturar. Prem el botó de captura en un missatge."
+  },
+  "close": {
+    "message": "Tanca"
+  },
+  "footerOnline": {
+    "message": "Postulo respon"
+  },
+  "footerSlow": {
+    "message": "Postulo triga a respondre"
+  },
+  "postuloUnreachable": {
+    "message": "No es pot accedir a Postulo."
+  },
+  "noPermission": {
+    "message": "Sense permís per accedir al teu Postulo, no es pot enviar res."
+  },
+  "offlineOn": {
+    "message": "L'interruptor de proves està activat: no s'envia res a Postulo."
+  },
+  "offlineOff": {
+    "message": "L'interruptor de proves està desactivat."
+  },
+  "offlineLabel": {
+    "message": "Actua com si no es pogués accedir a Postulo"
+  },
+  "offlineHint": {
+    "message": "Per fer proves. Mentre estigui activat, no es demana res a Postulo ni se li envia res, i el peu de la finestra emergent mostra un matràs gris."
+  },
+  "thunderbirdOffline": {
+    "message": "El Thunderbird treballa sense connexió: no es demana res a Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Pot capturar anuncis."
+  },
+  "tokenCannotCapture": {
+    "message": "No pot capturar anuncis: li falta l'àmbit $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Pot arxivar un missatge a l'historial d'una oferta."
+  },
+  "tokenCannotFile": {
+    "message": "No pot arxivar un missatge a l'historial d'una oferta: li falta l'àmbit $SCOPE$, per això la finestra emergent no ho ofereix.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arxiva aquest missatge en una oferta"
+  },
+  "searchListings": {
+    "message": "Cerca entre les teves ofertes"
+  },
+  "suggested": {
+    "message": "Suggerida"
+  },
+  "noListings": {
+    "message": "Cap oferta coincideix."
+  },
+  "subjectOnly": {
+    "message": "Envia només l'assumpte"
+  },
+  "whatIsSent": {
+    "message": "Què s'enviarà"
+  },
+  "fileIt": {
+    "message": "Arxiva"
+  },
+  "filing": {
+    "message": "S'està arxivant…"
+  },
+  "filedInto": {
+    "message": "Arxivat a «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Aquest missatge ja era a l'historial de «$LISTING$»: no s'ha afegit res.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

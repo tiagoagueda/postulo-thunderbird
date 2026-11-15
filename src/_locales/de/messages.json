@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Ihr Postulo"
+  },
+  "noAddress": {
+    "message": "Diese Nachricht enthält keinen Link zu einer Stellenanzeige, daher gibt es nichts zu erfassen: Postulo braucht die Adresse der Anzeige, um sie zu lesen."
+  },
+  "reading": {
+    "message": "Nachricht wird gelesen…"
+  },
+  "whichAddress": {
+    "message": "Welcher Link führt zur Stellenanzeige?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Unternehmen"
+  },
+  "locationLabel": {
+    "message": "Ort"
+  },
+  "companyGuessed": {
+    "message": "Vom Absender übernommen: Korrigieren Sie es, falls es nicht der Arbeitgeber ist."
+  },
+  "sendForReview": {
+    "message": "Zur Prüfung senden"
+  },
+  "sendAddress": {
+    "message": "Nur die Adresse senden"
+  },
+  "sendAddressHint": {
+    "message": "Wird nur die Adresse gesendet, ruft Postulo die Seite selbst ab: Das wird auf Ihr Erfassungskontingent angerechnet und schlägt bei einer Seite hinter einer Anmeldung fehl."
+  },
+  "previewing": {
+    "message": "Postulo wird gefragt, was es in dieser Nachricht liest…"
+  },
+  "capturedBefore": {
+    "message": "Postulo hat diese Anzeige bereits: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Wird gesendet…"
+  },
+  "sentDone": {
+    "message": "Zur Prüfung gesendet: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Prüfung öffnen"
+  },
+  "untitled": {
+    "message": "Anzeige ohne Titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 aus E-Mails erfasste Anzeige wartet auf Prüfung"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ aus E-Mails erfasste Anzeigen warten auf Prüfung",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Anzeige von Hand hinzufügen"
+  },
+  "severalMessages": {
+    "message": "Mehrere Nachrichten sind ausgewählt. Wählen Sie eine aus: Eine Nachricht ist eine Anzeige."
+  },
+  "reviewHeading": {
+    "message": "Zu prüfen"
+  },
+  "nothingWaiting": {
+    "message": "Nichts wartet auf Prüfung."
+  },
+  "lastListed": {
+    "message": "Stand der letzten Abfrage von Postulo: $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "In Postulo zur Prüfung"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ Erfassungen dieser Anzeige",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Aus der Nachricht „$SUBJECT$“ von $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Nachricht öffnen"
+  },
+  "messageGone": {
+    "message": "Diese Nachricht ist nicht mehr in Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Alle $COUNT$ in Postulo ansehen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Eine Anzeige erfassen"
+  },
+  "noDraft": {
+    "message": "Hier gibt es keine Nachricht zu erfassen. Klicken Sie bei einer Nachricht auf die Erfassen-Schaltfläche."
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "footerOnline": {
+    "message": "Postulo antwortet"
+  },
+  "footerSlow": {
+    "message": "Postulo antwortet langsam"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo ist nicht erreichbar."
+  },
+  "noPermission": {
+    "message": "Ohne die Berechtigung, Ihr Postulo zu erreichen, kann nichts gesendet werden."
+  },
+  "offlineOn": {
+    "message": "Der Testschalter ist an: Es wird nichts an Postulo gesendet."
+  },
+  "offlineOff": {
+    "message": "Der Testschalter ist aus."
+  },
+  "offlineLabel": {
+    "message": "So tun, als wäre Postulo nicht erreichbar"
+  },
+  "offlineHint": {
+    "message": "Zum Testen. Solange dies an ist, wird Postulo nichts gefragt und nichts gesendet, und die Fußzeile des Popups zeigt einen grauen Kolben."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird arbeitet offline: Postulo wird nichts gefragt."
+  },
+  "tokenCanCapture": {
+    "message": "Es kann Anzeigen erfassen."
+  },
+  "tokenCannotCapture": {
+    "message": "Es kann keine Anzeigen erfassen: Ihm fehlt der Bereich $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Es kann eine Nachricht in den Verlauf einer Anzeige ablegen."
+  },
+  "tokenCannotFile": {
+    "message": "Es kann keine Nachricht in den Verlauf einer Anzeige ablegen: Ihm fehlt der Bereich $SCOPE$, daher bietet das Popup dies nicht an.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Diese Nachricht in einer Anzeige ablegen"
+  },
+  "searchListings": {
+    "message": "Ihre Anzeigen durchsuchen"
+  },
+  "suggested": {
+    "message": "Vorgeschlagen"
+  },
+  "noListings": {
+    "message": "Keine Anzeige passt."
+  },
+  "subjectOnly": {
+    "message": "Nur den Betreff senden"
+  },
+  "whatIsSent": {
+    "message": "Was gesendet wird"
+  },
+  "fileIt": {
+    "message": "Ablegen"
+  },
+  "filing": {
+    "message": "Wird abgelegt …"
+  },
+  "filedInto": {
+    "message": "In „$LISTING$“ abgelegt.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Diese Nachricht war bereits im Verlauf von „$LISTING$“: Es wurde nichts hinzugefügt.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

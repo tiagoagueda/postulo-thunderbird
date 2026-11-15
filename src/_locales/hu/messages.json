@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "A Thunderbird Postulo számára fenntartott tárhelye megtelt. Próbálja újra néhány adat eltávolítása után, vagy indítsa újra a Thunderbirdöt."
+  },
+  "noAddress": {
+    "message": "Ebben az üzenetben nincs hirdetésre mutató hivatkozás, így nincs mit rögzíteni: a Postulónak szüksége van a hirdetés címére, hogy elolvassa."
+  },
+  "reading": {
+    "message": "Az üzenet olvasása…"
+  },
+  "whichAddress": {
+    "message": "Melyik hivatkozás a hirdetés?"
+  },
+  "titleLabel": {
+    "message": "Cím"
+  },
+  "companyLabel": {
+    "message": "Cég"
+  },
+  "locationLabel": {
+    "message": "Hely"
+  },
+  "companyGuessed": {
+    "message": "A feladóból átvéve: javítsd, ha nem a munkáltató."
+  },
+  "sendForReview": {
+    "message": "Küldés átnézésre"
+  },
+  "sendAddress": {
+    "message": "Csak a cím küldése"
+  },
+  "sendAddressHint": {
+    "message": "Ha csak a címet küldöd, a Postulo maga tölti le az oldalt: ez beleszámít a rögzítési keretedbe, és bejelentkezés mögötti oldalnál nem sikerül."
+  },
+  "previewing": {
+    "message": "A Postulo megkérdezése, mit lát ebben az üzenetben…"
+  },
+  "capturedBefore": {
+    "message": "A Postulo már tárolja ezt a hirdetést: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Küldés…"
+  },
+  "sentDone": {
+    "message": "Átnézésre elküldve: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Átnézésének megnyitása"
+  },
+  "untitled": {
+    "message": "Cím nélküli hirdetés"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 levélből rögzített álláshirdetés vár felülvizsgálatra"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ levélből rögzített álláshirdetés vár felülvizsgálatra",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Hirdetés felvétele a semmiből"
+  },
+  "severalMessages": {
+    "message": "Több üzenet van kijelölve. Jelölj ki egyet: egy üzenet egy hirdetés."
+  },
+  "reviewHeading": {
+    "message": "Átnézésre vár"
+  },
+  "nothingWaiting": {
+    "message": "Semmi sem vár átnézésre."
+  },
+  "lastListed": {
+    "message": "Úgy, ahogyan a Postulo utoljára listázta őket, ekkor: $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Átnézésre vár a Postuloban"
+  },
+  "capturesOfPosting": {
+    "message": "A hirdetés $COUNT$ rögzítése",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "„$SUBJECT$” című üzenetből, feladó: $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Üzenet megnyitása"
+  },
+  "messageGone": {
+    "message": "Ez az üzenet már nincs a Thunderbirdben."
+  },
+  "seeAllCaptures": {
+    "message": "Mind a(z) $COUNT$ megtekintése a Postuloban",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Hirdetés rögzítése"
+  },
+  "noDraft": {
+    "message": "Itt nincs rögzíthető üzenet. Nyomd meg egy üzenet rögzítés gombját."
+  },
+  "close": {
+    "message": "Bezárás"
+  },
+  "footerOnline": {
+    "message": "A Postulo válaszol"
+  },
+  "footerSlow": {
+    "message": "A Postulo lassan válaszol"
+  },
+  "postuloUnreachable": {
+    "message": "A Postulo nem érhető el."
+  },
+  "noPermission": {
+    "message": "A Postuloddal való kapcsolatfelvétel engedélye nélkül nem küldhető semmi."
+  },
+  "offlineOn": {
+    "message": "A tesztelési kapcsoló be van kapcsolva: semmi sem megy a Postulónak."
+  },
+  "offlineOff": {
+    "message": "A tesztelési kapcsoló ki van kapcsolva."
+  },
+  "offlineLabel": {
+    "message": "Úgy viselkedjen, mintha a Postulo nem lenne elérhető"
+  },
+  "offlineHint": {
+    "message": "Tesztelésre. Amíg ez be van kapcsolva, nem kérdez semmit a Postulótól, és nem küld neki semmit, a felugró ablak lábléce pedig szürke lombikot mutat."
+  },
+  "thunderbirdOffline": {
+    "message": "A Thunderbird kapcsolat nélküli módban dolgozik: a Postulótól nem kér semmit."
+  },
+  "tokenCanCapture": {
+    "message": "Tud hirdetéseket rögzíteni."
+  },
+  "tokenCannotCapture": {
+    "message": "Nem tud hirdetéseket rögzíteni: hiányzik a(z) $SCOPE$ hatókör.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Tud üzenetet iktatni egy hirdetés előzményeibe."
+  },
+  "tokenCannotFile": {
+    "message": "Nem tud üzenetet iktatni egy hirdetés előzményeibe: hiányzik a(z) $SCOPE$ hatókör, ezért a felugró ablak nem kínálja fel.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Üzenet iktatása egy hirdetésbe"
+  },
+  "searchListings": {
+    "message": "Keresés a hirdetéseid között"
+  },
+  "suggested": {
+    "message": "Javasolt"
+  },
+  "noListings": {
+    "message": "Egy hirdetés sem egyezik."
+  },
+  "subjectOnly": {
+    "message": "Csak a tárgy küldése"
+  },
+  "whatIsSent": {
+    "message": "Mi lesz elküldve"
+  },
+  "fileIt": {
+    "message": "Iktatás"
+  },
+  "filing": {
+    "message": "Iktatás…"
+  },
+  "filedInto": {
+    "message": "Iktatva ide: „$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ez az üzenet már szerepelt a(z) „$LISTING$” előzményei között: nem került hozzá semmi.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

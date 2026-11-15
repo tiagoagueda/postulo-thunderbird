@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Det här meddelandet har ingen länk till en annons, så det finns inget att fånga in: Postulo behöver annonsens adress för att läsa den."
+  },
+  "reading": {
+    "message": "Läser meddelandet…"
+  },
+  "whichAddress": {
+    "message": "Vilken länk är annonsen?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Företag"
+  },
+  "locationLabel": {
+    "message": "Plats"
+  },
+  "companyGuessed": {
+    "message": "Hämtat från avsändaren: rätta det om det inte är arbetsgivaren."
+  },
+  "sendForReview": {
+    "message": "Skicka för granskning"
+  },
+  "sendAddress": {
+    "message": "Skicka bara adressen"
+  },
+  "sendAddressHint": {
+    "message": "Om du bara skickar adressen hämtar Postulo själv sidan: det räknas mot din kvot för infångning och misslyckas för en sida bakom en inloggning."
+  },
+  "previewing": {
+    "message": "Frågar Postulo vad den läser i det här meddelandet…"
+  },
+  "capturedBefore": {
+    "message": "Postulo har redan den här annonsen: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Skickar…"
+  },
+  "sentDone": {
+    "message": "Skickad för granskning: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Öppna dess granskning"
+  },
+  "untitled": {
+    "message": "Annons utan titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 annons som fångats från e-post väntar på granskning"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ annonser som fångats från e-post väntar på granskning",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Lägg till en annons från grunden"
+  },
+  "severalMessages": {
+    "message": "Flera meddelanden är markerade. Markera ett: ett meddelande är en annons."
+  },
+  "reviewHeading": {
+    "message": "Behöver granskas"
+  },
+  "nothingWaiting": {
+    "message": "Inget väntar på granskning."
+  },
+  "lastListed": {
+    "message": "Som Postulo senast listade dem, den $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Väntar på granskning i Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ infångningar av den här annonsen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Från meddelandet ”$SUBJECT$” av $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Öppna meddelandet"
+  },
+  "messageGone": {
+    "message": "Det meddelandet finns inte längre i Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Visa alla $COUNT$ i Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Fånga in en annons"
+  },
+  "noDraft": {
+    "message": "Det finns inget meddelande att fånga in här. Tryck på infångningsknappen på ett meddelande."
+  },
+  "close": {
+    "message": "Stäng"
+  },
+  "footerOnline": {
+    "message": "Postulo svarar"
+  },
+  "footerSlow": {
+    "message": "Postulo svarar långsamt"
+  },
+  "postuloUnreachable": {
+    "message": "Det går inte att nå Postulo."
+  },
+  "noPermission": {
+    "message": "Utan behörighet att nå din Postulo kan inget skickas."
+  },
+  "offlineOn": {
+    "message": "Testreglaget är på: inget skickas till Postulo."
+  },
+  "offlineOff": {
+    "message": "Testreglaget är av."
+  },
+  "offlineLabel": {
+    "message": "Agera som om Postulo inte kan nås"
+  },
+  "offlineHint": {
+    "message": "För testning. Medan det här är på frågas Postulo inte om något och inget skickas dit, och popup-fönstrets sidfot visar en grå kolv."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird arbetar offline: Postulo frågas inte om något."
+  },
+  "tokenCanCapture": {
+    "message": "Den kan fånga in annonser."
+  },
+  "tokenCannotCapture": {
+    "message": "Den kan inte fånga in annonser: den saknar behörigheten $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Den kan arkivera ett meddelande i en annons historik."
+  },
+  "tokenCannotFile": {
+    "message": "Den kan inte arkivera ett meddelande i en annons historik: den saknar behörigheten $SCOPE$, så popup-fönstret erbjuder det inte.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arkivera det här meddelandet i en annons"
+  },
+  "searchListings": {
+    "message": "Sök bland dina annonser"
+  },
+  "suggested": {
+    "message": "Föreslagen"
+  },
+  "noListings": {
+    "message": "Ingen annons matchar."
+  },
+  "subjectOnly": {
+    "message": "Skicka bara ämnesraden"
+  },
+  "whatIsSent": {
+    "message": "Vad som skickas"
+  },
+  "fileIt": {
+    "message": "Arkivera"
+  },
+  "filing": {
+    "message": "Arkiverar …"
+  },
+  "filedInto": {
+    "message": "Arkiverat i ”$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Det här meddelandet fanns redan i historiken för ”$LISTING$”: inget lades till.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

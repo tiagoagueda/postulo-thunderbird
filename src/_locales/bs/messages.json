@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Vaš Postulo"
+  },
+  "noAddress": {
+    "message": "Ova poruka nema link na oglas, pa nema šta uhvatiti: Postulo treba adresu oglasa da bi ga pročitao."
+  },
+  "reading": {
+    "message": "Čitanje poruke…"
+  },
+  "whichAddress": {
+    "message": "Koji link je oglas?"
+  },
+  "titleLabel": {
+    "message": "Naslov"
+  },
+  "companyLabel": {
+    "message": "Kompanija"
+  },
+  "locationLabel": {
+    "message": "Mjesto"
+  },
+  "companyGuessed": {
+    "message": "Preuzeto od pošiljaoca: ispravite ako to nije poslodavac."
+  },
+  "sendForReview": {
+    "message": "Pošalji na pregled"
+  },
+  "sendAddress": {
+    "message": "Pošalji samo adresu"
+  },
+  "sendAddressHint": {
+    "message": "Kad se pošalje samo adresa, Postulo sam preuzima stranicu: to se računa u vašu kvotu hvatanja, a ne uspijeva za stranicu iza prijave."
+  },
+  "previewing": {
+    "message": "Provjera šta Postulo čita u ovoj poruci…"
+  },
+  "capturedBefore": {
+    "message": "Postulo već ima ovaj oglas: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Slanje…"
+  },
+  "sentDone": {
+    "message": "Poslano na pregled: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Otvori pregled"
+  },
+  "untitled": {
+    "message": "Oglas bez naslova"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 oglas uhvaćen iz pošte čeka pregled"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ oglasa uhvaćenih iz pošte čeka pregled",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Dodaj oglas od nule"
+  },
+  "severalMessages": {
+    "message": "Odabrano je više poruka. Odaberite jednu: jedna poruka je jedan oglas."
+  },
+  "reviewHeading": {
+    "message": "Za pregled"
+  },
+  "nothingWaiting": {
+    "message": "Ništa ne čeka pregled."
+  },
+  "lastListed": {
+    "message": "Kako ih je Postulo posljednji put naveo, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Čeka pregled u Postulu"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ hvatanja ovog oglasa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Iz poruke „$SUBJECT$“ od $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Otvori poruku"
+  },
+  "messageGone": {
+    "message": "Te poruke više nema u Thunderbirdu."
+  },
+  "seeAllCaptures": {
+    "message": "Pogledaj svih $COUNT$ u Postulu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Hvatanje oglasa"
+  },
+  "noDraft": {
+    "message": "Ovdje nema poruke za hvatanje. Pritisnite dugme za hvatanje na poruci."
+  },
+  "close": {
+    "message": "Zatvori"
+  },
+  "footerOnline": {
+    "message": "Postulo odgovara"
+  },
+  "footerSlow": {
+    "message": "Postulo sporo odgovara"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo nije dostupan."
+  },
+  "noPermission": {
+    "message": "Bez dozvole za pristup vašem Postulu ništa se ne može poslati."
+  },
+  "offlineOn": {
+    "message": "Testni prekidač je uključen: ništa se ne šalje Postulu."
+  },
+  "offlineOff": {
+    "message": "Testni prekidač je isključen."
+  },
+  "offlineLabel": {
+    "message": "Ponašaj se kao da Postulo nije dostupan"
+  },
+  "offlineHint": {
+    "message": "Za testiranje. Dok je ovo uključeno, Postulo se ništa ne pita i ništa mu se ne šalje, a podnožje skočnog prozora prikazuje sivu tikvicu."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird radi bez mreže: Postulo se ništa ne pita."
+  },
+  "tokenCanCapture": {
+    "message": "Može hvatati oglase."
+  },
+  "tokenCannotCapture": {
+    "message": "Ne može hvatati oglase: nedostaje mu opseg $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Može pohraniti poruku u historiju oglasa."
+  },
+  "tokenCannotFile": {
+    "message": "Ne može pohraniti poruku u historiju oglasa: nedostaje mu opseg $SCOPE$, pa ga skočni prozor ne nudi.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Pohrani ovu poruku u oglas"
+  },
+  "searchListings": {
+    "message": "Pretraži svoje oglase"
+  },
+  "suggested": {
+    "message": "Predloženo"
+  },
+  "noListings": {
+    "message": "Nijedan oglas ne odgovara."
+  },
+  "subjectOnly": {
+    "message": "Pošalji samo predmet"
+  },
+  "whatIsSent": {
+    "message": "Šta će biti poslano"
+  },
+  "fileIt": {
+    "message": "Pohrani"
+  },
+  "filing": {
+    "message": "Pohranjujem…"
+  },
+  "filedInto": {
+    "message": "Pohranjeno u „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ova poruka je već bila u historiji oglasa „$LISTING$“: ništa nije dodano.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

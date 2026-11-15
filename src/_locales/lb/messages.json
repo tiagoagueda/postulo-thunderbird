@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Äre Postulo"
+  },
+  "noAddress": {
+    "message": "Dëse Message huet kee Link zu enger Annonce, also gëtt et näischt z'erfaassen: De Postulo brauch d'Adress vun der Annonce, fir se ze liesen."
+  },
+  "reading": {
+    "message": "De Message gëtt gelies…"
+  },
+  "whichAddress": {
+    "message": "Wéi ee Link féiert op d'Annonce?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Firma"
+  },
+  "locationLabel": {
+    "message": "Uert"
+  },
+  "companyGuessed": {
+    "message": "Vum Ofsender iwwerholl: Korrigéiert et, wann et net den Aarbechtgeber ass."
+  },
+  "sendForReview": {
+    "message": "Zur Iwwerpréiwung schécken"
+  },
+  "sendAddress": {
+    "message": "Just d'Adress schécken"
+  },
+  "sendAddressHint": {
+    "message": "Wann nëmmen d'Adress geschéckt gëtt, hëlt de Postulo d'Säit selwer of: Dat zielt géint Är Erfaassungsquote a feelt bei enger Säit hannert enger Umeldung."
+  },
+  "previewing": {
+    "message": "De Postulo gëtt gefrot, wat en an dësem Message liest…"
+  },
+  "capturedBefore": {
+    "message": "De Postulo huet dës Annonce schonn: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Gëtt geschéckt…"
+  },
+  "sentDone": {
+    "message": "Zur Iwwerpréiwung geschéckt: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Iwwerpréiwung opmaachen"
+  },
+  "untitled": {
+    "message": "Annonce ouni Titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 vun der Post erfaasst Annonce waart op Duerchsiicht"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ vun der Post erfaasst Annoncen waarden op Duerchsiicht",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Eng Annonce vun Null un derbäisetzen"
+  },
+  "severalMessages": {
+    "message": "Méi Messagen sinn ausgewielt. Wielt eng aus: eng Message ass eng Annonce."
+  },
+  "reviewHeading": {
+    "message": "Muss nogekuckt ginn"
+  },
+  "nothingWaiting": {
+    "message": "Näischt waart op d'Duerchkucken."
+  },
+  "lastListed": {
+    "message": "Wéi Postulo se de leschte Kéier opgelëscht huet, den $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Waart op d'Duerchkucken a Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ Erfaassunge vun dëser Annonce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Vun der Message „$SUBJECT$“ vun $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "D'Message opmaachen"
+  },
+  "messageGone": {
+    "message": "Déi Message ass net méi am Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "All $COUNT$ a Postulo gesinn",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Eng Annonce erfaassen"
+  },
+  "noDraft": {
+    "message": "Hei gëtt et keng Message fir z'erfaassen. Dréckt op den Erfaassungsknäppchen op enger Message."
+  },
+  "close": {
+    "message": "Zoumaachen"
+  },
+  "footerOnline": {
+    "message": "Postulo äntwert"
+  },
+  "footerSlow": {
+    "message": "Postulo äntwert lues"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo ass net z'erreechen."
+  },
+  "noPermission": {
+    "message": "Ouni Erlaabnis, äre Postulo z'erreechen, kann näischt geschéckt ginn."
+  },
+  "offlineOn": {
+    "message": "De Testschalter ass un: et gëtt näischt un Postulo geschéckt."
+  },
+  "offlineOff": {
+    "message": "De Testschalter ass aus."
+  },
+  "offlineLabel": {
+    "message": "Esou doen, wéi wann Postulo net z'erreechen wier"
+  },
+  "offlineHint": {
+    "message": "Fir ze testen. Soulaang dëst un ass, gëtt Postulo näischt gefrot a näischt geschéckt, an de Fouss vum Popup weist e groe Kolben."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird schafft offline: Postulo gëtt näischt gefrot."
+  },
+  "tokenCanCapture": {
+    "message": "Et kann Annoncen erfaassen."
+  },
+  "tokenCannotCapture": {
+    "message": "Et kann keng Annoncen erfaassen: et feelt de Bereich $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Et kann eng Message am Verlaf vun enger Annonce ofleeën."
+  },
+  "tokenCannotFile": {
+    "message": "Et kann keng Message am Verlaf vun enger Annonce ofleeën: et feelt de Bereich $SCOPE$, dofir bitt de Popup et net un.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Dës Message an eng Annonce ofleeën"
+  },
+  "searchListings": {
+    "message": "Sicht an Ären Annoncen"
+  },
+  "suggested": {
+    "message": "Virgeschloen"
+  },
+  "noListings": {
+    "message": "Keng Annonce passt."
+  },
+  "subjectOnly": {
+    "message": "Nëmmen de Sujet schécken"
+  },
+  "whatIsSent": {
+    "message": "Wat geschéckt gëtt"
+  },
+  "fileIt": {
+    "message": "Ofleeën"
+  },
+  "filing": {
+    "message": "Ofleeën …"
+  },
+  "filedInto": {
+    "message": "An „$LISTING$“ ofgeluecht.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Dës Message war scho am Verlaf vu „$LISTING$“: et gouf näischt derbäigesat.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

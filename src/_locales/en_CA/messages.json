@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird's storage for Postulo is full. Try again after removing some data, or restart Thunderbird."
+  },
+  "noAddress": {
+    "message": "This message has no link to a posting, so there is nothing to capture: Postulo needs the posting's address to read it."
+  },
+  "reading": {
+    "message": "Reading the message…"
+  },
+  "whichAddress": {
+    "message": "Which link is the posting?"
+  },
+  "titleLabel": {
+    "message": "Title"
+  },
+  "companyLabel": {
+    "message": "Company"
+  },
+  "locationLabel": {
+    "message": "Place"
+  },
+  "companyGuessed": {
+    "message": "Taken from the sender: correct it if it is not the employer."
+  },
+  "sendForReview": {
+    "message": "Send for review"
+  },
+  "sendAddress": {
+    "message": "Send the address alone"
+  },
+  "sendAddressHint": {
+    "message": "The address alone has Postulo fetch the page itself: it counts against your capture allowance, and fails for a page behind a sign-in."
+  },
+  "previewing": {
+    "message": "Asking Postulo what it reads in this message…"
+  },
+  "capturedBefore": {
+    "message": "Postulo already holds this posting: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sending…"
+  },
+  "sentDone": {
+    "message": "Sent for review: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Open its review"
+  },
+  "untitled": {
+    "message": "Untitled posting"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 posting captured from mail is waiting for review"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ postings captured from mail are waiting for review",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Add a listing from scratch"
+  },
+  "severalMessages": {
+    "message": "Several messages are selected. Select one: one message is one posting."
+  },
+  "reviewHeading": {
+    "message": "Needs review"
+  },
+  "nothingWaiting": {
+    "message": "Nothing is waiting for review."
+  },
+  "lastListed": {
+    "message": "As Postulo last listed them, on $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Waiting for review in Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ captures of this posting",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "From the message “$SUBJECT$” by $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Open the message"
+  },
+  "messageGone": {
+    "message": "That message is no longer in Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "See all $COUNT$ in Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capture a posting"
+  },
+  "noDraft": {
+    "message": "There is no message to capture here. Press the capture button on a message."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "footerOnline": {
+    "message": "Postulo answers"
+  },
+  "footerSlow": {
+    "message": "Postulo is slow to answer"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo cannot be reached."
+  },
+  "noPermission": {
+    "message": "Without permission to reach your Postulo, nothing can be sent."
+  },
+  "offlineOn": {
+    "message": "The testing switch is on: nothing is sent to Postulo."
+  },
+  "offlineOff": {
+    "message": "The testing switch is off."
+  },
+  "offlineLabel": {
+    "message": "Act as if Postulo cannot be reached"
+  },
+  "offlineHint": {
+    "message": "For testing. While this is on, nothing is asked of Postulo and nothing is sent to it, and the popup’s footer shows a grey flask."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird is working offline: nothing is asked of Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "It can capture postings."
+  },
+  "tokenCannotCapture": {
+    "message": "It cannot capture postings: it lacks the $SCOPE$ scope.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "It can file a message into a listing’s history."
+  },
+  "tokenCannotFile": {
+    "message": "It cannot file a message into a listing’s history: it lacks the $SCOPE$ scope, so the popup does not offer it.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "File this message into a listing"
+  },
+  "searchListings": {
+    "message": "Search your listings"
+  },
+  "suggested": {
+    "message": "Suggested"
+  },
+  "noListings": {
+    "message": "No listing matches."
+  },
+  "subjectOnly": {
+    "message": "Send the subject alone"
+  },
+  "whatIsSent": {
+    "message": "What will be sent"
+  },
+  "fileIt": {
+    "message": "File it"
+  },
+  "filing": {
+    "message": "Filing…"
+  },
+  "filedInto": {
+    "message": "Filed into “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "This message was already in the history of “$LISTING$”: nothing was added.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

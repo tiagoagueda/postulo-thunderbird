@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Вашиот Postulo"
+  },
+  "noAddress": {
+    "message": "Оваа порака нема врска до оглас, па нема што да се зачува: на Postulo му треба адресата на огласот за да го прочита."
+  },
+  "reading": {
+    "message": "Се чита пораката…"
+  },
+  "whichAddress": {
+    "message": "Која врска е огласот?"
+  },
+  "titleLabel": {
+    "message": "Наслов"
+  },
+  "companyLabel": {
+    "message": "Компанија"
+  },
+  "locationLabel": {
+    "message": "Место"
+  },
+  "companyGuessed": {
+    "message": "Преземено од испраќачот: поправете ако не е работодавачот."
+  },
+  "sendForReview": {
+    "message": "Испрати на преглед"
+  },
+  "sendAddress": {
+    "message": "Испрати само адреса"
+  },
+  "sendAddressHint": {
+    "message": "Кога се испраќа само адресата, Postulo сам ја презема страницата: тоа се брои во вашата квота за зачувување и не успева за страница зад најава."
+  },
+  "previewing": {
+    "message": "Го прашувам Postulo што чита во оваа порака…"
+  },
+  "capturedBefore": {
+    "message": "Postulo веќе го има овој оглас: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Се испраќа…"
+  },
+  "sentDone": {
+    "message": "Испратено на преглед: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Отвори го прегледот"
+  },
+  "untitled": {
+    "message": "Оглас без наслов"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 оглас зачуван од пошта чека преглед"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ огласи зачувани од пошта чекаат преглед",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Додај оглас од почеток"
+  },
+  "severalMessages": {
+    "message": "Избрани се повеќе пораки. Изберете една: една порака е еден оглас."
+  },
+  "reviewHeading": {
+    "message": "Бара преглед"
+  },
+  "nothingWaiting": {
+    "message": "Ништо не чека преглед."
+  },
+  "lastListed": {
+    "message": "Како што Postulo ги наброја последен пат, на $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Чека преглед во Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ зачувувања на овој оглас",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Од пораката „$SUBJECT$“ од $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Отвори ја пораката"
+  },
+  "messageGone": {
+    "message": "Таа порака повеќе не е во Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Погледни ги сите $COUNT$ во Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Зачувај оглас"
+  },
+  "noDraft": {
+    "message": "Овде нема порака за зачувување. Притиснете го копчето за зачувување на некоја порака."
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "footerOnline": {
+    "message": "Postulo одговара"
+  },
+  "footerSlow": {
+    "message": "Postulo бавно одговара"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo не може да се достигне."
+  },
+  "noPermission": {
+    "message": "Без дозвола за пристап до вашиот Postulo, ништо не може да се испрати."
+  },
+  "offlineOn": {
+    "message": "Тест-прекинувачот е вклучен: ништо не се испраќа до Postulo."
+  },
+  "offlineOff": {
+    "message": "Тест-прекинувачот е исклучен."
+  },
+  "offlineLabel": {
+    "message": "Дејствувај како Postulo да не може да се достигне"
+  },
+  "offlineHint": {
+    "message": "За тестирање. Додека е вклучено, ништо не се бара од Postulo и ништо не се испраќа до него, а подножјето на скокачкиот прозорец покажува сива колба."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird работи без врска: ништо не се бара од Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Може да зачувува огласи."
+  },
+  "tokenCannotCapture": {
+    "message": "Не може да зачувува огласи: му недостасува опсегот $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Може да архивира порака во историјата на оглас."
+  },
+  "tokenCannotFile": {
+    "message": "Не може да архивира порака во историјата на оглас: му недостасува опсегот $SCOPE$, затоа скокачкиот прозорец не го нуди тоа.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Архивирај ја оваа порака во оглас"
+  },
+  "searchListings": {
+    "message": "Пребарај ги вашите огласи"
+  },
+  "suggested": {
+    "message": "Предложено"
+  },
+  "noListings": {
+    "message": "Ниту еден оглас не одговара."
+  },
+  "subjectOnly": {
+    "message": "Испрати само тема"
+  },
+  "whatIsSent": {
+    "message": "Што ќе се испрати"
+  },
+  "fileIt": {
+    "message": "Архивирај"
+  },
+  "filing": {
+    "message": "Се архивира…"
+  },
+  "filedInto": {
+    "message": "Архивирано во „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Оваа порака веќе беше во историјата на „$LISTING$“: ништо не беше додадено.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

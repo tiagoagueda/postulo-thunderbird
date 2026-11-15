@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Goymslan í Thunderbird til Postulo er full. Royn aftur, eftir at tú hevur tikið nakrar dátur burtur, ella byrja Thunderbird av nýggjum."
+  },
+  "noAddress": {
+    "message": "Hetta boðið hevur einki leinki til eina starvslýsing, so einki er at fanga: Postulo tørvar vevbústaðin hjá starvslýsingini fyri at lesa hana."
+  },
+  "reading": {
+    "message": "Lesur boðið …"
+  },
+  "whichAddress": {
+    "message": "Hvørt leinki er starvslýsingin?"
+  },
+  "titleLabel": {
+    "message": "Heiti"
+  },
+  "companyLabel": {
+    "message": "Fyritøka"
+  },
+  "locationLabel": {
+    "message": "Staður"
+  },
+  "companyGuessed": {
+    "message": "Tikið frá sendaranum: rætta tað, um tað ikki er arbeiðsgevarin."
+  },
+  "sendForReview": {
+    "message": "Send til eftirkanning"
+  },
+  "sendAddress": {
+    "message": "Send bert vevbústaðin"
+  },
+  "sendAddressHint": {
+    "message": "Verður bert vevbústaðurin sendur, heintar Postulo síðuna sjálvt: tað telur við í fangingarkvotuni hjá tær og miseydnast fyri eina síðu aftan fyri innriting."
+  },
+  "previewing": {
+    "message": "Spyr Postulo, hvat verður lisið í hesum boðnum …"
+  },
+  "capturedBefore": {
+    "message": "Postulo hevur longu hesa starvslýsingina: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sendir …"
+  },
+  "sentDone": {
+    "message": "Sent til eftirkanning: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Lat eftirkanningina upp"
+  },
+  "untitled": {
+    "message": "Starvslýsing uttan heiti"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 starvsuppskot tikið úr posti bíðar eftir eftirlit"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ starvsuppskot tikin úr posti bíða eftir eftirlit",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Legg eina starvslýsing afturat frá grunni"
+  },
+  "severalMessages": {
+    "message": "Fleiri boð eru vald. Vel eitt: eitt boð er ein starvslýsing."
+  },
+  "reviewHeading": {
+    "message": "Skal eftirhyggjast"
+  },
+  "nothingWaiting": {
+    "message": "Einki bíðar eftir eftirliti."
+  },
+  "lastListed": {
+    "message": "Soleiðis sum Postulo skrásetti tær seinast, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Bíðar eftir eftirliti í Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ fangingar av hesi starvslýsing",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Frá boðunum “$SUBJECT$” frá $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Opna boðini"
+  },
+  "messageGone": {
+    "message": "Tey boðini eru ikki longur í Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Sí allar $COUNT$ í Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Fang eina starvslýsing"
+  },
+  "noDraft": {
+    "message": "Her eru ongi boð at fanga. Trýst á fangingarknøttin á einum boðum."
+  },
+  "close": {
+    "message": "Lat aftur"
+  },
+  "footerOnline": {
+    "message": "Postulo svarar"
+  },
+  "footerSlow": {
+    "message": "Postulo er seinur at svara"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo kann ikki røkkast."
+  },
+  "noPermission": {
+    "message": "Uttan loyvi at røkka títt Postulo kann einki sendast."
+  },
+  "offlineOn": {
+    "message": "Royndarbrotin er tendraður: einki verður sent til Postulo."
+  },
+  "offlineOff": {
+    "message": "Royndarbrotin er sløktur."
+  },
+  "offlineLabel": {
+    "message": "Hegna teg, sum um Postulo ikki kundi røkkast"
+  },
+  "offlineHint": {
+    "message": "Til royndir. Meðan hetta er tendrað, verður einki spurt Postulo og einki sent til hennara, og fótur gluggans vísir ein grán kolvu."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird arbeiðir uttan net: einki verður spurt Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Hon kann fanga starvslýsingar."
+  },
+  "tokenCannotCapture": {
+    "message": "Hon kann ikki fanga starvslýsingar: henni vantar $SCOPE$-søkið.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Hon kann leggja eitt boð í søguna hjá einari starvslýsing."
+  },
+  "tokenCannotFile": {
+    "message": "Hon kann ikki leggja eitt boð í søguna hjá einari starvslýsing: henni vantar $SCOPE$-søkið, so glugginn bjóðar tað ikki.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Legg hesi boðini í eina starvslýsing"
+  },
+  "searchListings": {
+    "message": "Leita í tínum starvslýsingum"
+  },
+  "suggested": {
+    "message": "Uppskot"
+  },
+  "noListings": {
+    "message": "Eingin starvslýsing passar."
+  },
+  "subjectOnly": {
+    "message": "Send bert evnið"
+  },
+  "whatIsSent": {
+    "message": "Hvat verður sent"
+  },
+  "fileIt": {
+    "message": "Legg í"
+  },
+  "filing": {
+    "message": "Leggur í…"
+  },
+  "filedInto": {
+    "message": "Lagt í “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Hesi boðini vóru longu í søguni hjá “$LISTING$”: einki varð lagt afturat.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

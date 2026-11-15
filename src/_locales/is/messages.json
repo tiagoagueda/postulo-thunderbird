@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Postulo-uppsetningin þín"
+  },
+  "noAddress": {
+    "message": "Þessi skilaboð hafa engan tengil á auglýsingu, svo ekkert er hægt að grípa: Postulo þarf slóð auglýsingarinnar til að lesa hana."
+  },
+  "reading": {
+    "message": "Les skilaboðin …"
+  },
+  "whichAddress": {
+    "message": "Hvaða tengill er auglýsingin?"
+  },
+  "titleLabel": {
+    "message": "Titill"
+  },
+  "companyLabel": {
+    "message": "Fyrirtæki"
+  },
+  "locationLabel": {
+    "message": "Staður"
+  },
+  "companyGuessed": {
+    "message": "Tekið frá sendandanum: leiðréttu það ef það er ekki vinnuveitandinn."
+  },
+  "sendForReview": {
+    "message": "Senda til yfirferðar"
+  },
+  "sendAddress": {
+    "message": "Senda aðeins slóðina"
+  },
+  "sendAddressHint": {
+    "message": "Þegar aðeins slóðin er send sækir Postulo síðuna sjálft: það telst með í gripakvóta þínum og mistekst fyrir síðu á bak við innskráningu."
+  },
+  "previewing": {
+    "message": "Spyr Postulo hvað það les í þessum skilaboðum …"
+  },
+  "capturedBefore": {
+    "message": "Postulo á nú þegar þessa auglýsingu: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sendi …"
+  },
+  "sentDone": {
+    "message": "Sent til yfirferðar: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Opna yfirferðina"
+  },
+  "untitled": {
+    "message": "Auglýsing án titils"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 auglýsing sem var gripin úr pósti bíður yfirferðar"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ auglýsingar sem voru gripnar úr pósti bíða yfirferðar",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Bæta við auglýsingu frá grunni"
+  },
+  "severalMessages": {
+    "message": "Mörg skilaboð eru valin. Veldu eitt: ein skilaboð eru ein auglýsing."
+  },
+  "reviewHeading": {
+    "message": "Þarf yfirferð"
+  },
+  "nothingWaiting": {
+    "message": "Ekkert bíður yfirferðar."
+  },
+  "lastListed": {
+    "message": "Eins og Postulo taldi þær síðast, þann $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Bíður yfirferðar í Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ grip á þessari auglýsingu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Úr skilaboðunum „$SUBJECT$“ frá $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Opna skilaboðin"
+  },
+  "messageGone": {
+    "message": "Þessi skilaboð eru ekki lengur í Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Sjá öll $COUNT$ í Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Grípa auglýsingu"
+  },
+  "noDraft": {
+    "message": "Engin skilaboð eru hér til að grípa. Ýttu á gríptakkann á skilaboðum."
+  },
+  "close": {
+    "message": "Loka"
+  },
+  "footerOnline": {
+    "message": "Postulo svarar"
+  },
+  "footerSlow": {
+    "message": "Postulo er lengi að svara"
+  },
+  "postuloUnreachable": {
+    "message": "Ekki næst í Postulo."
+  },
+  "noPermission": {
+    "message": "Án heimildar til að ná í Postulo þinn er ekki hægt að senda neitt."
+  },
+  "offlineOn": {
+    "message": "Prófunarrofinn er á: ekkert er sent til Postulo."
+  },
+  "offlineOff": {
+    "message": "Prófunarrofinn er af."
+  },
+  "offlineLabel": {
+    "message": "Láta eins og ekki náist í Postulo"
+  },
+  "offlineHint": {
+    "message": "Til prófunar. Meðan þetta er á er Postulo ekki spurður um neitt og ekkert sent til hans, og fótur sprettigluggans sýnir grátt hvarfaglas."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird vinnur án nettengingar: Postulo er ekki spurður um neitt."
+  },
+  "tokenCanCapture": {
+    "message": "Það getur gripið auglýsingar."
+  },
+  "tokenCannotCapture": {
+    "message": "Það getur ekki gripið auglýsingar: það vantar umfangið $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Það getur skráð skilaboð í breytingasögu auglýsingar."
+  },
+  "tokenCannotFile": {
+    "message": "Það getur ekki skráð skilaboð í breytingasögu auglýsingar: það vantar umfangið $SCOPE$, svo sprettiglugginn býður það ekki.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Skrá þessi skilaboð í auglýsingu"
+  },
+  "searchListings": {
+    "message": "Leita í auglýsingunum þínum"
+  },
+  "suggested": {
+    "message": "Tillaga"
+  },
+  "noListings": {
+    "message": "Engin auglýsing passar."
+  },
+  "subjectOnly": {
+    "message": "Senda aðeins efnislínuna"
+  },
+  "whatIsSent": {
+    "message": "Hvað verður sent"
+  },
+  "fileIt": {
+    "message": "Skrá"
+  },
+  "filing": {
+    "message": "Skrái…"
+  },
+  "filedInto": {
+    "message": "Skráð í „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Þessi skilaboð voru þegar í breytingasögu „$LISTING$“: engu var bætt við.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

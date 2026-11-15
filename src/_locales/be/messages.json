@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Сховішча Thunderbird для Postulo запоўнена. Паспрабуйце зноў, выдаліўшы частку даных, або перазапусціце Thunderbird."
+  },
+  "noAddress": {
+    "message": "У гэтым лісце няма спасылкі на аб'яву, таму захопліваць няма чаго: Postulo патрэбны адрас аб'явы, каб яе прачытаць."
+  },
+  "reading": {
+    "message": "Чытанне ліста…"
+  },
+  "whichAddress": {
+    "message": "Якая спасылка вядзе да аб'явы?"
+  },
+  "titleLabel": {
+    "message": "Назва"
+  },
+  "companyLabel": {
+    "message": "Кампанія"
+  },
+  "locationLabel": {
+    "message": "Месца"
+  },
+  "companyGuessed": {
+    "message": "Узята ад адпраўніка: выпраўце, калі гэта не працадаўца."
+  },
+  "sendForReview": {
+    "message": "Адправіць на разгляд"
+  },
+  "sendAddress": {
+    "message": "Адправіць толькі адрас"
+  },
+  "sendAddressHint": {
+    "message": "Калі адправіць толькі адрас, Postulo сам загрузіць старонку: гэта ўлічваецца ў вашым ліміце захопаў і не спрацуе для старонкі за ўваходам."
+  },
+  "previewing": {
+    "message": "Запыт да Postulo, што ён бачыць у гэтым лісце…"
+  },
+  "capturedBefore": {
+    "message": "Postulo ужо мае гэту аб'яву: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Адпраўка…"
+  },
+  "sentDone": {
+    "message": "Адпраўлена на разгляд: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Адкрыць яе разгляд"
+  },
+  "untitled": {
+    "message": "Аб'ява без назвы"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 захопленая з пошты аб'ява чакае разгляду"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: колькасць аб'яў, захопленых з пошты, якія чакаюць разгляду: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Дадаць аб'яву з нуля"
+  },
+  "severalMessages": {
+    "message": "Выбрана некалькі паведамленняў. Выберыце адно: адно паведамленне — адна аб'ява."
+  },
+  "reviewHeading": {
+    "message": "Патрабуе разгляду"
+  },
+  "nothingWaiting": {
+    "message": "Нічога не чакае разгляду."
+  },
+  "lastListed": {
+    "message": "Такімі, як Postulo пералічыў іх апошні раз, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Чакае разгляду ў Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ захопаў гэтай аб'явы",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "З паведамлення «$SUBJECT$» ад $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Адкрыць паведамленне"
+  },
+  "messageGone": {
+    "message": "Гэтага паведамлення больш няма ў Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Паказаць усе $COUNT$ у Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Захоп аб'явы"
+  },
+  "noDraft": {
+    "message": "Тут няма паведамлення для захопу. Націсніце кнопку захопу на паведамленні."
+  },
+  "close": {
+    "message": "Закрыць"
+  },
+  "footerOnline": {
+    "message": "Postulo адказвае"
+  },
+  "footerSlow": {
+    "message": "Postulo марудна адказвае"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo недаступны."
+  },
+  "noPermission": {
+    "message": "Без дазволу на доступ да вашага Postulo нічога нельга адправіць."
+  },
+  "offlineOn": {
+    "message": "Тэставы пераключальнік уключаны: нічога не адпраўляецца ў Postulo."
+  },
+  "offlineOff": {
+    "message": "Тэставы пераключальнік выключаны."
+  },
+  "offlineLabel": {
+    "message": "Дзейнічаць так, быццам Postulo недаступны"
+  },
+  "offlineHint": {
+    "message": "Для тэсціравання. Пакуль гэта ўключана, у Postulo нічога не пытаюцца і нічога не адпраўляюць, а ў ніжняй частцы ўсплывальнага акна паказваецца шэрая калба."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird працуе аўтаномна: у Postulo нічога не пытаюцца."
+  },
+  "tokenCanCapture": {
+    "message": "Ён можа захопліваць аб'явы."
+  },
+  "tokenCannotCapture": {
+    "message": "Ён не можа захопліваць аб'явы: яму не хапае вобласці $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Ён можа архіваваць паведамленне ў гісторыі аб'явы."
+  },
+  "tokenCannotFile": {
+    "message": "Ён не можа архіваваць паведамленне ў гісторыі аб'явы: яму не хапае вобласці $SCOPE$, таму ўсплывальнае акно гэтага не прапануе.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Архіваваць гэта паведамленне ў аб'яву"
+  },
+  "searchListings": {
+    "message": "Пошук па вашых аб'явах"
+  },
+  "suggested": {
+    "message": "Прапанавана"
+  },
+  "noListings": {
+    "message": "Ніводная аб'ява не падыходзіць."
+  },
+  "subjectOnly": {
+    "message": "Адправіць толькі тэму"
+  },
+  "whatIsSent": {
+    "message": "Што будзе адпраўлена"
+  },
+  "fileIt": {
+    "message": "Архіваваць"
+  },
+  "filing": {
+    "message": "Архівуецца…"
+  },
+  "filedInto": {
+    "message": "Заархівавана ў «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Гэта паведамленне ўжо было ў гісторыі «$LISTING$»: нічога не дададзена.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

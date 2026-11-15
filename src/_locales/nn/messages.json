@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Lagringsplassen til Postulo i Thunderbird er full. Prøv igjen etter å ha fjerna noko data, eller start Thunderbird på nytt."
+  },
+  "noAddress": {
+    "message": "Denne meldinga har ingen lenke til ein stillingsannonse, så det er ikkje noko å fange inn: Postulo treng adressa til annonsen for å lese han."
+  },
+  "reading": {
+    "message": "Les meldinga …"
+  },
+  "whichAddress": {
+    "message": "Kva lenke er stillingsannonsen?"
+  },
+  "titleLabel": {
+    "message": "Tittel"
+  },
+  "companyLabel": {
+    "message": "Selskap"
+  },
+  "locationLabel": {
+    "message": "Stad"
+  },
+  "companyGuessed": {
+    "message": "Teken frå avsendaren: rett det opp dersom det ikkje er arbeidsgivaren."
+  },
+  "sendForReview": {
+    "message": "Send til gjennomgang"
+  },
+  "sendAddress": {
+    "message": "Send berre adressa"
+  },
+  "sendAddressHint": {
+    "message": "Når berre adressa blir sendt, hentar Postulo sida sjølv: det tel med i fangstkvoten din, og det mislukkast for ei side bak innlogging."
+  },
+  "previewing": {
+    "message": "Spør Postulo kva som blir lese i denne meldinga …"
+  },
+  "capturedBefore": {
+    "message": "Postulo har allereie denne stillingsannonsen: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sender …"
+  },
+  "sentDone": {
+    "message": "Sendt til gjennomgang: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Opne gjennomgangen"
+  },
+  "untitled": {
+    "message": "Stillingsannonse utan tittel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 stillingsannonse fanga inn frå e-post ventar på gjennomgang"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ stillingsannonsar fanga inn frå e-post ventar på gjennomgang",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Legg til ei utlysing frå grunnen av"
+  },
+  "severalMessages": {
+    "message": "Fleire meldingar er valde. Vel éi: éi melding er éi annonse."
+  },
+  "reviewHeading": {
+    "message": "Treng gjennomgang"
+  },
+  "nothingWaiting": {
+    "message": "Ingenting ventar på gjennomgang."
+  },
+  "lastListed": {
+    "message": "Slik Postulo sist lista dei, den $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Ventar på gjennomgang i Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ fangstar av denne annonsen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Frå meldinga «$SUBJECT$» av $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Opne meldinga"
+  },
+  "messageGone": {
+    "message": "Den meldinga finst ikkje lenger i Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Sjå alle $COUNT$ i Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Fang ei annonse"
+  },
+  "noDraft": {
+    "message": "Det er inga melding å fange her. Trykk på fangstknappen på ei melding."
+  },
+  "close": {
+    "message": "Lukk"
+  },
+  "footerOnline": {
+    "message": "Postulo svarar"
+  },
+  "footerSlow": {
+    "message": "Postulo svarar sakte"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo kan ikkje nåast."
+  },
+  "noPermission": {
+    "message": "Utan løyve til å nå Postulo din kan ingenting sendast."
+  },
+  "offlineOn": {
+    "message": "Testbrytaren er på: ingenting blir sendt til Postulo."
+  },
+  "offlineOff": {
+    "message": "Testbrytaren er av."
+  },
+  "offlineLabel": {
+    "message": "Opptre som om Postulo ikkje kan nåast"
+  },
+  "offlineHint": {
+    "message": "For testing. Medan denne er på, blir Postulo ikkje spurd om noko og ingenting blir sendt dit, og botnteksten i popup-vindauget viser ein grå kolbe."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird arbeider fråkopla: ingenting blir spurt om frå Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Han kan fange annonser."
+  },
+  "tokenCannotCapture": {
+    "message": "Han kan ikkje fange annonser: han manglar omfanget $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Han kan arkivere ei melding i historikken til ei utlysing."
+  },
+  "tokenCannotFile": {
+    "message": "Han kan ikkje arkivere ei melding i historikken til ei utlysing: han manglar omfanget $SCOPE$, så popup-vindauget tilbyr det ikkje.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arkiver denne meldinga i ei utlysing"
+  },
+  "searchListings": {
+    "message": "Søk i utlysingane dine"
+  },
+  "suggested": {
+    "message": "Føreslått"
+  },
+  "noListings": {
+    "message": "Inga utlysing passar."
+  },
+  "subjectOnly": {
+    "message": "Send berre emnefeltet"
+  },
+  "whatIsSent": {
+    "message": "Kva som blir sendt"
+  },
+  "fileIt": {
+    "message": "Arkiver"
+  },
+  "filing": {
+    "message": "Arkiverer …"
+  },
+  "filedInto": {
+    "message": "Arkivert i «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Denne meldinga låg allereie i historikken til «$LISTING$»: ingenting vart lagt til.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

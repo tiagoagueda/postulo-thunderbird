@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Eich Postulo"
+  },
+  "noAddress": {
+    "message": "Nid oes dolen i hysbyseb yn y neges hon, felly nid oes dim i'w gipio: mae Postulo angen cyfeiriad yr hysbyseb i'w ddarllen."
+  },
+  "reading": {
+    "message": "Yn darllen y neges…"
+  },
+  "whichAddress": {
+    "message": "Pa ddolen yw'r hysbyseb?"
+  },
+  "titleLabel": {
+    "message": "Teitl"
+  },
+  "companyLabel": {
+    "message": "Cwmni"
+  },
+  "locationLabel": {
+    "message": "Lle"
+  },
+  "companyGuessed": {
+    "message": "Wedi'i gymryd o'r anfonwr: cywirwch ef os nad dyma'r cyflogwr."
+  },
+  "sendForReview": {
+    "message": "Anfon i'w adolygu"
+  },
+  "sendAddress": {
+    "message": "Anfon y cyfeiriad yn unig"
+  },
+  "sendAddressHint": {
+    "message": "Mae anfon y cyfeiriad yn unig yn gwneud i Postulo nôl y dudalen ei hun: mae'n cyfrif yn erbyn eich lwfans cipio, ac yn methu ar gyfer tudalen y tu ôl i fewngofnodi."
+  },
+  "previewing": {
+    "message": "Yn gofyn i Postulo beth mae'n ei ddarllen yn y neges hon…"
+  },
+  "capturedBefore": {
+    "message": "Mae Postulo eisoes yn dal yr hysbyseb hon: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Yn anfon…"
+  },
+  "sentDone": {
+    "message": "Wedi'i anfon i'w adolygu: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Agor ei adolygiad"
+  },
+  "untitled": {
+    "message": "Hysbyseb heb deitl"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: mae 1 hysbyseb wedi'i gipio o'r post yn aros am adolygiad"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: mae $COUNT$ hysbyseb wedi'u cipio o'r post yn aros am adolygiad",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Ychwanegu hysbyseb o'r newydd"
+  },
+  "severalMessages": {
+    "message": "Mae sawl neges wedi'u dewis. Dewiswch un: un neges yw un hysbyseb."
+  },
+  "reviewHeading": {
+    "message": "Angen adolygu"
+  },
+  "nothingWaiting": {
+    "message": "Does dim byd yn aros i'w adolygu."
+  },
+  "lastListed": {
+    "message": "Fel y gwnaeth Postulo eu rhestru ddiwethaf, ar $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Yn aros i'w adolygu yn Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ cipiad o'r hysbyseb hon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "O'r neges \"$SUBJECT$\" gan $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Agor y neges"
+  },
+  "messageGone": {
+    "message": "Nid yw'r neges honno yn Thunderbird mwyach."
+  },
+  "seeAllCaptures": {
+    "message": "Gweld pob un o'r $COUNT$ yn Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Cipio hysbyseb"
+  },
+  "noDraft": {
+    "message": "Does dim neges i'w chipio yma. Pwyswch y botwm cipio ar neges."
+  },
+  "close": {
+    "message": "Cau"
+  },
+  "footerOnline": {
+    "message": "Mae Postulo yn ateb"
+  },
+  "footerSlow": {
+    "message": "Mae Postulo'n araf i ateb"
+  },
+  "postuloUnreachable": {
+    "message": "Methu cyrraedd Postulo."
+  },
+  "noPermission": {
+    "message": "Heb ganiatâd i gyrraedd eich Postulo, ni ellir anfon dim."
+  },
+  "offlineOn": {
+    "message": "Mae'r switsh profi ymlaen: ni anfonir dim at Postulo."
+  },
+  "offlineOff": {
+    "message": "Mae'r switsh profi i ffwrdd."
+  },
+  "offlineLabel": {
+    "message": "Gweithredu fel pe na ellid cyrraedd Postulo"
+  },
+  "offlineHint": {
+    "message": "At ddibenion profi. Tra bo hwn ymlaen, ni ofynnir dim i Postulo ac ni anfonir dim ato, ac mae troedyn y ffenestr naid yn dangos fflasg lwyd."
+  },
+  "thunderbirdOffline": {
+    "message": "Mae Thunderbird yn gweithio all-lein: ni ofynnir dim i Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Gall gipio hysbysebion."
+  },
+  "tokenCannotCapture": {
+    "message": "Ni all gipio hysbysebion: mae'n brin o'r cwmpas $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Gall ffeilio neges yn hanes hysbyseb."
+  },
+  "tokenCannotFile": {
+    "message": "Ni all ffeilio neges yn hanes hysbyseb: mae'n brin o'r cwmpas $SCOPE$, felly nid yw'r ffenestr naid yn ei gynnig.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Ffeilio'r neges hon mewn hysbyseb"
+  },
+  "searchListings": {
+    "message": "Chwilio eich hysbysebion"
+  },
+  "suggested": {
+    "message": "Awgrymedig"
+  },
+  "noListings": {
+    "message": "Dim hysbyseb yn cyfateb."
+  },
+  "subjectOnly": {
+    "message": "Anfon y pwnc yn unig"
+  },
+  "whatIsSent": {
+    "message": "Beth fydd yn cael ei anfon"
+  },
+  "fileIt": {
+    "message": "Ffeilio"
+  },
+  "filing": {
+    "message": "Yn ffeilio…"
+  },
+  "filedInto": {
+    "message": "Ffeiliwyd yn \"$LISTING$\".",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Roedd y neges hon eisoes yn hanes \"$LISTING$\": ni ychwanegwyd dim.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

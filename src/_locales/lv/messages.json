@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Jūsu Postulo"
+  },
+  "noAddress": {
+    "message": "Šajā ziņojumā nav saites uz sludinājumu, tāpēc nav ko tvert: lai to izlasītu, Postulo nepieciešama sludinājuma adrese."
+  },
+  "reading": {
+    "message": "Notiek ziņojuma lasīšana…"
+  },
+  "whichAddress": {
+    "message": "Kura saite ir sludinājums?"
+  },
+  "titleLabel": {
+    "message": "Nosaukums"
+  },
+  "companyLabel": {
+    "message": "Uzņēmums"
+  },
+  "locationLabel": {
+    "message": "Vieta"
+  },
+  "companyGuessed": {
+    "message": "Ņemts no sūtītāja: labojiet, ja tas nav darba devējs."
+  },
+  "sendForReview": {
+    "message": "Nosūtīt pārskatīšanai"
+  },
+  "sendAddress": {
+    "message": "Nosūtīt tikai adresi"
+  },
+  "sendAddressHint": {
+    "message": "Ja tiek nosūtīta tikai adrese, Postulo lapu iegūst pats: tas tiek ieskaitīts jūsu tveršanas limitā un neizdodas, ja lapa atrodas aiz pierakstīšanās."
+  },
+  "previewing": {
+    "message": "Tiek vaicāts Postulo, ko tas nolasa šajā ziņojumā…"
+  },
+  "capturedBefore": {
+    "message": "Postulo šis sludinājums jau ir: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Notiek sūtīšana…"
+  },
+  "sentDone": {
+    "message": "Nosūtīts pārskatīšanai: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Atvērt tā pārskatīšanu"
+  },
+  "untitled": {
+    "message": "Sludinājums bez nosaukuma"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 no pasta tverts sludinājums gaida pārskatīšanu"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ no pasta tverti sludinājumi gaida pārskatīšanu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Pievienot sludinājumu no nulles"
+  },
+  "severalMessages": {
+    "message": "Ir atlasīti vairāki ziņojumi. Atlasiet vienu: viens ziņojums ir viens sludinājums."
+  },
+  "reviewHeading": {
+    "message": "Jāpārskata"
+  },
+  "nothingWaiting": {
+    "message": "Nekas negaida pārskatīšanu."
+  },
+  "lastListed": {
+    "message": "Tā, kā Postulo tos pēdējoreiz uzskaitīja, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Gaida pārskatīšanu Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "Šī sludinājuma tvērumu skaits: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "No ziņojuma “$SUBJECT$”, sūtītājs $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Atvērt ziņojumu"
+  },
+  "messageGone": {
+    "message": "Šī ziņojuma Thunderbird vairs nav."
+  },
+  "seeAllCaptures": {
+    "message": "Skatīt visus $COUNT$ Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Notvert sludinājumu"
+  },
+  "noDraft": {
+    "message": "Šeit nav ziņojuma, ko notvert. Nospiediet tveršanas pogu uz ziņojuma."
+  },
+  "close": {
+    "message": "Aizvērt"
+  },
+  "footerOnline": {
+    "message": "Postulo atbild"
+  },
+  "footerSlow": {
+    "message": "Postulo atbild lēni"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo nav sasniedzams."
+  },
+  "noPermission": {
+    "message": "Bez atļaujas sasniegt jūsu Postulo nevar nosūtīt neko."
+  },
+  "offlineOn": {
+    "message": "Testa slēdzis ir ieslēgts: Postulo netiek sūtīts nekas."
+  },
+  "offlineOff": {
+    "message": "Testa slēdzis ir izslēgts."
+  },
+  "offlineLabel": {
+    "message": "Izturēties tā, it kā Postulo nebūtu sasniedzams"
+  },
+  "offlineHint": {
+    "message": "Testēšanai. Kamēr tas ir ieslēgts, Postulo nekas netiek vaicāts un nekas netiek sūtīts, un uznirstošā loga kājenē redzama pelēka kolba."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird darbojas bezsaistē: Postulo nekas netiek vaicāts."
+  },
+  "tokenCanCapture": {
+    "message": "Tas var tvert sludinājumus."
+  },
+  "tokenCannotCapture": {
+    "message": "Tas nevar tvert sludinājumus: tam trūkst darbības jomas $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Tas var iesniegt ziņojumu sludinājuma vēsturē."
+  },
+  "tokenCannotFile": {
+    "message": "Tas nevar iesniegt ziņojumu sludinājuma vēsturē: tam trūkst darbības jomas $SCOPE$, tāpēc uznirstošais logs to nepiedāvā.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Iesniegt šo ziņojumu sludinājumā"
+  },
+  "searchListings": {
+    "message": "Meklēt savos sludinājumos"
+  },
+  "suggested": {
+    "message": "Ieteikts"
+  },
+  "noListings": {
+    "message": "Neviens sludinājums neatbilst."
+  },
+  "subjectOnly": {
+    "message": "Sūtīt tikai tēmu"
+  },
+  "whatIsSent": {
+    "message": "Kas tiks nosūtīts"
+  },
+  "fileIt": {
+    "message": "Iesniegt"
+  },
+  "filing": {
+    "message": "Iesniedz…"
+  },
+  "filedInto": {
+    "message": "Iesniegts sludinājumā “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Šis ziņojums jau bija sludinājuma “$LISTING$” vēsturē: nekas netika pievienots.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

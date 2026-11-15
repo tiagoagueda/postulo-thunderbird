@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Do Postulo"
+  },
+  "noAddress": {
+    "message": "Níl nasc le fógra poist sa teachtaireacht seo, mar sin níl aon rud le gabháil: tá seoladh an fhógra ag teastáil ó Postulo chun é a léamh."
+  },
+  "reading": {
+    "message": "Ag léamh na teachtaireachta…"
+  },
+  "whichAddress": {
+    "message": "Cé acu an nasc leis an bhfógra poist?"
+  },
+  "titleLabel": {
+    "message": "Teideal"
+  },
+  "companyLabel": {
+    "message": "Cuideachta"
+  },
+  "locationLabel": {
+    "message": "Áit"
+  },
+  "companyGuessed": {
+    "message": "Tógtha ón seoltóir: ceartaigh é mura é seo an fostóir."
+  },
+  "sendForReview": {
+    "message": "Seol le haghaidh athbhreithnithe"
+  },
+  "sendAddress": {
+    "message": "Seol an seoladh amháin"
+  },
+  "sendAddressHint": {
+    "message": "Má sheoltar an seoladh amháin, tugann Postulo an leathanach leis féin: áirítear é i do liúntas gabhála, agus teipeann air i gcás leathanach atá taobh thiar de shíniú isteach."
+  },
+  "previewing": {
+    "message": "Ag fiafraí de Postulo cad a léann sé sa teachtaireacht seo…"
+  },
+  "capturedBefore": {
+    "message": "Tá an fógra poist seo ag Postulo cheana: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Ag seoladh…"
+  },
+  "sentDone": {
+    "message": "Seolta le haghaidh athbhreithnithe: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Oscail a athbhreithniú"
+  },
+  "untitled": {
+    "message": "Fógra poist gan teideal"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: tá 1 phost a gabhadh ó phost ag fanacht le athbhreithniú"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: tá $COUNT$ post a gabhadh ó phost ag fanacht le athbhreithniú",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Cuir fógra poist leis ón tús"
+  },
+  "severalMessages": {
+    "message": "Tá níos mó ná teachtaireacht amháin roghnaithe. Roghnaigh ceann amháin: is é teachtaireacht amháin fógra poist amháin."
+  },
+  "reviewHeading": {
+    "message": "Ag teastáil athbhreithniú"
+  },
+  "nothingWaiting": {
+    "message": "Níl aon rud ag fanacht le hathbhreithniú."
+  },
+  "lastListed": {
+    "message": "Mar a liostaigh Postulo iad go deireanach, ar $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Ag fanacht le hathbhreithniú i Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ gabháil den fhógra poist seo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Ón teachtaireacht “$SUBJECT$” ó $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Oscail an teachtaireacht"
+  },
+  "messageGone": {
+    "message": "Níl an teachtaireacht sin i Thunderbird a thuilleadh."
+  },
+  "seeAllCaptures": {
+    "message": "Féach ar $COUNT$ ar fad i Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Gabh fógra poist"
+  },
+  "noDraft": {
+    "message": "Níl aon teachtaireacht le gabháil anseo. Brúigh an cnaipe gabhála ar theachtaireacht."
+  },
+  "close": {
+    "message": "Dún"
+  },
+  "footerOnline": {
+    "message": "Freagraíonn Postulo"
+  },
+  "footerSlow": {
+    "message": "Tá Postulo mall ag freagairt"
+  },
+  "postuloUnreachable": {
+    "message": "Ní féidir teacht ar Postulo."
+  },
+  "noPermission": {
+    "message": "Gan cead teacht ar do Postulo, ní féidir aon rud a sheoladh."
+  },
+  "offlineOn": {
+    "message": "Tá an lasc tástála air: ní sheoltar aon rud chuig Postulo."
+  },
+  "offlineOff": {
+    "message": "Tá an lasc tástála as."
+  },
+  "offlineLabel": {
+    "message": "Gníomhaigh amhail is nach bhféadfaí teacht ar Postulo"
+  },
+  "offlineHint": {
+    "message": "Le haghaidh tástála. Fad is atá sé seo air, ní iarrtar aon rud ar Postulo agus ní sheoltar aon rud chuige, agus taispeánann buntásc an eangaigh aníos fleascán liath."
+  },
+  "thunderbirdOffline": {
+    "message": "Tá Thunderbird ag obair as líne: ní iarrtar aon rud ar Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Is féidir leis fógraí poist a ghabháil."
+  },
+  "tokenCannotCapture": {
+    "message": "Ní féidir leis fógraí poist a ghabháil: tá an scóp $SCOPE$ in easnamh air.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Is féidir leis teachtaireacht a chomhdú i stair fógra poist."
+  },
+  "tokenCannotFile": {
+    "message": "Ní féidir leis teachtaireacht a chomhdú i stair fógra poist: tá an scóp $SCOPE$ in easnamh air, mar sin ní thairgeann an t-eangach aníos é.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Comhdaigh an teachtaireacht seo i bhfógra poist"
+  },
+  "searchListings": {
+    "message": "Cuardaigh do chuid fógraí poist"
+  },
+  "suggested": {
+    "message": "Molta"
+  },
+  "noListings": {
+    "message": "Ní mheaitseálann aon fhógra poist."
+  },
+  "subjectOnly": {
+    "message": "Seol an t-ábhar amháin"
+  },
+  "whatIsSent": {
+    "message": "An méid a sheolfar"
+  },
+  "fileIt": {
+    "message": "Comhdaigh é"
+  },
+  "filing": {
+    "message": "Á chomhdú…"
+  },
+  "filedInto": {
+    "message": "Comhdaithe i “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Bhí an teachtaireacht seo i stair “$LISTING$” cheana: níor cuireadh aon rud leis.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "O almacenamento de Thunderbird para o Postulo está cheo. Téntao de novo despois de eliminar algúns datos ou reinicia Thunderbird."
+  },
+  "noAddress": {
+    "message": "Esta mensaxe non ten ningunha ligazón a unha oferta, así que non hai nada que capturar: o Postulo necesita o enderezo da oferta para lela."
+  },
+  "reading": {
+    "message": "Lendo a mensaxe…"
+  },
+  "whichAddress": {
+    "message": "Cal das ligazóns é a oferta?"
+  },
+  "titleLabel": {
+    "message": "Título"
+  },
+  "companyLabel": {
+    "message": "Empresa"
+  },
+  "locationLabel": {
+    "message": "Lugar"
+  },
+  "companyGuessed": {
+    "message": "Tomado do remitente: corrixe se non é o empregador."
+  },
+  "sendForReview": {
+    "message": "Enviar para revisión"
+  },
+  "sendAddress": {
+    "message": "Enviar só o enderezo"
+  },
+  "sendAddressHint": {
+    "message": "Enviar só o enderezo fai que o Postulo vaia buscar a páxina por si mesmo: conta na túa cota de capturas e falla cunha páxina protexida por inicio de sesión."
+  },
+  "previewing": {
+    "message": "Preguntándolle ao Postulo o que le nesta mensaxe…"
+  },
+  "capturedBefore": {
+    "message": "O Postulo xa ten esta oferta: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Enviando…"
+  },
+  "sentDone": {
+    "message": "Enviado para revisión: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Abrir a revisión"
+  },
+  "untitled": {
+    "message": "Oferta sen título"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 oferta capturada do correo está pendente de revisión"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ ofertas capturadas do correo están pendentes de revisión",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Engadir unha oferta desde cero"
+  },
+  "severalMessages": {
+    "message": "Hai varias mensaxes seleccionadas. Selecciona unha: unha mensaxe é unha oferta."
+  },
+  "reviewHeading": {
+    "message": "Pendente de revisión"
+  },
+  "nothingWaiting": {
+    "message": "Non hai nada á espera de revisión."
+  },
+  "lastListed": {
+    "message": "Tal como Postulo as listou por última vez, o $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Á espera de revisión en Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ capturas desta oferta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Da mensaxe «$SUBJECT$» de $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Abrir a mensaxe"
+  },
+  "messageGone": {
+    "message": "Esa mensaxe xa non está en Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Ver as $COUNT$ en Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capturar unha oferta"
+  },
+  "noDraft": {
+    "message": "Aquí non hai ningunha mensaxe que capturar. Preme o botón de captura nunha mensaxe."
+  },
+  "close": {
+    "message": "Pechar"
+  },
+  "footerOnline": {
+    "message": "Postulo responde"
+  },
+  "footerSlow": {
+    "message": "Postulo tarda en responder"
+  },
+  "postuloUnreachable": {
+    "message": "Non se pode acceder a Postulo."
+  },
+  "noPermission": {
+    "message": "Sen permiso para acceder ao teu Postulo, non se pode enviar nada."
+  },
+  "offlineOn": {
+    "message": "O interruptor de probas está activado: non se envía nada a Postulo."
+  },
+  "offlineOff": {
+    "message": "O interruptor de probas está desactivado."
+  },
+  "offlineLabel": {
+    "message": "Actuar como se non se puidese acceder a Postulo"
+  },
+  "offlineHint": {
+    "message": "Para probas. Mentres estea activado, non se lle pide nada a Postulo nin se lle envía nada, e o pé da xanela emerxente mostra un matraz gris."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird está a traballar sen conexión: non se lle pide nada a Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Pode capturar ofertas."
+  },
+  "tokenCannotCapture": {
+    "message": "Non pode capturar ofertas: fáltalle o ámbito $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Pode arquivar unha mensaxe no historial dunha oferta."
+  },
+  "tokenCannotFile": {
+    "message": "Non pode arquivar unha mensaxe no historial dunha oferta: fáltalle o ámbito $SCOPE$, polo que a xanela emerxente non llo ofrece.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arquivar esta mensaxe nunha oferta"
+  },
+  "searchListings": {
+    "message": "Buscar nas túas ofertas"
+  },
+  "suggested": {
+    "message": "Suxerida"
+  },
+  "noListings": {
+    "message": "Ningunha oferta coincide."
+  },
+  "subjectOnly": {
+    "message": "Enviar só o asunto"
+  },
+  "whatIsSent": {
+    "message": "O que se enviará"
+  },
+  "fileIt": {
+    "message": "Arquivar"
+  },
+  "filing": {
+    "message": "Arquivando…"
+  },
+  "filedInto": {
+    "message": "Arquivada en «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Esta mensaxe xa estaba no historial de «$LISTING$»: non se engadiu nada.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

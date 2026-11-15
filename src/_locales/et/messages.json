@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Teie Postulo"
+  },
+  "noAddress": {
+    "message": "Selles kirjas pole linki kuulutusele, seega pole midagi jäädvustada: Postulo vajab kuulutuse aadressi, et seda lugeda."
+  },
+  "reading": {
+    "message": "Kirja lugemine…"
+  },
+  "whichAddress": {
+    "message": "Milline link on kuulutus?"
+  },
+  "titleLabel": {
+    "message": "Pealkiri"
+  },
+  "companyLabel": {
+    "message": "Ettevõte"
+  },
+  "locationLabel": {
+    "message": "Koht"
+  },
+  "companyGuessed": {
+    "message": "Võetud saatjalt: paranda, kui see pole tööandja."
+  },
+  "sendForReview": {
+    "message": "Saada ülevaatamiseks"
+  },
+  "sendAddress": {
+    "message": "Saada ainult aadress"
+  },
+  "sendAddressHint": {
+    "message": "Ainult aadressi korral laeb Postulo lehe ise: see kulutab sinu jäädvustuste kvooti ega õnnestu lehe puhul, mis on sisselogimise taga."
+  },
+  "previewing": {
+    "message": "Küsin Postulolt, mida see selles kirjas näeb…"
+  },
+  "capturedBefore": {
+    "message": "Postulol on see kuulutus juba olemas: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Saatmine…"
+  },
+  "sentDone": {
+    "message": "Saadetud ülevaatamiseks: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Ava selle ülevaatus"
+  },
+  "untitled": {
+    "message": "Pealkirjata kuulutus"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 e-kirjast salvestatud tööpakkumine ootab ülevaatamist"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ e-kirjadest salvestatud tööpakkumist ootab ülevaatamist",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Lisa kuulutus nullist"
+  },
+  "severalMessages": {
+    "message": "Valitud on mitu kirja. Vali üks: üks kiri on üks kuulutus."
+  },
+  "reviewHeading": {
+    "message": "Vajab ülevaatust"
+  },
+  "nothingWaiting": {
+    "message": "Ülevaatamist ootavaid kuulutusi pole."
+  },
+  "lastListed": {
+    "message": "Nii nagu Postulo need viimati loetles, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Ootab Postulos ülevaatust"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ jäädvustust sellest kuulutusest",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Kirjast „$SUBJECT$”, saatja $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Ava kiri"
+  },
+  "messageGone": {
+    "message": "Seda kirja pole Thunderbirdis enam."
+  },
+  "seeAllCaptures": {
+    "message": "Vaata kõiki $COUNT$ Postulos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Jäädvusta kuulutus"
+  },
+  "noDraft": {
+    "message": "Siin pole jäädvustatavat kirja. Vajuta kirjal jäädvustamise nuppu."
+  },
+  "close": {
+    "message": "Sulge"
+  },
+  "footerOnline": {
+    "message": "Postulo vastab"
+  },
+  "footerSlow": {
+    "message": "Postulo vastab aeglaselt"
+  },
+  "postuloUnreachable": {
+    "message": "Postulole ei pääse ligi."
+  },
+  "noPermission": {
+    "message": "Ilma loata sinu Postulole ligi pääseda ei saa midagi saata."
+  },
+  "offlineOn": {
+    "message": "Testimislüliti on sees: Postulole ei saadeta midagi."
+  },
+  "offlineOff": {
+    "message": "Testimislüliti on väljas."
+  },
+  "offlineLabel": {
+    "message": "Käitu nii, nagu Postulole ei pääseks ligi"
+  },
+  "offlineHint": {
+    "message": "Testimiseks. Kui see on sees, ei küsita Postulolt midagi ega saadeta sellele midagi ning hüpikakna jalus näitab halli kolbi."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird töötab võrguühenduseta: Postulolt ei küsita midagi."
+  },
+  "tokenCanCapture": {
+    "message": "Ta saab kuulutusi jäädvustada."
+  },
+  "tokenCannotCapture": {
+    "message": "Ta ei saa kuulutusi jäädvustada: tal puudub ulatus $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Ta saab lisada kirja kuulutuse ajalukku."
+  },
+  "tokenCannotFile": {
+    "message": "Ta ei saa lisada kirja kuulutuse ajalukku: tal puudub ulatus $SCOPE$, seega hüpikaken seda ei paku.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Lisa see kiri kuulutuse ajalukku"
+  },
+  "searchListings": {
+    "message": "Otsi oma kuulutusi"
+  },
+  "suggested": {
+    "message": "Soovitatud"
+  },
+  "noListings": {
+    "message": "Ükski kuulutus ei sobi."
+  },
+  "subjectOnly": {
+    "message": "Saada ainult teema"
+  },
+  "whatIsSent": {
+    "message": "Mida saadetakse"
+  },
+  "fileIt": {
+    "message": "Lisa"
+  },
+  "filing": {
+    "message": "Lisan…"
+  },
+  "filedInto": {
+    "message": "Lisatud kuulutusse „$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "See kiri oli kuulutuse „$LISTING$” ajaloos juba olemas: midagi ei lisatud.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Din Postulo"
+  },
+  "noAddress": {
+    "message": "Denne meddelelse har intet link til et opslag, så der er intet at indfange: Postulo skal bruge opslagets adresse for at læse det."
+  },
+  "reading": {
+    "message": "Læser meddelelsen…"
+  },
+  "whichAddress": {
+    "message": "Hvilket link er opslaget?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Virksomhed"
+  },
+  "locationLabel": {
+    "message": "Sted"
+  },
+  "companyGuessed": {
+    "message": "Taget fra afsenderen: ret det, hvis det ikke er arbejdsgiveren."
+  },
+  "sendForReview": {
+    "message": "Send til gennemgang"
+  },
+  "sendAddress": {
+    "message": "Send kun adressen"
+  },
+  "sendAddressHint": {
+    "message": "Hvis du kun sender adressen, henter Postulo selv siden: det tæller med i din indfangningskvote og mislykkes for en side bag et login."
+  },
+  "previewing": {
+    "message": "Spørger Postulo, hvad den læser i denne meddelelse…"
+  },
+  "capturedBefore": {
+    "message": "Postulo har allerede dette opslag: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Sender…"
+  },
+  "sentDone": {
+    "message": "Sendt til gennemgang: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Åbn dens gennemgang"
+  },
+  "untitled": {
+    "message": "Opslag uden titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 opslag indfanget fra mail venter på gennemgang"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ opslag indfanget fra mail venter på gennemgang",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Tilføj et opslag fra bunden"
+  },
+  "severalMessages": {
+    "message": "Flere meddelelser er markeret. Vælg én: én meddelelse er ét opslag."
+  },
+  "reviewHeading": {
+    "message": "Skal gennemgås"
+  },
+  "nothingWaiting": {
+    "message": "Intet venter på gennemgang."
+  },
+  "lastListed": {
+    "message": "Som Postulo senest listede dem, den $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Venter på gennemgang i Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ indfangninger af dette opslag",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Fra meddelelsen \"$SUBJECT$\" fra $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Åbn meddelelsen"
+  },
+  "messageGone": {
+    "message": "Den meddelelse findes ikke længere i Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Se alle $COUNT$ i Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Indfang et opslag"
+  },
+  "noDraft": {
+    "message": "Her er ingen meddelelse at indfange. Tryk på indfangningsknappen på en meddelelse."
+  },
+  "close": {
+    "message": "Luk"
+  },
+  "footerOnline": {
+    "message": "Postulo svarer"
+  },
+  "footerSlow": {
+    "message": "Postulo er langsom til at svare"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo kan ikke nås."
+  },
+  "noPermission": {
+    "message": "Uden tilladelse til at nå din Postulo kan intet sendes."
+  },
+  "offlineOn": {
+    "message": "Testkontakten er slået til: intet sendes til Postulo."
+  },
+  "offlineOff": {
+    "message": "Testkontakten er slået fra."
+  },
+  "offlineLabel": {
+    "message": "Opfør dig, som om Postulo ikke kan nås"
+  },
+  "offlineHint": {
+    "message": "Til test. Mens denne er slået til, spørges Postulo ikke om noget, og intet sendes til den, og popuppens fod viser en grå kolbe."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird arbejder offline: Postulo spørges ikke om noget."
+  },
+  "tokenCanCapture": {
+    "message": "Den kan indfange opslag."
+  },
+  "tokenCannotCapture": {
+    "message": "Den kan ikke indfange opslag: den mangler omfanget $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Den kan arkivere en meddelelse i et opslags historik."
+  },
+  "tokenCannotFile": {
+    "message": "Den kan ikke arkivere en meddelelse i et opslags historik: den mangler omfanget $SCOPE$, så popuppen tilbyder det ikke.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arkivér denne meddelelse i et opslag"
+  },
+  "searchListings": {
+    "message": "Søg i dine opslag"
+  },
+  "suggested": {
+    "message": "Foreslået"
+  },
+  "noListings": {
+    "message": "Intet opslag passer."
+  },
+  "subjectOnly": {
+    "message": "Send kun emnet"
+  },
+  "whatIsSent": {
+    "message": "Hvad der sendes"
+  },
+  "fileIt": {
+    "message": "Arkivér"
+  },
+  "filing": {
+    "message": "Arkiverer…"
+  },
+  "filedInto": {
+    "message": "Arkiveret i \"$LISTING$\".",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Denne meddelelse lå allerede i historikken for \"$LISTING$\": intet blev tilføjet.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

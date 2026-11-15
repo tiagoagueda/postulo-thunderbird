@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Vaše Postulo"
+  },
+  "noAddress": {
+    "message": "Tato zpráva neobsahuje odkaz na inzerát, takže není co zachytit: Postulo potřebuje adresu inzerátu, aby ho mohlo přečíst."
+  },
+  "reading": {
+    "message": "Čtení zprávy…"
+  },
+  "whichAddress": {
+    "message": "Který odkaz vede na inzerát?"
+  },
+  "titleLabel": {
+    "message": "Název"
+  },
+  "companyLabel": {
+    "message": "Firma"
+  },
+  "locationLabel": {
+    "message": "Místo"
+  },
+  "companyGuessed": {
+    "message": "Převzato od odesílatele: pokud to není zaměstnavatel, opravte to."
+  },
+  "sendForReview": {
+    "message": "Odeslat ke kontrole"
+  },
+  "sendAddress": {
+    "message": "Odeslat samotnou adresu"
+  },
+  "sendAddressHint": {
+    "message": "Při odeslání samotné adresy si Postulo stránku stáhne samo: počítá se to do vašeho limitu zachycení a nefunguje u stránky za přihlášením."
+  },
+  "previewing": {
+    "message": "Zjišťování, co Postulo v této zprávě čte…"
+  },
+  "capturedBefore": {
+    "message": "Postulo už tento inzerát má: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Odesílání…"
+  },
+  "sentDone": {
+    "message": "Odesláno ke kontrole: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Otevřít jeho kontrolu"
+  },
+  "untitled": {
+    "message": "Inzerát bez názvu"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 inzerát zachycený z pošty čeká na kontrolu"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: počet inzerátů zachycených z pošty, které čekají na kontrolu: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Přidat inzerát od nuly"
+  },
+  "severalMessages": {
+    "message": "Je vybráno několik zpráv. Vyberte jednu: jedna zpráva je jeden inzerát."
+  },
+  "reviewHeading": {
+    "message": "Ke kontrole"
+  },
+  "nothingWaiting": {
+    "message": "Nic nečeká na kontrolu."
+  },
+  "lastListed": {
+    "message": "Tak, jak je Postulo naposledy vypsal, dne $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Čeká na kontrolu v Postulu"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ zachycení tohoto inzerátu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Ze zprávy „$SUBJECT$“ od $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Otevřít zprávu"
+  },
+  "messageGone": {
+    "message": "Tato zpráva už v Thunderbirdu není."
+  },
+  "seeAllCaptures": {
+    "message": "Zobrazit všech $COUNT$ v Postulu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Zachytit inzerát"
+  },
+  "noDraft": {
+    "message": "Není tu žádná zpráva k zachycení. Stiskněte tlačítko zachycení u zprávy."
+  },
+  "close": {
+    "message": "Zavřít"
+  },
+  "footerOnline": {
+    "message": "Postulo odpovídá"
+  },
+  "footerSlow": {
+    "message": "Postulo odpovídá pomalu"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo není dostupné."
+  },
+  "noPermission": {
+    "message": "Bez oprávnění k přístupu k vašemu Postulu nelze nic odeslat."
+  },
+  "offlineOn": {
+    "message": "Testovací přepínač je zapnutý: nic se do Postula neodesílá."
+  },
+  "offlineOff": {
+    "message": "Testovací přepínač je vypnutý."
+  },
+  "offlineLabel": {
+    "message": "Chovat se, jako by Postulo nebylo dostupné"
+  },
+  "offlineHint": {
+    "message": "Pro testování. Dokud je zapnuto, Postulo se na nic neptá a nic se mu neodesílá a patička vyskakovacího okna ukazuje šedou baňku."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird pracuje offline: Postulo se na nic neptá."
+  },
+  "tokenCanCapture": {
+    "message": "Může zachytávat inzeráty."
+  },
+  "tokenCannotCapture": {
+    "message": "Nemůže zachytávat inzeráty: chybí mu oprávnění $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Může zařadit zprávu do historie inzerátu."
+  },
+  "tokenCannotFile": {
+    "message": "Nemůže zařadit zprávu do historie inzerátu: chybí mu oprávnění $SCOPE$, proto to vyskakovací okno nenabízí.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Zařadit tuto zprávu k inzerátu"
+  },
+  "searchListings": {
+    "message": "Hledat ve vašich inzerátech"
+  },
+  "suggested": {
+    "message": "Navrženo"
+  },
+  "noListings": {
+    "message": "Žádný inzerát neodpovídá."
+  },
+  "subjectOnly": {
+    "message": "Odeslat jen předmět"
+  },
+  "whatIsSent": {
+    "message": "Co bude odesláno"
+  },
+  "fileIt": {
+    "message": "Zařadit"
+  },
+  "filing": {
+    "message": "Zařazuje se…"
+  },
+  "filedInto": {
+    "message": "Zařazeno k inzerátu „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Tato zpráva už v historii inzerátu „$LISTING$“ byla: nic se nepřidalo.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

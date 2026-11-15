@@ -191,5 +191,239 @@
         "content": "$2"
       }
     }
+  },
+  "noAddress": {
+    "message": "Това съобщение няма връзка към обява, така че няма какво да се прихване: Postulo се нуждае от адреса на обявата, за да я прочете."
+  },
+  "reading": {
+    "message": "Четене на съобщението…"
+  },
+  "whichAddress": {
+    "message": "Коя връзка е обявата?"
+  },
+  "titleLabel": {
+    "message": "Заглавие"
+  },
+  "companyLabel": {
+    "message": "Компания"
+  },
+  "locationLabel": {
+    "message": "Място"
+  },
+  "companyGuessed": {
+    "message": "Взето от подателя: поправете го, ако не е работодателят."
+  },
+  "sendForReview": {
+    "message": "Изпращане за преглед"
+  },
+  "sendAddress": {
+    "message": "Изпращане само на адреса"
+  },
+  "sendAddressHint": {
+    "message": "Когато се изпрати само адресът, Postulo сам извлича страницата: това се брои към вашата квота за прихващане и не работи за страница зад вход."
+  },
+  "previewing": {
+    "message": "Запитване към Postulo какво чете в това съобщение…"
+  },
+  "capturedBefore": {
+    "message": "Postulo вече има тази обява: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Изпращане…"
+  },
+  "sentDone": {
+    "message": "Изпратено за преглед: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Отваряне на прегледа"
+  },
+  "untitled": {
+    "message": "Обява без заглавие"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 прихваната от имейл обява чака преглед"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ прихванати от имейл обяви чакат преглед",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Добавяне на обява от нулата"
+  },
+  "severalMessages": {
+    "message": "Избрани са няколко съобщения. Изберете едно: едно съобщение е една обява."
+  },
+  "reviewHeading": {
+    "message": "За преглед"
+  },
+  "nothingWaiting": {
+    "message": "Нищо не чака преглед."
+  },
+  "lastListed": {
+    "message": "Както Postulo ги изброи за последен път, на $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Чака преглед в Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ прихващания на тази обява",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "От съобщението „$SUBJECT$“ от $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Отваряне на съобщението"
+  },
+  "messageGone": {
+    "message": "Това съобщение вече не е в Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Вижте всички $COUNT$ в Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Прихващане на обява"
+  },
+  "noDraft": {
+    "message": "Тук няма съобщение за прихващане. Натиснете бутона за прихващане върху съобщение."
+  },
+  "close": {
+    "message": "Затваряне"
+  },
+  "footerOnline": {
+    "message": "Postulo отговаря"
+  },
+  "footerSlow": {
+    "message": "Postulo отговаря бавно"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo не може да бъде достигнато."
+  },
+  "noPermission": {
+    "message": "Без разрешение за достъп до вашия Postulo нищо не може да бъде изпратено."
+  },
+  "offlineOn": {
+    "message": "Тестовият превключвател е включен: нищо не се изпраща към Postulo."
+  },
+  "offlineOff": {
+    "message": "Тестовият превключвател е изключен."
+  },
+  "offlineLabel": {
+    "message": "Действай, сякаш Postulo не може да бъде достигнато"
+  },
+  "offlineHint": {
+    "message": "За тестване. Докато е включено, нищо не се пита от Postulo и нищо не се изпраща към него, а долната част на изскачащия прозорец показва сива колба."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird работи офлайн: нищо не се пита от Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Може да прихваща обяви."
+  },
+  "tokenCannotCapture": {
+    "message": "Не може да прихваща обяви: липсва му обхватът $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Може да архивира съобщение в историята на обява."
+  },
+  "tokenCannotFile": {
+    "message": "Не може да архивира съобщение в историята на обява: липсва му обхватът $SCOPE$, затова изскачащият прозорец не го предлага.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Архивиране на това съобщение към обява"
+  },
+  "searchListings": {
+    "message": "Търсене в обявите ви"
+  },
+  "suggested": {
+    "message": "Предложена"
+  },
+  "noListings": {
+    "message": "Няма съвпадаща обява."
+  },
+  "subjectOnly": {
+    "message": "Изпращане само на темата"
+  },
+  "whatIsSent": {
+    "message": "Какво ще бъде изпратено"
+  },
+  "fileIt": {
+    "message": "Архивиране"
+  },
+  "filing": {
+    "message": "Архивиране…"
+  },
+  "filedInto": {
+    "message": "Архивирано в „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Това съобщение вече беше в историята на „$LISTING$“: нищо не беше добавено.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

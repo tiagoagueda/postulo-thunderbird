@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "L'espace de stockage de Thunderbird pour Postulo est plein. Réessayez après avoir supprimé des données, ou redémarrez Thunderbird."
+  },
+  "noAddress": {
+    "message": "Ce message ne contient aucun lien vers une annonce, il n'y a donc rien à capturer : Postulo a besoin de l'adresse de l'annonce pour la lire."
+  },
+  "reading": {
+    "message": "Lecture du message…"
+  },
+  "whichAddress": {
+    "message": "Quel lien est l'annonce ?"
+  },
+  "titleLabel": {
+    "message": "Titre"
+  },
+  "companyLabel": {
+    "message": "Entreprise"
+  },
+  "locationLabel": {
+    "message": "Lieu"
+  },
+  "companyGuessed": {
+    "message": "Repris de l'expéditeur : corrigez-le si ce n'est pas l'employeur."
+  },
+  "sendForReview": {
+    "message": "Envoyer pour examen"
+  },
+  "sendAddress": {
+    "message": "Envoyer l'adresse seule"
+  },
+  "sendAddressHint": {
+    "message": "Avec l'adresse seule, Postulo va chercher lui-même la page : cela compte dans votre quota de captures, et échoue pour une page protégée par une connexion."
+  },
+  "previewing": {
+    "message": "Demande à Postulo ce qu'il lit dans ce message…"
+  },
+  "capturedBefore": {
+    "message": "Postulo a déjà cette annonce : $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Envoi en cours…"
+  },
+  "sentDone": {
+    "message": "Envoyé pour examen : $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Ouvrir son examen"
+  },
+  "untitled": {
+    "message": "Annonce sans titre"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo : 1 offre saisie depuis un courriel attend d’être révisée"
+  },
+  "badgeWaiting": {
+    "message": "Postulo : $COUNT$ offres saisies depuis des courriels attendent d’être révisées",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Ajouter une annonce de zéro"
+  },
+  "severalMessages": {
+    "message": "Plusieurs messages sont sélectionnés. N’en sélectionnez qu’un : un message correspond à une annonce."
+  },
+  "reviewHeading": {
+    "message": "À examiner"
+  },
+  "nothingWaiting": {
+    "message": "Rien n’attend d’être examiné."
+  },
+  "lastListed": {
+    "message": "Telles que Postulo les a listées pour la dernière fois, le $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "En attente d’examen dans Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ captures de cette annonce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Du message « $SUBJECT$ » de $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Ouvrir le message"
+  },
+  "messageGone": {
+    "message": "Ce message n’est plus dans Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Voir les $COUNT$ dans Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capturer une annonce"
+  },
+  "noDraft": {
+    "message": "Il n’y a aucun message à capturer ici. Appuyez sur le bouton de capture d’un message."
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "footerOnline": {
+    "message": "Postulo répond"
+  },
+  "footerSlow": {
+    "message": "Postulo met du temps à répondre"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo est injoignable."
+  },
+  "noPermission": {
+    "message": "Sans l’autorisation d’accéder à votre Postulo, rien ne peut être envoyé."
+  },
+  "offlineOn": {
+    "message": "L’interrupteur de test est activé : rien n’est envoyé à Postulo."
+  },
+  "offlineOff": {
+    "message": "L’interrupteur de test est désactivé."
+  },
+  "offlineLabel": {
+    "message": "Faire comme si Postulo était injoignable"
+  },
+  "offlineHint": {
+    "message": "Pour les tests. Tant que ceci est activé, rien n’est demandé à Postulo et rien ne lui est envoyé, et le pied de la fenêtre contextuelle affiche une fiole grise."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird travaille hors connexion : rien n’est demandé à Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Il peut capturer des annonces."
+  },
+  "tokenCannotCapture": {
+    "message": "Il ne peut pas capturer d’annonces : il lui manque la portée $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Il peut classer un message dans l’historique d’une annonce."
+  },
+  "tokenCannotFile": {
+    "message": "Il ne peut pas classer un message dans l’historique d’une annonce : il lui manque la portée $SCOPE$, donc la fenêtre contextuelle ne le propose pas.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Classer ce message dans une annonce"
+  },
+  "searchListings": {
+    "message": "Rechercher dans vos annonces"
+  },
+  "suggested": {
+    "message": "Suggérée"
+  },
+  "noListings": {
+    "message": "Aucune annonce ne correspond."
+  },
+  "subjectOnly": {
+    "message": "Envoyer l’objet seul"
+  },
+  "whatIsSent": {
+    "message": "Ce qui sera envoyé"
+  },
+  "fileIt": {
+    "message": "Classer"
+  },
+  "filing": {
+    "message": "Classement…"
+  },
+  "filedInto": {
+    "message": "Classé dans « $LISTING$ ».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ce message figurait déjà dans l’historique de « $LISTING$ » : rien n’a été ajouté.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

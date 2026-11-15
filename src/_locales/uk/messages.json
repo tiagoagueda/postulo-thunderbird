@@ -191,5 +191,239 @@
   },
   "noCredentialsInAddress": {
     "message": "Не вказуйте ім'я користувача й пароль в адресі: з'єднання ніколи не встановиться, а пароль буде показано у спливному вікні."
+  },
+  "noAddress": {
+    "message": "У цьому повідомленні немає посилання на вакансію, тож захоплювати нічого: Postulo потрібна адреса вакансії, щоб її прочитати."
+  },
+  "reading": {
+    "message": "Читання повідомлення…"
+  },
+  "whichAddress": {
+    "message": "Яке посилання веде на вакансію?"
+  },
+  "titleLabel": {
+    "message": "Назва"
+  },
+  "companyLabel": {
+    "message": "Компанія"
+  },
+  "locationLabel": {
+    "message": "Місце"
+  },
+  "companyGuessed": {
+    "message": "Взято з відправника: виправте, якщо це не роботодавець."
+  },
+  "sendForReview": {
+    "message": "Надіслати на перегляд"
+  },
+  "sendAddress": {
+    "message": "Надіслати лише адресу"
+  },
+  "sendAddressHint": {
+    "message": "Якщо надіслати лише адресу, Postulo сам завантажить сторінку: це зараховується до вашого ліміту захоплень і не спрацює для сторінки за входом."
+  },
+  "previewing": {
+    "message": "Запит до Postulo, що він бачить у цьому повідомленні…"
+  },
+  "capturedBefore": {
+    "message": "Postulo уже має цю вакансію: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Надсилання…"
+  },
+  "sentDone": {
+    "message": "Надіслано на перегляд: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Відкрити її перегляд"
+  },
+  "untitled": {
+    "message": "Вакансія без назви"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 вакансія, захоплена з пошти, чекає на перегляд"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: вакансії, захоплені з пошти, що чекають на перегляд: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Додати вакансію з нуля"
+  },
+  "severalMessages": {
+    "message": "Вибрано кілька повідомлень. Виберіть одне: одне повідомлення — одна вакансія."
+  },
+  "reviewHeading": {
+    "message": "Потребує перегляду"
+  },
+  "nothingWaiting": {
+    "message": "Ніщо не чекає на перегляд."
+  },
+  "lastListed": {
+    "message": "Так, як Postulo востаннє їх перелічив, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Чекає на перегляд у Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ захоплень цієї вакансії",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "З повідомлення «$SUBJECT$» від $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Відкрити повідомлення"
+  },
+  "messageGone": {
+    "message": "Цього повідомлення більше немає в Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Переглянути всі ($COUNT$) у Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Захопити вакансію"
+  },
+  "noDraft": {
+    "message": "Тут немає повідомлення для захоплення. Натисніть кнопку захоплення на повідомленні."
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "footerOnline": {
+    "message": "Postulo відповідає"
+  },
+  "footerSlow": {
+    "message": "Postulo відповідає повільно"
+  },
+  "postuloUnreachable": {
+    "message": "Не вдається зв’язатися з Postulo."
+  },
+  "noPermission": {
+    "message": "Без дозволу на доступ до вашого Postulo нічого не можна надіслати."
+  },
+  "offlineOn": {
+    "message": "Тестовий перемикач увімкнено: до Postulo нічого не надсилається."
+  },
+  "offlineOff": {
+    "message": "Тестовий перемикач вимкнено."
+  },
+  "offlineLabel": {
+    "message": "Поводитися так, ніби з Postulo не вдається зв’язатися"
+  },
+  "offlineHint": {
+    "message": "Для тестування. Поки це ввімкнено, у Postulo нічого не запитується і нічого не надсилається, а у нижній частині вікна показано сіру колбу."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird працює офлайн: у Postulo нічого не запитується."
+  },
+  "tokenCanCapture": {
+    "message": "Може захоплювати вакансії."
+  },
+  "tokenCannotCapture": {
+    "message": "Не може захоплювати вакансії: бракує дозволу $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Може архівувати повідомлення в історію вакансії."
+  },
+  "tokenCannotFile": {
+    "message": "Не може архівувати повідомлення в історію вакансії: бракує дозволу $SCOPE$, тому вікно цього не пропонує.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Архівувати це повідомлення до вакансії"
+  },
+  "searchListings": {
+    "message": "Шукати у ваших вакансіях"
+  },
+  "suggested": {
+    "message": "Пропозиція"
+  },
+  "noListings": {
+    "message": "Жодна вакансія не підходить."
+  },
+  "subjectOnly": {
+    "message": "Надіслати лише тему"
+  },
+  "whatIsSent": {
+    "message": "Що буде надіслано"
+  },
+  "fileIt": {
+    "message": "Архівувати"
+  },
+  "filing": {
+    "message": "Архівування…"
+  },
+  "filedInto": {
+    "message": "Архівовано до «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Це повідомлення вже було в історії «$LISTING$»: нічого не додано.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

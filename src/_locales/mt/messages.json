@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Il-Postulo tiegħek"
+  },
+  "noAddress": {
+    "message": "Dan il-messaġġ m'għandux l-ebda link għal avviż, għalhekk m'hemm xejn x'jinqabad: Postulo jeħtieġ l-indirizz tal-avviż biex jaqrah."
+  },
+  "reading": {
+    "message": "Qed jinqara l-messaġġ…"
+  },
+  "whichAddress": {
+    "message": "Liema link huwa l-avviż?"
+  },
+  "titleLabel": {
+    "message": "Titlu"
+  },
+  "companyLabel": {
+    "message": "Kumpanija"
+  },
+  "locationLabel": {
+    "message": "Post"
+  },
+  "companyGuessed": {
+    "message": "Meħud mill-mittent: ikkoreġih jekk mhuwiex il-prinċipal."
+  },
+  "sendForReview": {
+    "message": "Ibgħat għar-reviżjoni"
+  },
+  "sendAddress": {
+    "message": "Ibgħat l-indirizz biss"
+  },
+  "sendAddressHint": {
+    "message": "Meta jintbagħat l-indirizz biss, Postulo jġib il-paġna waħdu: jgħodd mal-allowance tal-qbid tiegħek, u ma jirnexxix għal paġna wara sign-in."
+  },
+  "previewing": {
+    "message": "Qed nistaqsu lil Postulo x'jaqra f'dan il-messaġġ…"
+  },
+  "capturedBefore": {
+    "message": "Postulo diġà għandu dan l-avviż: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Qed jintbagħat…"
+  },
+  "sentDone": {
+    "message": "Intbagħat għar-reviżjoni: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Iftaħ ir-reviżjoni tiegħu"
+  },
+  "untitled": {
+    "message": "Avviż mingħajr titlu"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: avviż 1 maqbud mill-posta qed jistenna r-reviżjoni"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ avviżi maqbuda mill-posta qed jistennew ir-reviżjoni",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Żid avviż mill-bidu"
+  },
+  "severalMessages": {
+    "message": "Hemm diversi messaġġi magħżula. Agħżel wieħed: messaġġ wieħed huwa avviż wieħed."
+  },
+  "reviewHeading": {
+    "message": "Teħtieġ reviżjoni"
+  },
+  "nothingWaiting": {
+    "message": "Xejn ma qed jistenna reviżjoni."
+  },
+  "lastListed": {
+    "message": "Kif Postulo elenkahom l-aħħar darba, fil-$WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Qed jistenna reviżjoni f'Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ qbid ta' dan l-avviż",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Mill-messaġġ \"$SUBJECT$\" minn $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Iftaħ il-messaġġ"
+  },
+  "messageGone": {
+    "message": "Dak il-messaġġ m'għadux f'Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Ara l-$COUNT$ kollha f'Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Aqbad avviż"
+  },
+  "noDraft": {
+    "message": "Hawnhekk m'hemm l-ebda messaġġ x'taqbad. Agħfas il-buttuna tal-qbid fuq messaġġ."
+  },
+  "close": {
+    "message": "Agħlaq"
+  },
+  "footerOnline": {
+    "message": "Postulo qed iwieġeb"
+  },
+  "footerSlow": {
+    "message": "Postulo qed iwieġeb bil-mod"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo ma jistax jintlaħaq."
+  },
+  "noPermission": {
+    "message": "Mingħajr permess biex jintlaħaq il-Postulo tiegħek, xejn ma jista' jintbagħat."
+  },
+  "offlineOn": {
+    "message": "L-iswiċċ tal-ittestjar huwa mixgħul: xejn ma jintbagħat lil Postulo."
+  },
+  "offlineOff": {
+    "message": "L-iswiċċ tal-ittestjar huwa mitfi."
+  },
+  "offlineLabel": {
+    "message": "Aġixxi bħallikieku Postulo ma jistax jintlaħaq"
+  },
+  "offlineHint": {
+    "message": "Għall-ittestjar. Sakemm dan ikun mixgħul, xejn ma jintalab minn Postulo u xejn ma jintbagħat lilu, u l-qiegħ tal-popup juri flixkun griż."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird qed jaħdem offline: xejn ma jintalab minn Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Jista' jaqbad avviżi."
+  },
+  "tokenCannotCapture": {
+    "message": "Ma jistax jaqbad avviżi: nieqes l-ambitu $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Jista' jiffajla messaġġ fl-istorja ta' avviż."
+  },
+  "tokenCannotFile": {
+    "message": "Ma jistax jiffajla messaġġ fl-istorja ta' avviż: nieqes l-ambitu $SCOPE$, għalhekk il-popup ma joffrix dan.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Iffajla dan il-messaġġ f'avviż"
+  },
+  "searchListings": {
+    "message": "Fittex fl-avviżi tiegħek"
+  },
+  "suggested": {
+    "message": "Issuġġerit"
+  },
+  "noListings": {
+    "message": "L-ebda avviż ma jaqbel."
+  },
+  "subjectOnly": {
+    "message": "Ibgħat is-suġġett biss"
+  },
+  "whatIsSent": {
+    "message": "X'se jintbagħat"
+  },
+  "fileIt": {
+    "message": "Iffajlah"
+  },
+  "filing": {
+    "message": "Qed jiffajla…"
+  },
+  "filedInto": {
+    "message": "Iffajlat f'\"$LISTING$\".",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Dan il-messaġġ kien diġà fl-istorja ta' \"$LISTING$\": xejn ma ġie miżjud.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird-ün Postulo üçün yaddaşı doludur. Bəzi məlumatları sildikdən sonra yenidən cəhd edin və ya Thunderbird-ü yenidən başladın."
+  },
+  "noAddress": {
+    "message": "Bu mesajda elana keçid yoxdur, ona görə götürüləcək heç nə yoxdur: Postulo-nun onu oxumaq üçün elanın ünvanı lazımdır."
+  },
+  "reading": {
+    "message": "Mesaj oxunur…"
+  },
+  "whichAddress": {
+    "message": "Hansı keçid elandır?"
+  },
+  "titleLabel": {
+    "message": "Başlıq"
+  },
+  "companyLabel": {
+    "message": "Şirkət"
+  },
+  "locationLabel": {
+    "message": "Yer"
+  },
+  "companyGuessed": {
+    "message": "Göndərəndən götürülüb: işəgötürən deyilsə, düzəldin."
+  },
+  "sendForReview": {
+    "message": "Nəzərdən keçirməyə göndər"
+  },
+  "sendAddress": {
+    "message": "Yalnız ünvanı göndər"
+  },
+  "sendAddressHint": {
+    "message": "Yalnız ünvan göndərildikdə Postulo səhifəni özü gətirir: bu, götürmə kvotanızdan hesablanır və daxil olmağı tələb edən səhifə üçün alınmır."
+  },
+  "previewing": {
+    "message": "Postulo-dan bu mesajda nə oxuduğu soruşulur…"
+  },
+  "capturedBefore": {
+    "message": "Postulo bu elanı artıq saxlayır: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Göndərilir…"
+  },
+  "sentDone": {
+    "message": "Nəzərdən keçirməyə göndərildi: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Onun nəzərdən keçirilməsini aç"
+  },
+  "untitled": {
+    "message": "Başlıqsız elan"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: poçtdan götürülmüş 1 elan baxış gözləyir"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: poçtdan götürülmüş $COUNT$ elan baxış gözləyir",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Elanı sıfırdan əlavə et"
+  },
+  "severalMessages": {
+    "message": "Bir neçə məktub seçilib. Birini seçin: bir məktub bir elandır."
+  },
+  "reviewHeading": {
+    "message": "Baxılmalıdır"
+  },
+  "nothingWaiting": {
+    "message": "Baxılmağı gözləyən heç nə yoxdur."
+  },
+  "lastListed": {
+    "message": "Postulonun sonuncu dəfə siyahıya aldığı kimi, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postuloda baxılmağı gözləyir"
+  },
+  "capturesOfPosting": {
+    "message": "Bu elanın $COUNT$ tutulması",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "$SENDER$ tərəfindən göndərilən \"$SUBJECT$\" məktubundan",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Məktubu aç"
+  },
+  "messageGone": {
+    "message": "Həmin məktub artıq Thunderbirddə yoxdur."
+  },
+  "seeAllCaptures": {
+    "message": "Postuloda hamısına bax ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Elanı tut"
+  },
+  "noDraft": {
+    "message": "Burada tutulacaq məktub yoxdur. Məktubda tutma düyməsinə basın."
+  },
+  "close": {
+    "message": "Bağla"
+  },
+  "footerOnline": {
+    "message": "Postulo cavab verir"
+  },
+  "footerSlow": {
+    "message": "Postulo gec cavab verir"
+  },
+  "postuloUnreachable": {
+    "message": "Postuloya çatmaq mümkün deyil."
+  },
+  "noPermission": {
+    "message": "Postuloya çatmaq icazəsi olmadan heç nə göndərmək olmaz."
+  },
+  "offlineOn": {
+    "message": "Test açarı yandırılıb: Postuloya heç nə göndərilmir."
+  },
+  "offlineOff": {
+    "message": "Test açarı söndürülüb."
+  },
+  "offlineLabel": {
+    "message": "Postuloya çatmaq mümkün deyilmiş kimi davran"
+  },
+  "offlineHint": {
+    "message": "Test üçündür. Bu işə salınıb olduqca Postulodan heç nə soruşulmur və ona heç nə göndərilmir, açılan pəncərənin altında isə boz kolba görünür."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird oflayn işləyir: Postulodan heç nə soruşulmur."
+  },
+  "tokenCanCapture": {
+    "message": "Elanları tuta bilir."
+  },
+  "tokenCannotCapture": {
+    "message": "Elanları tuta bilmir: $SCOPE$ əhatəsi yoxdur.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Məktubu elanın tarixçəsinə əlavə edə bilir."
+  },
+  "tokenCannotFile": {
+    "message": "Məktubu elanın tarixçəsinə əlavə edə bilmir: $SCOPE$ əhatəsi yoxdur, ona görə də açılan pəncərə bunu təklif etmir.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Bu məktubu elana əlavə et"
+  },
+  "searchListings": {
+    "message": "Elanlarınızda axtarın"
+  },
+  "suggested": {
+    "message": "Təklif olunan"
+  },
+  "noListings": {
+    "message": "Heç bir elan uyğun gəlmir."
+  },
+  "subjectOnly": {
+    "message": "Yalnız mövzunu göndər"
+  },
+  "whatIsSent": {
+    "message": "Nə göndəriləcək"
+  },
+  "fileIt": {
+    "message": "Əlavə et"
+  },
+  "filing": {
+    "message": "Əlavə olunur…"
+  },
+  "filedInto": {
+    "message": "\"$LISTING$\" elanına əlavə olundu.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Bu məktub artıq \"$LISTING$\" elanının tarixçəsində idi: heç nə əlavə olunmadı.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "Το Postulo σας"
+  },
+  "noAddress": {
+    "message": "Το μήνυμα δεν έχει σύνδεσμο προς αγγελία, οπότε δεν υπάρχει τίποτα για καταγραφή: το Postulo χρειάζεται τη διεύθυνση της αγγελίας για να τη διαβάσει."
+  },
+  "reading": {
+    "message": "Ανάγνωση του μηνύματος…"
+  },
+  "whichAddress": {
+    "message": "Ποιος σύνδεσμος είναι η αγγελία;"
+  },
+  "titleLabel": {
+    "message": "Τίτλος"
+  },
+  "companyLabel": {
+    "message": "Εταιρεία"
+  },
+  "locationLabel": {
+    "message": "Μέρος"
+  },
+  "companyGuessed": {
+    "message": "Προήλθε από τον αποστολέα: διορθώστε το αν δεν είναι ο εργοδότης."
+  },
+  "sendForReview": {
+    "message": "Αποστολή για έλεγχο"
+  },
+  "sendAddress": {
+    "message": "Αποστολή μόνο της διεύθυνσης"
+  },
+  "sendAddressHint": {
+    "message": "Με τη διεύθυνση μόνη της, το Postulo φορτώνει μόνο του τη σελίδα: προσμετράται στο όριο καταγραφών σας και αποτυγχάνει για σελίδα πίσω από σύνδεση."
+  },
+  "previewing": {
+    "message": "Ερώτηση στο Postulo τι διαβάζει σε αυτό το μήνυμα…"
+  },
+  "capturedBefore": {
+    "message": "Το Postulo έχει ήδη αυτή την αγγελία: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Αποστολή…"
+  },
+  "sentDone": {
+    "message": "Στάλθηκε για έλεγχο: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Άνοιγμα του ελέγχου"
+  },
+  "untitled": {
+    "message": "Αγγελία χωρίς τίτλο"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 αγγελία που καταγράφηκε από το ταχυδρομείο αναμένει έλεγχο"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ αγγελίες που καταγράφηκαν από το ταχυδρομείο αναμένουν έλεγχο",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Προσθήκη αγγελίας από το μηδέν"
+  },
+  "severalMessages": {
+    "message": "Έχουν επιλεγεί αρκετά μηνύματα. Επιλέξτε ένα: ένα μήνυμα είναι μία αγγελία."
+  },
+  "reviewHeading": {
+    "message": "Για έλεγχο"
+  },
+  "nothingWaiting": {
+    "message": "Τίποτα δεν περιμένει έλεγχο."
+  },
+  "lastListed": {
+    "message": "Όπως τις είχε καταχωρίσει τελευταία φορά το Postulo, στις $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Σε αναμονή ελέγχου στο Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ καταγραφές αυτής της αγγελίας",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Από το μήνυμα «$SUBJECT$» του/της $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Άνοιγμα του μηνύματος"
+  },
+  "messageGone": {
+    "message": "Αυτό το μήνυμα δεν υπάρχει πια στο Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Δείτε και τις $COUNT$ στο Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Καταγραφή αγγελίας"
+  },
+  "noDraft": {
+    "message": "Δεν υπάρχει μήνυμα για καταγραφή εδώ. Πατήστε το κουμπί καταγραφής σε ένα μήνυμα."
+  },
+  "close": {
+    "message": "Κλείσιμο"
+  },
+  "footerOnline": {
+    "message": "Το Postulo απαντά"
+  },
+  "footerSlow": {
+    "message": "Το Postulo αργεί να απαντήσει"
+  },
+  "postuloUnreachable": {
+    "message": "Δεν είναι δυνατή η σύνδεση με το Postulo."
+  },
+  "noPermission": {
+    "message": "Χωρίς άδεια πρόσβασης στο Postulo σας, δεν μπορεί να σταλεί τίποτα."
+  },
+  "offlineOn": {
+    "message": "Ο διακόπτης δοκιμών είναι ενεργός: δεν στέλνεται τίποτα στο Postulo."
+  },
+  "offlineOff": {
+    "message": "Ο διακόπτης δοκιμών είναι ανενεργός."
+  },
+  "offlineLabel": {
+    "message": "Λειτουργία σαν να μην είναι δυνατή η σύνδεση με το Postulo"
+  },
+  "offlineHint": {
+    "message": "Για δοκιμές. Όσο είναι ενεργό, δεν ζητείται τίποτα από το Postulo και δεν στέλνεται τίποτα σε αυτό, και το υποσέλιδο του αναδυόμενου παραθύρου δείχνει μια γκρι φιάλη."
+  },
+  "thunderbirdOffline": {
+    "message": "Το Thunderbird λειτουργεί εκτός σύνδεσης: δεν ζητείται τίποτα από το Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Μπορεί να καταγράφει αγγελίες."
+  },
+  "tokenCannotCapture": {
+    "message": "Δεν μπορεί να καταγράφει αγγελίες: του λείπει το πεδίο $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Μπορεί να αρχειοθετεί ένα μήνυμα στο ιστορικό μιας αγγελίας."
+  },
+  "tokenCannotFile": {
+    "message": "Δεν μπορεί να αρχειοθετεί ένα μήνυμα στο ιστορικό μιας αγγελίας: του λείπει το πεδίο $SCOPE$, γι' αυτό το αναδυόμενο παράθυρο δεν το προσφέρει.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Αρχειοθέτηση αυτού του μηνύματος σε αγγελία"
+  },
+  "searchListings": {
+    "message": "Αναζήτηση στις αγγελίες σας"
+  },
+  "suggested": {
+    "message": "Προτεινόμενη"
+  },
+  "noListings": {
+    "message": "Καμία αγγελία δεν ταιριάζει."
+  },
+  "subjectOnly": {
+    "message": "Αποστολή μόνο του θέματος"
+  },
+  "whatIsSent": {
+    "message": "Τι θα σταλεί"
+  },
+  "fileIt": {
+    "message": "Αρχειοθέτηση"
+  },
+  "filing": {
+    "message": "Αρχειοθέτηση…"
+  },
+  "filedInto": {
+    "message": "Αρχειοθετήθηκε στην «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Αυτό το μήνυμα υπήρχε ήδη στο ιστορικό της «$LISTING$»: δεν προστέθηκε τίποτα.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

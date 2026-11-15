@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird-ի պահեստը Postulo-ի համար լցված է։ Կրկին փորձեք որոշ տվյալներ հեռացնելուց հետո կամ վերագործարկեք Thunderbird-ը։"
+  },
+  "noAddress": {
+    "message": "Այս հաղորդագրության մեջ հայտարարության հղում չկա, ուստի որսալու բան չկա․ Postulo-ին հայտարարության հասցեն է պետք՝ այն կարդալու համար։"
+  },
+  "reading": {
+    "message": "Հաղորդագրությունը կարդացվում է…"
+  },
+  "whichAddress": {
+    "message": "Ո՞ր հղումն է հայտարարությունը։"
+  },
+  "titleLabel": {
+    "message": "Վերնագիր"
+  },
+  "companyLabel": {
+    "message": "Ընկերություն"
+  },
+  "locationLabel": {
+    "message": "Վայր"
+  },
+  "companyGuessed": {
+    "message": "Վերցված է ուղարկողից․ ուղղեք, եթե նա գործատուն չէ։"
+  },
+  "sendForReview": {
+    "message": "Ուղարկել վերանայման"
+  },
+  "sendAddress": {
+    "message": "Ուղարկել միայն հասցեն"
+  },
+  "sendAddressHint": {
+    "message": "Միայն հասցեն ուղարկելիս Postulo-ն էջը բերում է ինքը․ դա հաշվվում է ձեր որսի քվոտայում և չի աշխատում մուտք պահանջող էջի դեպքում։"
+  },
+  "previewing": {
+    "message": "Հարցնում է Postulo-ին, թե ինչ է կարդում այս հաղորդագրության մեջ…"
+  },
+  "capturedBefore": {
+    "message": "Postulo-ն արդեն ունի այս հայտարարությունը՝ $TITLE$։",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Ուղարկվում է…"
+  },
+  "sentDone": {
+    "message": "Ուղարկվեց վերանայման՝ $POSTING$։",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Բացել դրա վերանայումը"
+  },
+  "untitled": {
+    "message": "Անվերնագիր հայտարարություն"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: փոստից որսված 1 հայտարարություն սպասում է վերանայման"
+  },
+  "badgeWaiting": {
+    "message": "Postulo․ փոստից որսված $COUNT$ հայտարարություն սպասում են վերանայման",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Ավելացնել հայտարարություն զրոյից"
+  },
+  "severalMessages": {
+    "message": "Ընտրված են մի քանի հաղորդագրություններ։ Ընտրեք մեկը․ մեկ հաղորդագրությունը մեկ հայտարարություն է։"
+  },
+  "reviewHeading": {
+    "message": "Պահանջում է վերանայում"
+  },
+  "nothingWaiting": {
+    "message": "Վերանայման սպասող ոչինչ չկա։"
+  },
+  "lastListed": {
+    "message": "Ինչպես Postulo-ն վերջին անգամ թվարկել էր դրանք՝ $WHEN$։",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo-ում սպասում է վերանայման"
+  },
+  "capturesOfPosting": {
+    "message": "Այս հայտարարության $COUNT$ որս",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "«$SUBJECT$» հաղորդագրությունից՝ $SENDER$-ից",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Բացել հաղորդագրությունը"
+  },
+  "messageGone": {
+    "message": "Այդ հաղորդագրությունն այլևս Thunderbird-ում չէ։"
+  },
+  "seeAllCaptures": {
+    "message": "Տեսնել բոլոր $COUNT$-ը Postulo-ում",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Որսալ հայտարարություն"
+  },
+  "noDraft": {
+    "message": "Այստեղ որսալու հաղորդագրություն չկա։ Սեղմեք որսի կոճակը որևէ հաղորդագրության վրա։"
+  },
+  "close": {
+    "message": "Փակել"
+  },
+  "footerOnline": {
+    "message": "Postulo-ն պատասխանում է"
+  },
+  "footerSlow": {
+    "message": "Postulo-ն դանդաղ է պատասխանում"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo-ին հնարավոր չէ կապվել։"
+  },
+  "noPermission": {
+    "message": "Ձեր Postulo-ին հասանելիության թույլտվություն չկա, ոչինչ չի կարող ուղարկվել։"
+  },
+  "offlineOn": {
+    "message": "Փորձարկման փոխարկիչը միացված է․ Postulo-ին ոչինչ չի ուղարկվում։"
+  },
+  "offlineOff": {
+    "message": "Փորձարկման փոխարկիչն անջատված է։"
+  },
+  "offlineLabel": {
+    "message": "Գործել այնպես, կարծես Postulo-ին հնարավոր չէ կապվել"
+  },
+  "offlineHint": {
+    "message": "Փորձարկման համար։ Մինչ սա միացված է, Postulo-ից ոչինչ չի հարցվում և նրան ոչինչ չի ուղարկվում, իսկ թռուցիկի ստորին մասում երևում է մոխրագույն կոլբա։"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird-ն աշխատում է անցանց․ Postulo-ից ոչինչ չի հարցվում։"
+  },
+  "tokenCanCapture": {
+    "message": "Այն կարող է որսալ հայտարարություններ։"
+  },
+  "tokenCannotCapture": {
+    "message": "Այն չի կարող որսալ հայտարարություններ․ պակասում է $SCOPE$ թույլտվությունը։",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Այն կարող է հաղորդագրությունը պահել հայտարարության պատմության մեջ։"
+  },
+  "tokenCannotFile": {
+    "message": "Այն չի կարող հաղորդագրությունը պահել հայտարարության պատմության մեջ․ պակասում է $SCOPE$ թույլտվությունը, ուստի թռուցիկը դա չի առաջարկում։",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Պահել այս հաղորդագրությունը հայտարարության մեջ"
+  },
+  "searchListings": {
+    "message": "Որոնել ձեր հայտարարություններում"
+  },
+  "suggested": {
+    "message": "Առաջարկվող"
+  },
+  "noListings": {
+    "message": "Ոչ մի հայտարարություն չի համապատասխանում։"
+  },
+  "subjectOnly": {
+    "message": "Ուղարկել միայն թեման"
+  },
+  "whatIsSent": {
+    "message": "Ինչ կուղարկվի"
+  },
+  "fileIt": {
+    "message": "Պահել"
+  },
+  "filing": {
+    "message": "Պահվում է…"
+  },
+  "filedInto": {
+    "message": "Պահվեց «$LISTING$»-ում։",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Այս հաղորդագրությունն արդեն «$LISTING$»-ի պատմության մեջ էր․ ոչինչ չավելացվեց։",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

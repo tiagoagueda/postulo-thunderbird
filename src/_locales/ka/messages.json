@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird-ის საცავი Postulo-სთვის სავსეა. სცადეთ ხელახლა ზოგიერთი მონაცემის წაშლის შემდეგ, ან გადატვირთეთ Thunderbird."
+  },
+  "noAddress": {
+    "message": "ამ შეტყობინებაში ვაკანსიის ბმული არ არის, ამიტომ აღსაღები არაფერია: Postulo-ს ვაკანსიის მისამართი სჭირდება, რომ წაიკითხოს."
+  },
+  "reading": {
+    "message": "შეტყობინება იკითხება…"
+  },
+  "whichAddress": {
+    "message": "რომელი ბმულია ვაკანსია?"
+  },
+  "titleLabel": {
+    "message": "სათაური"
+  },
+  "companyLabel": {
+    "message": "კომპანია"
+  },
+  "locationLabel": {
+    "message": "ადგილი"
+  },
+  "companyGuessed": {
+    "message": "აღებულია გამგზავნიდან: შეასწორეთ, თუ ის დამსაქმებელი არ არის."
+  },
+  "sendForReview": {
+    "message": "გადასახედად გაგზავნა"
+  },
+  "sendAddress": {
+    "message": "მხოლოდ მისამართის გაგზავნა"
+  },
+  "sendAddressHint": {
+    "message": "მხოლოდ მისამართის გაგზავნისას Postulo გვერდს თავად ჩამოტვირთავს: ეს ითვლება თქვენს აღების ლიმიტში და ვერ მუშაობს იმ გვერდზე, რომელიც შესვლას მოითხოვს."
+  },
+  "previewing": {
+    "message": "Postulo-ს ეკითხება, რას კითხულობს ამ შეტყობინებაში…"
+  },
+  "capturedBefore": {
+    "message": "Postulo-ს ეს ვაკანსია უკვე აქვს: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "იგზავნება…"
+  },
+  "sentDone": {
+    "message": "გადასახედად გაიგზავნა: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "მისი გადახედვის გახსნა"
+  },
+  "untitled": {
+    "message": "უსათაურო ვაკანსია"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: ფოსტიდან აღებული 1 ვაკანსია გადახედვას ელოდება"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: ფოსტიდან აღებული $COUNT$ ვაკანსია გადახედვას ელოდება",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "ვაკანსიის დამატება ნულიდან"
+  },
+  "severalMessages": {
+    "message": "მონიშნულია რამდენიმე შეტყობინება. მონიშნეთ ერთი: ერთი შეტყობინება ერთი ვაკანსიაა."
+  },
+  "reviewHeading": {
+    "message": "საჭიროებს განხილვას"
+  },
+  "nothingWaiting": {
+    "message": "განხილვას არაფერი ელოდება."
+  },
+  "lastListed": {
+    "message": "როგორც Postulo-მ ბოლოს ჩამოთვალა, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "ელოდება განხილვას Postulo-ში"
+  },
+  "capturesOfPosting": {
+    "message": "ამ ვაკანსიის $COUNT$ აღება",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "შეტყობინებიდან „$SUBJECT$“, გამგზავნი: $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "შეტყობინების გახსნა"
+  },
+  "messageGone": {
+    "message": "ეს შეტყობინება აღარ არის Thunderbird-ში."
+  },
+  "seeAllCaptures": {
+    "message": "ყველა $COUNT$-ის ნახვა Postulo-ში",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "ვაკანსიის აღება"
+  },
+  "noDraft": {
+    "message": "აქ აღსაღები შეტყობინება არ არის. დააჭირეთ აღების ღილაკს შეტყობინებაზე."
+  },
+  "close": {
+    "message": "დახურვა"
+  },
+  "footerOnline": {
+    "message": "Postulo პასუხობს"
+  },
+  "footerSlow": {
+    "message": "Postulo ნელა პასუხობს"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo მიუწვდომელია."
+  },
+  "noPermission": {
+    "message": "თქვენს Postulo-სთან წვდომის ნებართვის გარეშე ვერაფერი გაიგზავნება."
+  },
+  "offlineOn": {
+    "message": "სატესტო გადამრთველი ჩართულია: Postulo-ს არაფერი ეგზავნება."
+  },
+  "offlineOff": {
+    "message": "სატესტო გადამრთველი გამორთულია."
+  },
+  "offlineLabel": {
+    "message": "მოიქეცი ისე, თითქოს Postulo მიუწვდომელია"
+  },
+  "offlineHint": {
+    "message": "გამოსაცდელად. ჩართვისას Postulo-ს არაფერს ეკითხება და არაფერს უგზავნის, ამომხტარი ფანჯრის ქვედა ნაწილში კი რუხი კოლბა ჩანს."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird კავშირგარეშე მუშაობს: Postulo-ს არაფერი ეკითხება."
+  },
+  "tokenCanCapture": {
+    "message": "მას შეუძლია ვაკანსიების აღება."
+  },
+  "tokenCannotCapture": {
+    "message": "მას არ შეუძლია ვაკანსიების აღება: აკლია $SCOPE$ უფლება.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "მას შეუძლია შეტყობინების ვაკანსიის ისტორიაში შენახვა."
+  },
+  "tokenCannotFile": {
+    "message": "მას არ შეუძლია შეტყობინების ვაკანსიის ისტორიაში შენახვა: აკლია $SCOPE$ უფლება, ამიტომ ამომხტარი ფანჯარა ამას არ სთავაზობს.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "ამ შეტყობინების ვაკანსიაში შენახვა"
+  },
+  "searchListings": {
+    "message": "ვაკანსიებში ძებნა"
+  },
+  "suggested": {
+    "message": "შემოთავაზებული"
+  },
+  "noListings": {
+    "message": "ვაკანსია ვერ მოიძებნა."
+  },
+  "subjectOnly": {
+    "message": "მხოლოდ თემის გაგზავნა"
+  },
+  "whatIsSent": {
+    "message": "რა გაიგზავნება"
+  },
+  "fileIt": {
+    "message": "შენახვა"
+  },
+  "filing": {
+    "message": "ინახება…"
+  },
+  "filedInto": {
+    "message": "შენახულია „$LISTING$“-ში.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "ეს შეტყობინება უკვე იყო „$LISTING$“-ის ისტორიაში: არაფერი დამატებულა.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

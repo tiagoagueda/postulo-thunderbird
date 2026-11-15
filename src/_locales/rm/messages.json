@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "La memoria da Thunderbird per Postulo è plaina. Empruvai anc ina giada suenter avair allontanà intginas datas, u reaviai Thunderbird."
+  },
+  "noAddress": {
+    "message": "Quest e-mail n'ha nagina colliaziun cun in inserat, uschia ch'i n'ha nagut da capturar: Postulo ha basegn da l'adressa da l'inserat per al leger."
+  },
+  "reading": {
+    "message": "Leger il messadi…"
+  },
+  "whichAddress": {
+    "message": "Tgenina colliaziun è l'inserat?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Interpresa"
+  },
+  "locationLabel": {
+    "message": "Lieu"
+  },
+  "companyGuessed": {
+    "message": "Prendì dal trametter: corrigiai quai, sch'i n'è betg il patrun."
+  },
+  "sendForReview": {
+    "message": "Trametter per la revisiun"
+  },
+  "sendAddress": {
+    "message": "Trametter mo l'adressa"
+  },
+  "sendAddressHint": {
+    "message": "Cun trametter mo l'adressa va Postulo sez a tschertgar la pagina: quai vegn quintà en Vossa quota da capturas e na funcziunescha betg per ina pagina davos in annunzi."
+  },
+  "previewing": {
+    "message": "Dumandar a Postulo, tge ch'el legia en quest messadi…"
+  },
+  "capturedBefore": {
+    "message": "Postulo ha gia quest inserat: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Trametter…"
+  },
+  "sentDone": {
+    "message": "Tramess per la revisiun: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Avrir la revisiun"
+  },
+  "untitled": {
+    "message": "Inserat senza titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 inserat chapitgà da la posta spetga sin ina examinaziun"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ inserats chapitgads da la posta spetgan sin ina examinaziun",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Agiuntar in inserat da nov"
+  },
+  "severalMessages": {
+    "message": "Pliras messadis èn selecziunads. Selecziunai ün: in messadi è in inserat."
+  },
+  "reviewHeading": {
+    "message": "Cunter controllar"
+  },
+  "nothingWaiting": {
+    "message": "Nagut n'aspetta ina controlla."
+  },
+  "lastListed": {
+    "message": "Uschia che Postulo als ha listà il davos, ils $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Spetga ina controlla en Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ captauras da quest inserat",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Dal messadi «$SUBJECT$» da $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Avrir il messadi"
+  },
+  "messageGone": {
+    "message": "Quest messadi n'è betg pli en Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Mussar tut ils $COUNT$ en Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Captar in inserat"
+  },
+  "noDraft": {
+    "message": "Qua n'exista nagin messadi per captar. Smatgai sin il buttun da captura en in messadi."
+  },
+  "close": {
+    "message": "Serrar"
+  },
+  "footerOnline": {
+    "message": "Postulo respunda"
+  },
+  "footerSlow": {
+    "message": "Postulo respunda a plaun"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo n'è betg accessibel."
+  },
+  "noPermission": {
+    "message": "Senza permissiun d'access a Voss Postulo na po nagut vegnir tramett."
+  },
+  "offlineOn": {
+    "message": "L'interruptur da test è activà: nagut na vegn tramett a Postulo."
+  },
+  "offlineOff": {
+    "message": "L'interruptur da test è deactivà."
+  },
+  "offlineLabel": {
+    "message": "Agir sco sche Postulo n'era betg accessibel"
+  },
+  "offlineHint": {
+    "message": "Per testar. Dal temp che quai è activà, na vegn nagut dumandà a Postulo e nagut tramett, e il pe dal pop-up mussa ina flascha grisch."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird lavura offline: nagut na vegn dumandà a Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "El po captar inserats."
+  },
+  "tokenCannotCapture": {
+    "message": "El na po betg captar inserats: la manca la permissiun $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "El po arcunar in messadi en la cronologia d'in inserat."
+  },
+  "tokenCannotFile": {
+    "message": "El na po betg arcunar in messadi en la cronologia d'in inserat: la manca la permissiun $SCOPE$, perquai na l'offrescha il pop-up betg.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arcunar quest messadi en in inserat"
+  },
+  "searchListings": {
+    "message": "Tschertgar en voss inserats"
+  },
+  "suggested": {
+    "message": "Proponì"
+  },
+  "noListings": {
+    "message": "Nagin inserat correspunda."
+  },
+  "subjectOnly": {
+    "message": "Trametter be il object"
+  },
+  "whatIsSent": {
+    "message": "Tge che vegn tramett"
+  },
+  "fileIt": {
+    "message": "Arcunar"
+  },
+  "filing": {
+    "message": "Arcunar…"
+  },
+  "filedInto": {
+    "message": "Arcunà en «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Quest messadi era gia en la cronologia da «$LISTING$»: nagut n'è vegnì agiuntà.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

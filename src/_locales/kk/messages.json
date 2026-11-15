@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird-тің Postulo-ға арналған жады толы. Біраз деректерді жойғаннан кейін қайталап көріңіз немесе Thunderbird-ті қайта іске қосыңыз."
+  },
+  "noAddress": {
+    "message": "Бұл хабарда вакансияға сілтеме жоқ, сондықтан түсіретін ештеңе жоқ: Postulo оқуы үшін вакансияның мекенжайы қажет."
+  },
+  "reading": {
+    "message": "Хабар оқылуда…"
+  },
+  "whichAddress": {
+    "message": "Қай сілтеме вакансия?"
+  },
+  "titleLabel": {
+    "message": "Атауы"
+  },
+  "companyLabel": {
+    "message": "Компания"
+  },
+  "locationLabel": {
+    "message": "Орын"
+  },
+  "companyGuessed": {
+    "message": "Жіберушіден алынды: жұмыс беруші болмаса, түзетіңіз."
+  },
+  "sendForReview": {
+    "message": "Қарауға жіберу"
+  },
+  "sendAddress": {
+    "message": "Тек мекенжайды жіберу"
+  },
+  "sendAddressHint": {
+    "message": "Тек мекенжай жіберілсе, Postulo бетті өзі алады: бұл түсіру лимитіңізге есептеледі және кіруді қажет ететін бет үшін сәтсіз болады."
+  },
+  "previewing": {
+    "message": "Postulo бұл хабардан не оқитынын сұрау…"
+  },
+  "capturedBefore": {
+    "message": "Postulo-да бұл вакансия бұрыннан бар: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Жіберілуде…"
+  },
+  "sentDone": {
+    "message": "Қарауға жіберілді: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Оның қарауын ашу"
+  },
+  "untitled": {
+    "message": "Атаусыз вакансия"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: поштадан түсірілген 1 вакансия қарап шығуды күтуде"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: поштадан түсірілген $COUNT$ вакансия қарап шығуды күтуде",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Вакансияны нөлден қосу"
+  },
+  "severalMessages": {
+    "message": "Бірнеше хабарлама таңдалған. Біреуін таңдаңыз: бір хабарлама – бір вакансия."
+  },
+  "reviewHeading": {
+    "message": "Қарап шығуды қажет етеді"
+  },
+  "nothingWaiting": {
+    "message": "Қарап шығуды ештеңе күтіп тұрған жоқ."
+  },
+  "lastListed": {
+    "message": "Postulo соңғы рет тізімдегендей, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo-да қарап шығуды күтуде"
+  },
+  "capturesOfPosting": {
+    "message": "Осы вакансияның $COUNT$ түсірілімі",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "«$SUBJECT$» хабарламасынан, жіберген: $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Хабарламаны ашу"
+  },
+  "messageGone": {
+    "message": "Бұл хабарлама енді Thunderbird-те жоқ."
+  },
+  "seeAllCaptures": {
+    "message": "Postulo-дағы барлық $COUNT$ жазбаны көру",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Вакансияны түсіру"
+  },
+  "noDraft": {
+    "message": "Мұнда түсіретін хабарлама жоқ. Хабарламадағы түсіру түймесін басыңыз."
+  },
+  "close": {
+    "message": "Жабу"
+  },
+  "footerOnline": {
+    "message": "Postulo жауап береді"
+  },
+  "footerSlow": {
+    "message": "Postulo баяу жауап береді"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo-ға қол жеткізу мүмкін емес."
+  },
+  "noPermission": {
+    "message": "Postulo-ңызға қол жеткізуге рұқсатсыз ештеңе жіберу мүмкін емес."
+  },
+  "offlineOn": {
+    "message": "Сынақ қосқышы қосулы: Postulo-ға ештеңе жіберілмейді."
+  },
+  "offlineOff": {
+    "message": "Сынақ қосқышы өшірулі."
+  },
+  "offlineLabel": {
+    "message": "Postulo-ға қол жеткізу мүмкін емес сияқты әрекет ету"
+  },
+  "offlineHint": {
+    "message": "Сынау үшін. Бұл қосулы тұрғанда Postulo-дан ештеңе сұралмайды және оған ештеңе жіберілмейді, ал қалқымалы терезенің төменгі жолағында сұр колба көрсетіледі."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird желіден тыс жұмыс істеп тұр: Postulo-дан ештеңе сұралмайды."
+  },
+  "tokenCanCapture": {
+    "message": "Ол вакансияларды түсіре алады."
+  },
+  "tokenCannotCapture": {
+    "message": "Ол вакансияларды түсіре алмайды: оған $SCOPE$ аясы жетіспейді.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Ол хабарламаны вакансия тарихына сақтай алады."
+  },
+  "tokenCannotFile": {
+    "message": "Ол хабарламаны вакансия тарихына сақтай алмайды: оған $SCOPE$ аясы жетіспейді, сондықтан қалқымалы терезе мұны ұсынбайды.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Бұл хабарламаны вакансияға сақтау"
+  },
+  "searchListings": {
+    "message": "Вакансияларыңыздан іздеу"
+  },
+  "suggested": {
+    "message": "Ұсынылған"
+  },
+  "noListings": {
+    "message": "Ешқандай вакансия сәйкес келмейді."
+  },
+  "subjectOnly": {
+    "message": "Тек тақырыпты жіберу"
+  },
+  "whatIsSent": {
+    "message": "Не жіберілетіні"
+  },
+  "fileIt": {
+    "message": "Сақтау"
+  },
+  "filing": {
+    "message": "Сақталуда…"
+  },
+  "filedInto": {
+    "message": "«$LISTING$» вакансиясына сақталды.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Бұл хабарлама «$LISTING$» тарихында бұрыннан бар еді: ештеңе қосылмады.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

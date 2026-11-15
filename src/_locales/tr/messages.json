@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Bu iletide bir ilana giden bağlantı yok, bu yüzden yakalanacak bir şey yok: Postulo'nun ilanı okuyabilmesi için ilanın adresine ihtiyacı var."
+  },
+  "reading": {
+    "message": "İleti okunuyor…"
+  },
+  "whichAddress": {
+    "message": "İlan hangi bağlantı?"
+  },
+  "titleLabel": {
+    "message": "Başlık"
+  },
+  "companyLabel": {
+    "message": "Şirket"
+  },
+  "locationLabel": {
+    "message": "Yer"
+  },
+  "companyGuessed": {
+    "message": "Gönderenden alındı: işveren değilse düzeltin."
+  },
+  "sendForReview": {
+    "message": "İncelemeye gönder"
+  },
+  "sendAddress": {
+    "message": "Yalnızca adresi gönder"
+  },
+  "sendAddressHint": {
+    "message": "Yalnızca adres gönderildiğinde Postulo sayfayı kendisi getirir: yakalama hakkınızdan düşer ve oturum açmayı gerektiren bir sayfada başarısız olur."
+  },
+  "previewing": {
+    "message": "Postulo'ya bu iletide ne okuduğu soruluyor…"
+  },
+  "capturedBefore": {
+    "message": "Postulo bu ilana zaten sahip: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Gönderiliyor…"
+  },
+  "sentDone": {
+    "message": "İncelemeye gönderildi: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "İncelemesini aç"
+  },
+  "untitled": {
+    "message": "Başlıksız ilan"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: E-postadan yakalanan 1 ilan inceleme bekliyor"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: E-postadan yakalanan $COUNT$ ilan inceleme bekliyor",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Sıfırdan bir ilan ekle"
+  },
+  "severalMessages": {
+    "message": "Birden fazla ileti seçili. Birini seçin: bir ileti bir ilandır."
+  },
+  "reviewHeading": {
+    "message": "İnceleme bekleyenler"
+  },
+  "nothingWaiting": {
+    "message": "İnceleme bekleyen bir şey yok."
+  },
+  "lastListed": {
+    "message": "Postulo'nun bunları en son listelediği hâliyle, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulo'da inceleme bekliyor"
+  },
+  "capturesOfPosting": {
+    "message": "Bu ilanın $COUNT$ yakalaması",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "$SENDER$ tarafından gönderilen \"$SUBJECT$\" iletisinden",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "İletiyi aç"
+  },
+  "messageGone": {
+    "message": "Bu ileti artık Thunderbird'de değil."
+  },
+  "seeAllCaptures": {
+    "message": "Postulo'daki $COUNT$ tanesinin hepsini gör",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "İlan yakala"
+  },
+  "noDraft": {
+    "message": "Burada yakalanacak ileti yok. Bir iletideki yakalama düğmesine basın."
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "footerOnline": {
+    "message": "Postulo yanıt veriyor"
+  },
+  "footerSlow": {
+    "message": "Postulo geç yanıt veriyor"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo'ya ulaşılamıyor."
+  },
+  "noPermission": {
+    "message": "Postulo'nuza erişim izni olmadan hiçbir şey gönderilemez."
+  },
+  "offlineOn": {
+    "message": "Test anahtarı açık: Postulo'ya hiçbir şey gönderilmiyor."
+  },
+  "offlineOff": {
+    "message": "Test anahtarı kapalı."
+  },
+  "offlineLabel": {
+    "message": "Postulo'ya ulaşılamıyormuş gibi davran"
+  },
+  "offlineHint": {
+    "message": "Test içindir. Bu açıkken Postulo'dan hiçbir şey istenmez ve ona hiçbir şey gönderilmez; açılır pencerenin alt bilgisinde gri bir şişe görünür."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird çevrimdışı çalışıyor: Postulo'dan hiçbir şey istenmiyor."
+  },
+  "tokenCanCapture": {
+    "message": "İlan yakalayabilir."
+  },
+  "tokenCannotCapture": {
+    "message": "İlan yakalayamaz: $SCOPE$ kapsamı eksik.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Bir iletiyi bir ilanın geçmişine kaydedebilir."
+  },
+  "tokenCannotFile": {
+    "message": "Bir iletiyi bir ilanın geçmişine kaydedemez: $SCOPE$ kapsamı eksik, bu yüzden açılır pencere bunu sunmuyor.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Bu iletiyi bir ilana kaydet"
+  },
+  "searchListings": {
+    "message": "İlanlarınızda arayın"
+  },
+  "suggested": {
+    "message": "Önerilen"
+  },
+  "noListings": {
+    "message": "Eşleşen ilan yok."
+  },
+  "subjectOnly": {
+    "message": "Yalnızca konuyu gönder"
+  },
+  "whatIsSent": {
+    "message": "Ne gönderilecek"
+  },
+  "fileIt": {
+    "message": "Kaydet"
+  },
+  "filing": {
+    "message": "Kaydediliyor…"
+  },
+  "filedInto": {
+    "message": "\"$LISTING$\" ilanına kaydedildi.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Bu ileti zaten \"$LISTING$\" ilanının geçmişindeydi: hiçbir şey eklenmedi.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

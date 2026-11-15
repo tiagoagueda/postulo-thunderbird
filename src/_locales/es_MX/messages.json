@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "El almacenamiento de Thunderbird para Postulo está lleno. Vuelva a intentarlo después de eliminar algunos datos, o reinicie Thunderbird."
+  },
+  "noAddress": {
+    "message": "Este mensaje no tiene ningún enlace a una vacante, así que no hay nada que capturar: Postulo necesita la dirección de la vacante para leerla."
+  },
+  "reading": {
+    "message": "Leyendo el mensaje…"
+  },
+  "whichAddress": {
+    "message": "¿Cuál es el enlace de la vacante?"
+  },
+  "titleLabel": {
+    "message": "Título"
+  },
+  "companyLabel": {
+    "message": "Empresa"
+  },
+  "locationLabel": {
+    "message": "Lugar"
+  },
+  "companyGuessed": {
+    "message": "Tomada del remitente: corrígela si no es el empleador."
+  },
+  "sendForReview": {
+    "message": "Enviar para revisión"
+  },
+  "sendAddress": {
+    "message": "Enviar solo la dirección"
+  },
+  "sendAddressHint": {
+    "message": "Al enviar solo la dirección, Postulo obtiene la página por su cuenta: cuenta para tu cuota de capturas y falla si la página está detrás de un inicio de sesión."
+  },
+  "previewing": {
+    "message": "Preguntando a Postulo qué lee en este mensaje…"
+  },
+  "capturedBefore": {
+    "message": "Postulo ya tiene esta vacante: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Enviando…"
+  },
+  "sentDone": {
+    "message": "Enviada para revisión: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Abrir su revisión"
+  },
+  "untitled": {
+    "message": "Vacante sin título"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 oferta capturada del correo está pendiente de revisión"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ ofertas capturadas del correo están pendientes de revisión",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Agregar una vacante desde cero"
+  },
+  "severalMessages": {
+    "message": "Hay varios mensajes seleccionados. Selecciona uno: un mensaje es una vacante."
+  },
+  "reviewHeading": {
+    "message": "Por revisar"
+  },
+  "nothingWaiting": {
+    "message": "No hay nada pendiente de revisión."
+  },
+  "lastListed": {
+    "message": "Tal como Postulo las listó por última vez, el $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Pendiente de revisión en Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ capturas de esta vacante",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Del mensaje “$SUBJECT$” de $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Abrir el mensaje"
+  },
+  "messageGone": {
+    "message": "Ese mensaje ya no está en Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Ver las $COUNT$ en Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Capturar una vacante"
+  },
+  "noDraft": {
+    "message": "No hay ningún mensaje que capturar aquí. Presiona el botón de captura en un mensaje."
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "footerOnline": {
+    "message": "Postulo responde"
+  },
+  "footerSlow": {
+    "message": "Postulo tarda en responder"
+  },
+  "postuloUnreachable": {
+    "message": "No se puede acceder a Postulo."
+  },
+  "noPermission": {
+    "message": "Sin permiso para acceder a tu Postulo, no se puede enviar nada."
+  },
+  "offlineOn": {
+    "message": "El interruptor de pruebas está activado: no se envía nada a Postulo."
+  },
+  "offlineOff": {
+    "message": "El interruptor de pruebas está desactivado."
+  },
+  "offlineLabel": {
+    "message": "Actuar como si no se pudiera acceder a Postulo"
+  },
+  "offlineHint": {
+    "message": "Para pruebas. Mientras esté activado, no se le pide nada a Postulo ni se le envía nada, y el pie de la ventana emergente muestra un matraz gris."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird está trabajando sin conexión: no se le pide nada a Postulo."
+  },
+  "tokenCanCapture": {
+    "message": "Puede capturar vacantes."
+  },
+  "tokenCannotCapture": {
+    "message": "No puede capturar vacantes: le falta el alcance $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Puede archivar un mensaje en el historial de una vacante."
+  },
+  "tokenCannotFile": {
+    "message": "No puede archivar un mensaje en el historial de una vacante: le falta el alcance $SCOPE$, por lo que la ventana emergente no lo ofrece.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Archivar este mensaje en una vacante"
+  },
+  "searchListings": {
+    "message": "Buscar en tus vacantes"
+  },
+  "suggested": {
+    "message": "Sugerida"
+  },
+  "noListings": {
+    "message": "Ninguna vacante coincide."
+  },
+  "subjectOnly": {
+    "message": "Enviar solo el asunto"
+  },
+  "whatIsSent": {
+    "message": "Lo que se enviará"
+  },
+  "fileIt": {
+    "message": "Archivar"
+  },
+  "filing": {
+    "message": "Archivando…"
+  },
+  "filedInto": {
+    "message": "Archivado en “$LISTING$”.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Este mensaje ya estaba en el historial de “$LISTING$”: no se agregó nada.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
         "content": "$1"
       }
     }
+  },
+  "noAddress": {
+    "message": "這封郵件中沒有指向徵才啟事的連結，因此無從擷取：Postulo 需要徵才啟事的網址才能讀取它。"
+  },
+  "reading": {
+    "message": "正在讀取郵件…"
+  },
+  "whichAddress": {
+    "message": "哪個連結是徵才啟事？"
+  },
+  "titleLabel": {
+    "message": "標題"
+  },
+  "companyLabel": {
+    "message": "公司"
+  },
+  "locationLabel": {
+    "message": "地點"
+  },
+  "companyGuessed": {
+    "message": "取自寄件者：若不是雇主，請更正。"
+  },
+  "sendForReview": {
+    "message": "送出以供審閱"
+  },
+  "sendAddress": {
+    "message": "僅傳送網址"
+  },
+  "sendAddressHint": {
+    "message": "僅傳送網址時，由 Postulo 自行擷取該頁面：這會計入您的擷取額度，而且對需要登入的頁面無效。"
+  },
+  "previewing": {
+    "message": "正在詢問 Postulo 它從這封郵件中讀到了什麼…"
+  },
+  "capturedBefore": {
+    "message": "Postulo 已有這則徵才啟事：$TITLE$。",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "正在傳送…"
+  },
+  "sentDone": {
+    "message": "已送出以供審閱：$POSTING$。",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "開啟其審閱頁面"
+  },
+  "untitled": {
+    "message": "無標題徵才啟事"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo：1 則從郵件擷取的徵才啟事等待審閱"
+  },
+  "badgeWaiting": {
+    "message": "Postulo：$COUNT$ 則從郵件擷取的徵才啟事等待審閱",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "從頭新增職缺"
+  },
+  "severalMessages": {
+    "message": "已選取多封訊息。請只選取一封：一封訊息對應一則徵才啟事。"
+  },
+  "reviewHeading": {
+    "message": "待審核"
+  },
+  "nothingWaiting": {
+    "message": "沒有等待審核的項目。"
+  },
+  "lastListed": {
+    "message": "依 Postulo 上次列出的內容，時間為 $WHEN$。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "在 Postulo 中等待審核"
+  },
+  "capturesOfPosting": {
+    "message": "此徵才啟事已被擷取 $COUNT$ 次",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "來自 $SENDER$ 的訊息「$SUBJECT$」",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "開啟訊息"
+  },
+  "messageGone": {
+    "message": "該訊息已不在 Thunderbird 中。"
+  },
+  "seeAllCaptures": {
+    "message": "在 Postulo 中檢視全部 $COUNT$ 項",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "擷取徵才啟事"
+  },
+  "noDraft": {
+    "message": "這裡沒有可擷取的訊息。請在某封訊息上按下擷取按鈕。"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "footerOnline": {
+    "message": "Postulo 有回應"
+  },
+  "footerSlow": {
+    "message": "Postulo 回應緩慢"
+  },
+  "postuloUnreachable": {
+    "message": "無法連線到 Postulo。"
+  },
+  "noPermission": {
+    "message": "沒有存取你的 Postulo 的權限，無法傳送任何內容。"
+  },
+  "offlineOn": {
+    "message": "測試開關已開啟：不會向 Postulo 傳送任何內容。"
+  },
+  "offlineOff": {
+    "message": "測試開關已關閉。"
+  },
+  "offlineLabel": {
+    "message": "表現得如同無法連線到 Postulo"
+  },
+  "offlineHint": {
+    "message": "供測試使用。開啟期間，不會向 Postulo 請求或傳送任何內容，彈出視窗的頁尾會顯示一個灰色燒瓶。"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird 正在離線工作：不會向 Postulo 請求任何內容。"
+  },
+  "tokenCanCapture": {
+    "message": "它可以擷取徵才啟事。"
+  },
+  "tokenCannotCapture": {
+    "message": "它無法擷取徵才啟事：缺少 $SCOPE$ 範圍。",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "它可以將訊息歸檔到職缺的歷程中。"
+  },
+  "tokenCannotFile": {
+    "message": "它無法將訊息歸檔到職缺的歷程中：缺少 $SCOPE$ 範圍，因此彈出視窗不提供此功能。",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "將此訊息歸檔到職缺"
+  },
+  "searchListings": {
+    "message": "搜尋你的職缺"
+  },
+  "suggested": {
+    "message": "建議"
+  },
+  "noListings": {
+    "message": "沒有符合的職缺。"
+  },
+  "subjectOnly": {
+    "message": "僅傳送主旨"
+  },
+  "whatIsSent": {
+    "message": "將傳送的內容"
+  },
+  "fileIt": {
+    "message": "歸檔"
+  },
+  "filing": {
+    "message": "歸檔中…"
+  },
+  "filedInto": {
+    "message": "已歸檔到「$LISTING$」。",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "此訊息已在「$LISTING$」的歷程中：未新增任何內容。",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$，$COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

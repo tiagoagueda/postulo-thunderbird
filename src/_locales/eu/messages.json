@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Mezu honek ez du iragarkirako estekarik, beraz ez dago zer kapturatu: Postulok iragarkiaren helbidea behar du hura irakurtzeko."
+  },
+  "reading": {
+    "message": "Mezua irakurtzen…"
+  },
+  "whichAddress": {
+    "message": "Zein da iragarkiaren esteka?"
+  },
+  "titleLabel": {
+    "message": "Izenburua"
+  },
+  "companyLabel": {
+    "message": "Enpresa"
+  },
+  "locationLabel": {
+    "message": "Lekua"
+  },
+  "companyGuessed": {
+    "message": "Igorletik hartua: zuzendu enplegatzailea ez bada."
+  },
+  "sendForReview": {
+    "message": "Bidali berrikustera"
+  },
+  "sendAddress": {
+    "message": "Bidali helbidea bakarrik"
+  },
+  "sendAddressHint": {
+    "message": "Helbidea bakarrik bidaltzeak Postulok berak orria eskuratzea eragiten du: zure kaptura-kuotan kontatzen da, eta saioa hasi beharreko orri batek huts egiten du."
+  },
+  "previewing": {
+    "message": "Postulori mezu honetan zer irakurtzen duen galdetzen…"
+  },
+  "capturedBefore": {
+    "message": "Postulok badu dagoeneko iragarki hau: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Bidaltzen…"
+  },
+  "sentDone": {
+    "message": "Berrikustera bidali da: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Ireki bere berrikuspena"
+  },
+  "untitled": {
+    "message": "Izenbururik gabeko iragarkia"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: postatik harrapatutako 1 lan-eskaintza berrikusteko zain dago"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: postatik harrapatutako $COUNT$ lan-eskaintza berrikusteko zain daude",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Gehitu iragarki bat hutsetik"
+  },
+  "severalMessages": {
+    "message": "Mezu bat baino gehiago hautatuta daude. Hautatu bat: mezu bat iragarki bat da."
+  },
+  "reviewHeading": {
+    "message": "Berrikusi behar da"
+  },
+  "nothingWaiting": {
+    "message": "Ez dago berrikusteko ezer."
+  },
+  "lastListed": {
+    "message": "Postulok azkenekoz zerrendatu zituen moduan, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Postulon berrikusteko zain"
+  },
+  "capturesOfPosting": {
+    "message": "Iragarki honen $COUNT$ kaptura",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "“$SUBJECT$” mezutik, $SENDER$ igorlearen eskutik",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Ireki mezua"
+  },
+  "messageGone": {
+    "message": "Mezu hori ez dago dagoeneko Thunderbirden."
+  },
+  "seeAllCaptures": {
+    "message": "Ikusi $COUNT$ guztiak Postulon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Kapturatu iragarki bat"
+  },
+  "noDraft": {
+    "message": "Hemen ez dago kapturatzeko mezurik. Sakatu mezu baten kapturatzeko botoia."
+  },
+  "close": {
+    "message": "Itxi"
+  },
+  "footerOnline": {
+    "message": "Postulok erantzuten du"
+  },
+  "footerSlow": {
+    "message": "Postulok poliki erantzuten du"
+  },
+  "postuloUnreachable": {
+    "message": "Ezin da Postulorekin konektatu."
+  },
+  "noPermission": {
+    "message": "Zure Postulora iristeko baimenik gabe, ezin da ezer bidali."
+  },
+  "offlineOn": {
+    "message": "Proba-etengailua aktibatuta dago: ez da ezer bidaltzen Postulora."
+  },
+  "offlineOff": {
+    "message": "Proba-etengailua desaktibatuta dago."
+  },
+  "offlineLabel": {
+    "message": "Jokatu Postulorekin ezin dela konektatu balitz bezala"
+  },
+  "offlineHint": {
+    "message": "Probetarako. Hau aktibatuta dagoen bitartean, ez zaio ezer eskatzen Postulori eta ez zaio ezer bidaltzen, eta laster-leihoaren oinak flaska gris bat erakusten du."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird lineaz kanpo ari da lanean: ez zaio ezer eskatzen Postulori."
+  },
+  "tokenCanCapture": {
+    "message": "Iragarkiak kaptura ditzake."
+  },
+  "tokenCannotCapture": {
+    "message": "Ezin ditu iragarkiak kapturatu: $SCOPE$ esparrua falta zaio.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Mezu bat iragarki baten historian artxiba dezake."
+  },
+  "tokenCannotFile": {
+    "message": "Ezin du mezu bat iragarki baten historian artxibatu: $SCOPE$ esparrua falta zaio, beraz laster-leihoak ez du eskaintzen.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Artxibatu mezu hau iragarki batean"
+  },
+  "searchListings": {
+    "message": "Bilatu zure iragarkietan"
+  },
+  "suggested": {
+    "message": "Iradokia"
+  },
+  "noListings": {
+    "message": "Ez dago bat datorren iragarkirik."
+  },
+  "subjectOnly": {
+    "message": "Bidali gaia bakarrik"
+  },
+  "whatIsSent": {
+    "message": "Zer bidaliko den"
+  },
+  "fileIt": {
+    "message": "Artxibatu"
+  },
+  "filing": {
+    "message": "Artxibatzen…"
+  },
+  "filedInto": {
+    "message": "“$LISTING$” iragarkian artxibatu da.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Mezu hau jada “$LISTING$” iragarkiaren historian zegoen: ez da ezer gehitu.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Складиште Thunderbird за Postulo је пуно. Покушајте поново након што уклоните део података или поново покрените Thunderbird."
+  },
+  "noAddress": {
+    "message": "Ова порука нема везу ка огласу, па нема шта да се ухвати: Postulo-у је потребна адреса огласа да би га прочитао."
+  },
+  "reading": {
+    "message": "Читање поруке…"
+  },
+  "whichAddress": {
+    "message": "Која веза води до огласа?"
+  },
+  "titleLabel": {
+    "message": "Наслов"
+  },
+  "companyLabel": {
+    "message": "Компанија"
+  },
+  "locationLabel": {
+    "message": "Место"
+  },
+  "companyGuessed": {
+    "message": "Преузето од пошиљаоца: исправите ако то није послодавац."
+  },
+  "sendForReview": {
+    "message": "Пошаљи на преглед"
+  },
+  "sendAddress": {
+    "message": "Пошаљи само адресу"
+  },
+  "sendAddressHint": {
+    "message": "Када се пошаље само адреса, Postulo сам преузима страницу: то се рачуна у вашу квоту хватања и не успева за страницу иза пријаве."
+  },
+  "previewing": {
+    "message": "Питам Postulo шта чита у овој поруци…"
+  },
+  "capturedBefore": {
+    "message": "Postulo већ има овај оглас: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Слање…"
+  },
+  "sentDone": {
+    "message": "Послато на преглед: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Отвори преглед"
+  },
+  "untitled": {
+    "message": "Оглас без наслова"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 оглас ухваћен из поште чека преглед"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: огласи ухваћени из поште, који чекају преглед: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Додај оглас од нуле"
+  },
+  "severalMessages": {
+    "message": "Изабрано је више порука. Изаберите једну: једна порука је један оглас."
+  },
+  "reviewHeading": {
+    "message": "Чека проверу"
+  },
+  "nothingWaiting": {
+    "message": "Ништа не чека проверу."
+  },
+  "lastListed": {
+    "message": "Онако како их је Postulo последњи пут навео, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Чека проверу у Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ хватања овог огласа",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Из поруке „$SUBJECT$“ од $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Отвори поруку"
+  },
+  "messageGone": {
+    "message": "Те поруке више нема у Thunderbird-у."
+  },
+  "seeAllCaptures": {
+    "message": "Прикажи свих $COUNT$ у Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Ухвати оглас"
+  },
+  "noDraft": {
+    "message": "Овде нема поруке за хватање. Притисните дугме за хватање на некој поруци."
+  },
+  "close": {
+    "message": "Затвори"
+  },
+  "footerOnline": {
+    "message": "Postulo одговара"
+  },
+  "footerSlow": {
+    "message": "Postulo споро одговара"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo није доступан."
+  },
+  "noPermission": {
+    "message": "Без дозволе за приступ вашем Postulo, ништа се не може послати."
+  },
+  "offlineOn": {
+    "message": "Прекидач за тестирање је укључен: ништа се не шаље у Postulo."
+  },
+  "offlineOff": {
+    "message": "Прекидач за тестирање је искључен."
+  },
+  "offlineLabel": {
+    "message": "Понашај се као да Postulo није доступан"
+  },
+  "offlineHint": {
+    "message": "За тестирање. Док је укључено, Postulo се ништа не пита и ништа му се не шаље, а подножје прозора приказује сиву тиквицу."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird ради ван мреже: Postulo се ништа не пита."
+  },
+  "tokenCanCapture": {
+    "message": "Може да хвата огласе."
+  },
+  "tokenCannotCapture": {
+    "message": "Не може да хвата огласе: недостаје му дозвола $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Може да архивира поруку у историју огласа."
+  },
+  "tokenCannotFile": {
+    "message": "Не може да архивира поруку у историју огласа: недостаје му дозвола $SCOPE$, па је прозор не нуди.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Архивирај ову поруку у оглас"
+  },
+  "searchListings": {
+    "message": "Претражите своје огласе"
+  },
+  "suggested": {
+    "message": "Предложено"
+  },
+  "noListings": {
+    "message": "Ниједан оглас не одговара."
+  },
+  "subjectOnly": {
+    "message": "Пошаљи само тему"
+  },
+  "whatIsSent": {
+    "message": "Шта ће бити послато"
+  },
+  "fileIt": {
+    "message": "Архивирај"
+  },
+  "filing": {
+    "message": "Архивирање…"
+  },
+  "filedInto": {
+    "message": "Архивирано у „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ова порука је већ била у историји огласа „$LISTING$“: ништа није додато.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

@@ -191,5 +191,239 @@
   },
   "storageFull": {
     "message": "Thunderbird saugykla, skirta Postulo, pilna. Pašalinkite dalį duomenų ir bandykite dar kartą arba iš naujo paleiskite Thunderbird."
+  },
+  "noAddress": {
+    "message": "Šiame laiške nėra nuorodos į skelbimą, todėl nėra ką fiksuoti: norėdamas jį perskaityti, Postulo turi žinoti skelbimo adresą."
+  },
+  "reading": {
+    "message": "Skaitomas laiškas…"
+  },
+  "whichAddress": {
+    "message": "Kuri nuoroda veda į skelbimą?"
+  },
+  "titleLabel": {
+    "message": "Pavadinimas"
+  },
+  "companyLabel": {
+    "message": "Įmonė"
+  },
+  "locationLabel": {
+    "message": "Vieta"
+  },
+  "companyGuessed": {
+    "message": "Paimta iš siuntėjo: pataisykite, jei tai ne darbdavys."
+  },
+  "sendForReview": {
+    "message": "Siųsti peržiūrai"
+  },
+  "sendAddress": {
+    "message": "Siųsti tik adresą"
+  },
+  "sendAddressHint": {
+    "message": "Išsiuntus tik adresą, puslapį Postulo gauna pats: tai įskaičiuojama į jūsų fiksavimų limitą, o puslapio, esančio už prisijungimo, gauti nepavyksta."
+  },
+  "previewing": {
+    "message": "Klausiama Postulo, ką jis randa šiame laiške…"
+  },
+  "capturedBefore": {
+    "message": "Postulo jau turi šį skelbimą: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Siunčiama…"
+  },
+  "sentDone": {
+    "message": "Išsiųsta peržiūrai: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Atidaryti jo peržiūrą"
+  },
+  "untitled": {
+    "message": "Skelbimas be pavadinimo"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 iš laiško užfiksuotas skelbimas laukia peržiūros"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ iš laiškų užfiksuotų skelbimų laukia peržiūros",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Pridėti skelbimą nuo nulio"
+  },
+  "severalMessages": {
+    "message": "Pasirinkta keli laiškai. Pasirinkite vieną: vienas laiškas yra vienas skelbimas."
+  },
+  "reviewHeading": {
+    "message": "Reikia peržiūrėti"
+  },
+  "nothingWaiting": {
+    "message": "Nieko nelaukia peržiūros."
+  },
+  "lastListed": {
+    "message": "Kaip Postulo paskutinį kartą juos išvardijo, $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Laukia peržiūros Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "Šio skelbimo fiksavimų: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Iš laiško „$SUBJECT$“, siuntėjas $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Atidaryti laišką"
+  },
+  "messageGone": {
+    "message": "Šio laiško Thunderbird programoje nebėra."
+  },
+  "seeAllCaptures": {
+    "message": "Žiūrėti visus ($COUNT$) Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Užfiksuoti skelbimą"
+  },
+  "noDraft": {
+    "message": "Čia nėra laiško, kurį būtų galima užfiksuoti. Paspauskite fiksavimo mygtuką prie laiško."
+  },
+  "close": {
+    "message": "Uždaryti"
+  },
+  "footerOnline": {
+    "message": "Postulo atsako"
+  },
+  "footerSlow": {
+    "message": "Postulo atsako lėtai"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo pasiekti nepavyksta."
+  },
+  "noPermission": {
+    "message": "Be leidimo pasiekti jūsų Postulo nieko negalima siųsti."
+  },
+  "offlineOn": {
+    "message": "Bandymo jungiklis įjungtas: į Postulo nieko nesiunčiama."
+  },
+  "offlineOff": {
+    "message": "Bandymo jungiklis išjungtas."
+  },
+  "offlineLabel": {
+    "message": "Elgtis taip, lyg Postulo nebūtų galima pasiekti"
+  },
+  "offlineHint": {
+    "message": "Bandymams. Kol tai įjungta, Postulo nieko neklausiama ir nieko į jį nesiunčiama, o iškylančiojo lango poraštėje rodoma pilka kolba."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird veikia atsijungusi: Postulo nieko neklausiama."
+  },
+  "tokenCanCapture": {
+    "message": "Gali fiksuoti skelbimus."
+  },
+  "tokenCannotCapture": {
+    "message": "Negali fiksuoti skelbimų: trūksta srities $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Gali įrašyti laišką į skelbimo istoriją."
+  },
+  "tokenCannotFile": {
+    "message": "Negali įrašyti laiško į skelbimo istoriją: trūksta srities $SCOPE$, todėl iškylantysis langas to nesiūlo.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Įrašyti šį laišką į skelbimą"
+  },
+  "searchListings": {
+    "message": "Ieškoti jūsų skelbimuose"
+  },
+  "suggested": {
+    "message": "Siūloma"
+  },
+  "noListings": {
+    "message": "Nė vienas skelbimas netinka."
+  },
+  "subjectOnly": {
+    "message": "Siųsti tik temą"
+  },
+  "whatIsSent": {
+    "message": "Kas bus išsiųsta"
+  },
+  "fileIt": {
+    "message": "Įrašyti"
+  },
+  "filing": {
+    "message": "Įrašoma…"
+  },
+  "filedInto": {
+    "message": "Įrašyta į „$LISTING$“.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Šis laiškas jau buvo skelbimo „$LISTING$“ istorijoje: nieko nepridėta.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

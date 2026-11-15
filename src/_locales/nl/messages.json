@@ -191,5 +191,239 @@
         "content": "$3"
       }
     }
+  },
+  "noAddress": {
+    "message": "Dit bericht bevat geen link naar een vacature, dus er is niets vast te leggen: Postulo heeft het adres van de vacature nodig om haar te lezen."
+  },
+  "reading": {
+    "message": "Bericht wordt gelezen…"
+  },
+  "whichAddress": {
+    "message": "Welke link is de vacature?"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "companyLabel": {
+    "message": "Bedrijf"
+  },
+  "locationLabel": {
+    "message": "Plaats"
+  },
+  "companyGuessed": {
+    "message": "Overgenomen van de afzender: corrigeer het als het niet de werkgever is."
+  },
+  "sendForReview": {
+    "message": "Ter controle versturen"
+  },
+  "sendAddress": {
+    "message": "Alleen het adres versturen"
+  },
+  "sendAddressHint": {
+    "message": "Als alleen het adres wordt verstuurd, haalt Postulo de pagina zelf op: dat telt mee voor uw vastlegtegoed en mislukt bij een pagina achter een login."
+  },
+  "previewing": {
+    "message": "Aan Postulo wordt gevraagd wat het in dit bericht leest…"
+  },
+  "capturedBefore": {
+    "message": "Postulo heeft deze vacature al: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Wordt verstuurd…"
+  },
+  "sentDone": {
+    "message": "Ter controle verstuurd: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Controle openen"
+  },
+  "untitled": {
+    "message": "Vacature zonder titel"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 vacature vastgelegd uit e-mail wacht op controle"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ vacatures vastgelegd uit e-mail wachten op controle",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Een vacature van nul af toevoegen"
+  },
+  "severalMessages": {
+    "message": "Er zijn meerdere berichten geselecteerd. Selecteer er één: één bericht is één vacature."
+  },
+  "reviewHeading": {
+    "message": "Te controleren"
+  },
+  "nothingWaiting": {
+    "message": "Er wacht niets op controle."
+  },
+  "lastListed": {
+    "message": "Zoals Postulo ze het laatst heeft opgesomd, op $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Wacht op controle in Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ keer vastgelegd van deze vacature",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Uit het bericht ‘$SUBJECT$’ van $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Het bericht openen"
+  },
+  "messageGone": {
+    "message": "Dat bericht staat niet meer in Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Alle $COUNT$ bekijken in Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Een vacature vastleggen"
+  },
+  "noDraft": {
+    "message": "Hier is geen bericht om vast te leggen. Druk op de knop Vastleggen bij een bericht."
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "footerOnline": {
+    "message": "Postulo antwoordt"
+  },
+  "footerSlow": {
+    "message": "Postulo antwoordt traag"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo is niet bereikbaar."
+  },
+  "noPermission": {
+    "message": "Zonder toestemming om je Postulo te bereiken, kan er niets worden verstuurd."
+  },
+  "offlineOn": {
+    "message": "De testschakelaar staat aan: er wordt niets naar Postulo verstuurd."
+  },
+  "offlineOff": {
+    "message": "De testschakelaar staat uit."
+  },
+  "offlineLabel": {
+    "message": "Doen alsof Postulo niet bereikbaar is"
+  },
+  "offlineHint": {
+    "message": "Om te testen. Zolang dit aan staat, wordt er niets aan Postulo gevraagd en niets naar Postulo verstuurd, en toont de voettekst van de pop-up een grijze kolf."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird werkt offline: er wordt niets aan Postulo gevraagd."
+  },
+  "tokenCanCapture": {
+    "message": "Het kan vacatures vastleggen."
+  },
+  "tokenCannotCapture": {
+    "message": "Het kan geen vacatures vastleggen: het mist de scope $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Het kan een bericht in de geschiedenis van een vacature opbergen."
+  },
+  "tokenCannotFile": {
+    "message": "Het kan geen bericht in de geschiedenis van een vacature opbergen: het mist de scope $SCOPE$, dus de pop-up biedt het niet aan.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Dit bericht in een vacature opbergen"
+  },
+  "searchListings": {
+    "message": "Zoek in je vacatures"
+  },
+  "suggested": {
+    "message": "Voorgesteld"
+  },
+  "noListings": {
+    "message": "Geen enkele vacature komt overeen."
+  },
+  "subjectOnly": {
+    "message": "Alleen het onderwerp versturen"
+  },
+  "whatIsSent": {
+    "message": "Wat er wordt verstuurd"
+  },
+  "fileIt": {
+    "message": "Opbergen"
+  },
+  "filing": {
+    "message": "Opbergen…"
+  },
+  "filedInto": {
+    "message": "Opgeborgen in ‘$LISTING$’.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Dit bericht zat al in de geschiedenis van ‘$LISTING$’: er is niets toegevoegd.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

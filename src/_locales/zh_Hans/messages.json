@@ -191,5 +191,239 @@
   },
   "instanceLabel": {
     "message": "你的 Postulo"
+  },
+  "noAddress": {
+    "message": "这封邮件中没有指向招聘信息的链接，因此无从抓取：Postulo 需要招聘信息的地址才能读取它。"
+  },
+  "reading": {
+    "message": "正在读取邮件…"
+  },
+  "whichAddress": {
+    "message": "哪个链接是招聘信息？"
+  },
+  "titleLabel": {
+    "message": "标题"
+  },
+  "companyLabel": {
+    "message": "公司"
+  },
+  "locationLabel": {
+    "message": "地点"
+  },
+  "companyGuessed": {
+    "message": "取自发件人：如果不是雇主，请更正。"
+  },
+  "sendForReview": {
+    "message": "发送以供审核"
+  },
+  "sendAddress": {
+    "message": "仅发送地址"
+  },
+  "sendAddressHint": {
+    "message": "仅发送地址时，由 Postulo 自行获取该页面：这会计入你的抓取额度，而且对需要登录的页面无效。"
+  },
+  "previewing": {
+    "message": "正在询问 Postulo 它从这封邮件中读到了什么…"
+  },
+  "capturedBefore": {
+    "message": "Postulo 已有这条招聘信息：$TITLE$。",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "正在发送…"
+  },
+  "sentDone": {
+    "message": "已发送以供审核：$POSTING$。",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "打开其审核页面"
+  },
+  "untitled": {
+    "message": "无标题招聘信息"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo：1 条从邮件中抓取的招聘信息等待审核"
+  },
+  "badgeWaiting": {
+    "message": "Postulo：$COUNT$ 条从邮件中抓取的招聘信息等待审核",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "从头添加职位"
+  },
+  "severalMessages": {
+    "message": "已选择多条消息。请只选择一条：一条消息对应一个招聘信息。"
+  },
+  "reviewHeading": {
+    "message": "待审核"
+  },
+  "nothingWaiting": {
+    "message": "没有等待审核的内容。"
+  },
+  "lastListed": {
+    "message": "按 Postulo 上次列出的情况，时间为 $WHEN$。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "在 Postulo 中等待审核"
+  },
+  "capturesOfPosting": {
+    "message": "此招聘信息已被抓取 $COUNT$ 次",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "来自 $SENDER$ 的消息“$SUBJECT$”",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "打开消息"
+  },
+  "messageGone": {
+    "message": "该消息已不在 Thunderbird 中。"
+  },
+  "seeAllCaptures": {
+    "message": "在 Postulo 中查看全部 $COUNT$ 条",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "抓取招聘信息"
+  },
+  "noDraft": {
+    "message": "此处没有可抓取的消息。请在某条消息上按下抓取按钮。"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "footerOnline": {
+    "message": "Postulo 有响应"
+  },
+  "footerSlow": {
+    "message": "Postulo 响应缓慢"
+  },
+  "postuloUnreachable": {
+    "message": "无法连接到 Postulo。"
+  },
+  "noPermission": {
+    "message": "没有访问你的 Postulo 的权限，无法发送任何内容。"
+  },
+  "offlineOn": {
+    "message": "测试开关已开启：不会向 Postulo 发送任何内容。"
+  },
+  "offlineOff": {
+    "message": "测试开关已关闭。"
+  },
+  "offlineLabel": {
+    "message": "表现得如同无法连接到 Postulo"
+  },
+  "offlineHint": {
+    "message": "用于测试。开启期间，不会向 Postulo 请求或发送任何内容，弹出窗口的页脚会显示一个灰色烧瓶。"
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird 正在脱机工作：不会向 Postulo 请求任何内容。"
+  },
+  "tokenCanCapture": {
+    "message": "它可以抓取招聘信息。"
+  },
+  "tokenCannotCapture": {
+    "message": "它无法抓取招聘信息：缺少 $SCOPE$ 范围。",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "它可以将消息归档到职位的历史记录中。"
+  },
+  "tokenCannotFile": {
+    "message": "它无法将消息归档到职位的历史记录中：缺少 $SCOPE$ 范围，因此弹出窗口不提供此功能。",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "将此消息归档到职位"
+  },
+  "searchListings": {
+    "message": "搜索你的职位"
+  },
+  "suggested": {
+    "message": "推荐"
+  },
+  "noListings": {
+    "message": "没有匹配的职位。"
+  },
+  "subjectOnly": {
+    "message": "仅发送主题"
+  },
+  "whatIsSent": {
+    "message": "将发送的内容"
+  },
+  "fileIt": {
+    "message": "归档"
+  },
+  "filing": {
+    "message": "正在归档…"
+  },
+  "filedInto": {
+    "message": "已归档到“$LISTING$”。",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "此消息已在“$LISTING$”的历史记录中：未添加任何内容。",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$，$COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

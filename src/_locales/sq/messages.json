@@ -191,5 +191,239 @@
         "content": "$2"
       }
     }
+  },
+  "noAddress": {
+    "message": "Ky mesazh nuk ka lidhje me një shpallje, ndaj nuk ka çfarë të kapet: Postulo ka nevojë për adresën e shpalljes që ta lexojë."
+  },
+  "reading": {
+    "message": "Po lexohet mesazhi…"
+  },
+  "whichAddress": {
+    "message": "Cila lidhje është shpallja?"
+  },
+  "titleLabel": {
+    "message": "Titulli"
+  },
+  "companyLabel": {
+    "message": "Kompania"
+  },
+  "locationLabel": {
+    "message": "Vendndodhja"
+  },
+  "companyGuessed": {
+    "message": "Marrë nga dërguesi: korrigjojeni nëse nuk është punëdhënësi."
+  },
+  "sendForReview": {
+    "message": "Dërgo për shqyrtim"
+  },
+  "sendAddress": {
+    "message": "Dërgo vetëm adresën"
+  },
+  "sendAddressHint": {
+    "message": "Me adresën e vetme, Postulo e merr vetë faqen: llogaritet në kuotën tuaj të kapjeve dhe dështon për një faqe pas hyrjes me llogari."
+  },
+  "previewing": {
+    "message": "Po pyetet Postulo çfarë lexon në këtë mesazh…"
+  },
+  "capturedBefore": {
+    "message": "Postulo e ka tashmë këtë shpallje: $TITLE$.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "sending": {
+    "message": "Po dërgohet…"
+  },
+  "sentDone": {
+    "message": "U dërgua për shqyrtim: $POSTING$.",
+    "placeholders": {
+      "posting": {
+        "content": "$1"
+      }
+    }
+  },
+  "openReview": {
+    "message": "Hap shqyrtimin e saj"
+  },
+  "untitled": {
+    "message": "Shpallje pa titull"
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 shpallje e kapur nga posta pret shqyrtim"
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ shpallje të kapura nga posta presin shqyrtim",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "newListing": {
+    "message": "Shto një shpallje nga e para"
+  },
+  "severalMessages": {
+    "message": "Janë zgjedhur disa mesazhe. Zgjidhni një: një mesazh është një shpallje."
+  },
+  "reviewHeading": {
+    "message": "Pret shqyrtim"
+  },
+  "nothingWaiting": {
+    "message": "Asgjë nuk pret shqyrtim."
+  },
+  "lastListed": {
+    "message": "Siç i renditi Postulo për herë të fundit, më $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Në pritje të shqyrtimit në Postulo"
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ kapje të kësaj shpalljeje",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "Nga mesazhi «$SUBJECT$» i $SENDER$",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Hap mesazhin"
+  },
+  "messageGone": {
+    "message": "Ai mesazh nuk është më në Thunderbird."
+  },
+  "seeAllCaptures": {
+    "message": "Shih të gjitha $COUNT$ në Postulo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "captureTitle": {
+    "message": "Kap një shpallje"
+  },
+  "noDraft": {
+    "message": "Këtu nuk ka mesazh për të kapur. Shtypni butonin e kapjes te një mesazh."
+  },
+  "close": {
+    "message": "Mbyll"
+  },
+  "footerOnline": {
+    "message": "Postulo përgjigjet"
+  },
+  "footerSlow": {
+    "message": "Postulo përgjigjet ngadalë"
+  },
+  "postuloUnreachable": {
+    "message": "Postulo nuk mund të arrihet."
+  },
+  "noPermission": {
+    "message": "Pa leje për të arritur Postulon tuaj, nuk mund të dërgohet asgjë."
+  },
+  "offlineOn": {
+    "message": "Çelësi i provës është i ndezur: nuk dërgohet asgjë te Postulo."
+  },
+  "offlineOff": {
+    "message": "Çelësi i provës është i fikur."
+  },
+  "offlineLabel": {
+    "message": "Vepro sikur Postulo nuk mund të arrihet"
+  },
+  "offlineHint": {
+    "message": "Për provë. Sa kohë është i ndezur, nuk i kërkohet asgjë Postulos dhe nuk i dërgohet asgjë, dhe fundi i dritares tregon një balonë gri."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird po punon jashtë linje: nuk i kërkohet asgjë Postulos."
+  },
+  "tokenCanCapture": {
+    "message": "Mund të kapë shpallje."
+  },
+  "tokenCannotCapture": {
+    "message": "Nuk mund të kapë shpallje: i mungon leja $SCOPE$.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "Mund ta arkivojë një mesazh në historikun e një shpalljeje."
+  },
+  "tokenCannotFile": {
+    "message": "Nuk mund ta arkivojë një mesazh në historikun e një shpalljeje: i mungon leja $SCOPE$, ndaj dritarja nuk e ofron.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "Arkivoje këtë mesazh te një shpallje"
+  },
+  "searchListings": {
+    "message": "Kërko te shpalljet tuaja"
+  },
+  "suggested": {
+    "message": "Sugjeruar"
+  },
+  "noListings": {
+    "message": "Asnjë shpallje nuk përputhet."
+  },
+  "subjectOnly": {
+    "message": "Dërgo vetëm subjektin"
+  },
+  "whatIsSent": {
+    "message": "Çfarë do të dërgohet"
+  },
+  "fileIt": {
+    "message": "Arkivoje"
+  },
+  "filing": {
+    "message": "Duke arkivuar…"
+  },
+  "filedInto": {
+    "message": "U arkivua te «$LISTING$».",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "Ky mesazh ishte tashmë në historikun e «$LISTING$»: nuk u shtua asgjë.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }
