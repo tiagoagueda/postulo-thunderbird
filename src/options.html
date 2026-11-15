@@ -26,6 +26,12 @@
         revoke it under <em>Settings → API tokens</em> in Postulo.
       </p>
 
+      <label class="check">
+        <input id="offline" type="checkbox" />
+        <span data-i18n="offlineLabel">Act as if Postulo cannot be reached</span>
+      </label>
+      <p class="hint" data-i18n="offlineHint">For testing. While this is on, nothing is asked of Postulo and nothing is sent to it, and the popup's footer shows a grey flask.</p>
+
       <div class="actions">
         <button type="submit" class="primary" data-i18n="save">Save</button>
         <button id="test" type="button" data-i18n="test">Test</button>

@@ -1,7 +1,7 @@
 import { normaliseInstance, originPattern, whoAmI } from "./lib/api.js";
 import { explain, localise, localiseWith, t } from "./lib/i18n.js";
 import { BIND, CAPTURES, judgeScopes } from "./lib/scopes.js";
-import { forgetToken, loadSettings, requestHostPermission, saveSettings } from "./lib/thunderbird.js";
+import { forgetToken, loadSettings, requestHostPermission, saveSettings, setOffline } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -48,6 +48,15 @@ async function main() {
   const settings = await loadSettings();
   $("instance").value = settings.instance;
   $("token").value = settings.token;
+  $("offline").checked = settings.offline;
+  $("offline").addEventListener("change", async () => {
+    try {
+      await setOffline($("offline").checked);
+      say($("offline").checked ? t("offlineOn") : t("offlineOff"));
+    } catch (error) {
+      say(explain(error), true);
+    }
+  });
 
   $("settings").addEventListener("submit", async (event) => {
     event.preventDefault();

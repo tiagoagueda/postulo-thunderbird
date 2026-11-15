@@ -397,5 +397,41 @@
   "close": {
     "message": "Close",
     "description": "Button that closes the capture window."
+  },
+  "footerOnline": {
+    "message": "Postulo answers",
+    "description": "The title and spoken name of the popup footer's green tick before the address: Postulo answered within a second."
+  },
+  "footerSlow": {
+    "message": "Postulo is slow to answer",
+    "description": "The title and spoken name of the popup footer's orange clock before the address: Postulo took more than a second to answer, or has not answered yet."
+  },
+  "postuloUnreachable": {
+    "message": "Postulo cannot be reached.",
+    "description": "The title and spoken name of the popup footer's red cross before the address: nothing answered."
+  },
+  "noPermission": {
+    "message": "Without permission to reach your Postulo, nothing can be sent.",
+    "description": "The title and spoken name of the footer's padlock: Thunderbird was not given permission to reach the address."
+  },
+  "offlineOn": {
+    "message": "The testing switch is on: nothing is sent to Postulo.",
+    "description": "The title and spoken name of the footer's grey flask, and what the settings say when the switch is turned on."
+  },
+  "offlineOff": {
+    "message": "The testing switch is off.",
+    "description": "What the settings say when the switch is turned off."
+  },
+  "offlineLabel": {
+    "message": "Act as if Postulo cannot be reached",
+    "description": "Label of the settings' testing switch."
+  },
+  "offlineHint": {
+    "message": "For testing. While this is on, nothing is asked of Postulo and nothing is sent to it, and the popup's footer shows a grey flask.",
+    "description": "Under the testing switch."
+  },
+  "thunderbirdOffline": {
+    "message": "Thunderbird is working offline: nothing is asked of Postulo.",
+    "description": "The title and spoken name of the footer's crossed-out signal while Thunderbird is set to Work Offline. Postulo may be up; Thunderbird sends nothing."
   }
 }

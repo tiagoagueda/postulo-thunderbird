@@ -9,12 +9,18 @@ export const ext = globalThis.messenger ?? globalThis.browser;
 
 /** Where the person's Postulo is, and the token to reach it with. */
 export async function loadSettings() {
-  const stored = await ext.storage.local.get(["instance", "token"]);
-  return { instance: stored.instance || "", token: stored.token || "" };
+  const stored = await ext.storage.local.get(["instance", "token", "offline"]);
+  // `offline` is the testing switch: nothing is asked of Postulo while it is on.
+  return { instance: stored.instance || "", token: stored.token || "", offline: Boolean(stored.offline) };
 }
 
 export async function saveSettings({ instance, token }) {
   await ext.storage.local.set({ instance, token });
+}
+
+/** Turn the testing switch on or off: "Act as if Postulo cannot be reached". */
+export async function setOffline(offline) {
+  await ext.storage.local.set({ offline: Boolean(offline) });
 }
 
 /** Remove the token from this profile and leave the address. `storage.local` is the only place

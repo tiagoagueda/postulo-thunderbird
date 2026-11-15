@@ -1,4 +1,6 @@
-import { newListingUrl } from "./lib/api.js";
+import { newListingUrl, originPattern } from "./lib/api.js";
+import { CONNECTION, SLOW_MS, checkConnection } from "./lib/connection.js";
+import { footerState } from "./lib/footer.js";
 import { draftOf, openCaptureWindow } from "./lib/capture-window.js";
 import { explain, localise, t } from "./lib/i18n.js";
 import { captureAvailability, linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
@@ -86,6 +88,46 @@ async function showReviewList(settings, outcome = "") {
   $("review-list").hidden = false;
 }
 
+/** Draw the footer's state before the address, and say it in words for a screen reader and the
+ *  tooltip. A shape for each state: colour is never the only sign. */
+async function showState(settings, live = {}) {
+  const record = (await ext.storage.local.get(CONNECTION))[CONNECTION];
+  const shown = footerState(settings, record, live, navigator.onLine);
+  const state = $("state");
+  state.hidden = !shown;
+  if (!shown) {
+    return;
+  }
+  const words = shown.state === "tokenRefused" ? t("tokenRefused", [t("tokenPath")]) : t(shown.key);
+  state.dataset.state = shown.state;
+  state.title = words;
+  state.setAttribute("aria-label", words);
+  for (const shape of state.querySelectorAll("svg")) {
+    shape.hidden = shape.dataset.state !== shown.state;
+  }
+}
+
+/** Show what is known of Postulo at once, then ask `/healthz` (timed) and show the answer;
+ *  while the answer is slow in coming, say it is slow. Nothing is asked while the testing switch
+ *  is on or Thunderbird is working offline. */
+async function watchConnection(settings) {
+  await showState(settings);
+  if (!settings.instance || !settings.token || settings.offline || navigator.onLine === false) {
+    return;
+  }
+  const slow = setTimeout(() => showState(settings, { slow: true }), SLOW_MS);
+  try {
+    await checkConnection({
+      area: ext.storage.local,
+      settings,
+      allowed: () => ext.permissions.contains({ origins: [originPattern(settings.instance)] }).catch(() => false),
+    });
+  } finally {
+    clearTimeout(slow);
+  }
+  await showState(settings);
+}
+
 async function main() {
   localise();
   const settings = await loadSettings();
@@ -127,6 +169,8 @@ async function main() {
     $("new-listing").hidden = false;
     $("new-listing").addEventListener("click", () => openInBrowser(newListingUrl(settings.instance)));
   }
+
+  watchConnection(settings).catch(() => {});
 
   try {
     const shown = await displayedMessages();

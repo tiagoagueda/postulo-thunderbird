@@ -9,6 +9,7 @@
     "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039",
     "src/lib/waiting.js": "90b773e4d272246c4e1f1143d21355d2049c8ffc9b1192b546ddfc9c1f36d645",
     "src/lib/store.js": "b02123de597e46db52042efb62625148b8d4b975e216eb27c5b03e50cef1dcf1",
-    "src/lib/review.js": "779a4b4f8679acce1545c24a0696812479698cea81be64eea34a94a0717ccebc"
+    "src/lib/review.js": "779a4b4f8679acce1545c24a0696812479698cea81be64eea34a94a0717ccebc",
+    "src/lib/connection.js": "f63eb26a23abe4b4cd41cb5902ded66ab3383b7a0c5c77009a00d1553c67bc6b"
   }
 }

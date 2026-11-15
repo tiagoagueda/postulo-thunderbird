@@ -67,7 +67,7 @@ test("Forget token removes the token from storage and keeps the address", async 
     assert.equal((await loadSettings()).token, "secret");
     await forgetToken();
     assert.equal("token" in store, false, "no token key is left in storage");
-    assert.deepEqual(await loadSettings(), { instance: "https://postulo.example.org", token: "" });
+    assert.deepEqual(await loadSettings(), { instance: "https://postulo.example.org", token: "", offline: false });
   } finally {
     delete globalThis.messenger;
   }
