@@ -385,5 +385,17 @@
         "content": "$1"
       }
     }
+  },
+  "captureTitle": {
+    "message": "Capture a posting",
+    "description": "Title of the window in which a posting is checked before it is sent."
+  },
+  "noDraft": {
+    "message": "There is no message to capture here. Press the capture button on a message.",
+    "description": "Said in the capture window when it was opened with nothing to show."
+  },
+  "close": {
+    "message": "Close",
+    "description": "Button that closes the capture window."
   }
 }

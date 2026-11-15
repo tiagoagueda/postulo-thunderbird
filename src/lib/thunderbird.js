@@ -97,3 +97,14 @@ export async function openMessage(headerMessageId) {
     return false;
   }
 }
+
+/** Where the draft and the id of the capture window are kept: the session's storage, which is
+ *  gone when Thunderbird closes, and the message's text with it; the profile's if there is none. */
+export const draftArea = () => ext.storage.session ?? ext.storage.local;
+
+/** What `openCaptureWindow` needs of Thunderbird. */
+export const captureWindowHost = () => ({
+  area: draftArea(),
+  windows: ext.windows,
+  url: ext.runtime.getURL("capture.html"),
+});

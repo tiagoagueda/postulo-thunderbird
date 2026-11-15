@@ -37,7 +37,7 @@ test("every file the manifest names is there", () => {
 });
 
 test("every script and stylesheet a page loads is there", () => {
-  for (const page of ["popup.html", "options.html"]) {
+  for (const page of ["popup.html", "options.html", "capture.html"]) {
     const html = readFileSync(join(SOURCE, page), "utf8");
     const loaded = [...html.matchAll(/(?:src|href)="([^"#:]+\.(?:js|css|png|svg))"/g)].map((match) => match[1]);
     assert.ok(loaded.length, `${page} loads something`);
@@ -74,7 +74,7 @@ test("it asks for what it uses and nothing more", () => {
 
 test("no page may run a script that is not the extension's own", () => {
   assert.equal(manifest.content_security_policy.extension_pages, "script-src 'self'; object-src 'none'");
-  for (const page of ["popup.html", "options.html"]) {
+  for (const page of ["popup.html", "options.html", "capture.html"]) {
     const html = readFileSync(join(SOURCE, page), "utf8");
     assert.doesNotMatch(html, /<script(?![^>]*\bsrc=)/, `${page} has an inline script`);
     assert.doesNotMatch(html, /\son\w+="/, `${page} has an inline handler`);

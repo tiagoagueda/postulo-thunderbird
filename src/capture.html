@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="captureTitle">Capture a posting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="popup wide">
+    <header>
+      <img src="icons/postulo.svg" alt="" width="20" height="20" />
+      <h1 data-i18n="captureTitle">Capture a posting</h1>
+    </header>
+
+    <!-- The message the posting is in: read in the popup, shown here, and sent nowhere. -->
+    <section id="message" aria-labelledby="message-heading">
+      <h2 id="message-heading" class="hint" data-i18n="messageHeading">The message on screen</h2>
+      <p id="subject"></p>
+      <p id="sender" class="muted small"></p>
+    </section>
+
+    <p id="not-connected" class="note" hidden data-i18n="notConnected">Not connected to a Postulo yet.</p>
+
+    <!-- The posting as it will be sent, filled from what Postulo reads in the message. -->
+    <form id="review" class="posting" hidden>
+      <fieldset id="links" hidden>
+        <legend data-i18n="whichAddress">Which link is the posting?</legend>
+        <div id="link-list"></div>
+      </fieldset>
+      <p id="known" class="note" hidden></p>
+      <label for="f-title" data-i18n="titleLabel">Title</label>
+      <input id="f-title" name="title" autocomplete="off" />
+      <label for="f-company" data-i18n="companyLabel">Company</label>
+      <input id="f-company" name="company_name" autocomplete="off" />
+      <p id="company-guess" class="hint" hidden data-i18n="companyGuessed">Taken from the sender: correct it if it is not the employer.</p>
+      <label for="f-location" data-i18n="locationLabel">Place</label>
+      <input id="f-location" name="location" autocomplete="off" />
+      <div class="send">
+        <button id="send" type="submit" class="primary" data-i18n="sendForReview">Send for review</button>
+        <button id="send-address" type="button" data-i18n="sendAddress">Send the address alone</button>
+      </div>
+      <p class="hint" data-i18n="sendAddressHint">The address alone has Postulo fetch the page itself: it counts against your capture allowance, and fails for a page behind a sign-in.</p>
+    </form>
+
+    <p id="done" hidden>
+      <span id="done-text"></span>
+      <button id="open-review" type="button" class="link" data-i18n="openReview">Open its review</button>
+    </p>
+
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <div class="actions">
+      <button id="close" type="button" data-i18n="close">Close</button>
+    </div>
+
+    <script type="module" src="capture.js"></script>
+  </body>
+</html>

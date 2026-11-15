@@ -36,6 +36,7 @@ while Postulo cannot be reached. The popup shows the same list. No message is re
 
 ## What it keeps in this profile
 
+- While the capture window is open: the page built from the message and its links, in Thunderbird's session storage (gone when the window closes or Thunderbird quits; in the profile's storage on a Thunderbird that has no session storage, and removed when the window closes).
 - The address of your Postulo and the API token. **The token is stored unencrypted** (see the
   README) until you use *Forget token* in the settings, and revoke it in Postulo.
 - For each capture sent from here: Postulo's id for it, the review link, and the message's

@@ -11,7 +11,8 @@
 import { originPattern } from "./lib/api.js";
 import { FRESH_MS, PERIOD_MINUTES, makeBadge } from "./lib/badge.js";
 import { t } from "./lib/i18n.js";
-import { ext, loadSettings, sentCaptures } from "./lib/thunderbird.js";
+import { draftArea, ext, loadSettings, sentCaptures } from "./lib/thunderbird.js";
+import { windowClosed } from "./lib/capture-window.js";
 import { WAITING } from "./lib/waiting.js";
 import { SENT } from "./lib/sent.js";
 
@@ -53,6 +54,9 @@ ext.storage.onChanged.addListener((changes, area) => {
     quietly(badge.refresh());
   }
 });
+
+// The capture window closed: forget it and the message's text kept for it.
+ext.windows.onRemoved.addListener((id) => quietly(windowClosed(draftArea(), id)));
 
 ext.alarms.create(ALARM, { periodInMinutes: PERIOD_MINUTES });
 // Right at once from the copy kept, then from Postulo: the number survives a restart.

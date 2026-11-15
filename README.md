@@ -24,7 +24,7 @@ page you are looking at; this one is for the message you are reading.
   review with what you corrected. *Send the address alone* has Postulo fetch the page itself.
   A message with no link to a posting cannot be captured, and says so.
 - **The number on the toolbar button** (#2): the postings captured from here that still wait for review in Postulo, once each by posting, read from Postulo's list of captures when Thunderbird starts, every 15 minutes, when the popup opens and when a capture is sent. With Postulo unreachable the last number stays. A capture sent from another Thunderbird profile is not counted: Postulo's list does not say which client sent a capture.
-- **The captures that need review, in the popup** (#4): every capture waiting in Postulo, one row per posting (title, company and place, date, where it waits, how many captures of it), newest five and a link to all of them (Postulo's `/jobs/captures/` page). It is drawn from the last list read, so it is there at once and when Postulo is away, and then says when that list was read. A capture sent from here names its message and can open it again by its `Message-ID`; a message since deleted says so. A row opens Postulo's review page in your web browser.
+- **The captures that need review, in the popup** (#4): every capture waiting in Postulo, one row per posting (title, company and place, date, where it waits, how many captures of it), newest five and a link to all of them (Postulo's `/jobs/captures/` page). It is drawn from the last list read, so it is there at once and when Postulo is away, and then says when that list was read. A capture sent from here names its message and can open it again by its `Message-ID`; a message since deleted says so. A row, and every other address of Postulo's in the popup, opens in your web browser, where you are signed in (#5): a tab or window inside Thunderbird has cookies of its own and would ask you to sign in again.
 - English, French and European Portuguese.
 
 What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
@@ -131,7 +131,8 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | Path | What |
 | --- | --- |
 | `src/manifest.json` | Manifest V3 for Thunderbird 128 and later |
-| `src/popup.*` | The popup: the message on screen, and capturing it |
+| `src/popup.*` | The popup: the message on screen, the buttons, the list of captures to review |
+| `src/capture.*`, `src/lib/capture-window.js` | The window the posting is corrected in and sent from, and the draft the popup hands it |
 | `src/options.*` | Address, token, *Test*, *Save* |
 | `src/background.js`, `src/lib/badge.js` | The number on the toolbar button: read on a timer, painted from the last list |
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
