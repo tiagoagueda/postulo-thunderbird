@@ -169,14 +169,17 @@ function problem(error) {
 /** How long to wait for Postulo before counting it as unreachable. */
 const TIMEOUT_MS = 20_000;
 
-/** fetch, given up on after a while: a server that never answers is a server that is down. */
-async function request(fetchImpl, url, init) {
+/** fetch, given up on after a while: a server that never answers is a server that is down.
+ *
+ *  `read` takes the response and is awaited before the timer is cleared, so a body that
+ *  never ends is given up on too, and not only headers that never arrive (SEC3-017). */
+async function request(fetchImpl, url, init, read = (response) => response) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {
     // A redirect is an error, not something to follow with the token: the token goes to the
     // address that was configured and to nothing else (SEC2-078).
-    return await fetchImpl(url, { ...init, redirect: "error", signal: controller.signal });
+    return await read(await fetchImpl(url, { ...init, redirect: "error", signal: controller.signal }));
   } finally {
     clearTimeout(timer);
   }
@@ -191,8 +194,7 @@ export function extraScopes(me) {
 
 /** GET /me: who this token is, and what it may do. */
 export async function whoAmI(instance, token, fetchImpl = fetch) {
-  const response = await request(fetchImpl, endpoint(instance, "/me"), { headers: headers(token) });
-  return readResponse(response);
+  return request(fetchImpl, endpoint(instance, "/me"), { headers: headers(token) }, readResponse);
 }
 
 /** GET /healthz: the status Postulo answers with, to a request that carries no token and
@@ -222,14 +224,27 @@ export async function capture(instance, token, { url, html, data, batch, key }, 
   if (batch && batch.size > 1) {
     payload.batch = { size: batch.size, position: batch.position };
   }
-  const response = await request(fetchImpl, endpoint(instance, "/captures"), {
+  return request(
+    fetchImpl,
+    endpoint(instance, "/captures"),
+    {
     method: "POST",
     // The same key for the same capture: a request repeated after a lost answer gets the
     // first answer back from Postulo instead of a second capture and notification.
     headers: key ? { ...headers(token), "Idempotency-Key": key } : headers(token),
     body: JSON.stringify(payload),
-  });
-  return readResponse(response);
+    },
+    async (response) => {
+      const result = await readResponse(response);
+      // Postulo answers a capture with 201 (200 for one it already held) and the capture's
+      // id. Anything else is some other server's JSON, and no status is set on it: the
+      // capture waits and keeps its page rather than being counted as delivered.
+      if (![200, 201].includes(response.status) || !Number.isInteger(result.id)) {
+        throw new Refusal("notPostulo");
+      }
+      return result;
+    },
+  );
 }
 
 /** PUT the picture of the whole page to the address a capture's answer gave for it: the raw
@@ -237,15 +252,21 @@ export async function capture(instance, token, { url, html, data, batch, key }, 
  *  as Content-Length. Resolves when Postulo has it (201), or already had these bytes (200);
  *  anything else is thrown with its status, and 409, 413, 415 and 422 are final. */
 export async function sendRendering(token, url, blob, fetchImpl = fetch) {
-  const response = await request(fetchImpl, url, {
-    method: "PUT",
-    headers: { ...headers(token), "Content-Type": blob.type },
-    body: blob,
-  });
-  if (response.status === 200 || response.status === 201) {
-    return { kept: response.status === 201 };
-  }
-  return readResponse(response);
+  return request(
+    fetchImpl,
+    url,
+    {
+      method: "PUT",
+      headers: { ...headers(token), "Content-Type": blob.type },
+      body: blob,
+    },
+    (response) => {
+      if (response.status === 200 || response.status === 201) {
+        return { kept: response.status === 201 };
+      }
+      return readResponse(response);
+    },
+  );
 }
 
 /** Whether Postulo refused a picture for good, so that sending it again would not help. */
@@ -255,10 +276,12 @@ export function pictureRefused(error) {
 
 /** GET /captures: one page of the captures waiting for review, newest first, as `{items, count}`. */
 export async function listCaptures(instance, token, { limit = 100, offset = 0 } = {}, fetchImpl = fetch) {
-  const response = await request(fetchImpl, endpoint(instance, `/captures?limit=${limit}&offset=${offset}`), {
-    headers: headers(token),
-  });
-  return readResponse(response);
+  return request(
+    fetchImpl,
+    endpoint(instance, `/captures?limit=${limit}&offset=${offset}`),
+    { headers: headers(token) },
+    readResponse,
+  );
 }
 
 /** The longest address Postulo takes, for a capture and for /captures/known alike. */
@@ -282,12 +305,21 @@ export async function known(instance, token, postings, fetchImpl = fetch) {
   // Postulo takes at most KNOWN_POSTINGS in one question, so a longer page is asked in chunks.
   const answers = [];
   for (let from = 0; from < asked.length || from === 0; from += KNOWN_POSTINGS) {
-    const response = await request(fetchImpl, endpoint(instance, "/captures/known"), {
-      method: "POST",
-      headers: headers(token),
-      body: JSON.stringify({ postings: asked.slice(from, from + KNOWN_POSTINGS) }),
-    });
-    answers.push(...(await readResponse(response)));
+    const answer = await request(
+      fetchImpl,
+      endpoint(instance, "/captures/known"),
+      {
+        method: "POST",
+        headers: headers(token),
+        body: JSON.stringify({ postings: asked.slice(from, from + KNOWN_POSTINGS) }),
+      },
+      readResponse,
+    );
+    // One answer for each posting asked, and nothing else is Postulo's.
+    if (!Array.isArray(answer) || answer.some((one) => !one || typeof one !== "object")) {
+      throw new Refusal("notPostulo");
+    }
+    answers.push(...answer);
   }
   return answers;
 }

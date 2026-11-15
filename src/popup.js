@@ -4,7 +4,7 @@ import { explain, localise, t } from "./lib/i18n.js";
 import { linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
 import { preview } from "./lib/postulo.js";
 import { entryOf } from "./lib/sent.js";
-import { displayedMessage, keepSentCapture, loadSettings, openInBrowser, openSettings, readMessage } from "./lib/thunderbird.js";
+import { displayedMessage, ext, keepSentCapture, loadSettings, openInBrowser, openSettings, readMessage } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -137,6 +137,10 @@ async function main() {
   const settings = await loadSettings();
   work.settings = settings;
   const connected = Boolean(settings.instance && settings.token);
+  // A fresh number for the toolbar button: the background reads the list, and says nothing back.
+  if (connected) {
+    ext.runtime.sendMessage({ type: "refresh", fresh: true }).catch(() => {});
+  }
   $("open-options").addEventListener("click", openSettings);
   $("options-link").addEventListener("click", openSettings);
   $("open-review").addEventListener("click", () => openInBrowser(work.reviewUrl));

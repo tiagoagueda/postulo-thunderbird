@@ -64,9 +64,10 @@ test("the mark is the vector everywhere, as Thunderbird takes SVG icons (postulo
 });
 
 test("it asks for what it uses and nothing more", () => {
-  // Reading the message on screen, and keeping the address and the token. The instance's
+  // Reading the message on screen, keeping the address and the token, and the alarm that reads
+  // Postulo's list for the number on the toolbar button. The instance's
   // own origin is asked for when it is saved, never at install.
-  assert.deepEqual([...manifest.permissions].sort(), ["messagesRead", "storage"]);
+  assert.deepEqual([...manifest.permissions].sort(), ["alarms", "messagesRead", "storage"]);
   assert.equal(manifest.host_permissions, undefined);
   assert.deepEqual(manifest.optional_host_permissions, ["https://*/*", "http://*/*"]);
 });

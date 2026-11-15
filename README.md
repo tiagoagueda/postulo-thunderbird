@@ -22,10 +22,11 @@ page you are looking at; this one is for the message you are reading.
   company, marked as a guess), says when Postulo already holds the posting, and sends it for
   review with what you corrected. *Send the address alone* has Postulo fetch the page itself.
   A message with no link to a posting cannot be captured, and says so.
+- **The number on the toolbar button** (#2): the postings captured from here that still wait for review in Postulo, once each by posting, read from Postulo's list of captures when Thunderbird starts, every 15 minutes, when the popup opens and when a capture is sent. With Postulo unreachable the last number stays. A capture sent from another Thunderbird profile is not counted: Postulo's list does not say which client sent a capture.
 - English, French and European Portuguese.
 
 What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
-each: the number on the toolbar button, the list of captures to review, filing a message into
+each: the list of captures to review, filing a message into
 a listing's history, and keeping a capture here until Postulo can be reached (a capture made
 while Postulo is away is not kept: the popup says so and nothing is lost but the effort).
 
@@ -79,7 +80,7 @@ the address and the token into the extension's settings.
 ## Shared with the browser extension
 
 Talking to Postulo (`src/lib/api.js`), filling a page from the catalogues
-(`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), and the stylesheet are postulo-chromium's, copied here.
+(`src/lib/i18n.js`, with `messages.js`, which it imports; `languages.js` is this extension's own, written by `scripts/languages.py`), the stylesheet, and counting the postings waiting for review (`src/lib/waiting.js`, with `store.js`, which it imports) are postulo-chromium's, copied here.
 `shared.json` names the commit they were copied from and each file's SHA-256, and
 `npm test` fails when a copy no longer matches, and `npm run shared:verify` (CI runs it) fetches
 postulo-chromium and fails when a recorded hash is not that file's hash at the recorded commit, or
@@ -130,12 +131,12 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | `src/manifest.json` | Manifest V3 for Thunderbird 128 and later |
 | `src/popup.*` | The popup: the message on screen, and capturing it |
 | `src/options.*` | Address, token, *Test*, *Save* |
-| `src/background.js` | Nothing yet; where the number on the button and retries will live |
+| `src/background.js`, `src/lib/badge.js` | The number on the toolbar button: read on a timer, painted from the last list |
 | `src/lib/thunderbird.js` | Thunderbird's own API: settings, permissions, the message on screen |
 | `src/lib/scopes.js` | The two scopes the extension can use, and when a token holds more |
 | `src/lib/mail.js` | Reading a message: its header, its links, the page built from it; pure functions, tested with `node --test` |
 | `src/lib/correction.js`, `sent.js`, `postulo.js` | The form's starting values and corrections; the captures sent from here; the preview call |
-| `src/lib/api.js`, `src/lib/i18n.js`, `messages.js`, `src/style.css` | Shared with postulo-chromium; see `shared.json` |
+| `src/lib/api.js`, `i18n.js`, `messages.js`, `waiting.js`, `store.js`, `src/style.css` | Shared with postulo-chromium; see `shared.json` |
 | `src/icons/postulo.svg` | Postulo's mark, the core's served vector (see above) |
 | `src/_locales/` | One `messages.json` per language; `en` is the source |
 | `scripts/audit.mjs` | Fails CI on a new high or critical advisory in the development chain |

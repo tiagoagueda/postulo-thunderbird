@@ -12,7 +12,7 @@
     "96": "icons/postulo.svg",
     "128": "icons/postulo.svg"
   },
-  "permissions": ["messagesRead", "storage"],
+  "permissions": ["alarms", "messagesRead", "storage"],
   "optional_host_permissions": ["https://*/*", "http://*/*"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'none'"

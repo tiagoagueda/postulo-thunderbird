@@ -305,5 +305,18 @@
   "untitled": {
     "message": "Untitled posting",
     "description": "The name of a posting that has no title."
+  },
+  "badgeWaitingOne": {
+    "message": "Postulo: 1 posting captured from mail is waiting for review",
+    "description": "The toolbar button's tooltip when one posting captured from a message waits for review."
+  },
+  "badgeWaiting": {
+    "message": "Postulo: $COUNT$ postings captured from mail are waiting for review",
+    "description": "The toolbar button's tooltip when several postings captured from messages wait for review. COUNT is how many.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

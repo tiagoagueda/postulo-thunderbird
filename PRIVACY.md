@@ -26,6 +26,14 @@ background, and no other message is looked at.
 Postulo stores a capture for you to review; what it keeps of the page is decided by your
 Postulo's own settings.
 
+## What it asks Postulo in the background
+
+For the number on the toolbar button the extension reads your Postulo's list of captures waiting
+for review (`GET /api/v1/captures`, the `captures` scope) when Thunderbird starts, every 15
+minutes, when the popup opens and when a capture is sent. It keeps the last list (each row's id,
+title, company, place, posting key, date and review link) in this profile, to show the number
+while Postulo cannot be reached. No message is read for this.
+
 ## What it keeps in this profile
 
 - The address of your Postulo and the API token. **The token is stored unencrypted** (see the

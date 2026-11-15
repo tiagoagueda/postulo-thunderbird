@@ -1,11 +1,13 @@
 {
   "repository": "https://source.tiagoagueda.com/postulo/postulo-chromium.git",
-  "ref": "23b06a46e954a91ef01240a1c0f5d42983ab07cd",
+  "ref": "c4d3a6a65325c0a88ad3d75f60962cf65cd5c279",
   "note": "The files this extension shares with the browser extension, copied from postulo-chromium at this commit, each with its SHA-256. `npm test` fails when a copy no longer matches; `npm run shared:sync` copies them again from a checkout beside this one and writes the new commit and hashes. src/lib/languages.js is this extension's own: it lists every language the core has, where the browser extension lists the started ones (scripts/languages.py).",
   "files": {
-    "src/lib/api.js": "e245d873d5a4b451d1a7ac688b0df812781da938284c30e8335f734c449d6dd7",
+    "src/lib/api.js": "75795d1b46a99043336baab9ac4238e61c8a1131aa4042e7dff4fa97eb007f20",
     "src/lib/i18n.js": "32fadb7e0bedee1b476ccfa771397b9ce5b4dbbefc6f81a5e2a16fcd5c9b7c53",
     "src/lib/messages.js": "33dfc0e53eb20d8166e555b726ef8d4c46c193896cc58eebe69b598acf723bb9",
-    "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039"
+    "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039",
+    "src/lib/waiting.js": "90b773e4d272246c4e1f1143d21355d2049c8ffc9b1192b546ddfc9c1f36d645",
+    "src/lib/store.js": "b02123de597e46db52042efb62625148b8d4b975e216eb27c5b03e50cef1dcf1"
   }
 }
