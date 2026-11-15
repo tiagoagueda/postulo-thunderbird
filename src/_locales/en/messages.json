@@ -326,5 +326,64 @@
   "severalMessages": {
     "message": "Several messages are selected. Select one: one message is one posting.",
     "description": "Said when the capture button is off because more than one message is on screen."
+  },
+  "reviewHeading": {
+    "message": "Needs review",
+    "description": "Heading of the popup's list of postings captured and waiting for review in Postulo."
+  },
+  "nothingWaiting": {
+    "message": "Nothing is waiting for review.",
+    "description": "Said under that heading when there is nothing to review."
+  },
+  "lastListed": {
+    "message": "As Postulo last listed them, on $WHEN$.",
+    "description": "Under that list's heading when Postulo cannot be asked now (unreachable, token refused). WHEN is a date and time already written in the person's language.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingInPostulo": {
+    "message": "Waiting for review in Postulo",
+    "description": "Said on each row of the list: where the capture waits."
+  },
+  "capturesOfPosting": {
+    "message": "$COUNT$ captures of this posting",
+    "description": "Said on a row when one posting was captured several times. COUNT is how many.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "fromMessage": {
+    "message": "From the message \"$SUBJECT$\" by $SENDER$",
+    "description": "Said on a row that came from a message of this Thunderbird. SUBJECT and SENDER are the message's.",
+    "placeholders": {
+      "subject": {
+        "content": "$1"
+      },
+      "sender": {
+        "content": "$2"
+      }
+    }
+  },
+  "openMessage": {
+    "message": "Open the message",
+    "description": "Button on such a row that shows the message again in Thunderbird."
+  },
+  "messageGone": {
+    "message": "That message is no longer in Thunderbird.",
+    "description": "Said when the message a capture came from has been deleted or moved away."
+  },
+  "seeAllCaptures": {
+    "message": "See all $COUNT$ in Postulo",
+    "description": "Link under the list of the newest few, to Postulo's page of every capture waiting. COUNT is how many postings.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

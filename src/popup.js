@@ -3,8 +3,10 @@ import { corrections, formOf } from "./lib/correction.js";
 import { explain, localise, t } from "./lib/i18n.js";
 import { captureAvailability, linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
 import { preview } from "./lib/postulo.js";
+import { waitingCopy } from "./lib/waiting.js";
+import { allCapturesUrl, listRows, rowLines } from "./lib/captures-list.js";
 import { entryOf } from "./lib/sent.js";
-import { displayedMessages, ext, keepSentCapture, loadSettings, openInBrowser, openSettings, readMessage } from "./lib/thunderbird.js";
+import { displayedMessages, ext, keepSentCapture, loadSettings, openInBrowser, openMessage, openSettings, readMessage, sentCaptures } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -131,6 +133,62 @@ async function send(addressOnly) {
   }
 }
 
+/** The captures that need review, drawn from the copy of Postulo's list that is kept, so that
+ *  they are there at once and when Postulo is away; drawn again when a fresh read lands.
+ *  `outcome` is how that read went: unreachable or refused, and the list says it is the last
+ *  one read. */
+async function showReviewList(settings, outcome = "") {
+  const copy = await waitingCopy(ext.storage.local, settings);
+  const { rows, total } = listRows(copy ? copy.rows : [], await sentCaptures(), settings.instance);
+  const tag = t("languageTag");
+  const day = (iso) => (Number.isFinite(Date.parse(iso)) ? new Date(iso).toLocaleDateString(tag) : "");
+  const stale = Boolean(copy) && (outcome === "unreachable" || outcome === "account");
+  $("review-stale").hidden = !stale;
+  $("review-stale").textContent = stale ? t("lastListed", [new Date(copy.at).toLocaleString(tag, { dateStyle: "long", timeStyle: "short" })]) : "";
+  $("review-empty").hidden = total > 0;
+  $("review-rows").replaceChildren(
+    ...rows.map((row) => {
+      const lines = rowLines(row, { t, day });
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = row.link || "#";
+      // Opened in the person's web browser, where they are signed in, never inside the popup.
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        if (row.link) {
+          openInBrowser(row.link);
+        }
+      });
+      for (const [text, className] of [[lines.title, "title"], [lines.meta, "meta"]]) {
+        const line = document.createElement("span");
+        line.className = className;
+        line.textContent = text;
+        link.append(line);
+      }
+      item.append(link);
+      if (row.fromMail) {
+        const origin = document.createElement("p");
+        origin.className = "muted small";
+        origin.textContent = `${lines.origin} `;
+        const open = document.createElement("button");
+        open.type = "button";
+        open.className = "link";
+        open.textContent = t("openMessage");
+        open.addEventListener("click", async () => {
+          say((await openMessage(row.fromMail.messageId)) ? "" : t("messageGone"), false);
+        });
+        origin.append(open);
+        item.append(origin);
+      }
+      return item;
+    }),
+  );
+  $("review-all").hidden = total <= rows.length;
+  $("all-captures").textContent = t("seeAllCaptures", [String(total)]);
+  $("all-captures").href = allCapturesUrl(settings.instance);
+  $("review-list").hidden = false;
+}
+
 async function main() {
   localise();
   const settings = await loadSettings();
@@ -138,7 +196,15 @@ async function main() {
   const connected = Boolean(settings.instance && settings.token);
   // A fresh number for the toolbar button: the background reads the list, and says nothing back.
   if (connected) {
-    ext.runtime.sendMessage({ type: "refresh", fresh: true }).catch(() => {});
+    await showReviewList(settings).catch(() => {});
+    $("all-captures").addEventListener("click", (event) => {
+      event.preventDefault();
+      openInBrowser(allCapturesUrl(settings.instance));
+    });
+    ext.runtime.sendMessage({ type: "refresh", fresh: true }).then(
+      (outcome) => showReviewList(settings, outcome),
+      () => {},
+    ).catch(() => {});
   }
   $("open-options").addEventListener("click", openSettings);
   $("options-link").addEventListener("click", openSettings);

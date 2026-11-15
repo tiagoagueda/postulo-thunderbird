@@ -8,6 +8,7 @@
     "src/lib/messages.js": "33dfc0e53eb20d8166e555b726ef8d4c46c193896cc58eebe69b598acf723bb9",
     "src/style.css": "495502d0eca186063ea443133abbd6e1d5e3265436c29be21e9b545ad4d2e039",
     "src/lib/waiting.js": "90b773e4d272246c4e1f1143d21355d2049c8ffc9b1192b546ddfc9c1f36d645",
-    "src/lib/store.js": "b02123de597e46db52042efb62625148b8d4b975e216eb27c5b03e50cef1dcf1"
+    "src/lib/store.js": "b02123de597e46db52042efb62625148b8d4b975e216eb27c5b03e50cef1dcf1",
+    "src/lib/review.js": "779a4b4f8679acce1545c24a0696812479698cea81be64eea34a94a0717ccebc"
   }
 }

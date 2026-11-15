@@ -37,7 +37,7 @@ ext.alarms.onAlarm.addListener((alarm) => {
 
 ext.runtime.onMessage.addListener((message) => {
   if (message && message.type === "refresh") {
-    return badge.refresh({ maxAgeMs: message.fresh ? FRESH_MS : 0 }).then(() => true, () => false);
+    return badge.refresh({ maxAgeMs: message.fresh ? FRESH_MS : 0 }).then((result) => result.outcome, () => "unreachable");
   }
   return undefined;
 });

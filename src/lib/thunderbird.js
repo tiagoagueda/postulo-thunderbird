@@ -82,3 +82,18 @@ export async function openInBrowser(url) {
 /** The captures sent from this profile, newest first, and the keeping of one. */
 export const sentCaptures = () => sentList(ext.storage.local);
 export const keepSentCapture = (entry) => keepSent(ext.storage.local, entry);
+
+/** Show the message with this `Message-ID` again, in a tab (`messageDisplay.open`, Thunderbird
+ *  102 and later, under `messagesRead`). Resolves to false when Thunderbird has no such
+ *  message any more: deleted, or moved out of the folders it knows. */
+export async function openMessage(headerMessageId) {
+  if (!headerMessageId) {
+    return false;
+  }
+  try {
+    await ext.messageDisplay.open({ headerMessageId, location: "tab" });
+    return true;
+  } catch {
+    return false;
+  }
+}

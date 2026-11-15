@@ -32,7 +32,7 @@ For the number on the toolbar button the extension reads your Postulo's list of 
 for review (`GET /api/v1/captures`, the `captures` scope) when Thunderbird starts, every 15
 minutes, when the popup opens and when a capture is sent. It keeps the last list (each row's id,
 title, company, place, posting key, date and review link) in this profile, to show the number
-while Postulo cannot be reached. No message is read for this.
+while Postulo cannot be reached. The popup shows the same list. No message is read for this; a row that came from a message opens it again by its `Message-ID` when you press *Open the message*.
 
 ## What it keeps in this profile
 
