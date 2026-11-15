@@ -433,5 +433,93 @@
   "thunderbirdOffline": {
     "message": "Thunderbird is working offline: nothing is asked of Postulo.",
     "description": "The title and spoken name of the footer's crossed-out signal while Thunderbird is set to Work Offline. Postulo may be up; Thunderbird sends nothing."
+  },
+  "tokenCanCapture": {
+    "message": "It can capture postings.",
+    "description": "Said after Test, when the token holds the captures scope."
+  },
+  "tokenCannotCapture": {
+    "message": "It cannot capture postings: it lacks the $SCOPE$ scope.",
+    "description": "Said after Test, when the token lacks the captures scope. SCOPE is its name, in code type.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "tokenCanFile": {
+    "message": "It can file a message into a listing's history.",
+    "description": "Said after Test, when the token holds the listings:bind scope."
+  },
+  "tokenCannotFile": {
+    "message": "It cannot file a message into a listing's history: it lacks the $SCOPE$ scope, so the popup does not offer it.",
+    "description": "Said after Test, when the token lacks the listings:bind scope. SCOPE is its name, in code type.",
+    "placeholders": {
+      "scope": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileMessage": {
+    "message": "File this message into a listing",
+    "description": "Button in the popup that opens the choice of a listing to add the message on screen to its history."
+  },
+  "searchListings": {
+    "message": "Search your listings",
+    "description": "Label of the field that narrows the listings offered to file a message into."
+  },
+  "suggested": {
+    "message": "Suggested",
+    "description": "Said on a listing that looks like the message: the company is the sender, or the title shares words with the subject."
+  },
+  "noListings": {
+    "message": "No listing matches.",
+    "description": "Said when the search finds no listing."
+  },
+  "subjectOnly": {
+    "message": "Send the subject alone",
+    "description": "Checkbox: file the message with its subject only, and not its text."
+  },
+  "whatIsSent": {
+    "message": "What will be sent",
+    "description": "Summary of the box that shows the text that will be filed."
+  },
+  "fileIt": {
+    "message": "File it",
+    "description": "Button that adds the message to the chosen listing's history."
+  },
+  "filing": {
+    "message": "Filing…",
+    "description": "Said while the message is added to the listing."
+  },
+  "filedInto": {
+    "message": "Filed into \"$LISTING$\".",
+    "description": "Said when the message was added. LISTING is the listing's title.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "alreadyFiled": {
+    "message": "This message was already in the history of \"$LISTING$\": nothing was added.",
+    "description": "Said when the same message had been filed into that listing before. LISTING is the listing's title.",
+    "placeholders": {
+      "listing": {
+        "content": "$1"
+      }
+    }
+  },
+  "listingLine": {
+    "message": "$TITLE$, $COMPANY$",
+    "description": "One listing in the choice: its title, then its company. TITLE and COMPANY are theirs.",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      },
+      "company": {
+        "content": "$2"
+      }
+    }
   }
 }

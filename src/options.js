@@ -1,7 +1,7 @@
 import { normaliseInstance, originPattern, whoAmI } from "./lib/api.js";
 import { explain, localise, localiseWith, t } from "./lib/i18n.js";
-import { BIND, CAPTURES, judgeScopes } from "./lib/scopes.js";
-import { forgetToken, loadSettings, requestHostPermission, saveSettings, setOffline } from "./lib/thunderbird.js";
+import { BIND, CAPTURES, abilities, judgeScopes } from "./lib/scopes.js";
+import { forgetToken, keepScopes, loadSettings, requestHostPermission, saveSettings, setOffline } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -28,7 +28,11 @@ function element(tag, text) {
  *  when it is wider than the extension's job or useless to it ("" when it is neither). */
 async function judgeToken({ instance, token }) {
   const me = await whoAmI(instance, token);
+  await keepScopes(me.scopes).catch(() => {});
   const judged = judgeScopes(me);
+  const can = abilities(me);
+  // What each scope allows, in words: the popup offers only what the token can do.
+  const allows = [can.capture ? t("tokenCanCapture") : t("tokenCannotCapture", [CAPTURES]), can.file ? t("tokenCanFile") : t("tokenCannotFile", [BIND])].join(" ");
   const scopes = judged.held.join(", ");
   const who = scopes ? t("tokenIsScoped", [me.name, me.owner, scopes]) : t("tokenIs", [me.name, me.owner]);
   const warning = judged.neither
@@ -36,7 +40,7 @@ async function judgeToken({ instance, token }) {
     : judged.extra.length
       ? t("tokenTooWide", [judged.extra.join(", ")])
       : "";
-  return { who, warning };
+  return { who: `${who} ${allows}`, warning };
 }
 
 async function main() {

@@ -34,9 +34,19 @@ minutes, when the popup opens and when a capture is sent. It keeps the last list
 title, company, place, posting key, date and review link) in this profile, to show the number
 while Postulo cannot be reached. The popup shows the same list. No message is read for this; a row that came from a message opens it again by its `Message-ID` when you press *Open the message*.
 
+## Filing a message into a listing
+
+Only when you press *File this message into a listing* (and the token holds `listings:bind`):
+the extension reads the message on screen and asks Postulo for your listings (their title,
+company, place and state), narrowed by what you type. Pressing *File it* sends, to your own
+Postulo, the subject, the date sent, the message's `Message-ID` and its text without the replies
+quoted under it and the signature (or the subject alone, if you tick that). You see the text
+before it goes. Postulo keeps it in that listing's history and shows it on the listing's page.
+
 ## What it keeps in this profile
 
 - While the capture window is open: the page built from the message and its links, in Thunderbird's session storage (gone when the window closes or Thunderbird quits; in the profile's storage on a Thunderbird that has no session storage, and removed when the window closes).
+- The scopes the token said it holds, so that the popup offers only what it can do.
 - The address of your Postulo and the API token. **The token is stored unencrypted** (see the
   README) until you use *Forget token* in the settings, and revoke it in Postulo.
 - For each capture sent from here: Postulo's id for it, the review link, and the message's

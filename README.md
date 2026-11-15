@@ -31,6 +31,12 @@ page you are looking at; this one is for the message you are reading.
 What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
 each: filing a message into
 a listing's history, and keeping a capture here until Postulo can be reached (a capture made
+- **File this message into a listing's history** (#9): with a token that holds `listings:bind`, the popup offers *File this message into a listing*: it lists your listings (`GET /listings/choices`, narrowed by what you type), the ones that look like the message first (the sender's company, words of the subject), shows what will be sent (the text without the replies quoted under it and the signature, or the subject alone) and adds it to the chosen listing's history (`POST /listings/{id}/events`, kind `email_received`). The message's own `Message-ID` is the entry's `external_id`, so filing one message twice leaves one entry, and the popup says when nothing was added. *Test* says what the token can do, scope by scope; a token without `listings:bind` is not offered filing and the settings say why.
+- English, French and European Portuguese.
+
+What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
+each: the number on the toolbar button, the list of captures to review, and
+keeping a capture here until Postulo can be reached (a capture made
 while Postulo is away is not kept: the popup says so and nothing is lost but the effort).
 
 It was loaded once into Thunderbird 156 as a temporary add-on, which accepted the manifest.
@@ -141,6 +147,7 @@ would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the
 | `src/lib/mail.js` | Reading a message: its header, its links, the page built from it; pure functions, tested with `node --test` |
 | `src/lib/captures-list.js` | The popup's list of captures to review: the browser extension's rows, marked with the message each came from |
 | `src/lib/footer.js` | The footer's state: the browser extension's `connection.js` and Thunderbird working offline |
+| `src/lib/filing.js` | Filing a message: its text without quotes, the entry, the listings ranked by how they match |
 | `src/lib/correction.js`, `sent.js`, `postulo.js` | The form's starting values and corrections; the captures sent from here; the preview call |
 | `src/lib/api.js`, `i18n.js`, `messages.js`, `waiting.js`, `review.js`, `store.js`, `connection.js`, `src/style.css` | Shared with postulo-chromium; see `shared.json` |
 | `src/icons/postulo.svg` | Postulo's mark, the core's served vector (see above) |

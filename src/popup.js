@@ -1,12 +1,15 @@
-import { newListingUrl, originPattern } from "./lib/api.js";
+import { newListingUrl, originPattern, whoAmI } from "./lib/api.js";
 import { CONNECTION, SLOW_MS, checkConnection } from "./lib/connection.js";
 import { footerState } from "./lib/footer.js";
 import { draftOf, openCaptureWindow } from "./lib/capture-window.js";
+import { entryFor, rankChoices } from "./lib/filing.js";
 import { explain, localise, t } from "./lib/i18n.js";
 import { captureAvailability, linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
+import { addListingEvent, listingChoices } from "./lib/postulo.js";
+import { abilities } from "./lib/scopes.js";
 import { waitingCopy } from "./lib/waiting.js";
 import { allCapturesUrl, listRows, rowLines } from "./lib/captures-list.js";
-import { captureWindowHost, displayedMessages, ext, loadSettings, openInBrowser, openMessage, openSettings, readMessage, sentCaptures } from "./lib/thunderbird.js";
+import { captureWindowHost, displayedMessages, ext, keepScopes, keptScopes, loadSettings, openInBrowser, openMessage, openSettings, readMessage, sentCaptures } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -128,6 +131,105 @@ async function watchConnection(settings) {
   await showState(settings);
 }
 
+/** The scopes the token holds: as last said, or asked of Postulo now if never. A token that
+ *  cannot be asked is taken to hold none, and nothing it might do is offered. */
+async function scopesOfToken(settings) {
+  const kept = await keptScopes();
+  if (kept) {
+    return kept;
+  }
+  try {
+    const me = await whoAmI(settings.instance, settings.token);
+    await keepScopes(me.scopes).catch(() => {});
+    return me.scopes || [];
+  } catch {
+    return [];
+  }
+}
+
+/** Filing the message on screen into a listing's history (#9): choose a listing among the
+ *  person's own (the ones that look like the message first), see what will be sent, file it. */
+function setupFiling(settings, header) {
+  const filing = { message: null, choices: [], chosen: null, whole: null };
+  let timer = 0;
+
+  /** What will be sent, shown before it goes. */
+  const showBody = () => {
+    const entry = entryFor(filing.message, { subjectOnly: $("subject-only").checked });
+    $("file-body").value = entry.body || entry.summary;
+    $("file-send").disabled = !filing.chosen;
+  };
+
+  const draw = () => {
+    $("no-listings").hidden = filing.choices.length > 0;
+    $("choices").replaceChildren(
+      ...filing.choices.map((choice) => {
+        const item = document.createElement("li");
+        const label = document.createElement("label");
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "choice";
+        radio.value = String(choice.id);
+        radio.addEventListener("change", () => {
+          filing.chosen = choice;
+          showBody();
+        });
+        label.append(radio, ` ${t("listingLine", [choice.title, choice.company_name])}`);
+        if (choice.suggested) {
+          const mark = document.createElement("span");
+          mark.className = "hint";
+          mark.textContent = ` (${t("suggested")})`;
+          label.append(mark);
+        }
+        item.append(label);
+        return item;
+      }),
+    );
+  };
+
+  const search = async () => {
+    try {
+      const answer = await listingChoices(settings.instance, settings.token, { q: $("f-search").value });
+      filing.choices = rankChoices(answer.items || [], filing.message);
+      filing.chosen = null;
+      draw();
+      showBody();
+    } catch (error) {
+      say(explain(error), true);
+    }
+  };
+
+  $("file").hidden = false;
+  $("file-open").addEventListener("click", async () => {
+    try {
+      filing.message = await readMessage(header);
+    } catch (error) {
+      say(explain(error), true);
+      return;
+    }
+    $("file-panel").hidden = false;
+    showBody();
+    await search();
+  });
+  $("f-search").addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(search, 300);
+  });
+  $("subject-only").addEventListener("change", showBody);
+  $("file-send").addEventListener("click", async () => {
+    $("file-send").disabled = true;
+    say(t("filing"));
+    try {
+      const { created } = await addListingEvent(settings.instance, settings.token, filing.chosen.id, entryFor(filing.message, { subjectOnly: $("subject-only").checked }));
+      say(created ? t("filedInto", [filing.chosen.title]) : t("alreadyFiled", [filing.chosen.title]));
+    } catch (error) {
+      say(explain(error), true);
+    } finally {
+      $("file-send").disabled = false;
+    }
+  });
+}
+
 async function main() {
   localise();
   const settings = await loadSettings();
@@ -191,6 +293,11 @@ async function main() {
     }
     if (ok) {
       $("capture").addEventListener("click", () => startCapture(header).catch((error) => say(explain(error), true)));
+      // Offered only when the token holds `listings:bind`: with a token that cannot, the settings
+      // say why, and the popup does not show a button that would be refused.
+      if (abilities({ scopes: await scopesOfToken(settings) }).file) {
+        setupFiling(settings, header);
+      }
     }
   } catch (error) {
     say(explain(error), true);

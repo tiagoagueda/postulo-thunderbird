@@ -24,3 +24,11 @@ export function judgeScopes(me) {
   const extra = held.filter((scope) => !SCOPES_USED.includes(scope));
   return { held, usable, extra, neither: usable.length === 0 };
 }
+
+/** What this extension can do with a token, scope by scope (#9): capture a posting (`captures`)
+ *  and file a message into a listing's history (`listings:bind`). The popup offers only what
+ *  the token can do, and the settings say what each allows. */
+export function abilities(me) {
+  const held = Array.isArray(me && me.scopes) ? me.scopes.map(String) : [];
+  return { capture: held.includes(CAPTURES), file: held.includes(BIND) };
+}

@@ -16,6 +16,18 @@ export async function loadSettings() {
 
 export async function saveSettings({ instance, token }) {
   await ext.storage.local.set({ instance, token });
+  // What a token may do is that token's: the one kept belonged to the one it replaces.
+  await ext.storage.local.remove("scopes");
+}
+
+/** The scopes the token last said it holds (`GET /me`), or null when it has not been asked. */
+export async function keptScopes() {
+  const { scopes } = await ext.storage.local.get(["scopes"]);
+  return Array.isArray(scopes) ? scopes : null;
+}
+
+export async function keepScopes(scopes) {
+  await ext.storage.local.set({ scopes: Array.isArray(scopes) ? scopes.map(String) : [] });
 }
 
 /** Turn the testing switch on or off: "Act as if Postulo cannot be reached". */
@@ -27,7 +39,7 @@ export async function setOffline(offline) {
  *  an extension can keep it and it is not encrypted (README, "Privacy"), so the person can
  *  take it out; it keeps working in Postulo until it is revoked there. */
 export async function forgetToken() {
-  await ext.storage.local.remove("token");
+  await ext.storage.local.remove(["token", "scopes"]);
 }
 
 /** Open the settings: where Thunderbird keeps an add-on's own, or in a tab if it will not. */

@@ -55,8 +55,8 @@ test("Forget token removes the token from storage and keeps the address", async 
       local: {
         get: async (keys) => Object.fromEntries(keys.filter((key) => key in store).map((key) => [key, store[key]])),
         set: async (values) => Object.assign(store, values),
-        remove: async (key) => {
-          delete store[key];
+        remove: async (keys) => {
+          for (const key of [].concat(keys)) delete store[key];
         },
       },
     },
@@ -67,6 +67,7 @@ test("Forget token removes the token from storage and keeps the address", async 
     assert.equal((await loadSettings()).token, "secret");
     await forgetToken();
     assert.equal("token" in store, false, "no token key is left in storage");
+    assert.equal("scopes" in store, false, "nor what the token last said it could do");
     assert.deepEqual(await loadSettings(), { instance: "https://postulo.example.org", token: "", offline: false });
   } finally {
     delete globalThis.messenger;
