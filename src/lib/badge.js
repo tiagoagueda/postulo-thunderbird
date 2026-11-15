@@ -34,7 +34,7 @@ export const PERIOD_MINUTES = 15;
 export const FRESH_MS = 30_000;
 
 /** The painting and the refreshing, over what Thunderbird supplies, so that both are tested
- *  without it. `host` is `{area, action, loadSettings, sentCaptures, allowed(settings), t}`. */
+ *  without it. `host` is `{area, action, messageDisplayAction, loadSettings, sentCaptures, allowed(settings), t}`. */
 export function makeBadge(host, fetchImpl = fetch) {
   /** Paint the number from the copy of Postulo's list that was kept last. Never asks Postulo. */
   async function repaint() {
@@ -42,7 +42,10 @@ export function makeBadge(host, fetchImpl = fetch) {
     const rows = await lastWaiting(host.area, settings);
     const count = badgeCount(rows, await host.sentCaptures());
     await host.action.setBadgeText({ text: badgeText(count) });
-    await host.action.setTitle({ title: badgeTitle(count, host.t) });
+    // Both buttons wear the same tooltip, worded in the language in use.
+    const title = badgeTitle(count, host.t);
+    await host.action.setTitle({ title });
+    await host.messageDisplayAction?.setTitle({ title });
     return count;
   }
 

@@ -9,9 +9,14 @@ export const ext = globalThis.messenger ?? globalThis.browser;
 
 /** Where the person's Postulo is, and the token to reach it with. */
 export async function loadSettings() {
-  const stored = await ext.storage.local.get(["instance", "token", "offline"]);
+  const stored = await ext.storage.local.get(["instance", "token", "offline", "language"]);
   // `offline` is the testing switch: nothing is asked of Postulo while it is on.
-  return { instance: stored.instance || "", token: stored.token || "", offline: Boolean(stored.offline) };
+  return { instance: stored.instance || "", token: stored.token || "", offline: Boolean(stored.offline), language: stored.language || "" };
+}
+
+/** The language the extension speaks, as a BCP 47 tag; "" follows Thunderbird's own. */
+export async function setLanguage(language) {
+  await ext.storage.local.set({ language });
 }
 
 export async function saveSettings({ instance, token }) {

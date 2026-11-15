@@ -38,16 +38,29 @@ export function incomplete(dir) {
   });
 }
 
+/** The list of languages without the ones left out of the package: the settings page offers
+ *  only the catalogues it can load. */
+export function withoutLanguages(source, folders) {
+  const gone = new Set(folders);
+  return source
+    .split("\n")
+    .filter((line) => !gone.has(/folder: "([^"]+)"/.exec(line)?.[1]))
+    .join("\n");
+}
+
 if (process.argv[1]?.endsWith("build.mjs")) {
   rmSync(OUT, { recursive: true, force: true });
   mkdirSync(OUT, { recursive: true });
   cpSync(SOURCE, OUT, { recursive: true });
   const locales = join(OUT, "_locales");
   // A language Weblate has only part of: English in the gaps would read as a bug.
-  for (const folder of incomplete(locales)) {
+  const left = incomplete(locales);
+  for (const folder of left) {
     console.warn(`Leaving out ${folder}: its catalogue is not complete.`);
     rmSync(join(locales, folder), { recursive: true, force: true });
   }
+  const listFile = join(OUT, "lib", "languages.js");
+  writeFileSync(listFile, withoutLanguages(readFileSync(listFile, "utf8"), left));
   for (const folder of readdirSync(locales)) {
     const file = join(locales, folder, "messages.json");
     if (!existsSync(file)) continue;

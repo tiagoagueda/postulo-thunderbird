@@ -3,7 +3,7 @@ import { CONNECTION, SLOW_MS, checkConnection } from "./lib/connection.js";
 import { footerState } from "./lib/footer.js";
 import { draftOf, openCaptureWindow } from "./lib/capture-window.js";
 import { entryFor, rankChoices } from "./lib/filing.js";
-import { explain, localise, t } from "./lib/i18n.js";
+import { explain, localise, t, useStoredLanguage } from "./lib/i18n.js";
 import { captureAvailability, linksIn, pageFromMessage, postingLinks, summarise } from "./lib/mail.js";
 import { addListingEvent, listingChoices } from "./lib/postulo.js";
 import { abilities } from "./lib/scopes.js";
@@ -231,6 +231,7 @@ function setupFiling(settings, header) {
 }
 
 async function main() {
+  await useStoredLanguage();
   localise();
   const settings = await loadSettings();
   const connected = Boolean(settings.instance && settings.token);

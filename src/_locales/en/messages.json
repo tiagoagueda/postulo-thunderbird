@@ -521,5 +521,17 @@
         "content": "$2"
       }
     }
+  },
+  "languageLabel": {
+    "message": "Language",
+    "description": "Label of the settings page's list of languages for the extension. Each entry in the list is the language's own name; the first is languageFollow."
+  },
+  "languageFollow": {
+    "message": "Follow Thunderbird",
+    "description": "First entry of the list of languages: the extension speaks the language Thunderbird is set to, as it does until one is picked."
+  },
+  "languageHint": {
+    "message": "Every language but English is a draft that no speaker has reviewed yet. Takes effect at once, without Save. The description in Thunderbird's list of add-ons stays in Thunderbird's language.",
+    "description": "Under the list of languages: the translations are unreviewed drafts, picking one needs no Save, and the add-on's description, which Thunderbird words itself from the manifest, cannot follow."
   }
 }

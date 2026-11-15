@@ -1,7 +1,8 @@
 import { normaliseInstance, originPattern, whoAmI } from "./lib/api.js";
-import { explain, localise, localiseWith, t } from "./lib/i18n.js";
+import { explain, localise, localiseWith, t, useLanguage, useStoredLanguage } from "./lib/i18n.js";
+import { LANGUAGES } from "./lib/languages.js";
 import { BIND, CAPTURES, abilities, judgeScopes } from "./lib/scopes.js";
-import { forgetToken, keepScopes, loadSettings, requestHostPermission, saveSettings, setOffline } from "./lib/thunderbird.js";
+import { forgetToken, keepScopes, loadSettings, requestHostPermission, saveSettings, setLanguage, setOffline } from "./lib/thunderbird.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -24,6 +25,16 @@ function element(tag, text) {
   return made;
 }
 
+/** The languages to pick from, each named in itself and marked as that language for a screen reader. */
+function listLanguages(select = $("language")) {
+  for (const language of LANGUAGES) {
+    const option = element("option", language.name);
+    option.value = language.tag;
+    option.lang = language.tag;
+    select.append(option);
+  }
+}
+
 /** Ask Postulo who the token is and what it may do: the sentence that says so, and the warning
  *  when it is wider than the extension's job or useless to it ("" when it is neither). */
 async function judgeToken({ instance, token }) {
@@ -43,13 +54,35 @@ async function judgeToken({ instance, token }) {
   return { who: `${who} ${allows}`, warning };
 }
 
-async function main() {
-  localise();
-  // The sentences that carry markup: a menu path and the scopes' names, which are Postulo's
-  // own words and the same in every language.
+/** The sentences that carry markup: a menu path and the scopes' names, which are Postulo's
+ *  own words and the same in every language. */
+function localiseHints() {
   localiseWith($("token-hint"), "tokenHintScopes", [element("em", t("tokenPath")), element("code", CAPTURES), element("code", BIND)]);
   localiseWith($("token-stored"), "tokenStored", [element("em", t("tokenPath"))]);
+}
+
+async function main() {
+  await useStoredLanguage();
+  localise();
+  localiseHints();
+  listLanguages();
   const settings = await loadSettings();
+  // A language stored but no longer shipped is not in the list: the select shows "Follow
+  // Thunderbird", which is what is spoken then.
+  $("language").value = LANGUAGES.some((one) => one.tag === settings.language) ? settings.language : "";
+  // Takes effect at once, without Save; the background rewords the tooltip on the storage change.
+  $("language").addEventListener("change", async () => {
+    try {
+      const language = $("language").value;
+      await setLanguage(language);
+      await useLanguage(language);
+      localise();
+      localiseHints();
+      say("");
+    } catch (error) {
+      say(explain(error), true);
+    }
+  });
   $("instance").value = settings.instance;
   $("token").value = settings.token;
   $("offline").checked = settings.offline;

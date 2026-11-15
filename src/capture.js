@@ -1,7 +1,7 @@
 import { ADDRESS_LIMIT, capture, describe, known } from "./lib/api.js";
 import { readDraft, DRAFT } from "./lib/capture-window.js";
 import { corrections, formOf } from "./lib/correction.js";
-import { explain, localise, t } from "./lib/i18n.js";
+import { explain, localise, t, useStoredLanguage } from "./lib/i18n.js";
 import { preview } from "./lib/postulo.js";
 import { entryOf } from "./lib/sent.js";
 import { draftArea, ext, keepSentCapture, loadSettings, openInBrowser } from "./lib/thunderbird.js";
@@ -125,6 +125,7 @@ async function send(addressOnly) {
 }
 
 async function main() {
+  await useStoredLanguage();
   localise();
   work.settings = await loadSettings();
   $("review").addEventListener("submit", (event) => {

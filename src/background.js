@@ -10,7 +10,7 @@
 
 import { originPattern } from "./lib/api.js";
 import { FRESH_MS, PERIOD_MINUTES, makeBadge } from "./lib/badge.js";
-import { t } from "./lib/i18n.js";
+import { t, useStoredLanguage } from "./lib/i18n.js";
 import { draftArea, ext, loadSettings, sentCaptures } from "./lib/thunderbird.js";
 import { windowClosed } from "./lib/capture-window.js";
 import { WAITING } from "./lib/waiting.js";
@@ -19,6 +19,7 @@ import { SENT } from "./lib/sent.js";
 const badge = makeBadge({
   area: ext.storage.local,
   action: ext.action,
+  messageDisplayAction: ext.messageDisplayAction,
   loadSettings,
   sentCaptures,
   allowed: (settings) => ext.permissions.contains({ origins: [originPattern(settings.instance)] }).catch(() => false),
@@ -28,17 +29,22 @@ const badge = makeBadge({
 const ALARM = "waiting";
 const quietly = (work) => work.catch(() => {});
 
+// The language the person picked in the settings, read before anything is worded: an event page
+// starts afresh each time it wakes, and the tooltip is lost with it.
+const language = () => quietly(useStoredLanguage());
+const ready = language();
+
 // Listeners are registered at once, whatever else is awaited: an event page that wakes for one
 // must find its listener there.
 ext.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === ALARM) {
-    quietly(badge.refresh());
+    quietly(ready.then(() => badge.refresh()));
   }
 });
 
 ext.runtime.onMessage.addListener((message) => {
   if (message && message.type === "refresh") {
-    return badge.refresh({ maxAgeMs: message.fresh ? FRESH_MS : 0 }).then((result) => result.outcome, () => "unreachable");
+    return ready.then(() => badge.refresh({ maxAgeMs: message.fresh ? FRESH_MS : 0 })).then((result) => result.outcome, () => "unreachable");
   }
   return undefined;
 });
@@ -46,6 +52,10 @@ ext.runtime.onMessage.addListener((message) => {
 ext.storage.onChanged.addListener((changes, area) => {
   if (area !== "local") {
     return;
+  }
+  if ("language" in changes) {
+    // A new language: the tooltip is worded again, at once.
+    quietly(language().then(() => badge.repaint()));
   }
   if ("instance" in changes || "token" in changes) {
     // Another Postulo or another account: the list kept is not its list.
@@ -60,4 +70,4 @@ ext.windows.onRemoved.addListener((id) => quietly(windowClosed(draftArea(), id))
 
 ext.alarms.create(ALARM, { periodInMinutes: PERIOD_MINUTES });
 // Right at once from the copy kept, then from Postulo: the number survives a restart.
-quietly(badge.repaint().then(() => badge.refresh()));
+quietly(ready.then(() => badge.repaint()).then(() => badge.refresh()));

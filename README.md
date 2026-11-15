@@ -148,6 +148,20 @@ from the folder's name, not kept in the catalogues: they are not sentences, and 
 would translate `ltr`. `npm run lint`, `npm run build` and `npm start` stage the extension in
 `dist/src` first.
 
+**Display language.** The extension speaks the language Thunderbird is set to, unless one is
+picked in the settings (*Language*): *Follow Thunderbird* first, then every shipped language,
+each named in itself and marked with its own `lang`. The choice is kept in `storage.local` as
+a BCP 47 tag (`pt-PT`), takes effect at once without Save, and reaches the popup, the capture
+window, the settings and both toolbar buttons' tooltips (`action.setTitle` and
+`messageDisplayAction.setTitle`, worded again by the background whenever it starts or the
+choice changes). Thunderbird lets an extension ask only for its own language, so with one
+picked the pages read `_locales/<folder>/messages.json` themselves (`src/lib/i18n.js`, shared
+with the browser extension) and every request to Postulo carries the tag as `Accept-Language`.
+The description in Thunderbird's list of add-ons comes from the manifest and stays in
+Thunderbird's language; the settings say so. The build offers only the languages it ships
+(`withoutLanguages` in `scripts/build.mjs`), so a language left out for an incomplete
+catalogue is not in the list.
+
 ## Layout
 
 | Path | What |
