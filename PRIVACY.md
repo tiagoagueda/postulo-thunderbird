@@ -38,7 +38,7 @@ while Postulo cannot be reached. The popup shows the same list. No message is re
 
 Only when you press *File this message into a listing* (and the token holds `listings:bind`):
 the extension reads the message on screen and asks Postulo for your listings (their title,
-company, place and state), narrowed by what you type. Pressing *File it* sends, to your own
+company, place and state), narrowed by what you type, and sends the message's `Message-ID` with that question, so that Postulo can say which of them already hold this message (the answer is a yes or no on each listing; nothing else of the message goes with it). Pressing *File it* sends, to your own
 Postulo, the subject, the date sent, the message's `Message-ID` and its text without the replies
 quoted under it and the signature (or the subject alone, if you tick that). You see the text
 before it goes. Postulo keeps it in that listing's history and shows it on the listing's page.

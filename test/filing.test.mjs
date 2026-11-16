@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
 
-import { BODY_MAX, SUMMARY_MAX, entryFor, plainText, rankChoices, withoutQuotes } from "../src/lib/filing.js";
+import { BODY_MAX, EXTERNAL_ID_MAX, SUMMARY_MAX, entryFor, plainText, rankChoices, withoutQuotes } from "../src/lib/filing.js";
 import { addListingEvent, listingChoices } from "../src/lib/postulo.js";
 import { abilities, judgeScopes } from "../src/lib/scopes.js";
 
@@ -96,4 +96,24 @@ test("the settings say what the token allows and keep it for the popup; forgetti
   assert.match(code, /keepScopes\(me\.scopes\)/);
   assert.match(code, /tokenCanFile[\s\S]*tokenCannotFile/);
   assert.match(readFileSync("src/lib/thunderbird.js", "utf8"), /remove\(\["token", "scopes"\]\)/);
+});
+
+test("the choices are asked with the message's id, and the popup says where it is already filed (#271)", async () => {
+  const seen = [];
+  const fetchImpl = async (url) => {
+    seen.push(String(url));
+    return new Response(JSON.stringify({ items: [{ id: 5, filed: true }], count: 1 }), { status: 200 });
+  };
+  await listingChoices("https://p.example.org", "tok", { q: "a", externalId: "<abc@x.example>" }, fetchImpl);
+  assert.equal(seen[0], "https://p.example.org/api/v1/listings/choices?limit=50&q=a&external_id=%3Cabc%40x.example%3E");
+  await listingChoices("https://p.example.org", "tok", { externalId: "  " }, fetchImpl);
+  assert.equal(seen[1], "https://p.example.org/api/v1/listings/choices?limit=50", "no id, nothing asked about it");
+  await listingChoices("https://p.example.org", "tok", { externalId: "y".repeat(400) }, fetchImpl);
+  assert.equal(decodeURIComponent(seen[2].split("external_id=")[1]).length, EXTERNAL_ID_MAX);
+  const ranked = rankChoices([{ id: 1, title: "A", company_name: "B", filed: true }, { id: 2, title: "C", company_name: "D" }], { subject: "x" });
+  assert.deepEqual(ranked.map((one) => one.filed === true), [true, false], "ranking keeps what Postulo said");
+  const code = readFileSync("src/popup.js", "utf8");
+  assert.match(code, /externalId: filing\.message\.messageId/);
+  assert.match(code, /choice\.filed[\s\S]*t\("filedHere"\)/);
+  assert.doesNotMatch(readFileSync("src/_locales/en/messages.json", "utf8"), /which is not built yet/);
 });

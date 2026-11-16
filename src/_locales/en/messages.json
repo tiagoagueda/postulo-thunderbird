@@ -8,7 +8,7 @@
     "description": "The toolbar buttons' tooltip."
   },
   "tokenHintScopes": {
-    "message": "Made under $PATH$ in Postulo. Capturing a posting needs $CAPTURES$; filing a message into a listing's history, which is not built yet, will need $BIND$. Tick only the ones you want this extension to use, and nothing else.",
+    "message": "Made under $PATH$ in Postulo. Capturing a posting needs $CAPTURES$; filing a message into a listing's history needs $BIND$. Tick only the ones you want this extension to use, and nothing else.",
     "description": "PATH is where tokens are made in Postulo (tokenPath), in italics; CAPTURES and BIND are the names of two scopes, captures and listings:bind, in code type: keep them as they are.",
     "placeholders": {
       "path": {
@@ -471,6 +471,10 @@
   "suggested": {
     "message": "Suggested",
     "description": "Said on a listing that looks like the message: the company is the sender, or the title shares words with the subject."
+  },
+  "filedHere": {
+    "message": "This message is filed here",
+    "description": "Said on a listing in whose history this very message (by its Message-ID) already is, so the person sees where it was filed before."
   },
   "noListings": {
     "message": "No listing matches.",

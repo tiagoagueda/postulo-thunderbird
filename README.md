@@ -31,7 +31,7 @@ page you are looking at; this one is for the message you are reading.
 What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
 each: filing a message into
 a listing's history, and keeping a capture here until Postulo can be reached (a capture made
-- **File this message into a listing's history** (#9): with a token that holds `listings:bind`, the popup offers *File this message into a listing*: it lists your listings (`GET /listings/choices`, narrowed by what you type), the ones that look like the message first (the sender's company, words of the subject), shows what will be sent (the text without the replies quoted under it and the signature, or the subject alone) and adds it to the chosen listing's history (`POST /listings/{id}/events`, kind `email_received`). The message's own `Message-ID` is the entry's `external_id`, so filing one message twice leaves one entry, and the popup says when nothing was added. *Test* says what the token can do, scope by scope; a token without `listings:bind` is not offered filing and the settings say why.
+- **File this message into a listing's history** (#9): with a token that holds `listings:bind`, the popup offers *File this message into a listing*: it lists your listings (`GET /listings/choices`, narrowed by what you type, with the message's `Message-ID` so that each listing that already holds this message says so: *This message is filed here*, #271), the ones that look like the message first (the sender's company, words of the subject), shows what will be sent (the text without the replies quoted under it and the signature, or the subject alone) and adds it to the chosen listing's history (`POST /listings/{id}/events`, kind `email_received`). The message's own `Message-ID` is the entry's `external_id`, so filing one message twice leaves one entry, and the popup says when nothing was added. *Test* says what the token can do, scope by scope; a token without `listings:bind` is not offered filing and the settings say why.
 - English, French and European Portuguese.
 
 What is not here yet is an [issue](https://source.tiagoagueda.com/postulo/postulo-thunderbird/issues)
@@ -62,8 +62,7 @@ yours, a backup, a synced folder) can read the token and use it until you revoke
 button that removes the token from the profile (the address stays); that does not revoke it,
 so revoke it in Postulo too.
 
-**Which scopes.** No scope is needed yet: capturing and filing are still to be built (#1, #9),
-and the only request is `GET /me`. The extension will use two: `captures` (hand a posting to your
+**Which scopes.** The extension uses two: `captures` (hand a posting to your
 review queue) and `listings:bind` (file a message into a listing's history); make the token
 with only the ones you want it to use. *Test* and *Save* both ask Postulo what the token may do
 and warn when it holds anything else, or neither of the two, because a token that can do more

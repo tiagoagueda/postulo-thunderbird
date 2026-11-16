@@ -36,10 +36,13 @@ export function preview(instance, token, { url, html }, fetchImpl = fetch) {
 
 /** GET /listings/choices: the person's listings, as little of each as recognising it takes
  *  (id, title, company, place, state), newest noted first, narrowed by words in the title or the
- *  company's name. `{items, count}`. */
-export async function listingChoices(instance, token, { q = "", limit = 50 } = {}, fetchImpl = fetch) {
+ *  company's name. `{items, count}`. With `externalId` (a mail's `Message-ID`) each item also says
+ *  `filed`: whether that mail is already in this listing's history, in the caller's own history of
+ *  it (#271); needs no more than the `listings:bind` scope. */
+export async function listingChoices(instance, token, { q = "", limit = 50, externalId = "" } = {}, fetchImpl = fetch) {
   const words = String(q || "").trim().slice(0, 200);
-  const query = `?limit=${limit}${words ? `&q=${encodeURIComponent(words)}` : ""}`;
+  const mail = String(externalId || "").trim().slice(0, 250);
+  const query = `?limit=${limit}${words ? `&q=${encodeURIComponent(words)}` : ""}${mail ? `&external_id=${encodeURIComponent(mail)}` : ""}`;
   return (await call(instance, token, `/listings/choices${query}`, {}, fetchImpl)).body;
 }
 

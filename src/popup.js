@@ -181,6 +181,12 @@ function setupFiling(settings, header) {
           mark.textContent = ` (${t("suggested")})`;
           label.append(mark);
         }
+        if (choice.filed) {
+          const here = document.createElement("span");
+          here.className = "hint";
+          here.textContent = ` (${t("filedHere")})`;
+          label.append(here);
+        }
         item.append(label);
         return item;
       }),
@@ -189,7 +195,7 @@ function setupFiling(settings, header) {
 
   const search = async () => {
     try {
-      const answer = await listingChoices(settings.instance, settings.token, { q: $("f-search").value });
+      const answer = await listingChoices(settings.instance, settings.token, { q: $("f-search").value, externalId: filing.message.messageId });
       filing.choices = rankChoices(answer.items || [], filing.message);
       filing.chosen = null;
       draw();
