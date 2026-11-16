@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Svaki jezik osim engleskog je skica koju još nijedan govornik nije pregledao. Stupa na snagu odmah, bez Spremi. Opis na popisu dodataka u Thunderbirdu ostaje na jeziku Thunderbirda."
+  },
+  "filedHere": {
+    "message": "Ova je poruka spremljena ovdje"
   }
 }

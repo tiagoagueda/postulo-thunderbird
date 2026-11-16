@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Alle språk unntatt engelsk er utkast som ingen som snakker språket har gjennomgått ennå. Trer i kraft med en gang, uten Lagre. Beskrivelsen i Thunderbirds liste over tillegg forblir på Thunderbirds språk."
+  },
+  "filedHere": {
+    "message": "Denne meldingen er arkivert her"
   }
 }

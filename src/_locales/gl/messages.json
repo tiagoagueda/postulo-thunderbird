@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Todos os idiomas, agás o inglés, son borradores que aínda ningún falante revisou. Aplícase de inmediato, sen Gardar. A descrición na lista de complementos de Thunderbird queda no idioma de Thunderbird."
+  },
+  "filedHere": {
+    "message": "Esta mensaxe está arquivada aquí"
   }
 }

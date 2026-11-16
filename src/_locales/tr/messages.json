@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "İngilizce dışındaki her dil, henüz hiçbir anadili konuşanın gözden geçirmediği bir taslaktır. Kaydet’e gerek kalmadan hemen geçerli olur. Thunderbird’ün eklenti listesindeki açıklama Thunderbird’ün dilinde kalır."
+  },
+  "filedHere": {
+    "message": "Bu ileti burada arşivlendi"
   }
 }

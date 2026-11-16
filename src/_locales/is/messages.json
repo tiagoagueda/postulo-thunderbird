@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Öll tungumál nema enska eru drög sem enginn sem talar tungumálið hefur enn yfirfarið. Tekur gildi strax, án Vista. Lýsingin í lista Thunderbird yfir viðbætur helst á tungumáli Thunderbird."
+  },
+  "filedHere": {
+    "message": "Þessi tölvupóstur er vistaður hér"
   }
 }

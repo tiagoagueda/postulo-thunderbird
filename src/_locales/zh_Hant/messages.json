@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "除英文外，所有語言都是尚無母語人士審閱的草稿。選擇後立即生效，不需按「儲存」。Thunderbird 附加元件清單中的說明仍使用 Thunderbird 的語言。"
+  },
+  "filedHere": {
+    "message": "此郵件已歸檔在這裡"
   }
 }

@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Vsak jezik razen angleščine je osnutek, ki ga še noben govorec ni pregledal. Začne veljati takoj, brez Shrani. Opis na seznamu dodatkov Thunderbirda ostane v jeziku Thunderbirda."
+  },
+  "filedHere": {
+    "message": "To sporočilo je shranjeno tukaj"
   }
 }

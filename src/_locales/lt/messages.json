@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Kiekviena kalba, išskyrus anglų, yra juodraštis, kurio dar niekas, kalbantis ta kalba, nepatikrino. Įsigalioja iš karto, be Išsaugoti. Aprašas Thunderbird priedų sąraše lieka Thunderbird kalba."
+  },
+  "filedHere": {
+    "message": "Šis laiškas įrašytas čia"
   }
 }

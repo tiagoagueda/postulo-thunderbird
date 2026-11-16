@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Øll mál uttan enskt eru uppkast, sum eingin málbrúkari hevur kannað enn. Tekur gildi beinanvegin, uttan at trýsta á Goym. Lýsingin í yviransyfirlitinum hjá Thunderbird verður verandi á máli Thunderbird."
+  },
+  "filedHere": {
+    "message": "Hetta boðið er goymt her"
   }
 }

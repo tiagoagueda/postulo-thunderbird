@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Todos os idiomas, exceto o inglês, são rascunhos que ainda nenhum falante reviu. Tem efeito de imediato, sem Guardar. A descrição na lista de extensões do Thunderbird continua no idioma do Thunderbird."
+  },
+  "filedHere": {
+    "message": "Esta mensagem está arquivada aqui"
   }
 }

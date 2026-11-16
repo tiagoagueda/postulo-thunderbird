@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Fiecare limbă în afară de engleză este o ciornă pe care încă nu a revizuit-o niciun vorbitor. Se aplică imediat, fără Salvare. Descrierea din lista de suplimente a Thunderbird rămâne în limba Thunderbird."
+  },
+  "filedHere": {
+    "message": "Acest mesaj este arhivat aici"
   }
 }

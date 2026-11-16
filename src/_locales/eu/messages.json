@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Ingelesa ez beste hizkuntza guztiak zirriborroak dira, eta inork ez ditu oraindik berrikusi. Berehala jartzen da indarrean, Gorde sakatu gabe. Thunderbirden gehigarrien zerrendako azalpena Thunderbirden hizkuntzan geratzen da."
+  },
+  "filedHere": {
+    "message": "Mezu hau hemen artxibatuta dago"
   }
 }
