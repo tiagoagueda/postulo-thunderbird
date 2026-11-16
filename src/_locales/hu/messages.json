@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Az angolon kívül minden nyelv egy piszkozat, amelyet még egyetlen anyanyelvi beszélő sem nézett át. Azonnal érvénybe lép, Mentés nélkül. A leírás a Thunderbird bővítménylistájában Thunderbird nyelvén marad."
+  },
+  "filedHere": {
+    "message": "Ez az üzenet itt van tárolva"
   }
 }

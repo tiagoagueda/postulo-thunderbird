@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Mae pob iaith ac eithrio Saesneg yn ddrafft nad oes unrhyw siaradwr wedi'i adolygu eto. Daw i rym ar unwaith, heb Cadw. Mae'r disgrifiad yn rhestr ychwanegion Thunderbird yn aros yn iaith Thunderbird."
+  },
+  "filedHere": {
+    "message": "Mae'r neges hon wedi'i ffeilio yma"
   }
 }

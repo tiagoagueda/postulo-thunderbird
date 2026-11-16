@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Todos los idiomas, salvo el inglés, son borradores que ningún hablante ha revisado aún. Surte efecto de inmediato, sin Guardar. La descripción en la lista de complementos de Thunderbird se queda en el idioma de Thunderbird."
+  },
+  "filedHere": {
+    "message": "Este mensaje está archivado aquí"
   }
 }

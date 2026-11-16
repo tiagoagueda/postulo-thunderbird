@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "İngilis dilindən başqa hər dil hələ heç bir natiq tərəfindən yoxlanmamış qaralamadır. Dərhal qüvvəyə minir, Saxla tələb etmir. Thunderbird-in əlavələr siyahısındakı təsvir Thunderbird-in dilində qalır."
+  },
+  "filedHere": {
+    "message": "Bu mesaj burada saxlanılıb"
   }
 }

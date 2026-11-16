@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Alla språk utom engelska är utkast som ingen som talar språket har granskat ännu. Gäller direkt, utan Spara. Beskrivningen i Thunderbirds lista över tillägg förblir på Thunderbirds språk."
+  },
+  "filedHere": {
+    "message": "Det här meddelandet är arkiverat här"
   }
 }

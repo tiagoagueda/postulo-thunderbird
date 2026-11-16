@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Toutes les langues sauf l'anglais sont des brouillons qu'aucun locuteur n'a encore relus. Prend effet immédiatement, sans Enregistrer. La description dans la liste des modules complémentaires de Thunderbird reste dans la langue de Thunderbird."
+  },
+  "filedHere": {
+    "message": "Ce message est classé ici"
   }
 }

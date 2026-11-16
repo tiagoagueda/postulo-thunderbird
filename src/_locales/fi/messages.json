@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Kaikki muut kielet paitsi englanti ovat luonnoksia, joita yksikään kielen puhuja ei ole vielä tarkistanut. Tulee voimaan heti, ilman Tallenna-painiketta. Kuvaus Thunderbirdin lisäosaluettelossa pysyy Thunderbirdin kielellä."
+  },
+  "filedHere": {
+    "message": "Tämä viesti on tallennettu tänne"
   }
 }

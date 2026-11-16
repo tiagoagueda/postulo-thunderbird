@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Alle sprog undtagen engelsk er kladder, som endnu ingen har gennemgået. Det træder i kraft med det samme, uden Gem. Beskrivelsen på Thunderbirds liste over tilføjelser forbliver på Thunderbirds sprog."
+  },
+  "filedHere": {
+    "message": "Denne besked er arkiveret her"
   }
 }

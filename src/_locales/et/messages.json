@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Kõik keeled peale inglise keele on mustandid, mida ükski keelekõneleja pole veel üle vaadanud. Jõustub kohe, ilma Salvestamata. Kirjeldus Thunderbirdi lisandmoodulite loendis jääb Thunderbirdi keelde."
+  },
+  "filedHere": {
+    "message": "See sõnum on siia talletatud"
   }
 }

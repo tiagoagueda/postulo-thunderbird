@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Semua bahasa selain bahasa Inggris adalah draf yang belum ditinjau oleh penutur mana pun. Berlaku seketika, tanpa Simpan. Deskripsi di daftar pengaya Thunderbird tetap dalam bahasa Thunderbird."
+  },
+  "filedHere": {
+    "message": "Pesan ini diarsipkan di sini"
   }
 }

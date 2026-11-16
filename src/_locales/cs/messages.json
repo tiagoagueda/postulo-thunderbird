@@ -434,5 +434,8 @@
   },
   "languageHint": {
     "message": "Každý jazyk kromě angličtiny je koncept, který zatím nikdo nezkontroloval. Projeví se hned, bez Uložit. Popis v seznamu doplňků Thunderbirdu zůstává v jazyce Thunderbirdu."
+  },
+  "filedHere": {
+    "message": "Tato zpráva je zde uložena"
   }
 }
